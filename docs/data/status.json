@@ -276,14 +276,14 @@
       "text": "Printify-konto (gratis)",
       "who": "printify.com – du",
       "auto": false,
-      "done": false
+      "done": true
     },
     {
       "id": "popup-store",
       "text": "Pop-Up Store skapad (aaron.printify.me) + Stripe-verifiering",
       "who": "Printify › My stores › Add store – du",
       "auto": false,
-      "done": false
+      "done": true
     },
     {
       "id": "printify-token",
@@ -344,5 +344,5 @@
     "streak": 1,
     "errors_last_run": 0
   },
-  "updated": "2026-09-15T22:48:48"
+  "updated": "2026-09-15T22:56:27"
 }

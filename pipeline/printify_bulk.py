@@ -65,7 +65,7 @@ class Printify:
     def __init__(self, token: str):
         self.token = token
 
-    def call(self, method: str, path: str, body: dict | None = None, retries: int = 3):
+    def call(self, method: str, path: str, body: dict | None = None, retries: int = 4):
         data = json.dumps(body).encode() if body is not None else None
         req = urllib.request.Request(f"{API}{path}", data=data, method=method)
         req.add_header("Authorization", f"Bearer {self.token}")
@@ -79,7 +79,9 @@ class Printify:
             except urllib.error.HTTPError as e:
                 msg = e.read().decode(errors="replace")
                 if e.code in (429, 500, 502, 503) and attempt < retries - 1:
-                    time.sleep(10 * (attempt + 1))
+                    # 429 "Too Many Attempts" slog till efter ~40 publiceringar i rad (2026-09-15):
+                    # vanta rejalt, inte 10 s
+                    time.sleep((30, 60, 120)[min(attempt, 2)] if e.code == 429 else 10 * (attempt + 1))
                     continue
                 raise RuntimeError(f"{method} {path} -> HTTP {e.code}: {msg[:400]}") from None
             except urllib.error.URLError as e:
@@ -368,7 +370,7 @@ def main() -> int:
                     st.pop("error", None)
                     save_state(state)
                     print("           publicerad")
-                    time.sleep(1.5)
+                    time.sleep(4)   # publiceringsgransen: ~40 i rad gav 429
             except RuntimeError as ex:
                 print(f"           FEL {key}: {ex}")
                 st["error"] = str(ex)[:300]
