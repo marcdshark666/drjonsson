@@ -9,10 +9,10 @@
     const p = it.printify || {};
     const c = [];
     c.push('<span class="chip ok">genererad</span>');
-    if (p.popup_published) c.push('<span class="chip ok">pop-up live</span>');
+    if (p.popup_published) c.push('<span class="chip ok">pop-up ' + (p.popup_count || 'live') + '</span>');
     else if (p.popup_product) c.push('<span class="chip">pop-up utkast</span>');
     else c.push('<span class="chip">pop-up väntar</span>');
-    if (p.etsy_published) c.push('<span class="chip ok">etsy live</span>');
+    if (p.etsy_published) c.push('<span class="chip ok">etsy ' + (p.etsy_count || 'live') + '</span>');
     else if (p.etsy_product) c.push('<span class="chip">etsy utkast</span>');
     else c.push('<span class="chip">etsy väntar</span>');
     return c.join("");

@@ -1,6 +1,150 @@
 {
-  "items": [],
-  "runs": [],
+  "items": [
+    {
+      "slug": "20260915-1-riviera-garden-cream-suit",
+      "date": "2026-09-15",
+      "name": "The Cream Suit, The Riviera",
+      "place": "The Riviera",
+      "party": "The Cream Suit",
+      "title": "The Cream Suit, The Riviera | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "the riviera print",
+        "the riviera poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260915-1-riviera-garden-cream-suit.jpg",
+      "prompt": "a silver-haired man in a cream linen suit and sunglasses leaning on a vintage pale-blue convertible, a Riviera cypress garden seen from a balcony, with a long sapphire pool, stone balustrades and the Mediterranean beyond, harsh midday sun with short shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 1481279114,
+      "printify": {}
+    },
+    {
+      "slug": "20260915-2-cortina-silk-robe",
+      "date": "2026-09-15",
+      "name": "The Silk Robe, Cortina d'Ampezzo",
+      "place": "Cortina d'Ampezzo",
+      "party": "The Silk Robe",
+      "title": "The Silk Robe, Cortina d'Ampezzo | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "cortina dampezzo pri",
+        "cortina dampezzo pos",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260915-2-cortina-silk-robe.jpg",
+      "prompt": "an elderly gentleman in a paisley silk dressing gown reading a newspaper with a white standard poodle at his feet, a snowy hotel terrace in Cortina with the pink Dolomites, sunbeds and steaming cups of chocolate, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 1011651034,
+      "printify": {}
+    },
+    {
+      "slug": "20260915-3-capri-speedboat",
+      "date": "2026-09-15",
+      "name": "The Speedboat, Capri",
+      "place": "Capri",
+      "party": "The Speedboat",
+      "title": "The Speedboat, Capri | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "capri print",
+        "capri poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260915-3-capri-speedboat.jpg",
+      "prompt": "a family in nautical stripes stepping off a polished wooden speedboat with a picnic hamper, a bathing platform lido on Capri with striped umbrellas, limestone rocks and the Faraglioni in the distance, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 15628077,
+      "printify": {}
+    },
+    {
+      "slug": "20260915-4-cortina-backgammon",
+      "date": "2026-09-15",
+      "name": "Backgammon, Cortina d'Ampezzo",
+      "place": "Cortina d'Ampezzo",
+      "party": "Backgammon",
+      "title": "Backgammon, Cortina d'Ampezzo | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "cortina dampezzo pri",
+        "cortina dampezzo pos",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260915-4-cortina-backgammon.jpg",
+      "prompt": "a couple in swimwear playing backgammon on a striped towel beside the pool, a snowy hotel terrace in Cortina with the pink Dolomites, sunbeds and steaming cups of chocolate, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 169442607,
+      "printify": {}
+    },
+    {
+      "slug": "20260915-5-acapulco-tennis-whites",
+      "date": "2026-09-15",
+      "name": "Tennis Whites, Acapulco",
+      "place": "Acapulco",
+      "party": "Tennis Whites",
+      "title": "Tennis Whites, Acapulco | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "acapulco print",
+        "acapulco poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260915-5-acapulco-tennis-whites.jpg",
+      "prompt": "a couple in crisp 1960s tennis whites with wooden racquets, laughing beside a courtside table with lemonade, a cliff-top villa in Acapulco with a white infinity pool, bougainvillea and the Pacific bay glittering below, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 382867138,
+      "printify": {}
+    }
+  ],
+  "runs": [
+    {
+      "date": "2026-09-15",
+      "started": "2026-09-15T21:43:33",
+      "count": 5,
+      "generated": 5,
+      "popup": 0,
+      "etsy": 0,
+      "errors": [],
+      "dry_run": false,
+      "note": "Printify hoppades over: ingen PRINTIFY_TOKEN i pipeline/.env",
+      "finished": "2026-09-15T21:52:36"
+    }
+  ],
   "todo": [
     {
       "id": "venv",
@@ -14,7 +158,7 @@
       "text": "Bildmodellen Z-Image-Turbo nedladdad (~20 GB)",
       "who": "Claude laddar ner första gången",
       "auto": true,
-      "done": false
+      "done": true
     },
     {
       "id": "printify-account",
@@ -81,13 +225,13 @@
     }
   ],
   "stats": {
-    "generated": 0,
+    "generated": 5,
     "printify_drafts": 0,
     "popup_live": 0,
     "etsy_live": 0,
-    "days": 0,
-    "streak": 0,
+    "days": 1,
+    "streak": 1,
     "errors_last_run": 0
   },
-  "updated": "2026-09-15T21:41:12"
+  "updated": "2026-09-15T21:52:36"
 }
