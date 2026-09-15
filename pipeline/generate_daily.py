@@ -221,11 +221,26 @@ def printify_run(slugs: list[str], shop: str, publish: bool) -> tuple[bool, str]
 
 
 def printify_ids(shop: str) -> dict:
+    """slug -> {"products": {typ: id}, "published": n, "total": n, "errors": [..]} for en butik."""
     p = HERE / "state.json"
     if not p.exists():
         return {}
     st = json.loads(p.read_text(encoding="utf-8"))
-    return {k.split(":", 1)[1]: v for k, v in st.items() if k.startswith(f"{shop}:")}
+    out: dict = {}
+    for k, v in st.items():
+        parts = k.split(":")
+        if len(parts) != 3 or parts[0] != shop:
+            continue
+        _, slug, key = parts
+        o = out.setdefault(slug, {"products": {}, "published": 0, "total": 0, "errors": []})
+        o["total"] += 1
+        if v.get("product_id"):
+            o["products"][key] = v["product_id"]
+        if v.get("published"):
+            o["published"] += 1
+        if v.get("error"):
+            o["errors"].append(f"{key}: {v['error'][:120]}")
+    return out
 
 
 # ---------- Telegram ----------
@@ -236,7 +251,7 @@ def telegram_ask_etsy(sheet: Path, n: int) -> bool:
         log("  telegram-godkann.js saknas - Etsy publiceras inte")
         return False
     r = subprocess.run(["node", str(script), "--projekt", "drjonsson-prints",
-                        "--vad", f"Publicera dagens {n} listningar pa Etsy ({0.2*n:.2f} USD i listningsavgift)",
+                        "--vad", f"Publicera dagens {n} produkter pa Etsy ({0.2*n:.2f} USD i listningsavgift)",
                         "--bild", str(sheet), "--storlek", "stor", "--timeout", "900", "--json"],
                        capture_output=True, text=True, encoding="utf-8", errors="replace")
     log(f"  telegram-godkann exit={r.returncode} {r.stdout.strip()[:200]}")
@@ -347,16 +362,20 @@ def main() -> int:
             ids = printify_ids(popup)
             for it in status["items"]:
                 if it["slug"] in ids:
-                    it["printify"]["popup_product"] = ids[it["slug"]].get("product_id")
-                    it["printify"]["popup_published"] = bool(ids[it["slug"]].get("published"))
-                    run["popup"] += 1 if it["printify"]["popup_published"] else 0
+                    o = ids[it["slug"]]
+                    it["printify"]["popup_products"] = o["products"]
+                    it["printify"]["popup_product"] = bool(o["products"])
+                    it["printify"]["popup_published"] = o["published"] > 0
+                    it["printify"]["popup_count"] = f"{o['published']}/{o['total']}"
+                    run["popup"] += o["published"]
         if etsy:
             ok, out = printify_run(slugs, etsy, publish=False)      # utkast ar gratis
             if not ok:
                 run["errors"].append("printify etsy drafts: " + out[-300:])
             approved = False
             if sheet and not args.no_etsy_ask and not args.no_telegram:
-                approved = telegram_ask_etsy(sheet, len(slugs))    # 0,20 USD/listning -> Marcs ja kravs
+                n_prod = sum(o["total"] for o in printify_ids(etsy).values() if o) or len(slugs)
+                approved = telegram_ask_etsy(sheet, n_prod)        # 0,20 USD/listning -> Marcs ja kravs
             if approved:
                 ok, out = printify_run(slugs, etsy, publish=True)
                 if not ok:
@@ -364,9 +383,12 @@ def main() -> int:
             ids = printify_ids(etsy)
             for it in status["items"]:
                 if it["slug"] in ids:
-                    it["printify"]["etsy_product"] = ids[it["slug"]].get("product_id")
-                    it["printify"]["etsy_published"] = bool(ids[it["slug"]].get("published"))
-                    run["etsy"] += 1 if it["printify"]["etsy_published"] else 0
+                    o = ids[it["slug"]]
+                    it["printify"]["etsy_products"] = o["products"]
+                    it["printify"]["etsy_product"] = bool(o["products"])
+                    it["printify"]["etsy_published"] = o["published"] > 0
+                    it["printify"]["etsy_count"] = f"{o['published']}/{o['total']}"
+                    run["etsy"] += o["published"]
             run["etsy_approved"] = approved
     elif slugs and not have_token:
         run["note"] = "Printify hoppades over: ingen PRINTIFY_TOKEN i pipeline/.env"

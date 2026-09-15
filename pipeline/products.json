@@ -1,0 +1,237 @@
+{
+  "_hjalp": "Vilka produkter varje motiv blir i Printify. blueprint = titel i Printifys katalog (matchas exakt, annars 'innehaller'). providers = onskad ordning; forsta som finns tas. markup = pris/kostnad (avrundas till .99 USD). include/exclude/colors/sizes filtrerar varianter. scale/x/y = bildens placering pa tryckytan (0-1). Kor `printify_bulk.py --catalog \"tee\"` for att se katalogtitlar. Standardlistan ar alla tavelmodeller (poster, inramad, canvas, inramad canvas, metall, akryl) + mugg, tygkasse, t-shirt. Titlar som inte finns i katalogen hoppas over med ett meddelande - ratta med --catalog.",
+  "default": [
+    "poster",
+    "framed",
+    "canvas",
+    "framed_canvas",
+    "metal",
+    "acrylic",
+    "mug",
+    "tote",
+    "tshirt"
+  ],
+  "poster": {
+    "blueprint": "Matte Vertical Posters",
+    "providers": [
+      "Sensaria",
+      "Printify Choice",
+      "Prodigi"
+    ],
+    "include": [
+      "12\" x 18\"",
+      "18\" x 24\"",
+      "24\" x 36\""
+    ],
+    "exclude": [
+      "/"
+    ],
+    "markup": 2.4,
+    "title_tail": " | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+    "tags_extra": [
+      "matte poster",
+      "wall art print"
+    ],
+    "position": "front",
+    "scale": 1.0,
+    "x": 0.5,
+    "y": 0.5
+  },
+  "framed": {
+    "blueprint": "Framed Vertical Poster",
+    "providers": [
+      "Sensaria",
+      "Printify Choice",
+      "Prodigi"
+    ],
+    "include": [
+      "12\" x 18\"",
+      "18\" x 24\"",
+      "24\" x 36\""
+    ],
+    "colors": [
+      "Black"
+    ],
+    "markup": 2.2,
+    "title_tail": " | DrJonsson Framed Fine Art Print | Old Money Aesthetic Wall Art | Ready to Hang",
+    "tags_extra": [
+      "framed print",
+      "framed wall art"
+    ],
+    "position": "front",
+    "scale": 1.0,
+    "x": 0.5,
+    "y": 0.5
+  },
+  "canvas": {
+    "blueprint": "Canvas Gallery Wraps",
+    "providers": [
+      "Sensaria",
+      "Printify Choice",
+      "Prodigi"
+    ],
+    "include": [
+      "12\" x 18\"",
+      "16\" x 24\"",
+      "24\" x 36\""
+    ],
+    "exclude": [
+      "/"
+    ],
+    "markup": 2.2,
+    "title_tail": " | DrJonsson Canvas Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Canvas",
+    "tags_extra": [
+      "canvas print",
+      "canvas wall art"
+    ],
+    "position": "front",
+    "scale": 1.0,
+    "x": 0.5,
+    "y": 0.5
+  },
+  "tshirt": {
+    "blueprint": "Unisex Jersey Short Sleeve Tee",
+    "providers": [
+      "Monster Digital",
+      "SwiftPOD",
+      "Printify Choice",
+      "Underground Threads"
+    ],
+    "colors": [
+      "White",
+      "Black",
+      "Natural"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "markup": 2.4,
+    "title_tail": " | DrJonsson Photo Tee | Old Money Aesthetic T-Shirt | Vintage Riviera Shirt",
+    "tags_extra": [
+      "graphic tee",
+      "old money shirt"
+    ],
+    "position": "front",
+    "scale": 0.85,
+    "x": 0.5,
+    "y": 0.42
+  },
+  "mug": {
+    "blueprint": "Ceramic Mug 11oz",
+    "providers": [
+      "Printify Choice",
+      "District Photo",
+      "SPOKE Custom Products"
+    ],
+    "markup": 2.6,
+    "title_tail": " | DrJonsson Photo Mug | Old Money Aesthetic Coffee Mug | Gift for Him",
+    "tags_extra": [
+      "coffee mug",
+      "photo mug"
+    ],
+    "position": "front",
+    "scale": 0.9,
+    "x": 0.5,
+    "y": 0.5
+  },
+  "tote": {
+    "blueprint": "Tote Bag",
+    "providers": [
+      "Printify Choice",
+      "SPOKE Custom Products",
+      "Monster Digital"
+    ],
+    "markup": 2.4,
+    "title_tail": " | DrJonsson Photo Tote Bag | Old Money Aesthetic Bag | Beach Tote",
+    "tags_extra": [
+      "tote bag",
+      "beach bag"
+    ],
+    "position": "front",
+    "scale": 0.9,
+    "x": 0.5,
+    "y": 0.5
+  },
+  "framed_canvas": {
+    "blueprint": "Framed Canvas",
+    "providers": [
+      "Sensaria",
+      "Printify Choice",
+      "Prodigi"
+    ],
+    "include": [
+      "12\" x 18\"",
+      "16\" x 24\"",
+      "24\" x 36\""
+    ],
+    "colors": [
+      "Black"
+    ],
+    "markup": 2.1,
+    "title_tail": " | DrJonsson Framed Canvas | Old Money Aesthetic Wall Art | Ready to Hang",
+    "tags_extra": [
+      "framed canvas",
+      "canvas wall art"
+    ],
+    "position": "front",
+    "scale": 1.0,
+    "x": 0.5,
+    "y": 0.5
+  },
+  "metal": {
+    "blueprint": "Metal Prints",
+    "providers": [
+      "Sensaria",
+      "Printify Choice",
+      "Prodigi"
+    ],
+    "include": [
+      "12\" x 18\"",
+      "16\" x 24\"",
+      "24\" x 36\""
+    ],
+    "exclude": [
+      "/"
+    ],
+    "markup": 2.0,
+    "title_tail": " | DrJonsson Metal Print | Old Money Aesthetic Wall Art | Luxury Aluminium Print",
+    "tags_extra": [
+      "metal print",
+      "aluminium print"
+    ],
+    "position": "front",
+    "scale": 1.0,
+    "x": 0.5,
+    "y": 0.5
+  },
+  "acrylic": {
+    "blueprint": "Acrylic Prints",
+    "providers": [
+      "Sensaria",
+      "Printify Choice",
+      "Prodigi"
+    ],
+    "include": [
+      "12\" x 18\"",
+      "16\" x 24\"",
+      "24\" x 36\""
+    ],
+    "exclude": [
+      "/"
+    ],
+    "markup": 2.0,
+    "title_tail": " | DrJonsson Acrylic Print | Old Money Aesthetic Wall Art | Luxury Glass Look",
+    "tags_extra": [
+      "acrylic print",
+      "glass wall art"
+    ],
+    "position": "front",
+    "scale": 1.0,
+    "x": 0.5,
+    "y": 0.5
+  }
+}
