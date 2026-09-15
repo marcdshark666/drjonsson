@@ -6,7 +6,6 @@
     "canvas",
     "framed_canvas",
     "metal",
-    "acrylic",
     "mug",
     "tote",
     "tshirt"
@@ -20,11 +19,9 @@
     ],
     "include": [
       "12\" x 18\"",
+      "16\" x 24\"",
       "18\" x 24\"",
       "24\" x 36\""
-    ],
-    "exclude": [
-      "/"
     ],
     "markup": 2.4,
     "title_tail": " | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
@@ -35,18 +32,25 @@
     "position": "front",
     "scale": 1.0,
     "x": 0.5,
-    "y": 0.5
+    "y": 0.5,
+    "paper": [
+      "Matte"
+    ]
   },
   "framed": {
     "blueprint": "Framed Vertical Poster",
     "providers": [
+      "Roma Imaging",
       "Sensaria",
-      "Printify Choice",
-      "Prodigi"
+      "Printify Choice"
     ],
     "include": [
+      "12\" x 16\"",
       "12\" x 18\"",
+      "16\" x 20\"",
+      "16\" x 24\"",
       "18\" x 24\"",
+      "20\" x 30\"",
       "24\" x 36\""
     ],
     "colors": [
@@ -64,19 +68,16 @@
     "y": 0.5
   },
   "canvas": {
-    "blueprint": "Canvas Gallery Wraps",
+    "blueprint": "Matte Canvas, Stretched, 1.25\"",
     "providers": [
       "Sensaria",
-      "Printify Choice",
-      "Prodigi"
+      "Printify Choice"
     ],
     "include": [
       "12\" x 18\"",
       "16\" x 24\"",
+      "18\" x 24\"",
       "24\" x 36\""
-    ],
-    "exclude": [
-      "/"
     ],
     "markup": 2.2,
     "title_tail": " | DrJonsson Canvas Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Canvas",
@@ -121,7 +122,7 @@
     "y": 0.42
   },
   "mug": {
-    "blueprint": "Ceramic Mug 11oz",
+    "blueprint": "Ceramic Mug, (11oz, 15oz)",
     "providers": [
       "Printify Choice",
       "District Photo",
@@ -139,7 +140,7 @@
     "y": 0.5
   },
   "tote": {
-    "blueprint": "Tote Bag",
+    "blueprint": "Eco Tote Bag",
     "providers": [
       "Printify Choice",
       "SPOKE Custom Products",
@@ -157,15 +158,15 @@
     "y": 0.5
   },
   "framed_canvas": {
-    "blueprint": "Framed Canvas",
+    "blueprint": "Matte Canvas, Framed (Multi-color)",
     "providers": [
       "Sensaria",
-      "Printify Choice",
-      "Prodigi"
+      "Printify Choice"
     ],
     "include": [
       "12\" x 18\"",
       "16\" x 24\"",
+      "18\" x 24\"",
       "24\" x 36\""
     ],
     "colors": [
@@ -183,19 +184,16 @@
     "y": 0.5
   },
   "metal": {
-    "blueprint": "Metal Prints",
+    "blueprint": "Metal Art Sign",
     "providers": [
-      "Sensaria",
       "Printify Choice",
-      "Prodigi"
+      "Sensaria"
     ],
     "include": [
       "12\" x 18\"",
       "16\" x 24\"",
+      "18\" x 24\"",
       "24\" x 36\""
-    ],
-    "exclude": [
-      "/"
     ],
     "markup": 2.0,
     "title_tail": " | DrJonsson Metal Print | Old Money Aesthetic Wall Art | Luxury Aluminium Print",
@@ -209,19 +207,16 @@
     "y": 0.5
   },
   "acrylic": {
-    "blueprint": "Acrylic Prints",
+    "blueprint": "Acrylic Wall Art Panels",
     "providers": [
-      "Sensaria",
       "Printify Choice",
-      "Prodigi"
+      "Sensaria"
     ],
     "include": [
       "12\" x 18\"",
       "16\" x 24\"",
+      "18\" x 24\"",
       "24\" x 36\""
-    ],
-    "exclude": [
-      "/"
     ],
     "markup": 2.0,
     "title_tail": " | DrJonsson Acrylic Print | Old Money Aesthetic Wall Art | Luxury Glass Look",

@@ -25,7 +25,21 @@
       "thumb": "img/test-poolside-riviera.jpg",
       "prompt": "(Marcs egen bild, beskuren till 2:3)",
       "seed": 0,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aa9ad4ddc7f492d5702c6b1",
+          "framed": "6aa9ad55cdfd3a725502ddc0",
+          "canvas": "6aa9ad5b5823257e9401bbc7",
+          "framed_canvas": "6aa9ad6589d58d321000c392",
+          "metal": "6aa9ad80dc7f492d5702c6d5",
+          "mug": "6aa9ad978e5da560a1085414",
+          "tote": "6aa9adaa5823257e9401bbf4",
+          "tshirt": "6aa9adbe692313e8da0a137b"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260915-1-riviera-garden-cream-suit",
@@ -51,7 +65,21 @@
       "thumb": "img/20260915-1-riviera-garden-cream-suit.jpg",
       "prompt": "a silver-haired man in a cream linen suit and sunglasses leaning on a vintage pale-blue convertible, a Riviera cypress garden seen from a balcony, with a long sapphire pool, stone balustrades and the Mediterranean beyond, harsh midday sun with short shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1481279114,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aa9ade26a0f4af8c201a87a",
+          "framed": "6aa9adf52204214bbf089ca6",
+          "canvas": "6aa9ae01cdfd3a725502de7b",
+          "framed_canvas": "6aa9ae0a8ef322dd07027a25",
+          "metal": "6aa9ae148e5da560a1085448",
+          "mug": "6aa9ae1e8e5da560a108544b",
+          "tote": "6aa9ae232204214bbf089cbc",
+          "tshirt": "6aa9ae27367bef8eca0e75af"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260915-2-cortina-silk-robe",
@@ -77,7 +105,21 @@
       "thumb": "img/20260915-2-cortina-silk-robe.jpg",
       "prompt": "an elderly gentleman in a paisley silk dressing gown reading a newspaper with a white standard poodle at his feet, a snowy hotel terrace in Cortina with the pink Dolomites, sunbeds and steaming cups of chocolate, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1011651034,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aa9ae314effedb0a00e0c9d",
+          "framed": "6aa9ae3637275f74e5050357",
+          "canvas": "6aa9ae3b430bad7180031201",
+          "framed_canvas": "6aa9ae4189d58d321000c3eb",
+          "metal": "6aa9ae487ec3e5e83a09bf0d",
+          "mug": "6aa9ae4d89d58d321000c3ec",
+          "tote": "6aa9ae53367bef8eca0e75ba",
+          "tshirt": "6aa9ae57206dec5b5a02feb4"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260915-3-capri-speedboat",
@@ -103,7 +145,21 @@
       "thumb": "img/20260915-3-capri-speedboat.jpg",
       "prompt": "a family in nautical stripes stepping off a polished wooden speedboat with a picnic hamper, a bathing platform lido on Capri with striped umbrellas, limestone rocks and the Faraglioni in the distance, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 15628077,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aa9ae63430bad718003120f",
+          "framed": "6aa9ae68692313e8da0a13ad",
+          "canvas": "6aa9ae6da7bf3c86d108894a",
+          "framed_canvas": "6aa9ae722204214bbf089cd0",
+          "metal": "6aa9ae786a0f4af8c201a892",
+          "mug": "6aa9ae7d6a0f4af8c201a894",
+          "tote": "6aa9ae81b8a4e0c8a10dba78",
+          "tshirt": "6aa9ae865a0fccee250d1379"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260915-4-cortina-backgammon",
@@ -129,7 +185,21 @@
       "thumb": "img/20260915-4-cortina-backgammon.jpg",
       "prompt": "a couple in swimwear playing backgammon on a striped towel beside the pool, a snowy hotel terrace in Cortina with the pink Dolomites, sunbeds and steaming cups of chocolate, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 169442607,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aa9ae927ec3e5e83a09bf15",
+          "framed": "6aa9ae9637275f74e5050369",
+          "canvas": "6aa9ae9b692313e8da0a13be",
+          "framed_canvas": "6aa9aea17e234ef8d001457d",
+          "metal": "6aa9aea77e234ef8d0014581",
+          "mug": "6aa9aeac4effedb0a00e0cb8",
+          "tote": "6aa9aeb14546b2805a06c87f",
+          "tshirt": "6aa9aeb5a4f2588bc80f9b50"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260915-5-acapulco-tennis-whites",
@@ -155,7 +225,21 @@
       "thumb": "img/20260915-5-acapulco-tennis-whites.jpg",
       "prompt": "a couple in crisp 1960s tennis whites with wooden racquets, laughing beside a courtside table with lemonade, a cliff-top villa in Acapulco with a white infinity pool, bougainvillea and the Pacific bay glittering below, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 382867138,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aa9aebf6a0f4af8c201a8aa",
+          "framed": "6aa9aec44546b2805a06c886",
+          "canvas": "6aa9aeca651bd1ab6e02593a",
+          "framed_canvas": "6aa9aecf430bad7180031226",
+          "metal": "6aa9aed62204214bbf089cea",
+          "mug": "6aa9aedba4f2588bc80f9b5e",
+          "tote": "6aa9aedf9fcf6b3c0206138f",
+          "tshirt": "6aa9af015823257e9401bc6a"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "6/8"
+      }
     }
   ],
   "runs": [
@@ -164,11 +248,11 @@
       "started": "2026-09-15T21:43:33",
       "count": 5,
       "generated": 5,
-      "popup": 0,
+      "popup": 46,
       "etsy": 0,
       "errors": [],
       "dry_run": false,
-      "note": "Printify hoppades over: ingen PRINTIFY_TOKEN i pipeline/.env",
+      "note": "Pop-Up live: drjonsson.printify.me",
       "finished": "2026-09-15T21:52:36"
     }
   ],
@@ -206,14 +290,14 @@
       "text": "API-token i pipeline/.env",
       "who": "Printify › My profile › Connections – du",
       "auto": true,
-      "done": false
+      "done": true
     },
     {
       "id": "popup-shop",
       "text": "PRINTIFY_POPUP_SHOP_ID i .env",
       "who": "python printify_bulk.py --shops – du/Claude",
       "auto": true,
-      "done": false
+      "done": true
     },
     {
       "id": "etsy-account",
@@ -253,12 +337,12 @@
   ],
   "stats": {
     "generated": 6,
-    "printify_drafts": 0,
-    "popup_live": 0,
+    "printify_drafts": 6,
+    "popup_live": 6,
     "etsy_live": 0,
     "days": 1,
     "streak": 1,
     "errors_last_run": 0
   },
-  "updated": "2026-09-15T21:53:09"
+  "updated": "2026-09-15T22:48:48"
 }

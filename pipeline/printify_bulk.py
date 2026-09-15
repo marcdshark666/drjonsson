@@ -143,18 +143,28 @@ def resolve_provider(api: Printify, blueprint_id: int, wanted: list[str]) -> dic
     return provs[0] if provs else None
 
 
+def norm(s: str) -> str:
+    """Printify skriver tum som ″ (dubbelprim) i vissa varianter och " i andra."""
+    return str(s).replace("″", '"').replace("”", '"').replace("×", "x").replace("  ", " ").strip()
+
+
 def filter_variants(variants: list[dict], cfg: dict) -> list[dict]:
+    """include = storlekar (matchas mot options.size eller titeln), colors/sizes/paper = options,
+    exclude = delstrangar i titeln som diskvalificerar."""
     out = []
     for v in variants:
-        title = v.get("title", "")
-        opts = {k.lower(): str(val) for k, val in (v.get("options") or {}).items()}
-        if cfg.get("include") and not any(s in title for s in cfg["include"]):
+        title = norm(v.get("title", ""))
+        opts = {k.lower(): norm(val) for k, val in (v.get("options") or {}).items()}
+        size = opts.get("size", "")
+        if cfg.get("include") and not any(norm(s) == size or norm(s) in title for s in cfg["include"]):
             continue
-        if cfg.get("exclude") and any(s in title for s in cfg["exclude"]):
+        if cfg.get("exclude") and any(norm(s) in title for s in cfg["exclude"]):
             continue
         if cfg.get("colors") and opts.get("color") and opts["color"] not in cfg["colors"]:
             continue
-        if cfg.get("sizes") and opts.get("size") and opts["size"] not in cfg["sizes"]:
+        if cfg.get("sizes") and size and size not in [norm(x) for x in cfg["sizes"]]:
+            continue
+        if cfg.get("paper") and opts.get("paper") and opts["paper"] not in cfg["paper"]:
             continue
         out.append(v)
     return out[: cfg.get("max_variants", 40)]
