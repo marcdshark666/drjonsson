@@ -1,6 +1,33 @@
 {
   "items": [
     {
+      "slug": "test-poolside-riviera",
+      "date": "2026-09-15",
+      "name": "Poolside Riviera, Magenta at Noon (testmotiv, Marcs bild)",
+      "place": "The Riviera",
+      "party": "Magenta at Noon",
+      "title": "Poolside Riviera, Magenta at Noon | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "riviera print",
+        "poolside poster",
+        "dalmatian art",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art",
+        "pool wall art"
+      ],
+      "thumb": "img/test-poolside-riviera.jpg",
+      "prompt": "(Marcs egen bild, beskuren till 2:3)",
+      "seed": 0,
+      "printify": {}
+    },
+    {
       "slug": "20260915-1-riviera-garden-cream-suit",
       "date": "2026-09-15",
       "name": "The Cream Suit, The Riviera",
@@ -225,7 +252,7 @@
     }
   ],
   "stats": {
-    "generated": 5,
+    "generated": 6,
     "printify_drafts": 0,
     "popup_live": 0,
     "etsy_live": 0,
@@ -233,5 +260,5 @@
     "streak": 1,
     "errors_last_run": 0
   },
-  "updated": "2026-09-15T21:52:36"
+  "updated": "2026-09-15T21:53:09"
 }
