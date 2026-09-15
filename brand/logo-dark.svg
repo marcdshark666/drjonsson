@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="DrJonsson – Rich in every frame">
+  <title>DrJonsson – Rich in every frame (dark)</title>
+  <rect width="1000" height="360" fill="#111111"/>
+  <g transform="translate(60,60)">
+    <rect x="0" y="0" width="240" height="240" fill="none" stroke="#F4EFE6" stroke-width="6"/>
+    <rect x="18" y="18" width="204" height="204" fill="none" stroke="#C9A227" stroke-width="2"/>
+    <path d="M62 60 V196 H112 A68 68 0 0 0 112 60 Z" fill="none" stroke="#F4EFE6" stroke-width="12" stroke-linejoin="miter"/>
+    <path d="M196 60 V160 A34 34 0 0 1 128 160" fill="none" stroke="#C9A227" stroke-width="12" stroke-linecap="square"/>
+    <path d="M166 60 H226" stroke="#C9A227" stroke-width="12" stroke-linecap="square"/>
+  </g>
+  <text x="350" y="178" font-family="'Didot','Bodoni MT','Playfair Display','Times New Roman',Georgia,serif" font-size="118" letter-spacing="4" fill="#F4EFE6">Dr<tspan fill="#C9A227">J</tspan>onsson</text>
+  <line x1="354" y1="208" x2="946" y2="208" stroke="#C9A227" stroke-width="3"/>
+  <text x="356" y="254" font-family="'Helvetica Neue',Arial,'Segoe UI',sans-serif" font-size="26" letter-spacing="9" fill="#F4EFE6">RICH IN EVERY FRAME</text>
+</svg>

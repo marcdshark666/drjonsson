@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DrJonsson</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono&display=swap">
+<style>
+  :root {
+    --ink: #151412; --ink-2: #5b5449; --ground: #f4efe6; --ground-2: #ebe4d6; --rule: #d6ccb8;
+    --gold: #b8911f; --gold-soft: #e9dcb4; --ok: #3f6b3a; --ok-bg: #dfe9d7; --warn: #8a2f1c; --warn-bg: #f3e3dc;
+    --wait: #6b5f4a; --wait-bg: #e6dfd0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #efe8da; --ink-2: #b1a894; --ground: #141311; --ground-2: #1e1c18; --rule: #37332b;
+      --gold: #d3ab3a; --gold-soft: #3a3016; --ok: #9fcf94; --ok-bg: #22301f; --warn: #e79a86; --warn-bg: #33201a;
+      --wait: #c9bda3; --wait-bg: #2a2620; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font-family: "IBM Plex Sans", "Segoe UI", Arial, sans-serif; font-size: 15px; line-height: 1.5; padding-inline: 20px; padding-block: 0 64px; }
+  .wrap { max-width: 1040px; margin: 0 auto; }
+  header { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px; padding-block: 28px 18px; border-bottom: 1px solid var(--rule); }
+  .brand { display: flex; align-items: center; gap: 16px; }
+  .brand svg { width: 64px; height: 64px; flex: none; }
+  .brand h1 { font-family: "Playfair Display", Georgia, serif; font-weight: 500; font-size: 2rem; margin: 0; letter-spacing: 0.01em; line-height: 1; }
+  .brand h1 span { color: var(--gold); }
+  .brand small { display: block; font-family: "IBM Plex Sans", sans-serif; font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-2); margin-top: 8px; }
+  .pulse { font-size: 0.85rem; color: var(--ink-2); text-align: right; font-variant-numeric: tabular-nums; }
+  .pulse b { color: var(--ink); font-weight: 600; }
+  h2 { font-family: "Playfair Display", Georgia, serif; font-weight: 500; font-size: 1.35rem; margin: 40px 0 12px; }
+  h2 small { font-family: "IBM Plex Sans", sans-serif; font-size: 0.8rem; color: var(--ink-2); margin-left: 10px; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-top: 18px; }
+  .tile { border-top: 2px solid var(--gold); padding: 10px 2px 4px; }
+  .tile .v { font-family: "Playfair Display", Georgia, serif; font-size: 2rem; line-height: 1; font-variant-numeric: tabular-nums; }
+  .tile .l { font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2); margin-top: 6px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; }
+  .card { background: var(--ground-2); border: 1px solid var(--rule); }
+  .card img { width: 100%; aspect-ratio: 2/3; object-fit: cover; display: block; background: var(--rule); }
+  .card .b { padding: 10px 12px 12px; }
+  .card .n { font-weight: 600; font-size: 0.9rem; line-height: 1.3; }
+  .card .p { color: var(--ink-2); font-size: 0.78rem; margin-top: 2px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
+  .chip { font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 7px; border-radius: 2px; background: var(--wait-bg); color: var(--wait); }
+  .chip.ok { background: var(--ok-bg); color: var(--ok); }
+  .chip.no { background: var(--warn-bg); color: var(--warn); }
+  .flow { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; counter-reset: f; }
+  .step { border-top: 1px solid var(--rule); padding-top: 8px; counter-increment: f; }
+  .step::before { content: counter(f, decimal-leading-zero); font-family: "Playfair Display", Georgia, serif; color: var(--gold); font-size: 1.2rem; }
+  .step .t { font-weight: 600; font-size: 0.9rem; margin-top: 2px; }
+  .step .d { color: var(--ink-2); font-size: 0.8rem; margin-top: 3px; }
+  .step .who { font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 6px; color: var(--gold); }
+  ul.todo { list-style: none; padding: 0; margin: 0; }
+  ul.todo li { display: grid; grid-template-columns: 26px 1fr auto; gap: 10px; align-items: baseline; padding: 9px 0; border-bottom: 1px solid var(--rule); }
+  ul.todo .m { font-family: "IBM Plex Mono", monospace; color: var(--ok); }
+  ul.todo li.open .m { color: var(--warn); }
+  ul.todo .w { font-size: 0.75rem; color: var(--ink-2); text-align: right; white-space: nowrap; }
+  ul.todo li.done .t { color: var(--ink-2); text-decoration: line-through; }
+  .next { background: var(--gold-soft); border-left: 3px solid var(--gold); padding: 12px 16px; margin: 14px 0 0; }
+  .next b { display: block; font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); margin-bottom: 4px; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.88rem; }
+  th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2); font-weight: 600; }
+  td.n { text-align: right; font-variant-numeric: tabular-nums; font-family: "IBM Plex Mono", monospace; }
+  td.err { color: var(--warn); font-size: 0.8rem; max-width: 40ch; }
+  .tbl { overflow-x: auto; }
+  .empty { color: var(--ink-2); padding: 24px 0; }
+  .links { display: flex; flex-wrap: wrap; gap: 14px; font-size: 0.85rem; margin-top: 10px; }
+  a { color: var(--ink); text-decoration-color: var(--gold); text-underline-offset: 3px; }
+  dialog { border: none; padding: 0; background: transparent; max-width: min(92vw, 640px); }
+  dialog img { width: 100%; display: block; }
+  dialog::backdrop { background: rgba(0,0,0,.75); }
+  dialog p { background: var(--ground); color: var(--ink); margin: 0; padding: 10px 14px; font-size: 0.85rem; }
+  @media (max-width: 560px) { .pulse { text-align: left; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <svg viewBox="0 0 240 240" aria-hidden="true">
+        <rect x="3" y="3" width="234" height="234" fill="none" stroke="currentColor" stroke-width="6"/>
+        <rect x="18" y="18" width="204" height="204" fill="none" stroke="#c9a227" stroke-width="2"/>
+        <path d="M62 60 V196 H112 A68 68 0 0 0 112 60 Z" fill="none" stroke="currentColor" stroke-width="12"/>
+        <path d="M196 60 V160 A34 34 0 0 1 128 160" fill="none" stroke="#c9a227" stroke-width="12" stroke-linecap="square"/>
+        <path d="M166 60 H226" stroke="#c9a227" stroke-width="12" stroke-linecap="square"/>
+      </svg>
+      <div>
+        <h1>Dr<span>J</span>onsson</h1>
+        <small>Rich in every frame · fem motiv om dagen</small>
+      </div>
+    </div>
+    <div class="pulse" id="pulse">Läser status …</div>
+  </header>
+
+  <div class="tiles" id="tiles"></div>
+
+  <h2>Idag <small id="today-date"></small></h2>
+  <div class="grid" id="today"></div>
+
+  <h2>Att göra <small>det som bara Marc kan, och det som bockas av automatiskt</small></h2>
+  <div class="next" id="next" hidden></div>
+  <ul class="todo" id="todo"></ul>
+
+  <h2>Så publiceras det</h2>
+  <div class="flow">
+    <div class="step"><div class="t">Motiv väljs</div><div class="d">Plats × sällskap × ljus ur motivbanken, datumet som frö. Ingen kombination två gånger.</div><div class="who">automatiskt 07:30</div></div>
+    <div class="step"><div class="t">Bilder genereras</div><div class="d">Z-Image-Turbo lokalt på RTX 4090, 1536×2304, uppskalat till 3600×5400. Kostnad 0 kr.</div><div class="who">automatiskt</div></div>
+    <div class="step"><div class="t">Listning skrivs</div><div class="d">Titel, 13 taggar och beskrivning. Aldrig fotografens namn i butikstext.</div><div class="who">automatiskt</div></div>
+    <div class="step"><div class="t">Printify</div><div class="d">Bilden laddas upp, poster i tre storlekar skapas. Pop-Up-butiken publiceras direkt, den är gratis.</div><div class="who">automatiskt när token finns</div></div>
+    <div class="step"><div class="t">Etsy</div><div class="d">Utkast skapas gratis. Publicering kostar 0,20 USD per listning och ställs som fråga i Telegram med foto.</div><div class="who">Marc säger ja</div></div>
+    <div class="step"><div class="t">Dashboard + Telegram</div><div class="d">Den här sidan uppdateras via GitHub Pages och ett kontaktark skickas till Telegram.</div><div class="who">automatiskt</div></div>
+  </div>
+
+  <h2>Alla motiv <small id="all-count"></small></h2>
+  <div class="grid" id="all"></div>
+
+  <h2>Körningar</h2>
+  <div class="tbl"><table id="runs"><thead><tr><th>Datum</th><th>Start</th><th class="n">Genererade</th><th class="n">Pop-Up</th><th class="n">Etsy</th><th>Fel</th></tr></thead><tbody></tbody></table></div>
+
+  <div class="links">
+    <a href="https://github.com/marcdshark666/drjonsson">GitHub-repot</a>
+    <a href="https://drjonsson.printify.me">drjonsson.printify.me</a>
+    <a href="data/status.json">status.json</a>
+  </div>
+</div>
+<dialog id="dlg"><img id="dlg-img" alt=""><p id="dlg-txt"></p></dialog>
+<script src="app.js"></script>
+</body>
+</html>

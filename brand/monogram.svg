@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="DrJonsson monogram">
+  <rect width="240" height="240" fill="#F4EFE6"/>
+  <rect x="3" y="3" width="234" height="234" fill="none" stroke="#111111" stroke-width="6"/>
+  <rect x="18" y="18" width="204" height="204" fill="none" stroke="#C9A227" stroke-width="2"/>
+  <path d="M62 60 V196 H112 A68 68 0 0 0 112 60 Z" fill="none" stroke="#111111" stroke-width="12" stroke-linejoin="miter"/>
+  <path d="M196 60 V160 A34 34 0 0 1 128 160" fill="none" stroke="#C9A227" stroke-width="12" stroke-linecap="square"/>
+  <path d="M166 60 H226" stroke="#C9A227" stroke-width="12" stroke-linecap="square"/>
+</svg>

@@ -1,0 +1,93 @@
+{
+  "items": [],
+  "runs": [],
+  "todo": [
+    {
+      "id": "venv",
+      "text": "Python-miljö med CUDA-torch och diffusers",
+      "who": "Claude installerar (klart när bocken syns)",
+      "auto": true,
+      "done": true
+    },
+    {
+      "id": "model",
+      "text": "Bildmodellen Z-Image-Turbo nedladdad (~20 GB)",
+      "who": "Claude laddar ner första gången",
+      "auto": true,
+      "done": false
+    },
+    {
+      "id": "printify-account",
+      "text": "Printify-konto (gratis)",
+      "who": "printify.com – du",
+      "auto": false,
+      "done": false
+    },
+    {
+      "id": "popup-store",
+      "text": "Pop-Up Store skapad (aaron.printify.me) + Stripe-verifiering",
+      "who": "Printify › My stores › Add store – du",
+      "auto": false,
+      "done": false
+    },
+    {
+      "id": "printify-token",
+      "text": "API-token i pipeline/.env",
+      "who": "Printify › My profile › Connections – du",
+      "auto": true,
+      "done": false
+    },
+    {
+      "id": "popup-shop",
+      "text": "PRINTIFY_POPUP_SHOP_ID i .env",
+      "who": "python printify_bulk.py --shops – du/Claude",
+      "auto": true,
+      "done": false
+    },
+    {
+      "id": "etsy-account",
+      "text": "Etsy-butik öppnad (15–29 USD, ID-verifiering)",
+      "who": "etsy.com/sell – du",
+      "auto": false,
+      "done": false
+    },
+    {
+      "id": "etsy-connect",
+      "text": "Printify kopplad till Etsy",
+      "who": "Printify › My stores › Connect › Etsy – du",
+      "auto": false,
+      "done": false
+    },
+    {
+      "id": "etsy-shop",
+      "text": "PRINTIFY_ETSY_SHOP_ID i .env",
+      "who": "python printify_bulk.py --shops – du/Claude",
+      "auto": true,
+      "done": false
+    },
+    {
+      "id": "test-order",
+      "text": "Testköp av ett 12×18 (~15 USD)",
+      "who": "du",
+      "auto": false,
+      "done": false
+    },
+    {
+      "id": "tax",
+      "text": "Skatteverket: näringsverksamhet, F-skatt, moms",
+      "who": "du",
+      "auto": false,
+      "done": false
+    }
+  ],
+  "stats": {
+    "generated": 0,
+    "printify_drafts": 0,
+    "popup_live": 0,
+    "etsy_live": 0,
+    "days": 0,
+    "streak": 0,
+    "errors_last_run": 0
+  },
+  "updated": "2026-09-15T21:41:12"
+}
