@@ -238,7 +238,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "6/8"
+        "popup_count": "8/8"
       }
     }
   ],
@@ -248,7 +248,7 @@
       "started": "2026-09-15T21:43:33",
       "count": 5,
       "generated": 5,
-      "popup": 46,
+      "popup": 48,
       "etsy": 0,
       "errors": [],
       "dry_run": false,
@@ -344,5 +344,5 @@
     "streak": 1,
     "errors_last_run": 0
   },
-  "updated": "2026-09-15T22:56:27"
+  "updated": "2026-09-15T23:22:20"
 }
