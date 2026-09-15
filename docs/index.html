@@ -54,7 +54,7 @@
   ul.todo li { display: grid; grid-template-columns: 26px 1fr auto; gap: 10px; align-items: baseline; padding: 9px 0; border-bottom: 1px solid var(--rule); }
   ul.todo .m { font-family: "IBM Plex Mono", monospace; color: var(--ok); }
   ul.todo li.open .m { color: var(--warn); }
-  ul.todo .w { font-size: 0.75rem; color: var(--ink-2); text-align: right; white-space: nowrap; }
+  ul.todo .w { font-size: 0.75rem; color: var(--ink-2); text-align: right; }
   ul.todo li.done .t { color: var(--ink-2); text-decoration: line-through; }
   .next { background: var(--gold-soft); border-left: 3px solid var(--gold); padding: 12px 16px; margin: 14px 0 0; }
   .next b { display: block; font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); margin-bottom: 4px; }
@@ -71,7 +71,7 @@
   dialog img { width: 100%; display: block; }
   dialog::backdrop { background: rgba(0,0,0,.75); }
   dialog p { background: var(--ground); color: var(--ink); margin: 0; padding: 10px 14px; font-size: 0.85rem; }
-  @media (max-width: 560px) { .pulse { text-align: left; } }
+  @media (max-width: 560px) { .pulse { text-align: left; } .brand h1 { font-size: 1.6rem; } ul.todo li { grid-template-columns: 26px 1fr; } ul.todo .w { grid-column: 2; text-align: left; } }
 </style>
 </head>
 <body>
