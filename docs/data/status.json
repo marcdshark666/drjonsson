@@ -1299,6 +1299,19 @@
       ],
       "dry_run": false,
       "finished": "2026-09-16T03:29:52"
+    },
+    {
+      "date": "2026-09-16",
+      "started": "2026-09-16T03:30:08",
+      "count": 35,
+      "generated": 35,
+      "popup": 100,
+      "etsy": 0,
+      "errors": [
+        "printify popup: FEL: GET /catalog/blueprints/282/print_providers.json -> HTTP 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1789522429@a8aa0297-b918-4e98-8a86-697df143af51\"}"
+      ],
+      "dry_run": false,
+      "finished": "2026-09-16T03:33:49"
     }
   ],
   "todo": [
@@ -1389,5 +1402,5 @@
     "streak": 2,
     "errors_last_run": 1
   },
-  "updated": "2026-09-16T03:30:16"
+  "updated": "2026-09-16T03:33:49"
 }
