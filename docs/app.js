@@ -25,6 +25,37 @@
     </div>`;
   }
 
+  /* Butiksmailet: rutinen DrJonsson-ButikMail lasar Gmail varje morgon och
+     skriver state/store-mail.json. "bekraftat" = butiken far oppnas,
+     "atgard-kravs" = Etsy/Printify vantar pa Marc, "inget" = inget nytt. */
+  const MAIL_ORD = {
+    bekraftat: ["Butiken är klar", "bekraftat"],
+    "atgard-kravs": ["Butiken väntar på dig", "atgard"],
+    inget: ["Inget nytt om butiken", ""],
+  };
+
+  /* Rutinen skriver `checked` i UTC (med Z), pipelinen skriver `updated` i lokal
+     tid utan zon. Visa bada i lasarens tid sa att raderna gar att jamfora. */
+  const fmtLocal = (iso) => {
+    if (!iso) return "–";
+    if (!/[zZ]$|[+-]\d\d:?\d\d$/.test(iso)) return fmt(iso);
+    const d = new Date(iso);
+    return isNaN(d) ? fmt(iso) : new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().replace("T", " ").slice(0, 16);
+  };
+
+  function storeMail(m) {
+    const el = $("#storemail");
+    if (!m || !m.checked) { el.hidden = true; return; }
+    const [rubrik, kls] = MAIL_ORD[m.status] || MAIL_ORD.inget;
+    el.className = "mail" + (kls ? " " + kls : "");
+    const lank = m.action_url ? ` <a href="${esc(m.action_url)}" target="_blank" rel="noopener">${esc(m.action_url)}</a>` : "";
+    el.innerHTML = `<b>${esc(rubrik)}</b>
+      <div class="h">${esc(m.headline || "")}</div>
+      ${m.detail ? `<div class="d">${esc(m.detail)}${lank}</div>` : (lank ? `<div class="d">${lank}</div>` : "")}
+      <div class="k">Gmail lästes ${fmtLocal(m.checked)}${m.source ? " · " + esc(m.source) : ""}</div>`;
+    el.hidden = false;
+  }
+
   function render(s) {
     const st = s.stats || {};
     const runs = s.runs || [];
@@ -47,6 +78,8 @@
     $("#today").innerHTML = today.length ? today.map(card).join("") : '<div class="empty">Inga motiv ännu. Första körningen pågår eller väntar på 07:30.</div>';
     $("#all").innerHTML = items.map(card).join("");
     $("#all-count").textContent = items.length ? `${items.length} st` : "";
+
+    storeMail(s.store_mail);
 
     const todo = s.todo || [];
     $("#todo").innerHTML = todo.map((t) => `<li class="${t.done ? "done" : "open"}"><span class="m">${t.done ? "[x]" : "[ ]"}</span><span class="t">${esc(t.text)}</span><span class="w">${esc(t.who)}</span></li>`).join("");

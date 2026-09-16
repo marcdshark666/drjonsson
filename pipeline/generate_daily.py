@@ -46,6 +46,7 @@ DOCS = ROOT / "docs"
 DOCS_IMG = DOCS / "img"
 STATUS = DOCS / "data" / "status.json"
 LISTINGS = ROOT / "listings" / "listings.json"
+STORE_MAIL = ROOT / "state" / "store-mail.json"   # rutinen DrJonsson-ButikMail skriver hit
 LOG = ROOT / "outputs" / "daily.log"
 HOOKS = Path.home() / ".claude" / "hooks"
 PY = sys.executable
@@ -128,10 +129,28 @@ def _streak(days: list[str]) -> int:
     return n
 
 
+def load_store_mail() -> dict:
+    """Vad Gmail-kollen (rutinen DrJonsson-ButikMail) senast sag om butiken.
+
+    Pipelinen kan inte sjalv lasa Gmail - den rutinen kors av en Claude-session
+    med Gmail-atkomst och lagger svaret i state/store-mail.json. Saknas filen
+    eller ar den trasig later vi bara bli: dashboarden visar da ingen rad, och
+    inget annat i korningen paverkas.
+    """
+    try:
+        d = json.loads(STORE_MAIL.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    if not isinstance(d, dict):
+        return {}
+    return d
+
+
 def refresh_todo(s: dict, e: dict) -> None:
     """Marcs manuella steg. Det som gar att kanna av automatiskt bockas av har."""
     model_ok = (HERE / ".model_ok").exists()
     have_token = bool(e.get("PRINTIFY_TOKEN") and not e["PRINTIFY_TOKEN"].startswith("eyJ..."))
+    mail = load_store_mail()
     auto = {
         "venv": (ROOT / ".venv" / "Scripts" / "python.exe").exists(),
         "model": model_ok,
@@ -139,6 +158,10 @@ def refresh_todo(s: dict, e: dict) -> None:
         "popup-shop": bool(e.get("PRINTIFY_POPUP_SHOP_ID")),
         "etsy-shop": bool(e.get("PRINTIFY_ETSY_SHOP_ID")),
     }
+    # Butiken bockas av forst nar Gmail-kollen sett bekraftelsen - ett oppnat
+    # PRINTIFY_ETSY_SHOP_ID rader inte, for Etsy kan halla betalningarna kvar.
+    if mail.get("shop_open") is True:
+        auto["etsy-account"] = True
     manual_default = [
         ("venv", "Python-miljö med CUDA-torch och diffusers", "Claude installerar (klart när bocken syns)", True),
         ("model", "Bildmodellen Z-Image-Turbo nedladdad (~20 GB)", "Claude laddar ner första gången", True),
@@ -146,7 +169,7 @@ def refresh_todo(s: dict, e: dict) -> None:
         ("popup-store", "Pop-Up Store skapad (aaron.printify.me) + Stripe-verifiering", "Printify › My stores › Add store – du", False),
         ("printify-token", "API-token i pipeline/.env", "Printify › My profile › Connections – du", True),
         ("popup-shop", "PRINTIFY_POPUP_SHOP_ID i .env", "python printify_bulk.py --shops – du/Claude", True),
-        ("etsy-account", "Etsy-butik öppnad (15–29 USD, ID-verifiering)", "etsy.com/sell – du", False),
+        ("etsy-account", "Etsy-butik öppnad (15–29 USD, ID-verifiering)", "etsy.com/sell – du (Gmail-kollen bockar av)", False),
         ("etsy-connect", "Printify kopplad till Etsy", "Printify › My stores › Connect › Etsy – du", False),
         ("etsy-shop", "PRINTIFY_ETSY_SHOP_ID i .env", "python printify_bulk.py --shops – du/Claude", True),
         ("test-order", "Testköp av ett 12×18 (~15 USD)", "du", False),
@@ -155,9 +178,16 @@ def refresh_todo(s: dict, e: dict) -> None:
     existing = {t["id"]: t for t in s.get("todo", [])}
     todo = []
     for tid, text, who, is_auto in manual_default:
-        done = auto.get(tid, existing.get(tid, {}).get("done", False)) if is_auto else existing.get(tid, {}).get("done", False)
+        # Ett varde i `auto` vager alltid tyngst - aven for de manuella stegen, sa
+        # att Gmail-kollens bekraftelse kan bocka av "etsy-account" utan Marc.
+        prev = existing.get(tid, {}).get("done", False)
+        done = auto[tid] if tid in auto else prev
         todo.append({"id": tid, "text": text, "who": who, "auto": is_auto, "done": bool(done)})
     s["todo"] = todo
+    if mail:
+        s["store_mail"] = mail
+    elif "store_mail" in s:
+        del s["store_mail"]
 
 
 # ---------- bildgenerering ----------

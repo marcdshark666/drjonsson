@@ -1,0 +1,34 @@
+{
+  "checked": "2026-09-16T10:25:00Z",
+  "checked_by": "Vakthund 6 (uppdrag #296)",
+  "status": "atgard-kravs",
+  "shop_open": false,
+  "headline": "Etsy väntar på Marc: juridiskt namn får inte innehålla \u00f6",
+  "detail": "Etsy Trust & Safety (Kyzi) skrev 2026-09-16 03:48: Etsy Payments-registreringen kan inte slutföras förrän det juridiska namnet på kontot skrivs utan specialtecken. Tecknet ö måste skrivas om i latinsk form (Jonsson). Görs på etsy.com/upload/verify › Edit › Full Legal Name › Spara. Först därefter kan butiken öppnas och Printify kopplas till den.",
+  "action_url": "https://www.etsy.com/upload/verify",
+  "who": "Marc",
+  "source": "trust-and-safety@etsy.com, 2026-09-16 03:48, \"Action required: Information is needed to complete Etsy Payments registration.\"",
+  "mails": [
+    {
+      "date": "2026-09-16T03:48:03Z",
+      "from": "trust-and-safety@etsy.com",
+      "subject": "Action required: Information is needed to complete Etsy Payments registration.",
+      "klass": "atgard-kravs"
+    },
+    {
+      "date": "2026-09-15T20:46:08Z",
+      "from": "noreply@mail.etsy.com",
+      "subject": "Marc, did you recently sign into Etsy?",
+      "klass": "info"
+    },
+    {
+      "date": "2026-09-16T00:57:20Z",
+      "from": "noreply@mail.etsy.com",
+      "subject": "Marc, did you recently sign into Etsy? (Opera 101 / Android 10, Lodz PL)",
+      "klass": "info"
+    }
+  ],
+  "history": [
+    { "date": "2026-09-16", "status": "atgard-kravs", "headline": "Etsy kräver latinskt juridiskt namn innan Etsy Payments blir klart" }
+  ]
+}

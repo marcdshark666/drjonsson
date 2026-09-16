@@ -57,6 +57,15 @@
   ul.todo .w { font-size: 0.75rem; color: var(--ink-2); text-align: right; }
   ul.todo li.done .t { color: var(--ink-2); text-decoration: line-through; }
   .next { background: var(--gold-soft); border-left: 3px solid var(--gold); padding: 12px 16px; margin: 14px 0 0; }
+  /* Butiksmail: vad Gmail-kollen (DrJonsson-ButikMail) senast sag om butiken. */
+  .mail { border-left: 3px solid var(--wait); background: var(--wait-bg); padding: 12px 16px; margin: 0 0 14px; }
+  .mail.atgard { border-left-color: var(--warn); background: var(--warn-bg); }
+  .mail.bekraftat { border-left-color: var(--ok); background: var(--ok-bg); }
+  .mail b { display: block; font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 4px; }
+  .mail .h { font-weight: 600; }
+  .mail .d { font-size: 0.88rem; color: var(--ink-2); margin-top: 4px; }
+  .mail .k { font-size: 0.75rem; color: var(--ink-2); margin-top: 6px; font-variant-numeric: tabular-nums; }
+  .mail a { color: inherit; }
   .next b { display: block; font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); margin-bottom: 4px; }
   table { border-collapse: collapse; width: 100%; font-size: 0.88rem; }
   th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
@@ -99,6 +108,7 @@
   <div class="grid" id="today"></div>
 
   <h2>Att göra <small>det som bara Marc kan, och det som bockas av automatiskt</small></h2>
+  <div class="mail" id="storemail" hidden></div>
   <div class="next" id="next" hidden></div>
   <ul class="todo" id="todo"></ul>
 
