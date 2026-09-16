@@ -146,6 +146,17 @@ def load_store_mail() -> dict:
     return d
 
 
+# Dashboarden ligger pa GitHub Pages i ett PUBLIKT repo. store-mail.json gor det
+# inte - den star i .gitignore bredvid etsy_verifiering.json - och bara de har
+# falten foljer med in i status.json. Avsandare, amnesrader, inloggningsplatser
+# och historik stannar pa datorn.
+STORE_MAIL_PUBLIC = ("checked", "status", "shop_open", "headline", "action_url", "who")
+
+
+def public_store_mail(mail: dict) -> dict:
+    return {k: mail[k] for k in STORE_MAIL_PUBLIC if k in mail}
+
+
 def refresh_todo(s: dict, e: dict) -> None:
     """Marcs manuella steg. Det som gar att kanna av automatiskt bockas av har."""
     model_ok = (HERE / ".model_ok").exists()
@@ -185,7 +196,7 @@ def refresh_todo(s: dict, e: dict) -> None:
         todo.append({"id": tid, "text": text, "who": who, "auto": is_auto, "done": bool(done)})
     s["todo"] = todo
     if mail:
-        s["store_mail"] = mail
+        s["store_mail"] = public_store_mail(mail)
     elif "store_mail" in s:
         del s["store_mail"]
 
