@@ -472,11 +472,13 @@
           "canvas": "6aaa36d5cc7d8a428f043547",
           "framed_canvas": "6aaa36e45f264f069d067e12",
           "metal": "6aaa36f5d3362917080bf489",
-          "mug": "6aaa3705f0b1b1db760d4fad"
+          "mug": "6aaa3705f0b1b1db760d4fad",
+          "tote": "6aaa4c8ecf8017667a0585f0",
+          "tshirt": "6aaa4ca0ece6a4381b0cbccf"
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "6/6"
+        "popup_count": "8/8"
       }
     },
     {
@@ -503,7 +505,21 @@
       "thumb": "img/20260916-7-portofino-late-breakfast.jpg",
       "prompt": "a couple in silk dressing gowns at a breakfast table with silver domes, orange juice and a stack of newspapers, the pastel harbour of Portofino seen from above, with fishing boats, ochre and rose facades and a wooded headland, clear morning light, sky a saturated cerulean, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 726060427,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa4cb9ece6a4381b0cbd0d",
+          "framed": "6aaa4cca6d3de406c6054b90",
+          "canvas": "6aaa4ced6d3de406c6054be1",
+          "framed_canvas": "6aaa4d14c82d12ddbc0544c9",
+          "metal": "6aaa4d27ece6a4381b0cbd63",
+          "mug": "6aaa4d37583c51460607a32b",
+          "tote": "6aaa4d468f3b21c71c063586",
+          "tshirt": "6aaa4d56c82d12ddbc0544fc"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-8-positano-silk-robe",
@@ -529,7 +545,21 @@
       "thumb": "img/20260916-8-positano-silk-robe.jpg",
       "prompt": "an elderly gentleman in a paisley silk dressing gown reading a newspaper with a white standard poodle at his feet, the tiered pastel houses of Positano seen from a balcony, with bougainvillea, a pebble beach and fishing boats below, clear morning light, sky a saturated cerulean, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 588767269,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa4d6b7c5097e13606e295",
+          "framed": "6aaa4d7b566f2763760fef83",
+          "canvas": "6aaa4d8b0da2b4cf33062cfa",
+          "framed_canvas": "6aaa4d9a192c15d637068c10",
+          "metal": "6aaa4dac8f3b21c71c0635a5",
+          "mug": "6aaa4dbc566f2763760fef9c",
+          "tote": "6aaa4dcacf8017667a058739",
+          "tshirt": "6aaa4ddad438adf5d9089875"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-9-saint-tropez-roadster",
@@ -555,7 +585,21 @@
       "thumb": "img/20260916-9-saint-tropez-roadster.jpg",
       "prompt": "a couple leaning against a silver open-top roadster with driving gloves, folded maps and a picnic basket on the bonnet, the quay of Saint-Tropez with wooden speedboats, pastel houses and cafe tables under plane trees, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1392747158,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa4dee2f460259bb089bf5",
+          "framed": "6aaa4dfd566f2763760fefb2",
+          "canvas": "6aaa4e0dc82d12ddbc054542",
+          "framed_canvas": "6aaa4e1d6d3de406c6054c9a",
+          "metal": "6aaa4e2e4c9add6c97052fc4",
+          "mug": "6aaa4e3db50a805c4f01c752",
+          "tote": "6aaa4e4c01616567770ea954",
+          "tshirt": "6aaa4e5b8f3b21c71c0635cf"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-10-positano-the-catch",
@@ -1671,6 +1715,17 @@
       "errors": [],
       "dry_run": false,
       "finished": "2026-09-16T08:28:35"
+    },
+    {
+      "date": "2026-09-16",
+      "started": "2026-09-16T10:00:01",
+      "count": 35,
+      "generated": 35,
+      "popup": 328,
+      "etsy": 0,
+      "errors": [],
+      "dry_run": false,
+      "finished": "2026-09-16T10:08:15"
     }
   ],
   "todo": [
@@ -1754,12 +1809,12 @@
   ],
   "stats": {
     "generated": 41,
-    "printify_drafts": 38,
-    "popup_live": 38,
+    "printify_drafts": 41,
+    "popup_live": 41,
     "etsy_live": 0,
     "days": 2,
     "streak": 2,
     "errors_last_run": 0
   },
-  "updated": "2026-09-16T08:28:35"
+  "updated": "2026-09-16T10:08:15"
 }
