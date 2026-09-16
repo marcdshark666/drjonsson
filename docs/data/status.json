@@ -305,7 +305,21 @@
       "thumb": "img/20260916-2-cannes-caftans.jpg",
       "prompt": "three women in pastel silk caftans and oversized sunglasses holding champagne coupes, a hotel balcony on the Croisette in Cannes with white balustrades, palm trees and the bay full of yachts, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 192908306,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa2bae11120d25f10b6a02",
+          "framed": "6aaa2bbf88d2ef1a2309bdc2",
+          "canvas": "6aaa2bce11120d25f10b6a46",
+          "framed_canvas": "6aaa2be3b14c379b5104e0ab",
+          "metal": "6aaa2bf511120d25f10b6a63",
+          "mug": "6aaa2c04b14c379b5104e0c7",
+          "tote": "6aaa2c1333c41cf88600facb",
+          "tshirt": "6aaa2c23eebb5dedcb084715"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-3-lake-como-high-board",
@@ -331,7 +345,21 @@
       "thumb": "img/20260916-3-lake-como-high-board.jpg",
       "prompt": "a young woman in a white swimming cap poised on a diving board while friends watch from the water below, a terraced villa garden on Lake Como with cypress trees, a long turquoise pool and the lake and mountains beyond, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 226268912,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa31af35cf53540c055e27",
+          "framed": "6aaa31bfc10e94166f03280b",
+          "canvas": "6aaa31cfdf5c139797021cf7",
+          "framed_canvas": "6aaa31de50c2aa3f42045320",
+          "metal": "6aaa31f0df5c139797021cff",
+          "mug": "6aaa31ff8282ff89b0000bd5",
+          "tote": "6aaa320ea00cd998da0d83c2",
+          "tshirt": "6aaa321dc10e94166f032837"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-4-sydney-roadster",
@@ -357,7 +385,21 @@
       "thumb": "img/20260916-4-sydney-roadster.jpg",
       "prompt": "a couple leaning against a silver open-top roadster with driving gloves, folded maps and a picnic basket on the bonnet, a harbourside lawn in Sydney with a sandstone house, a diving board over deep blue water and ferries crossing behind, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 611924630,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa35b050c2aa3f4204552b",
+          "framed": "6aaa35c0f0b1b1db760d4f2c",
+          "canvas": "6aaa35cfd581dbc7cb04400a",
+          "framed_canvas": "6aaa35df1647826e0d0e9af6",
+          "metal": "6aaa35f2345a4d2776021cd7",
+          "mug": "6aaa3601fc4ab3e738042041",
+          "tote": "6aaa3611da8c93517803b522",
+          "tshirt": "6aaa361fa7f68ae7aa07ed3c"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-5-sydney-loungers",
@@ -383,7 +425,21 @@
       "thumb": "img/20260916-5-sydney-loungers.jpg",
       "prompt": "a group of glamorous friends in colourful swimsuits and caftans on sun loungers under striped umbrellas, cocktails in hand, a harbourside lawn in Sydney with a sandstone house, a diving board over deep blue water and ferries crossing behind, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1607069429,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa36341647826e0d0e9b06",
+          "framed": "6aaa364308934366f002d93d",
+          "canvas": "6aaa36535f264f069d067dd0",
+          "framed_canvas": "6aaa36625af6c3fb5b0a7a0f",
+          "metal": "6aaa3674f0b1b1db760d4f46",
+          "mug": "6aaa36832b6c25521e0909c4",
+          "tote": "6aaa36928282ff89b0000db2",
+          "tshirt": "6aaa36a141cb19f30f0b39f7"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-6-bali-magenta-gown",
@@ -409,7 +465,19 @@
       "thumb": "img/20260916-6-bali-magenta-gown.jpg",
       "prompt": "an elegant woman in a floor-length sheer magenta gown and a wide white sun hat standing by the pool with two dalmatians, a hillside villa on Bali with a black-tiled pool, carved stone lanterns and terraced rice fields in the haze, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 740606423,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa36b543e0f796dd07d434",
+          "framed": "6aaa36c541cb19f30f0b3a1a",
+          "canvas": "6aaa36d5cc7d8a428f043547",
+          "framed_canvas": "6aaa36e45f264f069d067e12",
+          "metal": "6aaa36f5d3362917080bf489",
+          "mug": "6aaa3705f0b1b1db760d4fad"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "6/6"
+      }
     },
     {
       "slug": "20260916-7-portofino-late-breakfast",
@@ -726,7 +794,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "4/8"
+        "popup_count": "8/8"
       }
     },
     {
@@ -753,7 +821,21 @@
       "thumb": "img/20260916-16-hamptons-chess.jpg",
       "prompt": "two men in linen shirts playing chess at a marble table under a lemon tree, a shingled Hamptons beach house with a striped awning, a clipped privet hedge and dune grass leading down to the Atlantic, bright hazy noon with the horizon washed pale, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 73428241,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa29a51c48f7feb103f082",
+          "framed": "6aaa29b51c48f7feb103f0a9",
+          "canvas": "6aaa29c41c48f7feb103f0c2",
+          "framed_canvas": "6aaa29d40f623e413e0328ff",
+          "metal": "6aaa29e61095826581026b2d",
+          "mug": "6aaa29f511120d25f10b6955",
+          "tote": "6aaa2a04b14c379b5104dfb3",
+          "tshirt": "6aaa2a1357008e4b9007d5fb"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-17-saint-tropez-silk-robe",
@@ -779,7 +861,21 @@
       "thumb": "img/20260916-17-saint-tropez-silk-robe.jpg",
       "prompt": "an elderly gentleman in a paisley silk dressing gown reading a newspaper with a white standard poodle at his feet, the quay of Saint-Tropez with wooden speedboats, pastel houses and cafe tables under plane trees, harsh midday sun with short shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 83579365,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa2a280f623e413e032924",
+          "framed": "6aaa2a3733c41cf88600f92c",
+          "canvas": "6aaa2a470f623e413e032948",
+          "framed_canvas": "6aaa2a5757008e4b9007d60d",
+          "metal": "6aaa2a6857008e4b9007d61c",
+          "mug": "6aaa2a77cf3cc284a70112ae",
+          "tote": "6aaa2a861095826581026b95",
+          "tshirt": "6aaa2a9511120d25f10b6984"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-18-ibiza-backgammon",
@@ -805,7 +901,21 @@
       "thumb": "img/20260916-18-ibiza-backgammon.jpg",
       "prompt": "a couple in swimwear playing backgammon on a striped towel beside the pool, a whitewashed finca terrace on Ibiza with a rough stone wall, a rectangular pool and pine-covered hills falling to the sea, clear morning light, sky a saturated cerulean, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 736854218,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa2aa9eebb5dedcb084618",
+          "framed": "6aaa2ab9b2ffaef6bc0dd46a",
+          "canvas": "6aaa2ac8cf3cc284a70112c8",
+          "framed_canvas": "6aaa2ad888d2ef1a2309bcdf",
+          "metal": "6aaa2ae91095826581026bbc",
+          "mug": "6aaa2af857008e4b9007d6ab",
+          "tote": "6aaa2b07cf3cc284a70112ed",
+          "tshirt": "6aaa2b1688d2ef1a2309bcf4"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-19-sardinia-late-breakfast",
@@ -831,7 +941,21 @@
       "thumb": "img/20260916-19-sardinia-late-breakfast.jpg",
       "prompt": "a couple in silk dressing gowns at a breakfast table with silver domes, orange juice and a stack of newspapers, a rocky cove on the Costa Smeralda in Sardinia with granite boulders, a wooden Riva boat and emerald water, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 69022460,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa2b2a88d2ef1a2309bd0b",
+          "framed": "6aaa2b3ae1c29b19b9052441",
+          "canvas": "6aaa2b4aa14a3d74b8084f96",
+          "framed_canvas": "6aaa2b5911120d25f10b69e2",
+          "metal": "6aaa2b6d11120d25f10b69eb",
+          "mug": "6aaa2b7d11120d25f10b69f4",
+          "tote": "6aaa2b8b88d2ef1a2309bd78",
+          "tshirt": "6aaa2b9ab14c379b5104e03c"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-20-mustique-speedboat",
@@ -857,7 +981,21 @@
       "thumb": "img/20260916-20-mustique-speedboat.jpg",
       "prompt": "a family in nautical stripes stepping off a polished wooden speedboat with a picnic hamper, a white sand beach on Mustique with a thatched pavilion, a wooden sailboat and impossibly clear turquoise water, low golden hour sun raking across the scene, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 810289275,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa2c3be1c29b19b90524ec",
+          "framed": "6aaa2c4edf766d186d035c9d",
+          "canvas": "6aaa2c6833c41cf88600faec",
+          "framed_canvas": "6aaa2c8870283bd5c100e914",
+          "metal": "6aaa2ca7fc522695a30f10d9",
+          "mug": "6aaa2cbdeebb5dedcb08476e",
+          "tote": "6aaa2cd5eebb5dedcb08477b",
+          "tshirt": "6aaa2ce688d2ef1a2309beff"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-21-marrakech-silk-robe",
@@ -883,7 +1021,21 @@
       "thumb": "img/20260916-21-marrakech-silk-robe.jpg",
       "prompt": "an elderly gentleman in a paisley silk dressing gown reading a newspaper with a white standard poodle at his feet, a riad courtyard in Marrakech with a green-tiled pool, orange trees, ochre walls and a striped cabana, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 2012020379,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa2cff33c41cf88600fb48",
+          "framed": "6aaa2d10694a6342640c6040",
+          "canvas": "6aaa2d1f70283bd5c100e957",
+          "framed_canvas": "6aaa2d2f09f5e2c34d0da029",
+          "metal": "6aaa2d4088d2ef1a2309bf1e",
+          "mug": "6aaa2d4f17c0eeb636097836",
+          "tote": "6aaa2d5eb14c379b5104e175",
+          "tshirt": "6aaa2d6d17c0eeb636097843"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-22-amalfi-gardener",
@@ -909,7 +1061,21 @@
       "thumb": "img/20260916-22-amalfi-gardener.jpg",
       "prompt": "a woman in a broad-brimmed hat and gloves cutting roses into a basket while a butler waits with a tray, a cliffside terrace on the Amalfi coast with lemon trees, white parasols and the deep blue Tyrrhenian sea far below, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 954303714,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa2d828282ff89b000092e",
+          "framed": "6aaa2d918282ff89b0000939",
+          "canvas": "6aaa2da1aba348221c04bd6f",
+          "framed_canvas": "6aaa2db1f0b1b1db760d4b15",
+          "metal": "6aaa2dc1f0b1b1db760d4b1c",
+          "mug": "6aaa2dd1323da6d93204b019",
+          "tote": "6aaa2ddfeebb5dedcb0847c3",
+          "tshirt": "6aaa2deec10e94166f032556"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-23-sardinia-picnic",
@@ -935,7 +1101,21 @@
       "thumb": "img/20260916-23-sardinia-picnic.jpg",
       "prompt": "a picnic on a tartan rug with a wicker hamper, a bottle of rose in a silver bucket and a vintage convertible parked behind, a rocky cove on the Costa Smeralda in Sardinia with granite boulders, a wooden Riva boat and emerald water, low golden hour sun raking across the scene, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1403669114,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa2e035af6c3fb5b0a760c",
+          "framed": "6aaa2e12c10e94166f03256a",
+          "canvas": "6aaa2e23eebb5dedcb0847e8",
+          "framed_canvas": "6aaa2e3388d2ef1a2309bf89",
+          "metal": "6aaa2e438282ff89b0000987",
+          "mug": "6aaa2e5409f5e2c34d0da098",
+          "tote": "6aaa2e6388d2ef1a2309bf9e",
+          "tshirt": "6aaa2e728282ff89b00009af"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-24-rio-emerald-turban",
@@ -961,7 +1141,21 @@
       "thumb": "img/20260916-24-rio-emerald-turban.jpg",
       "prompt": "a hostess in an emerald turban and gold jewellery arranging a table of pastries and fruit, a modernist apartment terrace above Copacabana in Rio with a mosaic pool, palms and Sugarloaf beyond, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1067785360,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa2e868282ff89b00009cc",
+          "framed": "6aaa2e95df766d186d035d98",
+          "canvas": "6aaa2ea51ab73a97d10379fc",
+          "framed_canvas": "6aaa2eb417c0eeb6360978b0",
+          "metal": "6aaa2ec55af6c3fb5b0a765d",
+          "mug": "6aaa2ed4323da6d93204b09a",
+          "tote": "6aaa2ee399128195a00233e3",
+          "tshirt": "6aaa2ef2df766d186d035db8"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-25-riviera-garden-croquet",
@@ -987,7 +1181,21 @@
       "thumb": "img/20260916-25-riviera-garden-croquet.jpg",
       "prompt": "four players in white summer clothes with croquet mallets and a scoreboard, a spaniel watching from the shade, a Riviera cypress garden seen from a balcony, with a long sapphire pool, stone balustrades and the Mediterranean beyond, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1829018941,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa2f06a00cd998da0d81cf",
+          "framed": "6aaa2f1668c4f4e00c0b446f",
+          "canvas": "6aaa2f2570283bd5c100ea04",
+          "framed_canvas": "6aaa2f35323da6d93204b0a1",
+          "metal": "6aaa2f4770283bd5c100ea1a",
+          "mug": "6aaa2f5617c0eeb636097924",
+          "tote": "6aaa2f65df766d186d035dd1",
+          "tshirt": "6aaa2f74eebb5dedcb084865"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-26-lake-geneva-horse-riding",
@@ -1013,7 +1221,21 @@
       "thumb": "img/20260916-26-lake-geneva-horse-riding.jpg",
       "prompt": "a rider in a hacking jacket on a grey horse on a gravel drive lined with cypresses, a lakeside lawn on Lake Geneva with a white wooden pier, a vintage motorboat and the Alps across the water, harsh midday sun with short shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1643282467,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa2f875af6c3fb5b0a76ab",
+          "framed": "6aaa2f978282ff89b0000a2e",
+          "canvas": "6aaa2fa65af6c3fb5b0a76b9",
+          "framed_canvas": "6aaa2fb668c4f4e00c0b4499",
+          "metal": "6aaa2fc75af6c3fb5b0a76ce",
+          "mug": "6aaa2fd768c4f4e00c0b44a1",
+          "tote": "6aaa2fe568c4f4e00c0b44a4",
+          "tshirt": "6aaa2ff4a00cd998da0d8216"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-27-lake-geneva-the-float",
@@ -1039,7 +1261,21 @@
       "thumb": "img/20260916-27-lake-geneva-the-float.jpg",
       "prompt": "a woman in a red bikini on a striped inflatable float with a cocktail balanced on the rim, a lakeside lawn on Lake Geneva with a white wooden pier, a vintage motorboat and the Alps across the water, low golden hour sun raking across the scene, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 570273705,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa300917c0eeb63609794b",
+          "framed": "6aaa301968c4f4e00c0b44e8",
+          "canvas": "6aaa302868c4f4e00c0b44ed",
+          "framed_canvas": "6aaa3038eebb5dedcb0848e4",
+          "metal": "6aaa304968c4f4e00c0b450a",
+          "mug": "6aaa3058694a6342640c6189",
+          "tote": "6aaa306b68c4f4e00c0b4526",
+          "tshirt": "6aaa308bf0b1b1db760d4c3f"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-28-portofino-emerald-turban",
@@ -1065,7 +1301,21 @@
       "thumb": "img/20260916-28-portofino-emerald-turban.jpg",
       "prompt": "a hostess in an emerald turban and gold jewellery arranging a table of pastries and fruit, the pastel harbour of Portofino seen from above, with fishing boats, ochre and rose facades and a wooded headland, harsh midday sun with short shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 471462261,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa30a770283bd5c100eae7",
+          "framed": "6aaa30bba00cd998da0d8331",
+          "canvas": "6aaa30ca50c2aa3f42045294",
+          "framed_canvas": "6aaa30da6b105862ff00984d",
+          "metal": "6aaa30eb35cf53540c055dce",
+          "mug": "6aaa30fb35cf53540c055de5",
+          "tote": "6aaa310aa00cd998da0d8381",
+          "tshirt": "6aaa31195af6c3fb5b0a77ed"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-29-kenya-the-arrival",
@@ -1091,7 +1341,21 @@
       "thumb": "img/20260916-29-kenya-the-arrival.jpg",
       "prompt": "a woman in a fur stole and evening gloves stepping from a car while a porter carries monogrammed leather luggage, a safari lodge veranda in Kenya with cane furniture, a brass telescope and golden plains and flat acacias beyond, low golden hour sun raking across the scene, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1377893115,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa312d12e74736e80d641d",
+          "framed": "6aaa313c12e74736e80d642f",
+          "canvas": "6aaa314cf0b1b1db760d4d3c",
+          "framed_canvas": "6aaa315b0cd43755c2017395",
+          "metal": "6aaa316d2b6c25521e0907b6",
+          "mug": "6aaa317da00cd998da0d83a7",
+          "tote": "6aaa318b50c2aa3f4204530b",
+          "tshirt": "6aaa319bc10e94166f0327dc"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-30-marrakech-loungers",
@@ -1117,7 +1381,21 @@
       "thumb": "img/20260916-30-marrakech-loungers.jpg",
       "prompt": "a group of glamorous friends in colourful swimsuits and caftans on sun loungers under striped umbrellas, cocktails in hand, a riad courtyard in Marrakech with a green-tiled pool, orange trees, ochre walls and a striped cabana, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1990869755,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa3231f0b1b1db760d4d90",
+          "framed": "6aaa3241a00cd998da0d83dc",
+          "canvas": "6aaa32515af6c3fb5b0a785a",
+          "framed_canvas": "6aaa3261a00cd998da0d83eb",
+          "metal": "6aaa32728282ff89b0000bef",
+          "mug": "6aaa32826b105862ff00995d",
+          "tote": "6aaa329112e74736e80d649f",
+          "tshirt": "6aaa32a0df5c139797021d58"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-31-capri-chess",
@@ -1143,7 +1421,21 @@
       "thumb": "img/20260916-31-capri-chess.jpg",
       "prompt": "two men in linen shirts playing chess at a marble table under a lemon tree, a bathing platform lido on Capri with striped umbrellas, limestone rocks and the Faraglioni in the distance, low golden hour sun raking across the scene, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 355487181,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa32b509f5e2c34d0da372",
+          "framed": "6aaa32c46b105862ff009996",
+          "canvas": "6aaa32d45af6c3fb5b0a7899",
+          "framed_canvas": "6aaa32e5df5c139797021da7",
+          "metal": "6aaa32f85af6c3fb5b0a78b9",
+          "mug": "6aaa33086b105862ff0099bd",
+          "tote": "6aaa3316f0b1b1db760d4e08",
+          "tshirt": "6aaa3325f0b1b1db760d4e20"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-32-bermuda-speedboat",
@@ -1169,7 +1461,21 @@
       "thumb": "img/20260916-32-bermuda-speedboat.jpg",
       "prompt": "a family in nautical stripes stepping off a polished wooden speedboat with a picnic hamper, a pink-sand beach in Bermuda with a pastel-yellow colonial house, white shutters and a wooden dinghy, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1599927897,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa3339c10e94166f0328fb",
+          "framed": "6aaa334912e74736e80d651d",
+          "canvas": "6aaa33586b105862ff009a27",
+          "framed_canvas": "6aaa3368a00cd998da0d848c",
+          "metal": "6aaa3379f0b1b1db760d4e53",
+          "mug": "6aaa33885af6c3fb5b0a7917",
+          "tote": "6aaa339709f5e2c34d0da3f2",
+          "tshirt": "6aaa33a609f5e2c34d0da3fc"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-33-estoril-cocktail-hour",
@@ -1195,7 +1501,21 @@
       "thumb": "img/20260916-33-estoril-cocktail-hour.jpg",
       "prompt": "a crowd in evening wear at a garden cocktail party with waiters in white jackets carrying silver trays, a casino-hotel terrace at Estoril with azulejo tiles, a crescent bay below and pine-covered hills, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 630659586,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa33bb68c4f4e00c0b46e9",
+          "framed": "6aaa33ca68c4f4e00c0b46ed",
+          "canvas": "6aaa33da1be3f77c2d093d86",
+          "framed_canvas": "6aaa33eaa00cd998da0d84b9",
+          "metal": "6aaa34038282ff89b0000c9a",
+          "mug": "6aaa341a8282ff89b0000cad",
+          "tote": "6aaa342950c2aa3f42045460",
+          "tshirt": "6aaa343835cf53540c055f1f"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-34-portofino-cream-suit",
@@ -1221,7 +1541,21 @@
       "thumb": "img/20260916-34-portofino-cream-suit.jpg",
       "prompt": "a silver-haired man in a cream linen suit and sunglasses leaning on a vintage pale-blue convertible, the pastel harbour of Portofino seen from above, with fishing boats, ochre and rose facades and a wooded headland, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 103947391,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa344d8282ff89b0000cf6",
+          "framed": "6aaa345d5af6c3fb5b0a796d",
+          "canvas": "6aaa346d50c2aa3f42045471",
+          "framed_canvas": "6aaa347d1647826e0d0e99ce",
+          "metal": "6aaa348e1647826e0d0e99d8",
+          "mug": "6aaa349d5f264f069d067d3d",
+          "tote": "6aaa34ac8282ff89b0000d1d",
+          "tshirt": "6aaa34bba00cd998da0d84f5"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260916-35-acapulco-cream-suit",
@@ -1247,7 +1581,21 @@
       "thumb": "img/20260916-35-acapulco-cream-suit.jpg",
       "prompt": "a silver-haired man in a cream linen suit and sunglasses leaning on a vintage pale-blue convertible, a cliff-top villa in Acapulco with a white infinity pool, bougainvillea and the Pacific bay glittering below, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 565162160,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaa34d1f0b1b1db760d4ec1",
+          "framed": "6aaa34e7a00cd998da0d8513",
+          "canvas": "6aaa350750c2aa3f420454c3",
+          "framed_canvas": "6aaa352ca00cd998da0d8559",
+          "metal": "6aaa3551f0b1b1db760d4f11",
+          "mug": "6aaa35715a0361b1ab0f10f3",
+          "tote": "6aaa35841647826e0d0e9ad9",
+          "tshirt": "6aaa35992b6c25521e0909ae"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     }
   ],
   "runs": [
@@ -1312,6 +1660,17 @@
       ],
       "dry_run": false,
       "finished": "2026-09-16T03:33:49"
+    },
+    {
+      "date": "2026-09-16",
+      "started": "2026-09-16T07:30:01",
+      "count": 35,
+      "generated": 35,
+      "popup": 302,
+      "etsy": 0,
+      "errors": [],
+      "dry_run": false,
+      "finished": "2026-09-16T08:28:35"
     }
   ],
   "todo": [
@@ -1395,12 +1754,12 @@
   ],
   "stats": {
     "generated": 41,
-    "printify_drafts": 13,
-    "popup_live": 13,
+    "printify_drafts": 38,
+    "popup_live": 38,
     "etsy_live": 0,
     "days": 2,
     "streak": 2,
-    "errors_last_run": 1
+    "errors_last_run": 0
   },
-  "updated": "2026-09-16T03:33:49"
+  "updated": "2026-09-16T08:28:35"
 }
