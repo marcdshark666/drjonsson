@@ -1,6 +1,6 @@
 # DrJonsson – Rich in every frame
 
-Fem nya motiv om dagen i Slim Aarons-anda ("attractive people doing attractive things in
+35 nya motiv om dagen i Slim Aarons-anda ("attractive people doing attractive things in
 attractive places"), genererade gratis på den egna RTX 4090:n, tryckta på beställning av Printify
 och sålda via Pop-Up-storen `drjonsson.printify.me` och Etsy-butiken DrJonsson.
 
@@ -18,7 +18,7 @@ motifs.pick(datum)            plats × sällskap × ljus, datumet som frö, inga
         Pop-Up-butiken        publiceras direkt (gratis, 0 % provision)
         Etsy                  utkast gratis; publicering (0,20 USD/st) frågas i Telegram med foto
    → docs/data/status.json    + docs/img/<slug>.jpg → git push → dashboarden
-   → Telegram                 kontaktark med dagens fem + länk
+   → Telegram                 kontaktark med dagens 35 + länk
 ```
 
 Modellen ligger i `E:\CHAT-RTX\hf-cache` (HF_HOME). Första nedladdningen ~20 GB.

@@ -1,5 +1,5 @@
-<#
-Registrerar DrJonsson-Daily: 07:30 varje dag, dolt fönster, tas igen om datorn sov.
+﻿<#
+Registrerar DrJonsson-Daily: 07:30 varje dag (35 motiv, upp till 6 h), dolt fönster, tas igen om datorn sov.
 
   powershell -NoProfile -ExecutionPolicy Bypass -File .\schedule\install_task.ps1 [-Time 07:30]
 
@@ -37,7 +37,7 @@ Set-Content -Path $vbs -Encoding ascii -Value @(
 
 $action  = New-ScheduledTaskAction -Execute "$env:SystemRoot\System32\wscript.exe" -Argument ("//B //Nologo `"" + $vbs + "`"") -WorkingDirectory $Root
 $trigger = New-ScheduledTaskTrigger -Daily -At $Time
-$settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Hours 3)
+$settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Hours 6)
 Register-ScheduledTask -TaskName $TaskName -Action $action -Trigger $trigger -Settings $settings -RunLevel Limited -Force | Out-Null
 
 $rad = (schtasks /Query /TN $TaskName /FO LIST /V | Select-String 'Task To Run') -join ''

@@ -5,7 +5,7 @@
 Dubbeltydigt: rika människor i bild, rik bild, och "frame" = både fotoruta och tavelram (det vi säljer).
 
 **Undertext (Etsy-butikens "shop announcement"):**
-"Attractive people doing attractive things in attractive places. Fine-art prints by DrJonsson, five new motifs every day. Printed on demand, shipped worldwide."
+"Attractive people doing attractive things in attractive places. Fine-art prints by DrJonsson, 35 new motifs every day. Printed on demand, shipped worldwide."
 
 **Kortversioner för sociala medier:** `DrJonsson · Rich in every frame` · `#richineveryframe`
 

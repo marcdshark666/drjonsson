@@ -1,6 +1,6 @@
-# DrJonsson – dagens fem motiv. Körs 07:30 av uppgiften DrJonsson-Daily (install_task.ps1).
+﻿# DrJonsson – dagens 35 motiv. Körs 07:30 av uppgiften DrJonsson-Daily (install_task.ps1).
 # Kan köras för hand: powershell -NoProfile -ExecutionPolicy Bypass -File .\schedule\daily.ps1 [-DryRun]
-param([switch]$DryRun, [int]$Count = 5)
+param([switch]$DryRun, [int]$Count = 35)
 $ErrorActionPreference = "Continue"
 $Root = Split-Path $PSScriptRoot -Parent
 $Py   = Join-Path $Root ".venv\Scripts\python.exe"

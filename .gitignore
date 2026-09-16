@@ -6,3 +6,6 @@ images/*
 outputs/
 .venv/
 __pycache__/
+pipeline/catalog_cache.json
+pipeline/catalog_parts.json
+state/etsy_verifiering.json

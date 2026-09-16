@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-DrJonsson - dagens fem motiv: generera lokalt (gratis, RTX 4090), lagg i Printify,
+DrJonsson - dagens 35 motiv: generera lokalt (gratis, RTX 4090), lagg i Printify,
 uppdatera dashboarden pa GitHub Pages och saga till i Telegram.
 
 Steg (alla kan stangas av med flaggor, sa delarna gar att kora var for sig):
@@ -10,10 +10,11 @@ Steg (alla kan stangas av med flaggor, sa delarna gar att kora var for sig):
   4. Printify           utkast + publicering i Pop-Up-butiken (gratis) om PRINTIFY_POPUP_SHOP_ID finns
                         Etsy: bara efter Marcs ja i Telegram (0,20 USD/listning) om PRINTIFY_ETSY_SHOP_ID finns
   5. dashboard          docs/data/status.json + docs/img/<slug>.jpg (800 px) -> git push -> GitHub Pages
-  6. Telegram           kontaktark med dagens fem + lank till dashboarden
+  6. Telegram           kontaktark med dagens motiv + lank till dashboarden
 
   python generate_daily.py                  hela kedjan for idag
-  python generate_daily.py --count 5 --date 2026-09-16
+  python generate_daily.py --count 35 --date 2026-09-16
+  python generate_daily.py --printify-minutes 45   krymp Printify-delen (resten tas nasta dag)
   python generate_daily.py --dry-run        valj motiv, generera INTE, rora inte Printify/git/Telegram
   python generate_daily.py --no-printify --no-push --no-telegram
 """
@@ -53,6 +54,10 @@ MODEL_ID = os.environ.get("AARON_MODEL", "Tongyi-MAI/Z-Image-Turbo")
 GEN_W, GEN_H = 1536, 2304          # 2:3, Z-Image klarar upp till 2048 pa langsta sidan
 OUT_W, OUT_H = 3600, 5400          # 150 dpi pa 24x36", 300 dpi pa 12x18"
 THUMB_W = 800
+SHEET_COLS = 7                     # kontaktarket ar ett rutnat: 35 motiv pa en rad blev
+                                   # 14 500 px brett och refuserades av Telegram
+PRINTIFY_MAX_NEW = 400             # tak per korning; 35 motiv x 9 produkter = 315
+PRINTIFY_MINUTES = 75              # ~9 s mellan publiceringar -> 315 st tar knappt en timme
 DASHBOARD_URL = "https://marcdshark666.github.io/drjonsson/"
 
 
@@ -78,6 +83,14 @@ def env() -> dict[str, str]:
 
 
 # ---------- status.json (dashboardens sanning) ----------
+
+def product_count() -> int:
+    """Antal produkttyper per motiv enligt products.json (9 i dag)."""
+    try:
+        return len(json.loads((HERE / "products.json").read_text(encoding="utf-8")).get("default", ["poster"]))
+    except Exception:
+        return 1
+
 
 def load_status() -> dict:
     if STATUS.exists():
@@ -194,30 +207,57 @@ def make_thumb(src: Path, dst: Path, width: int = THUMB_W) -> None:
 
 
 def contact_sheet(thumbs: list[Path], dst: Path, day: str) -> Path:
+    """Rutnat, max SHEET_COLS per rad - Telegram tar inte emot foton bredare an ~10 000 px
+    eller med sidforhallande over 20:1, vilket en enda rad med 35 motiv blir."""
     from PIL import Image, ImageDraw
-    cell_w, cell_h, pad = 400, 600, 16
-    cols = len(thumbs)
-    sheet = Image.new("RGB", (cols * cell_w + (cols + 1) * pad, cell_h + 2 * pad + 40), "#F4EFE6")
+    cell_w, cell_h, pad, head = 300, 450, 12, 44
+    cols = min(SHEET_COLS, len(thumbs)) or 1
+    rows = (len(thumbs) + cols - 1) // cols
+    sheet = Image.new("RGB", (cols * cell_w + (cols + 1) * pad,
+                              rows * cell_h + (rows + 1) * pad + head), "#F4EFE6")
     d = ImageDraw.Draw(sheet)
     for i, t in enumerate(thumbs):
         im = Image.open(t)
         im.thumbnail((cell_w, cell_h))
-        sheet.paste(im, (pad + i * (cell_w + pad), pad + 40))
-    d.text((pad, 12), f"DrJonsson  {day}  -  rich in every frame", fill="#111111")
+        r, c = divmod(i, cols)
+        x = pad + c * (cell_w + pad) + (cell_w - im.width) // 2
+        y = head + pad + r * (cell_h + pad) + (cell_h - im.height) // 2
+        sheet.paste(im, (x, y))
+    d.text((pad, 14), f"DrJonsson  {day}  -  {len(thumbs)} motiv  -  rich in every frame", fill="#111111")
     sheet.save(dst, "JPEG", quality=88)
     return dst
 
 
 # ---------- Printify ----------
 
-def printify_run(slugs: list[str], shop: str, publish: bool) -> tuple[bool, str]:
+def printify_run(slugs: list[str], shop: str, publish: bool, minutes: float = 0, max_new: int = 0) -> tuple[bool, str]:
     cmd = [PY, str(HERE / "printify_bulk.py"), "--only", ",".join(slugs), "--shop", shop, "--yes"]
     if publish:
         cmd.append("--publish")
+    if minutes:
+        cmd += ["--max-minutes", str(minutes)]
+    if max_new:
+        cmd += ["--max-new", str(max_new)]
     r = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="replace", cwd=str(ROOT))
     out = (r.stdout + r.stderr).strip()
     log(f"  printify shop {shop} publish={publish} exit={r.returncode}")
     return r.returncode == 0, out
+
+
+def printify_queue(status: dict, prefix: str, today: list[str], expected: int) -> list[str]:
+    """Dagens motiv forst, sedan aldre som inte blev fardiga (avbruten korning, 429,
+    ny produkttyp i products.json). Utan detta skulle allt som foll bort ligga kvar."""
+    q = list(today)
+    for it in status["items"]:
+        if it["slug"] in q:
+            continue
+        try:
+            pub = int(str(it.get("printify", {}).get(f"{prefix}_count", "0/0")).split("/")[0])
+        except ValueError:
+            pub = 0
+        if pub < expected:
+            q.append(it["slug"])
+    return q
 
 
 def printify_ids(shop: str) -> dict:
@@ -286,13 +326,17 @@ def git_push() -> tuple[bool, str]:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--count", type=int, default=5)
+    ap.add_argument("--count", type=int, default=motifs.DAILY_COUNT)
     ap.add_argument("--date", default=date.today().isoformat())
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--no-printify", action="store_true")
     ap.add_argument("--no-push", action="store_true")
     ap.add_argument("--no-telegram", action="store_true")
     ap.add_argument("--no-etsy-ask", action="store_true", help="fraga inte om Etsy i Telegram")
+    ap.add_argument("--printify-minutes", type=float, default=PRINTIFY_MINUTES,
+                    help="tidsbudget for Printify-delen; resten tas i nasta korning")
+    ap.add_argument("--printify-max-new", type=int, default=PRINTIFY_MAX_NEW,
+                    help="tak for antal nya produkter per korning")
     args = ap.parse_args()
 
     day = date.fromisoformat(args.date)
@@ -352,11 +396,16 @@ def main() -> int:
 
     # 4. Printify
     slugs = [m["slug"] for m in done]
+    n_types = product_count()
     popup, etsy = e.get("PRINTIFY_POPUP_SHOP_ID"), e.get("PRINTIFY_ETSY_SHOP_ID")
     have_token = bool(e.get("PRINTIFY_TOKEN")) and not e["PRINTIFY_TOKEN"].startswith("eyJ...")
     if slugs and not args.no_printify and have_token:
         if popup:
-            ok, out = printify_run(slugs, popup, publish=True)      # Pop-Up: gratis, publiceras direkt
+            q = printify_queue(status, "popup", slugs, n_types)
+            if len(q) > len(slugs):
+                log(f"  popup-ko: {len(slugs)} nya + {len(q) - len(slugs)} fran tidigare dagar")
+            ok, out = printify_run(q, popup, publish=True,          # Pop-Up: gratis, publiceras direkt
+                                   minutes=args.printify_minutes, max_new=args.printify_max_new)
             if not ok:
                 run["errors"].append("printify popup: " + out[-300:])
             ids = printify_ids(popup)
@@ -369,7 +418,9 @@ def main() -> int:
                     it["printify"]["popup_count"] = f"{o['published']}/{o['total']}"
                     run["popup"] += o["published"]
         if etsy:
-            ok, out = printify_run(slugs, etsy, publish=False)      # utkast ar gratis
+            q_etsy = printify_queue(status, "etsy", slugs, n_types)
+            ok, out = printify_run(q_etsy, etsy, publish=False,     # utkast ar gratis
+                                   minutes=args.printify_minutes / 2, max_new=args.printify_max_new)
             if not ok:
                 run["errors"].append("printify etsy drafts: " + out[-300:])
             approved = False
@@ -377,7 +428,8 @@ def main() -> int:
                 n_prod = sum(o["total"] for o in printify_ids(etsy).values() if o) or len(slugs)
                 approved = telegram_ask_etsy(sheet, n_prod)        # 0,20 USD/listning -> Marcs ja kravs
             if approved:
-                ok, out = printify_run(slugs, etsy, publish=True)
+                ok, out = printify_run(q_etsy, etsy, publish=True,
+                                       minutes=args.printify_minutes, max_new=args.printify_max_new)
                 if not ok:
                     run["errors"].append("printify etsy publish: " + out[-300:])
             ids = printify_ids(etsy)

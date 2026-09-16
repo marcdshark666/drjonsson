@@ -45,6 +45,7 @@ LISTINGS = ROOT / "listings" / "listings.json"
 PRODUCTS = HERE / "products.json"
 STATE = HERE / "state.json"            # "shop:slug:product" -> {product_id, published}; "upload:slug" -> id
 CATALOG_CACHE = HERE / "catalog_cache.json"
+PARTS_CACHE = HERE / "catalog_parts.json"     # tryckerier och varianter per blueprint
 MIN_PX = (3000, 4500)
 
 
@@ -100,11 +101,32 @@ class Printify:
         CATALOG_CACHE.write_text(json.dumps(bps), encoding="utf-8")
         return bps
 
+    def _cached(self, key: str, fn, ttl: int = 7 * 86400):
+        """Katalogen andrar sig sallan, men varje korning fragade om 8 tryckerier och
+        8 variantlistor. Nar Printify stryper kontot (429) dog planeringen direkt och
+        draneringen gjorde ingenting - darfor ligger svaren pa disk i en vecka."""
+        cache = {}
+        if PARTS_CACHE.exists():
+            try:
+                cache = json.loads(PARTS_CACHE.read_text(encoding="utf-8"))
+            except ValueError:
+                cache = {}
+        hit = cache.get(key)
+        if hit and time.time() - hit.get("t", 0) < ttl:
+            return hit["v"]
+        val = fn()
+        cache[key] = {"t": time.time(), "v": val}
+        PARTS_CACHE.write_text(json.dumps(cache), encoding="utf-8")
+        return val
+
     def providers(self, blueprint: int):
-        return self.call("GET", f"/catalog/blueprints/{blueprint}/print_providers.json")
+        return self._cached(f"providers:{blueprint}",
+                            lambda: self.call("GET", f"/catalog/blueprints/{blueprint}/print_providers.json"))
 
     def variants(self, blueprint: int, provider: int):
-        return self.call("GET", f"/catalog/blueprints/{blueprint}/print_providers/{provider}/variants.json").get("variants", [])
+        return self._cached(
+            f"variants:{blueprint}:{provider}",
+            lambda: self.call("GET", f"/catalog/blueprints/{blueprint}/print_providers/{provider}/variants.json").get("variants", []))
 
     def upload(self, path: Path):
         raw = path.read_bytes()
@@ -227,6 +249,10 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--publish", action="store_true", help="publicera (Etsy: 0,20 USD per listning)")
     ap.add_argument("--yes", action="store_true")
+    ap.add_argument("--max-new", type=int, default=0,
+                    help="sluta efter N nyskapade/publicerade produkter i korningen (0 = ingen grans)")
+    ap.add_argument("--max-minutes", type=float, default=0,
+                    help="sluta nar korningen varat sa manga minuter (0 = ingen grans)")
     args = ap.parse_args()
 
     e = env()
@@ -311,7 +337,18 @@ def main() -> int:
 
     state = load_state()
     errors = 0
+    # Printify slapper igenom ~200 publiceringar per 30 min. 4 s racker for en liten
+    # korning, men 35 motiv x 9 produkter maste ga langsammare an sa.
+    pub_sleep = float(os.environ.get("PRINTIFY_PUBLISH_SLEEP") or (4 if n_listings <= 40 else 12))
+    t_start = time.time()
+    new_done = 0
+    stopped = ""
+    consec_429 = 0
+    if args.max_new or args.max_minutes:
+        print(f"  grans: max-new={args.max_new} max-minutes={args.max_minutes:g} takt={pub_sleep:.0f} s")
     for p in images:
+        if stopped:
+            break
         lst = items[p.stem]
         print(f"\n=== {p.stem}: {lst['title'].split(' | ')[0]}")
         up_key = f"upload:{p.stem}"
@@ -328,6 +365,12 @@ def main() -> int:
         upload_id = state.get(up_key, "<upload>")
 
         for key, pl in plan.items():
+            if args.max_new and new_done >= args.max_new:
+                stopped = f"max-new {args.max_new} nadd"
+                break
+            if args.max_minutes and (time.time() - t_start) / 60 >= args.max_minutes:
+                stopped = f"max-minutes {args.max_minutes:g} nadd"
+                break
             cfg = pl["cfg"]
             skey = f"{shop}:{p.stem}:{key}"
             st = state.setdefault(skey, {})
@@ -363,20 +406,35 @@ def main() -> int:
                         api.update_product(shop, prod["id"], {"variants": priced})
                         st["price_range"] = [min(x["price"] for x in priced) / 100, max(x["price"] for x in priced) / 100]
                     save_state(state)
+                    new_done += 1
                     print(f"           skapad {prod['id']} pris {st.get('price_range')}")
                 if args.publish and not st.get("published"):
                     api.publish(shop, st["product_id"])
                     st["published"] = time.strftime("%Y-%m-%dT%H:%M:%S")
                     st.pop("error", None)
                     save_state(state)
+                    new_done += 1
+                    consec_429 = 0
                     print("           publicerad")
-                    time.sleep(4)   # publiceringsgransen: ~40 i rad gav 429
+                    time.sleep(pub_sleep)   # publiceringsgransen: ~40 i rad pa 4 s gav 429
             except RuntimeError as ex:
                 print(f"           FEL {key}: {ex}")
                 st["error"] = str(ex)[:300]
                 save_state(state)
                 errors += 1
+                if "429" in str(ex):
+                    consec_429 += 1
+                    if consec_429 >= 3:
+                        # Varje ytterligare forsok kostar 30+60+120 s i omforsok utan att
+                        # lyckas. Produkten ar skapad och ligger kvar i state - nasta
+                        # korning publicerar den (printify_queue tar efterslapningen).
+                        stopped = "Printify strypte publiceringen (429)"
+                        break
+                else:
+                    consec_429 = 0
 
+    if stopped:
+        print(f"STANNADE: {stopped} - {new_done} produkter denna gang, resten i nasta korning.")
     print(f"\nKlart. {errors} fel. Status i {STATE}")
     return 1 if errors else 0
 

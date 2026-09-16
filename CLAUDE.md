@@ -9,6 +9,8 @@ Läs `../.agents/PROTOKOLL.md` först (pengar, tillstånd, omstart).
 - **Bilderna** genereras lokalt (Z-Image-Turbo, `pipeline/generate_daily.py`) – gratis. Inga
   betalda bildtjänster (Higgsfield, Gemini-bilder) utan Marcs ja. Slim Aarons-stilen bara i prompten,
   aldrig hans namn i butikstext.
-- **Daglig körning:** uppgiften `DrJonsson-Daily` 07:30 (`schedule/`). Dashboard: docs/ → GitHub Pages.
+- **Daglig körning:** uppgiften `DrJonsson-Daily` 07:30 (`schedule/`), **35 motiv per dygn**
+  (Marc 2026-09-16). Volymen står på två ställen: `motifs.DAILY_COUNT` och `daily.ps1 -Count`.
+  Printify-delen har tidsbudget (`--printify-minutes`) och tar efterslapningen nästa körning. Dashboard: docs/ → GitHub Pages.
 - Hemligheter ligger i `pipeline/.env` (gitignorad). Aldrig i kod, aldrig i listings.json.
 - Guide och status: `README.md`. Varumärke: `brand/BRAND.md`.
