@@ -1785,7 +1785,21 @@
       "thumb": "img/20260917-4-palm-beach-roadster.jpg",
       "prompt": "a couple leaning against a silver open-top roadster with driving gloves, folded maps and a picnic basket on the bonnet, a manicured lawn of a Palm Beach estate with a pink stucco mansion, clipped hedges and a croquet set, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 732205919,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aabf3be7a8acca34e07007b",
+          "framed": "6aabf3ce7e4263e07c011d9a",
+          "canvas": "6aabf3de82fcfe19e400a889",
+          "framed_canvas": "6aabf3eec59db2f91b0db656",
+          "metal": "6aabf400eb6b171c7a071582",
+          "mug": "6aabf4131330c374e80412e8",
+          "tote": "6aabf4224b338a2b4009f9c4",
+          "tshirt": "6aabf4f9d53b8bf34401ae76"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "6/8"
+      }
     },
     {
       "slug": "20260917-5-sydney-silk-robe",
@@ -1811,7 +1825,14 @@
       "thumb": "img/20260917-5-sydney-silk-robe.jpg",
       "prompt": "an elderly gentleman in a paisley silk dressing gown reading a newspaper with a white standard poodle at his feet, a harbourside lawn in Sydney with a sandstone house, a diving board over deep blue water and ferries crossing behind, harsh midday sun with short shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 586788940,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aabf5d408fa4029c60ba33a"
+        },
+        "popup_product": true,
+        "popup_published": false,
+        "popup_count": "0/1"
+      }
     },
     {
       "slug": "20260917-6-lake-como-magenta-gown",
@@ -2869,11 +2890,12 @@
           "framed_canvas": "6aabd1ad53480ebfdc04783e",
           "metal": "6aabd1c0323ea0bd6f04114a",
           "mug": "6aabd29609ec6c96ad059676",
-          "tote": "6aabd36c6d7d55585507c53e"
+          "tote": "6aabd36c6d7d55585507c53e",
+          "tshirt": "6aabf2973cff565b060f36dd"
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "4/7"
+        "popup_count": "8/8"
       }
     },
     {
@@ -2900,7 +2922,21 @@
       "thumb": "img/20260917-34-acapulco-the-painter.jpg",
       "prompt": "a woman at an easel in a straw hat painting the view while a friend in a swimsuit watches over her shoulder, a cliff-top villa in Acapulco with a white infinity pool, bougainvillea and the Pacific bay glittering below, clear morning light, sky a saturated cerulean, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1371073413,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aabf2add64aa674f008b0cd",
+          "framed": "6aabf2bde4f78657020c99f4",
+          "canvas": "6aabf2d0da524a6e7e07d5ba",
+          "framed_canvas": "6aabf2e5da524a6e7e07d5ce",
+          "metal": "6aabf2f61330c374e8041270",
+          "mug": "6aabf306d64aa674f008b12b",
+          "tote": "6aabf315514f074c9f05598d",
+          "tshirt": "6aabf325ecf65dcdb10d58c5"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260917-35-monaco-caftans",
@@ -2926,7 +2962,21 @@
       "thumb": "img/20260917-35-monaco-caftans.jpg",
       "prompt": "three women in pastel silk caftans and oversized sunglasses holding champagne coupes, a yacht deck in the harbour of Monaco with teak decking, brass rails and the pastel apartment blocks of Monte Carlo behind, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1019429821,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aabf33aecf65dcdb10d58d2",
+          "framed": "6aabf34a7e4263e07c011d69",
+          "canvas": "6aabf35a4b338a2b4009f945",
+          "framed_canvas": "6aabf369745f05178d07fa3f",
+          "metal": "6aabf37b50c8e51f290545db",
+          "mug": "6aabf38b7e4263e07c011d7c",
+          "tote": "6aabf3991330c374e80412af",
+          "tshirt": "6aabf3a96dd21b409403d150"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     }
   ],
   "runs": [
@@ -3083,6 +3133,19 @@
       ],
       "dry_run": false,
       "finished": "2026-09-17T13:51:30"
+    },
+    {
+      "date": "2026-09-17",
+      "started": "2026-09-17T16:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 566,
+      "etsy": 0,
+      "errors": [
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1789654701@dbe1ae21-2dc0-4049-b20b-b9b5032d9fb9\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-09-17T16:18:21"
     }
   ],
   "todo": [
@@ -3166,14 +3229,14 @@
   ],
   "stats": {
     "generated": 76,
-    "printify_drafts": 68,
-    "popup_live": 68,
+    "printify_drafts": 72,
+    "popup_live": 71,
     "etsy_live": 0,
     "days": 3,
     "streak": 3,
     "errors_last_run": 1
   },
-  "updated": "2026-09-17T13:51:30",
+  "updated": "2026-09-17T16:18:21",
   "store_mail": {
     "checked": "2026-09-17T06:24:33Z",
     "status": "atgard-kravs",
