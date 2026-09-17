@@ -2042,7 +2042,7 @@
           "metal": "6aaba17380340727db0952b4",
           "mug": "6aaba1839134d9ff08015cb4",
           "tote": "6aaba19180340727db0952c3",
-          "tshirt": "6aaba19680340727db0952c4"
+          "tshirt": "6aaba1a19134d9ff08015cb9"
         },
         "popup_product": true,
         "popup_published": true,
@@ -2075,14 +2075,14 @@
       "seed": 1651153967,
       "printify": {
         "popup_products": {
-          "poster": "6aaba1aa8d0523351b0de59f",
-          "framed": "6aaba1ba5b08f1142d0b05ec",
-          "canvas": "6aaba1ca80340727db0952ee",
-          "framed_canvas": "6aaba1da095e10860806f5aa",
-          "metal": "6aaba1eb095e10860806f5b1",
-          "mug": "6aaba1fa67bce5553d016377",
-          "tote": "6aaba209d7991ef86a00d070",
-          "tshirt": "6aaba218906e6f99c6002e78"
+          "poster": "6aaba1b59134d9ff08015cc0",
+          "framed": "6aaba1c4d7991ef86a00d044",
+          "canvas": "6aaba1d4906e6f99c6002e54",
+          "framed_canvas": "6aaba1e4336c4bd8330fe59f",
+          "metal": "6aaba1f580340727db095306",
+          "mug": "6aaba204336c4bd8330fe5b8",
+          "tote": "6aaba21380340727db09531e",
+          "tshirt": "6aaba2225b08f1142d0b0618"
         },
         "popup_product": true,
         "popup_published": true,
@@ -2115,14 +2115,14 @@
       "seed": 2107205741,
       "printify": {
         "popup_products": {
-          "poster": "6aaba22cd84d6ea94b0ea244",
-          "framed": "6aaba23b12527383da034d30",
-          "canvas": "6aaba24b247860f6e40c6099",
-          "framed_canvas": "6aaba25b247860f6e40c60a1",
-          "metal": "6aaba26c9134d9ff08015cf9",
-          "mug": "6aaba27c095e10860806f5ec",
-          "tote": "6aaba2909134d9ff08015d15",
-          "tshirt": "6aaba2a09134d9ff08015d23"
+          "poster": "6aaba2368d0523351b0de5f7",
+          "framed": "6aaba2465b08f1142d0b0620",
+          "canvas": "6aaba256906e6f99c6002e9b",
+          "framed_canvas": "6aaba265247860f6e40c60a4",
+          "metal": "6aaba276906e6f99c6002eac",
+          "mug": "6aaba286d84d6ea94b0ea287",
+          "tote": "6aaba29967bce5553d0163b3",
+          "tshirt": "6aaba2a967bce5553d0163bc"
         },
         "popup_product": true,
         "popup_published": true,
@@ -2155,18 +2155,17 @@
       "seed": 472774538,
       "printify": {
         "popup_products": {
-          "poster": "6aaba2bb247860f6e40c60dd",
-          "framed": "6aaba2d2095e10860806f657",
-          "canvas": "6aaba2e6095e10860806f664",
-          "framed_canvas": "6aaba2f812527383da034de5",
-          "metal": "6aaba30e12527383da034df7",
-          "mug": "6aaba31d12527383da034e09",
-          "tote": "6aaba32c12527383da034e1f",
-          "tshirt": "6aaba33e247860f6e40c6144"
+          "framed": "6aaba2f9906e6f99c6002f59",
+          "canvas": "6aaba309095e10860806f684",
+          "framed_canvas": "6aaba3199134d9ff08015da4",
+          "metal": "6aaba32a12527383da034e1a",
+          "mug": "6aaba33a67bce5553d016447",
+          "tote": "6aaba34b8d0523351b0de6c1",
+          "tshirt": "6aaba35a12527383da034e40"
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "7/8"
       }
     },
     {
@@ -2195,18 +2194,18 @@
       "seed": 1523342644,
       "printify": {
         "popup_products": {
-          "poster": "6aaba35512527383da034e3d",
-          "framed": "6aaba367906e6f99c6002f93",
-          "canvas": "6aaba376095e10860806f6dc",
-          "framed_canvas": "6aaba386d84d6ea94b0ea368",
-          "metal": "6aaba39c095e10860806f6f0",
-          "mug": "6aaba3af247860f6e40c6175",
-          "tote": "6aaba3c25b08f1142d0b0755",
-          "tshirt": "6aaba3d243f170e8840c070a"
+          "poster": "6aaba3738d0523351b0de6ce",
+          "framed": "6aaba382d84d6ea94b0ea365",
+          "canvas": "6aaba39ad84d6ea94b0ea370",
+          "framed_canvas": "6aaba3aeed5dfe8c2f0308ac",
+          "metal": "6aaba3c1906e6f99c6002fc8",
+          "mug": "6aaba3d443f170e8840c070b",
+          "tote": "6aaba3e643f170e8840c0718",
+          "tshirt": "6aaba3f5d84d6ea94b0ea39d"
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "7/8"
       }
     },
     {
@@ -2235,13 +2234,12 @@
       "seed": 1646490010,
       "printify": {
         "popup_products": {
-          "poster": "6aaba3e9906e6f99c6002fe9",
-          "framed": "6aaba4c1ed5dfe8c2f030950",
-          "canvas": "6aaba599d84d6ea94b0ea4a4"
+          "poster": "6aaba4cf67bce5553d016511",
+          "framed": "6aaba5a543f170e8840c082c"
         },
         "popup_product": true,
         "popup_published": false,
-        "popup_count": "0/3"
+        "popup_count": "0/2"
       }
     },
     {
@@ -2818,16 +2816,16 @@
     },
     {
       "date": "2026-09-17",
-      "started": "2026-09-17T10:00:04",
+      "started": "2026-09-17T07:30:02",
       "count": 35,
       "generated": 35,
-      "popup": 400,
+      "popup": 398,
       "etsy": 0,
       "errors": [
-        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1789634163@f29f4880-9ccf-423a-ab49-b42bcde8258b\"}\nSTANNADE: Printify strypte publiceringen (429) - 69 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+        "printify popup: 29: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1789634177@97da43d3-a94d-446c-9318-e46ac584def9\"}\nSTANNADE: Printify strypte publiceringen (429) - 143 produkter denna gang, resten i nasta korning.\n\nKlart. 4 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
       ],
       "dry_run": false,
-      "finished": "2026-09-17T10:36:04"
+      "finished": "2026-09-17T10:36:17"
     }
   ],
   "todo": [
@@ -2918,7 +2916,7 @@
     "streak": 3,
     "errors_last_run": 1
   },
-  "updated": "2026-09-17T10:36:04",
+  "updated": "2026-09-17T10:36:17",
   "store_mail": {
     "checked": "2026-09-17T06:24:33Z",
     "status": "atgard-kravs",
