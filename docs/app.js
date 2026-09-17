@@ -57,10 +57,11 @@
     const mock = p.mockups || {}, urls = p.popup_urls || {};
     return '<div class="prods">' + types.map((t) => {
       const on = sel.has(t);
-      const img = mock[t] ? `<img src="${esc(mock[t])}" alt="${esc(label(t))}" loading="lazy">` : `<span class="ph">${esc(label(t))}</span>`;
+      const img = mock[t] ? `<img src="${esc(mock[t])}" alt="${esc(label(t))}" loading="lazy">` : `<span class="ph">${esc(label(t))}<br><small>bild hämtas inom en timme</small></span>`;
+      const zoom = mock[t] ? `<button type="button" class="pz" data-src="${esc(mock[t])}" data-name="${esc(label(t))}" title="Förstora">🔍</button>` : "";
       const link = urls[t] ? `<a class="pl" href="${esc(urls[t])}" target="_blank" rel="noopener" title="Öppna i butiken">↗</a>` : "";
       return `<label class="prod${on ? " on" : ""}" title="${esc(label(t))} – kryssa i för att ta med till Etsy">
-        <input type="checkbox" data-type="${esc(t)}" ${on ? "checked" : ""}>${img}<span class="pn">${esc(label(t))}</span>${link}</label>`;
+        <input type="checkbox" data-type="${esc(t)}" ${on ? "checked" : ""}>${img}<span class="pn">${on ? "☑ " : "☐ "}${esc(label(t))}</span>${zoom}${link}</label>`;
     }).join("") + "</div>";
   }
 
@@ -135,6 +136,12 @@
       cb.disabled = true;
       try { await A.setProducts(slug, list); rerender(); }
       catch (e) { window.alert("Kunde inte spara: " + e.message); cb.disabled = false; cb.checked = !cb.checked; }
+    }));
+    document.querySelectorAll(".card .prods .pz").forEach((b) => b.addEventListener("click", (ev) => {
+      ev.preventDefault(); ev.stopPropagation();
+      $("#dlg-img").src = b.dataset.src; $("#dlg-img").alt = b.dataset.name;
+      $("#dlg-txt").textContent = b.dataset.name + " – " + (b.closest(".card").querySelector(".n") || {}).textContent;
+      $("#dlg").showModal();
     }));
     document.querySelectorAll(".card img.hero").forEach((img) => img.addEventListener("click", () => {
       const it = status.items.find((i) => i.slug === img.closest(".card").dataset.slug);

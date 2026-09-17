@@ -24,6 +24,7 @@ import argparse
 import json
 import subprocess
 import sys
+import time
 import traceback
 from datetime import datetime
 from pathlib import Path
@@ -34,7 +35,7 @@ import generate_daily as g   # noqa: E402  (hjalpfunktioner, samma sokvagar)
 import printify_bulk as pb   # noqa: E402
 
 EDITS_PER_RUN = 5
-MOCKUPS_PER_RUN = 60
+MOCKUPS_PER_RUN = 120
 APPROVALS = g.DOCS / "data" / "approvals.json"
 
 
@@ -246,6 +247,7 @@ def do_mockups(status: dict, e: dict, P: pb.Printify | None, dry: bool) -> int:
             if dry:
                 continue
             try:
+                time.sleep(0.15)   # 600 anrop/min ar taket; ~7/s haller oss under
                 p = P.get_product(popup, pid)
                 imgs = p.get("images") or []
                 front = next((x for x in imgs if x.get("is_default")), imgs[0] if imgs else None)
