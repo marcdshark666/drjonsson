@@ -140,6 +140,12 @@ class Printify:
     def update_product(self, shop: str, pid: str, body: dict):
         return self.call("PUT", f"/shops/{shop}/products/{pid}.json", body)
 
+    def get_product(self, shop: str, pid: str):
+        return self.call("GET", f"/shops/{shop}/products/{pid}.json")
+
+    def delete_product(self, shop: str, pid: str):
+        return self.call("DELETE", f"/shops/{shop}/products/{pid}.json")
+
     def publish(self, shop: str, pid: str):
         return self.call("POST", f"/shops/{shop}/products/{pid}/publish.json", {
             "title": True, "description": True, "images": True, "variants": True,

@@ -40,7 +40,9 @@ ROOT = HERE.parent
 sys.path.insert(0, str(HERE))
 import motifs  # noqa: E402
 
-OUTPUTS = ROOT / "outputs"
+# Utdatamappen kan flyttas till en annan disk (Marc 2026-09-17: "rör dem till ett ställe
+# där det finns som mest plats"). disk_guard() nedan byter automatiskt nar E: blir full.
+OUTPUTS = Path(os.environ.get("DRJONSSON_OUTPUTS") or (ROOT / "outputs"))
 IMAGES = ROOT / "images"
 DOCS = ROOT / "docs"
 DOCS_IMG = DOCS / "img"
@@ -62,6 +64,40 @@ PRINTIFY_MINUTES = 75              # ~9 s mellan publiceringar -> 315 st tar kna
 DASHBOARD_URL = "https://marcdshark666.github.io/drjonsson/"
 
 
+DISK_MIN_GB = 30
+DISK_CANDIDATES = ["E:", "F:", "H:", "I:", "D:"]   # Marcs diskar, i den ordning de star i Utforskaren
+
+
+def free_gb(path: str) -> float:
+    import shutil
+    try:
+        return shutil.disk_usage(path).free / 1e9
+    except OSError:
+        return -1
+
+
+def disk_guard() -> str | None:
+    """Om utdatadisken har under DISK_MIN_GB kvar: peka OUTPUTS pa den disk som har mest
+    plats (skrivs till pipeline/.env som DRJONSSON_OUTPUTS sa alla korningar foljer med).
+    Gamla bilder flyttas inte - de ligger kvar dar de ar; dashboarden pekar bara pa thumbs."""
+    global OUTPUTS
+    cur = OUTPUTS.drive or "E:"
+    if free_gb(cur + "\\") >= DISK_MIN_GB:
+        return None
+    best = max(((free_gb(d + "\\"), d) for d in DISK_CANDIDATES), default=(0, cur))
+    if best[1] == cur or best[0] < DISK_MIN_GB * 2:
+        return f"Disk {cur} har bara {free_gb(cur + chr(92)):.0f} GB kvar och ingen annan disk ar battre"
+    new_dir = Path(best[1]) / "DrJonsson" / "outputs"
+    new_dir.mkdir(parents=True, exist_ok=True)
+    envp = HERE / ".env"
+    lines = [l for l in envp.read_text(encoding="utf-8").splitlines() if not l.startswith("DRJONSSON_OUTPUTS=")] if envp.exists() else []
+    lines.append(f"DRJONSSON_OUTPUTS={new_dir}")
+    envp.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    msg = f"Disk {cur} har {free_gb(cur + chr(92)):.0f} GB kvar - nya bilder sparas pa {new_dir} ({best[0]:.0f} GB fritt)"
+    OUTPUTS = new_dir
+    return msg
+
+
 def log(msg: str) -> None:
     line = f"[{datetime.now():%Y-%m-%d %H:%M:%S}] {msg}"
     print(line, flush=True)
@@ -80,6 +116,9 @@ def env() -> dict[str, str]:
                 k, v = line.split("=", 1)
                 out[k.strip()] = v.split("#", 1)[0].strip().strip('"').strip("'")
     out.update({k: v for k, v in os.environ.items() if k.startswith("PRINTIFY_")})
+    for k, v in out.items():
+        if k.startswith("DRJONSSON_") and k not in os.environ:
+            os.environ[k] = v
     return out
 
 
@@ -459,6 +498,12 @@ def main() -> int:
     log(f"=== DrJonsson dagskorning {day} (count={args.count}, dry_run={args.dry_run}) ===")
 
     git_pull()   # dashboardens beslut ligger i GitHub
+    dmsg = disk_guard()
+    if dmsg:
+        log("DISKVAKT: " + dmsg)
+        run["note"] = dmsg
+        if not args.no_telegram:
+            telegram_send(None, "💽 DrJonsson: " + dmsg)
 
     if args.etsy_only:
         run["count"] = 0

@@ -1,6 +1,6 @@
 <#
 Registrerar DrJonsson-Etsy: varje timme (minut 20), dolt fonster.
-Kor generate_daily.py --etsy-only: hamtar Marcs ✅/❌ fran GitHub (docs/data/approvals.json,
+Kor pipeline/drain.py: hamtar Marcs ✅/❌ fran GitHub (docs/data/approvals.json,
 skrivet av dashboarden) och publicerar BARA godkanda motiv pa Etsy. Inget genereras.
 
   powershell -NoProfile -ExecutionPolicy Bypass -File .\schedule\install_etsy_task.ps1
@@ -20,7 +20,7 @@ Set-Content -Path $cmd -Encoding ascii -Value @(
   "rem Autogenererad av install_etsy_task.ps1 - $TaskName",
   "cd /d ""$Root""",
   "set PYTHONIOENCODING=utf-8",
-  """$Py"" ""$Root\pipeline\generate_daily.py"" --etsy-only >> ""$log"" 2>&1"
+  """$Py"" ""$Root\pipeline\drain.py"" >> ""$log"" 2>&1"
 )
 Set-Content -Path $vbs -Encoding ascii -Value @(
   "' Autogenererad dold startare for $TaskName",
