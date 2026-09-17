@@ -38,7 +38,27 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aa9ad4ddc7f492d5702c6b1/43138/94683/poolside-riviera-magenta-at-noon-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aa9ad55cdfd3a725502ddc0/69664/124091/poolside-riviera-magenta-at-noon-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aa9ad5b5823257e9401bbc7/91644/60165/poolside-riviera-magenta-at-noon-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aa9ad6589d58d321000c392/111829/107096/poolside-riviera-magenta-at-noon-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aa9ad80dc7f492d5702c6d5/92006/62734/poolside-riviera-magenta-at-noon-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aa9ad978e5da560a1085414/65216/6310/poolside-riviera-magenta-at-noon-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aa9adaa5823257e9401bbf4/119446/109797/poolside-riviera-magenta-at-noon-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aa9adbe692313e8da0a137b/18542/102044/poolside-riviera-magenta-at-noon-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aa9ad4ddc7f492d5702c6b1",
+          "framed": "https://drjonsson.printify.me/product/6aa9ad55cdfd3a725502ddc0",
+          "canvas": "https://drjonsson.printify.me/product/6aa9ad5b5823257e9401bbc7",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aa9ad6589d58d321000c392",
+          "metal": "https://drjonsson.printify.me/product/6aa9ad80dc7f492d5702c6d5",
+          "mug": "https://drjonsson.printify.me/product/6aa9ad978e5da560a1085414",
+          "tote": "https://drjonsson.printify.me/product/6aa9adaa5823257e9401bbf4",
+          "tshirt": "https://drjonsson.printify.me/product/6aa9adbe692313e8da0a137b"
+        }
       }
     },
     {
@@ -78,7 +98,27 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aa9ade26a0f4af8c201a87a/43138/94683/the-cream-suit-the-riviera-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aa9adf52204214bbf089ca6/69664/124091/the-cream-suit-the-riviera-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aa9ae01cdfd3a725502de7b/91644/60165/the-cream-suit-the-riviera-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aa9ae0a8ef322dd07027a25/111829/107096/the-cream-suit-the-riviera-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aa9ae148e5da560a1085448/92006/62734/the-cream-suit-the-riviera-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aa9ae1e8e5da560a108544b/65216/6310/the-cream-suit-the-riviera-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aa9ae232204214bbf089cbc/119446/109797/the-cream-suit-the-riviera-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aa9ae27367bef8eca0e75af/18542/102044/the-cream-suit-the-riviera-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aa9ade26a0f4af8c201a87a",
+          "framed": "https://drjonsson.printify.me/product/6aa9adf52204214bbf089ca6",
+          "canvas": "https://drjonsson.printify.me/product/6aa9ae01cdfd3a725502de7b",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aa9ae0a8ef322dd07027a25",
+          "metal": "https://drjonsson.printify.me/product/6aa9ae148e5da560a1085448",
+          "mug": "https://drjonsson.printify.me/product/6aa9ae1e8e5da560a108544b",
+          "tote": "https://drjonsson.printify.me/product/6aa9ae232204214bbf089cbc",
+          "tshirt": "https://drjonsson.printify.me/product/6aa9ae27367bef8eca0e75af"
+        }
       }
     },
     {
@@ -118,7 +158,27 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aa9ae314effedb0a00e0c9d/43138/94683/the-silk-robe-cortina-dampezzo-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aa9ae3637275f74e5050357/69664/124091/the-silk-robe-cortina-dampezzo-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aa9ae3b430bad7180031201/91644/60165/the-silk-robe-cortina-dampezzo-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aa9ae4189d58d321000c3eb/111829/107096/the-silk-robe-cortina-dampezzo-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aa9ae487ec3e5e83a09bf0d/92006/62734/the-silk-robe-cortina-dampezzo-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aa9ae4d89d58d321000c3ec/65216/6310/the-silk-robe-cortina-dampezzo-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aa9ae53367bef8eca0e75ba/119446/109797/the-silk-robe-cortina-dampezzo-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aa9ae57206dec5b5a02feb4/18542/102044/the-silk-robe-cortina-dampezzo-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aa9ae314effedb0a00e0c9d",
+          "framed": "https://drjonsson.printify.me/product/6aa9ae3637275f74e5050357",
+          "canvas": "https://drjonsson.printify.me/product/6aa9ae3b430bad7180031201",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aa9ae4189d58d321000c3eb",
+          "metal": "https://drjonsson.printify.me/product/6aa9ae487ec3e5e83a09bf0d",
+          "mug": "https://drjonsson.printify.me/product/6aa9ae4d89d58d321000c3ec",
+          "tote": "https://drjonsson.printify.me/product/6aa9ae53367bef8eca0e75ba",
+          "tshirt": "https://drjonsson.printify.me/product/6aa9ae57206dec5b5a02feb4"
+        }
       }
     },
     {
@@ -158,7 +218,27 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aa9ae63430bad718003120f/43138/94683/the-speedboat-capri-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aa9ae68692313e8da0a13ad/69664/124091/the-speedboat-capri-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aa9ae6da7bf3c86d108894a/91644/60165/the-speedboat-capri-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aa9ae722204214bbf089cd0/111829/107096/the-speedboat-capri-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aa9ae786a0f4af8c201a892/92006/62734/the-speedboat-capri-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aa9ae7d6a0f4af8c201a894/65216/6310/the-speedboat-capri-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aa9ae81b8a4e0c8a10dba78/119446/109797/the-speedboat-capri-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aa9ae865a0fccee250d1379/18542/102044/the-speedboat-capri-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aa9ae63430bad718003120f",
+          "framed": "https://drjonsson.printify.me/product/6aa9ae68692313e8da0a13ad",
+          "canvas": "https://drjonsson.printify.me/product/6aa9ae6da7bf3c86d108894a",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aa9ae722204214bbf089cd0",
+          "metal": "https://drjonsson.printify.me/product/6aa9ae786a0f4af8c201a892",
+          "mug": "https://drjonsson.printify.me/product/6aa9ae7d6a0f4af8c201a894",
+          "tote": "https://drjonsson.printify.me/product/6aa9ae81b8a4e0c8a10dba78",
+          "tshirt": "https://drjonsson.printify.me/product/6aa9ae865a0fccee250d1379"
+        }
       }
     },
     {
@@ -198,7 +278,27 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aa9ae927ec3e5e83a09bf15/43138/94683/backgammon-cortina-dampezzo-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aa9ae9637275f74e5050369/69664/124091/backgammon-cortina-dampezzo-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aa9ae9b692313e8da0a13be/91644/60165/backgammon-cortina-dampezzo-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aa9aea17e234ef8d001457d/111829/107096/backgammon-cortina-dampezzo-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aa9aea77e234ef8d0014581/92006/62734/backgammon-cortina-dampezzo-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aa9aeac4effedb0a00e0cb8/65216/6310/backgammon-cortina-dampezzo-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aa9aeb14546b2805a06c87f/119446/109797/backgammon-cortina-dampezzo-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aa9aeb5a4f2588bc80f9b50/18542/102044/backgammon-cortina-dampezzo-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aa9ae927ec3e5e83a09bf15",
+          "framed": "https://drjonsson.printify.me/product/6aa9ae9637275f74e5050369",
+          "canvas": "https://drjonsson.printify.me/product/6aa9ae9b692313e8da0a13be",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aa9aea17e234ef8d001457d",
+          "metal": "https://drjonsson.printify.me/product/6aa9aea77e234ef8d0014581",
+          "mug": "https://drjonsson.printify.me/product/6aa9aeac4effedb0a00e0cb8",
+          "tote": "https://drjonsson.printify.me/product/6aa9aeb14546b2805a06c87f",
+          "tshirt": "https://drjonsson.printify.me/product/6aa9aeb5a4f2588bc80f9b50"
+        }
       }
     },
     {
@@ -238,7 +338,27 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aa9aebf6a0f4af8c201a8aa/43138/94683/tennis-whites-acapulco-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aa9aec44546b2805a06c886/69664/124091/tennis-whites-acapulco-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aa9aeca651bd1ab6e02593a/91644/60165/tennis-whites-acapulco-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aa9aecf430bad7180031226/111829/107096/tennis-whites-acapulco-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aa9aed62204214bbf089cea/92006/62734/tennis-whites-acapulco-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aa9aedba4f2588bc80f9b5e/65216/6310/tennis-whites-acapulco-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aa9aedf9fcf6b3c0206138f/119446/109797/tennis-whites-acapulco-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aa9af015823257e9401bc6a/18542/102044/tennis-whites-acapulco-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aa9aebf6a0f4af8c201a8aa",
+          "framed": "https://drjonsson.printify.me/product/6aa9aec44546b2805a06c886",
+          "canvas": "https://drjonsson.printify.me/product/6aa9aeca651bd1ab6e02593a",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aa9aecf430bad7180031226",
+          "metal": "https://drjonsson.printify.me/product/6aa9aed62204214bbf089cea",
+          "mug": "https://drjonsson.printify.me/product/6aa9aedba4f2588bc80f9b5e",
+          "tote": "https://drjonsson.printify.me/product/6aa9aedf9fcf6b3c0206138f",
+          "tshirt": "https://drjonsson.printify.me/product/6aa9af015823257e9401bc6a"
+        }
       }
     },
     {
@@ -278,7 +398,27 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aa9e9e37c1a2a4cef0a481f/43138/94683/the-trio-palm-springs-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aa9e9f0bec5e2057407beae/69664/124091/the-trio-palm-springs-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aa9e9fc5846bef1d80e6669/91644/60165/the-trio-palm-springs-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aa9ea09c5b546463b0c0563/111829/107096/the-trio-palm-springs-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aa9ea181dcb4490390841b6/92006/62734/the-trio-palm-springs-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aa9ea2593563267e60bc4a7/65216/6310/the-trio-palm-springs-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aa9ea31b120c77a8b0e5fe4/119446/109797/the-trio-palm-springs-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aa9ea3d6a4622eb6d058a04/18542/102044/the-trio-palm-springs-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aa9e9e37c1a2a4cef0a481f",
+          "framed": "https://drjonsson.printify.me/product/6aa9e9f0bec5e2057407beae",
+          "canvas": "https://drjonsson.printify.me/product/6aa9e9fc5846bef1d80e6669",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aa9ea09c5b546463b0c0563",
+          "metal": "https://drjonsson.printify.me/product/6aa9ea181dcb4490390841b6",
+          "mug": "https://drjonsson.printify.me/product/6aa9ea2593563267e60bc4a7",
+          "tote": "https://drjonsson.printify.me/product/6aa9ea31b120c77a8b0e5fe4",
+          "tshirt": "https://drjonsson.printify.me/product/6aa9ea3d6a4622eb6d058a04"
+        }
       }
     },
     {
@@ -318,7 +458,19 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aaa2bae11120d25f10b6a02/43138/94683/three-caftans-cannes-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aaa2bbf88d2ef1a2309bdc2/69664/124091/three-caftans-cannes-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aaa2bce11120d25f10b6a46/91644/60165/three-caftans-cannes-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aaa2be3b14c379b5104e0ab/111829/107096/three-caftans-cannes-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front"
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aaa2bae11120d25f10b6a02",
+          "framed": "https://drjonsson.printify.me/product/6aaa2bbf88d2ef1a2309bdc2",
+          "canvas": "https://drjonsson.printify.me/product/6aaa2bce11120d25f10b6a46",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aaa2be3b14c379b5104e0ab"
+        }
       }
     },
     {
@@ -358,7 +510,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -398,7 +551,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -438,7 +592,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -478,7 +633,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -518,7 +674,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -558,7 +715,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -598,7 +756,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -638,7 +797,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -678,7 +838,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -718,7 +879,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -758,7 +920,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -798,7 +961,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -838,7 +1002,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -878,7 +1043,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -918,7 +1084,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -958,7 +1125,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -998,7 +1166,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1038,7 +1207,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1078,7 +1248,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1118,7 +1289,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1158,7 +1330,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1198,7 +1371,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1238,7 +1412,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1278,7 +1453,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1318,7 +1494,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1358,7 +1535,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1398,7 +1576,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1438,7 +1617,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1478,7 +1658,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1518,7 +1699,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1558,7 +1740,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1598,7 +1781,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1638,7 +1822,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1678,7 +1863,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1718,7 +1904,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1758,7 +1945,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1798,7 +1986,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1838,7 +2027,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1878,7 +2068,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1918,7 +2109,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1958,7 +2150,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -1998,7 +2191,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2038,7 +2232,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2078,7 +2273,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2118,7 +2314,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2158,7 +2355,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2198,7 +2396,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2238,7 +2437,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2278,7 +2478,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2318,7 +2519,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2358,7 +2560,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2398,7 +2601,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2438,7 +2642,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2478,7 +2683,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2518,7 +2724,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2558,7 +2765,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2598,7 +2806,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2638,7 +2847,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2678,7 +2888,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2718,7 +2929,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2758,7 +2970,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2798,7 +3011,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2838,7 +3052,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2878,7 +3093,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2918,7 +3134,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2958,7 +3175,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -2998,7 +3216,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     },
     {
@@ -3038,7 +3257,8 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "mockups": {}
       }
     }
   ],
@@ -3324,7 +3544,7 @@
     "errors_last_run": 0,
     "product_types": 8
   },
-  "updated": "2026-09-17T23:11:15",
+  "updated": "2026-09-17T23:20:35",
   "store_mail": {
     "checked": "2026-09-17T06:24:33Z",
     "status": "atgard-kravs",

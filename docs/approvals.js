@@ -1,4 +1,4 @@
-/* approvals.js — Marcs ✅/❌ per motiv, sparat i repot (docs/data/approvals.json).
+/* approvals.js — Marcs beslut per motiv, sparade i repot (docs/data/approvals.json).
  *
  * Sidan ligger på GitHub Pages utan server. Läsning går via raw.githubusercontent
  * (ingen inloggning). Skrivning går rakt mot api.github.com med Marcs egen
@@ -7,8 +7,15 @@
  * mönster som The Work List (wl-github.js). Read-modify-write med ett återförsök
  * vid sha-krock, så två snabba klick inte tappar varandra.
  *
- * Pipelinen (generate_daily.py --etsy-only, varje timme) läser samma fil och
- * publicerar BARA motiv med beslut "ja" på Etsy. Ingenting annat rör Etsy.
+ * Post per motiv:
+ *   beslut    "ja" | "nej" | null      ja = publicera på Etsy (0,20 USD/listning)
+ *   produkter ["poster", "mug", ...]   vilka produkttyper som ska till Etsy (null = alla)
+ *   radera    iso | null               Marc vill ta bort motivet (Printify + sidan)
+ *   raderad   iso | null               utfört av pipeline/drain.py
+ *   redigera  [{text, nar, klar, ny_slug, fel}]   ändringsönskemål; drain.py gör om bilden
+ *   ersatt_av slug                     nya versionen efter en redigering
+ *
+ * pipeline/drain.py (uppgiften DrJonsson-Etsy, varje timme) utför besluten.
  */
 window.DJ_APPROVALS = (function () {
   "use strict";
@@ -26,6 +33,7 @@ window.DJ_APPROVALS = (function () {
 
   const b64enc = (s) => btoa(unescape(encodeURIComponent(s)));
   const b64dec = (s) => decodeURIComponent(escape(atob(String(s || "").replace(/\s+/g, ""))));
+  const now = () => new Date().toISOString();
 
   async function readViaApi() {
     const r = await fetch(API + "?ref=main&ts=" + Date.now(), { headers: { Authorization: "Bearer " + token, Accept: "application/vnd.github+json" }, cache: "no-store" });
@@ -54,7 +62,7 @@ window.DJ_APPROVALS = (function () {
   }
   async function connect() {
     const t = window.prompt(
-      "För att spara dina ✅/❌ behövs din egen GitHub-token (den stannar i den här webbläsaren).\n\n" +
+      "För att spara dina beslut behövs din egen GitHub-token (den stannar i den här webbläsaren).\n\n" +
       "Skapa den på github.com → Settings → Developer settings → Fine-grained tokens:\n" +
       "Repository: bara marcdshark666/drjonsson · Permissions: Contents = Read and write.\n\nKlistra in token här:", "");
     if (!t) return false;
@@ -66,13 +74,20 @@ window.DJ_APPROVALS = (function () {
   }
   function disconnect() { token = ""; login = ""; ls.set(KEY, ""); ls.set(KEY_LOGIN, ""); }
 
+  function summarize(data) {
+    const v = Object.values(data.items || {});
+    return v.filter((x) => x.beslut === "ja").length + " ja, " + v.filter((x) => x.beslut === "nej").length + " nej, "
+      + v.filter((x) => x.radera && !x.raderad).length + " att radera, "
+      + v.reduce((n, x) => n + (x.redigera || []).filter((r) => !r.klar).length, 0) + " redigeringar";
+  }
+
   async function write(mutate) {
     if (!token && !(await connect())) throw new Error("Inte kopplad till GitHub");
     for (let attempt = 0; attempt < 2; attempt++) {
       const cur = await readViaApi();
       const data = cur.data; data.items = data.items || {};
       mutate(data);
-      data.updated = new Date().toISOString();
+      data.updated = now();
       const body = { message: "Beslut: " + summarize(data), content: b64enc(JSON.stringify(data, null, 2) + "\n"), branch: "main" };
       if (cur.sha) body.sha = cur.sha;
       const r = await fetch(API, { method: "PUT", headers: { Authorization: "Bearer " + token, Accept: "application/vnd.github+json", "Content-Type": "application/json" }, body: JSON.stringify(body) });
@@ -84,23 +99,28 @@ window.DJ_APPROVALS = (function () {
     }
     throw new Error("Kunde inte spara (sha-krock två gånger)");
   }
-  function summarize(data) {
-    const v = Object.values(data.items || {});
-    return v.filter((x) => x.beslut === "ja").length + " ja, " + v.filter((x) => x.beslut === "nej").length + " nej";
+
+  function entry(data, slug) {
+    return (data.items[slug] = data.items[slug] || { beslut: null, produkter: null, radera: null, raderad: null, redigera: [] });
   }
 
-  /** beslut: "ja" | "nej" | null (ta bort) */
+  /** beslut: "ja" | "nej" | null */
   function decide(slugs, beslut) {
-    return write((data) => {
-      slugs.forEach((slug) => {
-        if (beslut) data.items[slug] = { beslut, nar: new Date().toISOString(), av: login || "?" };
-        else delete data.items[slug];
-      });
-    });
+    return write((data) => slugs.forEach((slug) => { const e = entry(data, slug); e.beslut = beslut; e.nar = now(); e.av = login || "?"; }));
+  }
+  /** produkter: lista av typer, eller null = alla */
+  function setProducts(slug, produkter) {
+    return write((data) => { const e = entry(data, slug); e.produkter = produkter; e.nar = now(); e.av = login || "?"; });
+  }
+  function requestEdit(slug, text) {
+    return write((data) => { const e = entry(data, slug); (e.redigera = e.redigera || []).push({ text, nar: now(), klar: null }); e.av = login || "?"; });
+  }
+  function remove(slugs, undo) {
+    return write((data) => slugs.forEach((slug) => { const e = entry(data, slug); e.radera = undo ? null : now(); e.av = login || "?"; }));
   }
 
   return {
-    load, decide, connect, disconnect,
+    load, decide, setProducts, requestEdit, remove, connect, disconnect,
     get: (slug) => (cache.data.items || {})[slug] || null,
     all: () => cache.data.items || {},
     connected: () => !!token,

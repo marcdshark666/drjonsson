@@ -92,6 +92,33 @@
   .daybtns { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 12px; font-size: 0.85rem; color: var(--ink-2); }
   #gh { font-size: 0.85rem; color: var(--ink-2); margin-top: 12px; padding: 10px 14px; border: 1px dashed var(--rule); }
   #gh b { color: var(--ink); }
+  #tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 18px 0 10px; }
+  #tabs button { font: inherit; font-size: 0.85rem; padding: 7px 12px; border: 1px solid var(--rule); background: var(--ground-2); color: var(--ink-2); cursor: pointer; border-radius: 2px; }
+  #tabs button.on { background: var(--ink); color: var(--ground); border-color: var(--ink); }
+  #tabs button span { opacity: .7; margin-left: 4px; font-variant-numeric: tabular-nums; }
+  #list h3 { margin: 18px 0 8px; }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
+  .card img.hero { cursor: zoom-in; }
+  .prods { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 8px; }
+  .prod { position: relative; display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 4px 2px; border: 1px solid var(--rule); border-radius: 2px; cursor: pointer; opacity: .45; font-size: 0.62rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-2); }
+  .prod.on { opacity: 1; border-color: var(--gold); }
+  .prod input { position: absolute; inset: 0; opacity: 0; cursor: pointer; margin: 0; }
+  .prod img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; background: var(--rule); }
+  .prod .ph { width: 100%; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; background: var(--ground); text-align: center; font-size: 0.6rem; }
+  .prod .pl { position: absolute; top: 2px; right: 4px; color: var(--gold); text-decoration: none; font-size: 0.8rem; z-index: 1; }
+  .btns { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .btns button.edit.on, .btns button.del.on { background: var(--warn-bg); border-color: var(--warn); color: var(--warn); }
+  ul.edits { list-style: none; padding: 0; margin: 8px 0 0; font-size: 0.78rem; color: var(--ink-2); }
+  ul.edits li { padding: 2px 0; }
+  ul.edits i { color: var(--warn); font-style: normal; }
+  .card.raderade { opacity: .5; }
+  dialog#ed { background: var(--ground); color: var(--ink); padding: 18px 20px; max-width: min(92vw, 520px); border: 1px solid var(--rule); }
+  dialog#ed h3 { margin: 0 0 4px; font-family: "Playfair Display", Georgia, serif; font-weight: 500; }
+  dialog#ed p { color: var(--ink-2); font-size: 0.85rem; margin: 0 0 10px; }
+  dialog#ed textarea { width: 100%; min-height: 110px; font: inherit; font-size: 0.9rem; padding: 8px; border: 1px solid var(--rule); background: var(--ground-2); color: var(--ink); box-sizing: border-box; }
+  dialog#ed .row { display: flex; gap: 8px; justify-content: flex-end; margin-top: 10px; }
+  dialog#ed button { font: inherit; padding: 7px 14px; border: 1px solid var(--rule); background: var(--ground-2); color: var(--ink); cursor: pointer; }
+  dialog#ed button.primary { background: var(--ink); color: var(--ground); border-color: var(--ink); }
   @media (max-width: 560px) { .pulse { text-align: left; } .brand h1 { font-size: 1.6rem; } ul.todo li { grid-template-columns: 26px 1fr; } ul.todo .w { grid-column: 2; text-align: left; } }
 </style>
 </head>
@@ -117,9 +144,9 @@
   <div class="tiles" id="tiles"></div>
   <div id="gh" hidden></div>
 
-  <h2>Idag <small id="today-date"></small></h2>
-  <div id="today-btns"></div>
-  <div class="grid" id="today"></div>
+  <h2>Motiv <small>✅ Ja = till Etsy (bara ikryssade produkter) · ❌ Nej · ✏️ Redigera = bilden görs om efter din text · 🗑 Radera = bort från Printify och sidan</small></h2>
+  <div id="tabs"></div>
+  <div id="list"></div>
 
   <h2>Att göra <small>det som bara Marc kan, och det som bockas av automatiskt</small></h2>
   <div class="mail" id="storemail" hidden></div>
@@ -136,9 +163,6 @@
     <div class="step"><div class="t">Dashboard + Telegram</div><div class="d">Den här sidan uppdateras via GitHub Pages och ett kontaktark skickas till Telegram.</div><div class="who">automatiskt</div></div>
   </div>
 
-  <h2>Tidigare motiv <small id="all-count"></small></h2>
-  <div id="all-btns"></div>
-  <div class="grid" id="all"></div>
 
   <h2>Körningar</h2>
   <div class="tbl"><table id="runs"><thead><tr><th>Datum</th><th>Start</th><th class="n">Genererade</th><th class="n">Pop-Up</th><th class="n">Etsy</th><th>Fel</th></tr></thead><tbody></tbody></table></div>
@@ -150,6 +174,12 @@
   </div>
 </div>
 <dialog id="dlg"><img id="dlg-img" alt=""><p id="dlg-txt"></p></dialog>
+<dialog id="ed"><form method="dialog">
+  <h3>Redigera <span id="ed-name"></span></h3>
+  <p>Skriv vad som ska ändras, på svenska eller engelska. Bilden genereras om nästa timme med din text i prompten, blir en ny version (v2) i Pop-Up-butiken och hamnar under fliken Redigerade. Den gamla tas bort.</p>
+  <textarea id="ed-text" placeholder="t.ex. ta bort hundarna, byt klänningen till vit, mer himmel, kvällsljus"></textarea>
+  <div class="row"><button id="ed-cancel">Avbryt</button><button id="ed-save" class="primary">Skicka önskemål</button></div>
+</form></dialog>
 <script src="approvals.js"></script>
 <script src="app.js"></script>
 </body>
