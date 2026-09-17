@@ -16,13 +16,26 @@ motifs.pick(datum)            plats × sällskap × ljus, datumet som frö, inga
    → listings.json            titel ≤140, 13 taggar ≤20 tecken, beskrivning
    → printify_bulk.py         upload + poster 12×18/18×24/24×36 (Sensaria)
         Pop-Up-butiken        publiceras direkt (gratis, 0 % provision)
-        Etsy                  utkast gratis; publicering (0,20 USD/st) frågas i Telegram med foto
+        Etsy                  BARA motiv med ✅ på dashboarden (docs/data/approvals.json), varje timme
    → docs/data/status.json    + docs/img/<slug>.jpg → git push → dashboarden
    → Telegram                 kontaktark med dagens 35 + länk
 ```
 
 Modellen ligger i `E:\CHAT-RTX\hf-cache` (HF_HOME). Första nedladdningen ~20 GB.
 Bilderna i full storlek ligger i `outputs/<datum>/` (gitignorat); bara 800 px-thumbnails går till GitHub.
+
+## Godkännandegrind (Marcs krav 2026-09-17)
+
+Ingenting rör Etsy förrän Marc tryckt ✅ på motivet på dashboarden. ❌ = aldrig.
+
+- `docs/approvals.js` sparar besluten i `docs/data/approvals.json` direkt i GitHub-repot, med Marcs
+  egen fine-grained token (Contents: read & write, bara detta repo) som ligger i webbläsarens
+  localStorage. Läsning kräver ingen inloggning.
+- `pipeline/generate_daily.py --etsy-only` (uppgiften `DrJonsson-Etsy`, varje timme :20) gör
+  `git pull`, läser filen och publicerar bara motiv med `beslut: "ja"` som ännu inte är fullt
+  publicerade på Etsy. Knappen på sidan visar kostnaden (8 listningar × 0,20 USD per motiv);
+  bocken är Marcs pengagodkännande, ingen Telegram-fråga ställs längre.
+- Pop-Up-butiken (gratis) publiceras fortfarande automatiskt i morgonkörningen.
 
 ## Kommandon
 
