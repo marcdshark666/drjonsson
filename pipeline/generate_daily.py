@@ -111,6 +111,7 @@ def save_status(s: dict) -> None:
         "days": len({i["date"] for i in items}),
         "streak": _streak(sorted({i["date"] for i in items})),
         "errors_last_run": len(s["runs"][-1]["errors"]) if s["runs"] else 0,
+        "product_types": product_count(),
     }
     STATUS.write_text(json.dumps(s, indent=2, ensure_ascii=False), encoding="utf-8")
 
@@ -324,6 +325,75 @@ def printify_ids(shop: str) -> dict:
     return out
 
 
+# ---------- Marcs beslut (dashboardens ✅/❌) ----------
+
+APPROVALS = DOCS / "data" / "approvals.json"
+
+
+def git_pull() -> None:
+    """Dashboarden skriver approvals.json direkt i GitHub; hamta det innan vi laser."""
+    r = subprocess.run(["git", "pull", "-q", "--rebase", "--autostash", "origin", "main"], cwd=str(ROOT),
+                       capture_output=True, text=True, encoding="utf-8", errors="replace")
+    if r.returncode != 0:
+        log("  git pull misslyckades: " + (r.stderr or r.stdout).strip()[-200:])
+        subprocess.run(["git", "rebase", "--abort"], cwd=str(ROOT), capture_output=True)
+
+
+def approvals() -> dict:
+    """slug -> {"beslut": "ja"|"nej", "nar": iso, "av": login}"""
+    if not APPROVALS.exists():
+        return {}
+    try:
+        return json.loads(APPROVALS.read_text(encoding="utf-8")).get("items", {}) or {}
+    except ValueError:
+        return {}
+
+
+def approved_slugs(status: dict) -> list[str]:
+    """Motiv Marc bockat ✅ pa dashboarden och som inte redan ar helt publicerade pa Etsy."""
+    ok = {k for k, v in approvals().items() if v.get("beslut") == "ja"}
+    n_types = product_count()
+    out = []
+    for it in status["items"]:
+        if it["slug"] not in ok:
+            continue
+        try:
+            pub = int(str(it.get("printify", {}).get("etsy_count", "0/0")).split("/")[0])
+        except ValueError:
+            pub = 0
+        if pub < n_types:
+            out.append(it["slug"])
+    return out
+
+
+def etsy_publish_approved(status: dict, run: dict, e: dict, minutes: float, max_new: int) -> int:
+    """Publicerar BARA Marcs ✅-motiv pa Etsy. Ingen Telegram-fraga: bocken pa sidan ar hans ja
+    (knappen visar kostnaden, 0,20 USD per listning). Returnerar antal publicerade produkter."""
+    etsy = e.get("PRINTIFY_ETSY_SHOP_ID")
+    if not etsy:
+        log("  etsy: PRINTIFY_ETSY_SHOP_ID saknas - godkanda motiv vantar")
+        return 0
+    slugs = approved_slugs(status)
+    if not slugs:
+        log("  etsy: inga nya godkanda motiv")
+        return 0
+    log(f"  etsy: {len(slugs)} godkanda motiv publiceras")
+    ok, out = printify_run(slugs, etsy, publish=True, minutes=minutes, max_new=max_new)
+    if not ok:
+        run["errors"].append("printify etsy publish: " + out[-300:])
+    ids = printify_ids(etsy)
+    n = 0
+    for it in status["items"]:
+        if it["slug"] in ids:
+            o = ids[it["slug"]]
+            it["printify"]["etsy_products"] = o["products"]
+            it["printify"]["etsy_product"] = bool(o["products"])
+            it["printify"]["etsy_published"] = o["published"] > 0
+            it["printify"]["etsy_count"] = f"{o['published']}/{o['total']}"
+            n += o["published"]
+    return n
+
+
 # ---------- Telegram ----------
 
 def telegram_ask_etsy(sheet: Path, n: int) -> bool:
@@ -373,7 +443,8 @@ def main() -> int:
     ap.add_argument("--no-printify", action="store_true")
     ap.add_argument("--no-push", action="store_true")
     ap.add_argument("--no-telegram", action="store_true")
-    ap.add_argument("--no-etsy-ask", action="store_true", help="fraga inte om Etsy i Telegram")
+    ap.add_argument("--no-etsy-ask", action="store_true", help="(kvar for kompatibilitet; Etsy fragas inte langre i Telegram)")
+    ap.add_argument("--etsy-only", action="store_true", help="generera inget: publicera bara Marcs ✅-motiv pa Etsy och uppdatera dashboarden")
     ap.add_argument("--printify-minutes", type=float, default=PRINTIFY_MINUTES,
                     help="tidsbudget for Printify-delen; resten tas i nasta korning")
     ap.add_argument("--printify-max-new", type=int, default=PRINTIFY_MAX_NEW,
@@ -386,6 +457,27 @@ def main() -> int:
     run = {"date": day.isoformat(), "started": datetime.now().isoformat(timespec="seconds"),
            "count": args.count, "generated": 0, "popup": 0, "etsy": 0, "errors": [], "dry_run": args.dry_run}
     log(f"=== DrJonsson dagskorning {day} (count={args.count}, dry_run={args.dry_run}) ===")
+
+    git_pull()   # dashboardens beslut ligger i GitHub
+
+    if args.etsy_only:
+        run["count"] = 0
+        n = etsy_publish_approved(status, run, e, args.printify_minutes, args.printify_max_new)
+        run["finished"] = datetime.now().isoformat(timespec="seconds")
+        run["note"] = "etsy-only"
+        if n or run["errors"]:
+            status["runs"].append(run)
+            status["runs"] = status["runs"][-60:]
+        refresh_todo(status, e)
+        save_status(status)
+        if n or run["errors"]:
+            if not args.no_push:
+                git_push()
+            if not args.no_telegram:
+                telegram_send(None, f"🛒 DrJonsson: {n} produkter publicerade pa Etsy efter dina ✅"
+                              + (f", {len(run['errors'])} fel" if run["errors"] else "") + f"\n{DASHBOARD_URL}")
+        log(f"=== etsy-only klart: {n} publicerade, {len(run['errors'])} fel ===")
+        return 0
 
     chosen = motifs.pick(day, args.count, commit=not args.dry_run)
     for m in chosen:
@@ -458,31 +550,8 @@ def main() -> int:
                     it["printify"]["popup_published"] = o["published"] > 0
                     it["printify"]["popup_count"] = f"{o['published']}/{o['total']}"
                     run["popup"] += o["published"]
-        if etsy:
-            q_etsy = printify_queue(status, "etsy", slugs, n_types)
-            ok, out = printify_run(q_etsy, etsy, publish=False,     # utkast ar gratis
-                                   minutes=args.printify_minutes / 2, max_new=args.printify_max_new)
-            if not ok:
-                run["errors"].append("printify etsy drafts: " + out[-300:])
-            approved = False
-            if sheet and not args.no_etsy_ask and not args.no_telegram:
-                n_prod = sum(o["total"] for o in printify_ids(etsy).values() if o) or len(slugs)
-                approved = telegram_ask_etsy(sheet, n_prod)        # 0,20 USD/listning -> Marcs ja kravs
-            if approved:
-                ok, out = printify_run(q_etsy, etsy, publish=True,
-                                       minutes=args.printify_minutes, max_new=args.printify_max_new)
-                if not ok:
-                    run["errors"].append("printify etsy publish: " + out[-300:])
-            ids = printify_ids(etsy)
-            for it in status["items"]:
-                if it["slug"] in ids:
-                    o = ids[it["slug"]]
-                    it["printify"]["etsy_products"] = o["products"]
-                    it["printify"]["etsy_product"] = bool(o["products"])
-                    it["printify"]["etsy_published"] = o["published"] > 0
-                    it["printify"]["etsy_count"] = f"{o['published']}/{o['total']}"
-                    run["etsy"] += o["published"]
-            run["etsy_approved"] = approved
+        # Etsy: ENBART motiv Marc bockat ✅ pa dashboarden (docs/data/approvals.json).
+        run["etsy"] = etsy_publish_approved(status, run, e, args.printify_minutes, args.printify_max_new)
     elif slugs and not have_token:
         run["note"] = "Printify hoppades over: ingen PRINTIFY_TOKEN i pipeline/.env"
         log("  " + run["note"])

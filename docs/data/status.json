@@ -3321,9 +3321,10 @@
     "etsy_live": 0,
     "days": 3,
     "streak": 3,
-    "errors_last_run": 0
+    "errors_last_run": 0,
+    "product_types": 8
   },
-  "updated": "2026-09-17T22:05:01",
+  "updated": "2026-09-17T23:11:15",
   "store_mail": {
     "checked": "2026-09-17T06:24:33Z",
     "status": "atgard-kravs",

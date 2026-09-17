@@ -80,6 +80,18 @@
   dialog img { width: 100%; display: block; }
   dialog::backdrop { background: rgba(0,0,0,.75); }
   dialog p { background: var(--ground); color: var(--ink); margin: 0; padding: 10px 14px; font-size: 0.85rem; }
+  .btns { display: flex; gap: 6px; margin-top: 10px; }
+  .btns button, .daybtns button, #gh button { font: inherit; font-size: 0.8rem; padding: 6px 10px; border: 1px solid var(--rule); background: var(--ground); color: var(--ink); cursor: pointer; border-radius: 2px; }
+  .btns button { flex: 1; }
+  .btns button.on.ja { background: var(--ok-bg); border-color: var(--ok); color: var(--ok); font-weight: 600; }
+  .btns button.on.nej { background: var(--warn-bg); border-color: var(--warn); color: var(--warn); font-weight: 600; }
+  .btns button:disabled { opacity: .5; cursor: wait; }
+  .card.ja { border-color: var(--ok); }
+  .card.nej { opacity: .55; }
+  .chip.wait { background: var(--gold-soft); color: var(--gold); }
+  .daybtns { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 12px; font-size: 0.85rem; color: var(--ink-2); }
+  #gh { font-size: 0.85rem; color: var(--ink-2); margin-top: 12px; padding: 10px 14px; border: 1px dashed var(--rule); }
+  #gh b { color: var(--ink); }
   @media (max-width: 560px) { .pulse { text-align: left; } .brand h1 { font-size: 1.6rem; } ul.todo li { grid-template-columns: 26px 1fr; } ul.todo .w { grid-column: 2; text-align: left; } }
 </style>
 </head>
@@ -103,8 +115,10 @@
   </header>
 
   <div class="tiles" id="tiles"></div>
+  <div id="gh" hidden></div>
 
   <h2>Idag <small id="today-date"></small></h2>
+  <div id="today-btns"></div>
   <div class="grid" id="today"></div>
 
   <h2>Att göra <small>det som bara Marc kan, och det som bockas av automatiskt</small></h2>
@@ -117,12 +131,13 @@
     <div class="step"><div class="t">Motiv väljs</div><div class="d">Plats × sällskap × ljus ur motivbanken, datumet som frö. Ingen kombination två gånger.</div><div class="who">automatiskt 07:30</div></div>
     <div class="step"><div class="t">Bilder genereras</div><div class="d">Z-Image-Turbo lokalt på RTX 4090, 1536×2304, uppskalat till 3600×5400. Kostnad 0 kr.</div><div class="who">automatiskt</div></div>
     <div class="step"><div class="t">Listning skrivs</div><div class="d">Titel, 13 taggar och beskrivning. Aldrig fotografens namn i butikstext.</div><div class="who">automatiskt</div></div>
-    <div class="step"><div class="t">Printify</div><div class="d">Bilden laddas upp en gång och blir sex produkter: poster, inramad poster, canvas, t-shirt, mugg och tygkasse. Pris = Printifys kostnad × påslag. Pop-Up-butiken publiceras direkt. Printify trycker, packar, skickar och spårar. Marc rör aldrig ett paket.</div><div class="who">automatiskt när token finns</div></div>
-    <div class="step"><div class="t">Etsy</div><div class="d">Utkast skapas gratis. Publicering kostar 0,20 USD per listning och ställs som fråga i Telegram med foto.</div><div class="who">Marc säger ja</div></div>
+    <div class="step"><div class="t">Printify</div><div class="d">Bilden laddas upp en gång och blir åtta produkter: poster, inramad poster, canvas, inramad canvas, metall, mugg, tygkasse och t-shirt. Pris = Printifys kostnad × påslag. Pop-Up-butiken publiceras direkt (gratis). Printify trycker, packar, skickar och spårar. Marc rör aldrig ett paket.</div><div class="who">automatiskt</div></div>
+    <div class="step"><div class="t">Etsy bara efter ✅</div><div class="d">Ingenting rör Etsy förrän Marc tryckt ✅ på motivet här på sidan. Varje timme publiceras de godkända (0,20 USD per listning, 8 per motiv). ❌ betyder aldrig. Besluten sparas i repot.</div><div class="who">Marc bestämmer</div></div>
     <div class="step"><div class="t">Dashboard + Telegram</div><div class="d">Den här sidan uppdateras via GitHub Pages och ett kontaktark skickas till Telegram.</div><div class="who">automatiskt</div></div>
   </div>
 
-  <h2>Alla motiv <small id="all-count"></small></h2>
+  <h2>Tidigare motiv <small id="all-count"></small></h2>
+  <div id="all-btns"></div>
   <div class="grid" id="all"></div>
 
   <h2>Körningar</h2>
@@ -135,6 +150,7 @@
   </div>
 </div>
 <dialog id="dlg"><img id="dlg-img" alt=""><p id="dlg-txt"></p></dialog>
+<script src="approvals.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
