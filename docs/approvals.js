@@ -32,6 +32,15 @@ window.DJ_APPROVALS = (function () {
     set: (k, v) => { try { v ? localStorage.setItem(k, v) : localStorage.removeItem(k); } catch (e) { /* privat läge */ } },
   };
   let token = ls.get(KEY), login = ls.get(KEY_LOGIN);
+  // Engangslank fran Telegram: https://.../drjonsson/#gh=<token>  (fragmentet nar aldrig servern)
+  try {
+    const m = /[#&]gh=([^&]+)/.exec(location.hash || "");
+    if (m) {
+      token = decodeURIComponent(m[1]).trim(); login = "";
+      ls.set(KEY, token);
+      history.replaceState(null, "", location.pathname + location.search);
+    }
+  } catch (e) { /* */ }
   let cache = { data: { items: {}, updated: null }, sha: null };
 
   const b64enc = (s) => btoa(unescape(encodeURIComponent(s)));
@@ -52,6 +61,7 @@ window.DJ_APPROVALS = (function () {
     return { data: await r.json(), sha: null };
   }
   async function load() {
+    if (token && !login) { login = await whoami(token); if (login) ls.set(KEY_LOGIN, login); else { token = ""; ls.set(KEY, ""); } }
     try { cache = token ? await readViaApi() : await readRaw(); }
     catch (e) { try { cache = await readRaw(); } catch (e2) { /* behåll det vi har */ } }
     if (!cache.data.items) cache.data.items = {};
