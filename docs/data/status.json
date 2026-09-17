@@ -1108,6 +1108,16 @@
           "mug": "https://drjonsson.printify.me/product/6aa9ea90e55414bea5027809",
           "tote": "https://drjonsson.printify.me/product/6aa9ea9b83eea68c5c0b87a0",
           "tshirt": "https://drjonsson.printify.me/product/6aa9eaa88db4e1f98a005747"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -1168,6 +1178,16 @@
           "mug": "https://drjonsson.printify.me/product/6aa9eafa83eea68c5c0b87d8",
           "tote": "https://drjonsson.printify.me/product/6aa9eb068db4e1f98a00577a",
           "tshirt": "https://drjonsson.printify.me/product/6aa9eb122b898b8ad705a938"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -1228,6 +1248,16 @@
           "mug": "https://drjonsson.printify.me/product/6aa9eb657c1a2a4cef0a48ac",
           "tote": "https://drjonsson.printify.me/product/6aa9eb71efa7a559e600b696",
           "tshirt": "https://drjonsson.printify.me/product/6aa9eb7d6a4622eb6d058a8a"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -1288,6 +1318,16 @@
           "mug": "https://drjonsson.printify.me/product/6aa9ebd18db4e1f98a0057e7",
           "tote": "https://drjonsson.printify.me/product/6aa9ebdd5846bef1d80e6732",
           "tshirt": "https://drjonsson.printify.me/product/6aa9ebe91c49ef7be3057c55"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -1348,6 +1388,16 @@
           "mug": "https://drjonsson.printify.me/product/6aa9ec3ca3c4165cd903f1ca",
           "tote": "https://drjonsson.printify.me/product/6aa9ec487c1a2a4cef0a48dc",
           "tshirt": "https://drjonsson.printify.me/product/6aa9ec54e138893e08068a2b"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -1408,6 +1458,16 @@
           "mug": "https://drjonsson.printify.me/product/6aa9ed70b120c77a8b0e6188",
           "tote": "https://drjonsson.printify.me/product/6aa9ee465846bef1d80e6819",
           "tshirt": "https://drjonsson.printify.me/product/6aa9ef1e746070763c0fd2c4"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -1468,6 +1528,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa29f511120d25f10b6955",
           "tote": "https://drjonsson.printify.me/product/6aaa2a04b14c379b5104dfb3",
           "tshirt": "https://drjonsson.printify.me/product/6aaa2a1357008e4b9007d5fb"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -1528,6 +1598,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa2a77cf3cc284a70112ae",
           "tote": "https://drjonsson.printify.me/product/6aaa2a861095826581026b95",
           "tshirt": "https://drjonsson.printify.me/product/6aaa2a9511120d25f10b6984"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -1588,6 +1668,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa2af857008e4b9007d6ab",
           "tote": "https://drjonsson.printify.me/product/6aaa2b07cf3cc284a70112ed",
           "tshirt": "https://drjonsson.printify.me/product/6aaa2b1688d2ef1a2309bcf4"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -1648,6 +1738,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa2b7d11120d25f10b69f4",
           "tote": "https://drjonsson.printify.me/product/6aaa2b8b88d2ef1a2309bd78",
           "tshirt": "https://drjonsson.printify.me/product/6aaa2b9ab14c379b5104e03c"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -1708,6 +1808,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa2cbdeebb5dedcb08476e",
           "tote": "https://drjonsson.printify.me/product/6aaa2cd5eebb5dedcb08477b",
           "tshirt": "https://drjonsson.printify.me/product/6aaa2ce688d2ef1a2309beff"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -1768,6 +1878,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa2d4f17c0eeb636097836",
           "tote": "https://drjonsson.printify.me/product/6aaa2d5eb14c379b5104e175",
           "tshirt": "https://drjonsson.printify.me/product/6aaa2d6d17c0eeb636097843"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -1828,6 +1948,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa2dd1323da6d93204b019",
           "tote": "https://drjonsson.printify.me/product/6aaa2ddfeebb5dedcb0847c3",
           "tshirt": "https://drjonsson.printify.me/product/6aaa2deec10e94166f032556"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -1888,6 +2018,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa2e5409f5e2c34d0da098",
           "tote": "https://drjonsson.printify.me/product/6aaa2e6388d2ef1a2309bf9e",
           "tshirt": "https://drjonsson.printify.me/product/6aaa2e728282ff89b00009af"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -1948,6 +2088,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa2ed4323da6d93204b09a",
           "tote": "https://drjonsson.printify.me/product/6aaa2ee399128195a00233e3",
           "tshirt": "https://drjonsson.printify.me/product/6aaa2ef2df766d186d035db8"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -2008,6 +2158,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa2f5617c0eeb636097924",
           "tote": "https://drjonsson.printify.me/product/6aaa2f65df766d186d035dd1",
           "tshirt": "https://drjonsson.printify.me/product/6aaa2f74eebb5dedcb084865"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -2068,6 +2228,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa2fd768c4f4e00c0b44a1",
           "tote": "https://drjonsson.printify.me/product/6aaa2fe568c4f4e00c0b44a4",
           "tshirt": "https://drjonsson.printify.me/product/6aaa2ff4a00cd998da0d8216"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -2128,6 +2298,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa3058694a6342640c6189",
           "tote": "https://drjonsson.printify.me/product/6aaa306b68c4f4e00c0b4526",
           "tshirt": "https://drjonsson.printify.me/product/6aaa308bf0b1b1db760d4c3f"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -2188,6 +2368,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa30fb35cf53540c055de5",
           "tote": "https://drjonsson.printify.me/product/6aaa310aa00cd998da0d8381",
           "tshirt": "https://drjonsson.printify.me/product/6aaa31195af6c3fb5b0a77ed"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -2248,6 +2438,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa317da00cd998da0d83a7",
           "tote": "https://drjonsson.printify.me/product/6aaa318b50c2aa3f4204530b",
           "tshirt": "https://drjonsson.printify.me/product/6aaa319bc10e94166f0327dc"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -2308,6 +2508,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa32826b105862ff00995d",
           "tote": "https://drjonsson.printify.me/product/6aaa329112e74736e80d649f",
           "tshirt": "https://drjonsson.printify.me/product/6aaa32a0df5c139797021d58"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -2368,6 +2578,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa33086b105862ff0099bd",
           "tote": "https://drjonsson.printify.me/product/6aaa3316f0b1b1db760d4e08",
           "tshirt": "https://drjonsson.printify.me/product/6aaa3325f0b1b1db760d4e20"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -2428,6 +2648,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa33885af6c3fb5b0a7917",
           "tote": "https://drjonsson.printify.me/product/6aaa339709f5e2c34d0da3f2",
           "tshirt": "https://drjonsson.printify.me/product/6aaa33a609f5e2c34d0da3fc"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -2488,6 +2718,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa341a8282ff89b0000cad",
           "tote": "https://drjonsson.printify.me/product/6aaa342950c2aa3f42045460",
           "tshirt": "https://drjonsson.printify.me/product/6aaa343835cf53540c055f1f"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -2548,6 +2788,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa349d5f264f069d067d3d",
           "tote": "https://drjonsson.printify.me/product/6aaa34ac8282ff89b0000d1d",
           "tshirt": "https://drjonsson.printify.me/product/6aaa34bba00cd998da0d84f5"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -2608,6 +2858,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaa35715a0361b1ab0f10f3",
           "tote": "https://drjonsson.printify.me/product/6aaa35841647826e0d0e9ad9",
           "tshirt": "https://drjonsson.printify.me/product/6aaa35992b6c25521e0909ae"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -2668,6 +2928,16 @@
           "mug": "https://drjonsson.printify.me/product/6aab9f785b08f1142d0b04eb",
           "tote": "https://drjonsson.printify.me/product/6aab9f86247860f6e40c5f74",
           "tshirt": "https://drjonsson.printify.me/product/6aab9f955b08f1142d0b0502"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -2728,6 +2998,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabc9b5ba42274cd70fcfea",
           "tote": "https://drjonsson.printify.me/product/6aabc9c4d2057c73aa017106",
           "tshirt": "https://drjonsson.printify.me/product/6aabc9d343ed2d41380749a6"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -2788,6 +3068,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabcf9ed88557c932049d82",
           "tote": "https://drjonsson.printify.me/product/6aabcfad964dd664040febe7",
           "tshirt": "https://drjonsson.printify.me/product/6aabcfbd964dd664040febee"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -2848,6 +3138,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabf4131330c374e80412e8",
           "tote": "https://drjonsson.printify.me/product/6aabf4224b338a2b4009f9c4",
           "tshirt": "https://drjonsson.printify.me/product/6aabf4f9d53b8bf34401ae76"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -2908,6 +3208,16 @@
           "mug": "https://drjonsson.printify.me/product/6aac1d23e0b70bf0910b2a68",
           "tote": "https://drjonsson.printify.me/product/6aac1d32f457ecfded0d5bb7",
           "tshirt": "https://drjonsson.printify.me/product/6aac1d41aaf2246e000c36bd"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -2968,6 +3278,16 @@
           "mug": "https://drjonsson.printify.me/product/6aac1da7e001f1aced0c65a9",
           "tote": "https://drjonsson.printify.me/product/6aac1db61ece91d9540ede63",
           "tshirt": "https://drjonsson.printify.me/product/6aac1dc5d8ce91d3d70b304a"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -3028,6 +3348,16 @@
           "mug": "https://drjonsson.printify.me/product/6aac1e2b7968a4ffa80ace22",
           "tote": "https://drjonsson.printify.me/product/6aac1e3a7968a4ffa80ace2b",
           "tshirt": "https://drjonsson.printify.me/product/6aac1e49aaf2246e000c36e2"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -3088,6 +3418,16 @@
           "mug": "https://drjonsson.printify.me/product/6aac4727b89305e1dc087ca7",
           "tote": "https://drjonsson.printify.me/product/6aac473914b2dfbb2a023ef9",
           "tshirt": "https://drjonsson.printify.me/product/6aac474a14b2dfbb2a023f08"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -3148,6 +3488,16 @@
           "mug": "https://drjonsson.printify.me/product/6aac47ba08fa4029c60bc75b",
           "tote": "https://drjonsson.printify.me/product/6aac47cc86c28fddee0f5825",
           "tshirt": "https://drjonsson.printify.me/product/6aac47dbdc0b22a4680916e5"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -3208,6 +3558,16 @@
           "mug": "https://drjonsson.printify.me/product/6aab9ffb9134d9ff08015bec",
           "tote": "https://drjonsson.printify.me/product/6aaba009095e10860806f517",
           "tshirt": "https://drjonsson.printify.me/product/6aaba019095e10860806f51d"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -3268,6 +3628,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaba07dd84d6ea94b0ea192",
           "tote": "https://drjonsson.printify.me/product/6aaba08cd84d6ea94b0ea199",
           "tshirt": "https://drjonsson.printify.me/product/6aaba09bd84d6ea94b0ea1a5"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -3328,6 +3698,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaba0ff247860f6e40c602f",
           "tote": "https://drjonsson.printify.me/product/6aaba10f9134d9ff08015c8b",
           "tshirt": "https://drjonsson.printify.me/product/6aaba11e67bce5553d01633f"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -3388,6 +3768,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaba1839134d9ff08015cb4",
           "tote": "https://drjonsson.printify.me/product/6aaba19180340727db0952c3",
           "tshirt": "https://drjonsson.printify.me/product/6aaba1a19134d9ff08015cb9"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -3448,6 +3838,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaba204336c4bd8330fe5b8",
           "tote": "https://drjonsson.printify.me/product/6aaba21380340727db09531e",
           "tshirt": "https://drjonsson.printify.me/product/6aaba2225b08f1142d0b0618"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -3508,6 +3908,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaba286d84d6ea94b0ea287",
           "tote": "https://drjonsson.printify.me/product/6aaba29967bce5553d0163b3",
           "tshirt": "https://drjonsson.printify.me/product/6aaba2a967bce5553d0163bc"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -3568,6 +3978,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaba33a67bce5553d016447",
           "tote": "https://drjonsson.printify.me/product/6aaba34b8d0523351b0de6c1",
           "tshirt": "https://drjonsson.printify.me/product/6aaba35a12527383da034e40"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -3628,6 +4048,16 @@
           "mug": "https://drjonsson.printify.me/product/6aaba3d443f170e8840c070b",
           "tote": "https://drjonsson.printify.me/product/6aaba3e643f170e8840c0718",
           "tshirt": "https://drjonsson.printify.me/product/6aaba3f5d84d6ea94b0ea39d"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -3688,6 +4118,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabc8a843ed2d41380748f2",
           "tote": "https://drjonsson.printify.me/product/6aabc8b7ba42274cd70fcf67",
           "tshirt": "https://drjonsson.printify.me/product/6aabc8c6dc2c8997b50cc111"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -3748,6 +4188,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabc92b48ee020027003768",
           "tote": "https://drjonsson.printify.me/product/6aabc93c964dd664040fe8d1",
           "tshirt": "https://drjonsson.printify.me/product/6aabc94bba42274cd70fcfb5"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -3808,6 +4258,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabca3853480ebfdc047517",
           "tote": "https://drjonsson.printify.me/product/6aabca4653480ebfdc04751e",
           "tshirt": "https://drjonsson.printify.me/product/6aabca556262efc5b4086737"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -3868,6 +4328,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabcabf79811613570b8cb5",
           "tote": "https://drjonsson.printify.me/product/6aabcacea86ae884170e1b44",
           "tshirt": "https://drjonsson.printify.me/product/6aabcade6262efc5b40867b4"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -3928,6 +4398,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabcb4348ee0200270038c3",
           "tote": "https://drjonsson.printify.me/product/6aabcb52936fb527800bff12",
           "tshirt": "https://drjonsson.printify.me/product/6aabcb616262efc5b40867f6"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -3988,6 +4468,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabcbcd53480ebfdc0475dc",
           "tote": "https://drjonsson.printify.me/product/6aabcbde3e15e7fe080faa7b",
           "tshirt": "https://drjonsson.printify.me/product/6aabcbed48ee020027003925"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -4048,6 +4538,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabcc57d2057c73aa01726e",
           "tote": "https://drjonsson.printify.me/product/6aabcc6dba42274cd70fd164",
           "tshirt": "https://drjonsson.printify.me/product/6aabcc83936fb527800bffe5"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -4108,6 +4608,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabcce8936fb527800c0013",
           "tote": "https://drjonsson.printify.me/product/6aabccfe964dd664040fead4",
           "tshirt": "https://drjonsson.printify.me/product/6aabcd1148ee0200270039c3"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -4168,6 +4678,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabcd862337c8075c0d95be",
           "tote": "https://drjonsson.printify.me/product/6aabcd95964dd664040feb07",
           "tshirt": "https://drjonsson.printify.me/product/6aabcda72337c8075c0d95c6"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -4228,6 +4748,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabce103ed72386590b5937",
           "tote": "https://drjonsson.printify.me/product/6aabce1f8768f8b62509fe60",
           "tshirt": "https://drjonsson.printify.me/product/6aabce2ea86ae884170e1d8c"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -4288,6 +4818,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabce95d88557c932049d0e",
           "tote": "https://drjonsson.printify.me/product/6aabcea4a86ae884170e1dbc",
           "tshirt": "https://drjonsson.printify.me/product/6aabceb38768f8b62509fe98"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -4348,6 +4888,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabcf17675cab9dfd0a18b1",
           "tote": "https://drjonsson.printify.me/product/6aabcf26675cab9dfd0a18bb",
           "tshirt": "https://drjonsson.printify.me/product/6aabcf358768f8b62509fec2"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -4408,6 +4958,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabd02c8768f8b62509ff3d",
           "tote": "https://drjonsson.printify.me/product/6aabd03b3e15e7fe080facb7",
           "tshirt": "https://drjonsson.printify.me/product/6aabd04a60ea127586023646"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -4468,6 +5028,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabd0b3ecffc154c00289d3",
           "tote": "https://drjonsson.printify.me/product/6aabd0c5323ea0bd6f0410b3",
           "tshirt": "https://drjonsson.printify.me/product/6aabd0d93ed72386590b5a8f"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -4528,6 +5098,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabd14960ea1275860236c8",
           "tote": "https://drjonsson.printify.me/product/6aabd1588768f8b6250a0005",
           "tshirt": "https://drjonsson.printify.me/product/6aabd167a86ae884170e1f00"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -4588,6 +5168,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabd29609ec6c96ad059676",
           "tote": "https://drjonsson.printify.me/product/6aabd36c6d7d55585507c53e",
           "tshirt": "https://drjonsson.printify.me/product/6aabf2973cff565b060f36dd"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -4648,6 +5238,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabf306d64aa674f008b12b",
           "tote": "https://drjonsson.printify.me/product/6aabf315514f074c9f05598d",
           "tshirt": "https://drjonsson.printify.me/product/6aabf325ecf65dcdb10d58c5"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     },
@@ -4708,6 +5308,16 @@
           "mug": "https://drjonsson.printify.me/product/6aabf38b7e4263e07c011d7c",
           "tote": "https://drjonsson.printify.me/product/6aabf3991330c374e80412af",
           "tshirt": "https://drjonsson.printify.me/product/6aabf3a96dd21b409403d150"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
         }
       }
     }
@@ -4994,7 +5604,7 @@
     "errors_last_run": 0,
     "product_types": 8
   },
-  "updated": "2026-09-18T00:21:21",
+  "updated": "2026-09-18T00:22:57",
   "store_mail": {
     "checked": "2026-09-17T06:24:33Z",
     "status": "atgard-kravs",
