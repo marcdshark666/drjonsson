@@ -108,7 +108,11 @@
   .prod img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; background: var(--rule); }
   .prod .ph { width: 100%; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; background: var(--ground); text-align: center; font-size: 0.6rem; }
   .prod .pl { position: absolute; top: 2px; right: 4px; color: var(--gold); text-decoration: none; font-size: 0.8rem; z-index: 1; }
-  .btns { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .mode { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin-top: 8px; }
+  .mode button { font: inherit; font-size: 0.72rem; padding: 6px 6px; border: 1px solid var(--rule); background: var(--ground); color: var(--ink-2); cursor: pointer; border-radius: 2px; line-height: 1.2; }
+  .mode button span { display: block; font-size: 0.68rem; opacity: .75; }
+  .mode button.on { background: var(--ink); color: var(--ground); border-color: var(--ink); }
+  .btns { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-top: 8px; }
   .btns button.edit.on, .btns button.del.on { background: var(--warn-bg); border-color: var(--warn); color: var(--warn); }
   ul.edits { list-style: none; padding: 0; margin: 8px 0 0; font-size: 0.78rem; color: var(--ink-2); }
   ul.edits li { padding: 2px 0; }
@@ -146,7 +150,7 @@
   <div class="tiles" id="tiles"></div>
   <div id="gh" hidden></div>
 
-  <h2>Motiv <small>✅ Ja = till Etsy (bara ikryssade produkter) · ❌ Nej · ✏️ Redigera = bilden görs om efter din text · 🗑 Radera = bort från Printify och sidan</small></h2>
+  <h2>Motiv <small>kryssa produkter · välj Samma listning (storlekar som alternativ) eller Separata listningar (en per storlek) · ✅ Ja = till Etsy · ❌ Nej · ✏️ Redigera · 🗑 Radera</small></h2>
   <div id="tabs"></div>
   <div id="list"></div>
 

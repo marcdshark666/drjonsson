@@ -254,6 +254,8 @@ def main() -> int:
     ap.add_argument("--products", help="produkttyper, kommaseparerade (annars products.json 'default')")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--publish", action="store_true", help="publicera (Etsy: 0,20 USD per listning)")
+    ap.add_argument("--split-variants", action="store_true",
+                    help="en produkt (= en Etsy-listning) PER STORLEK/FARG i stallet for alla som alternativ i en")
     ap.add_argument("--yes", action="store_true")
     ap.add_argument("--max-new", type=int, default=0,
                     help="sluta efter N nyskapade/publicerade produkter i korningen (0 = ingen grans)")
@@ -308,6 +310,13 @@ def main() -> int:
     if not plan:
         print("Ingen produkttyp gick att losa.", file=sys.stderr)
         return 1
+
+    if args.split_variants:
+        # "Separata listningar": varje variant blir egen produkt. Nyckeln typ#variantid haller
+        # state-nyckeln pa tre delar (shop:slug:typ#vid) sa printify_ids() fortsatter fungera.
+        plan = {f"{k}#{v['id']}": {**pl, "variants": [v], "suffix": " - " + norm(v.get("title", "")).split(" / ")[0]}
+                for k, pl in plan.items() for v in pl["variants"]}
+        print(f"  split: {len(plan)} listningar (en per storlek/farg)")
 
     shop = args.shop or e.get("PRINTIFY_POPUP_SHOP_ID") or e.get("PRINTIFY_SHOP_ID")
     if not shop:
@@ -380,7 +389,7 @@ def main() -> int:
             cfg = pl["cfg"]
             skey = f"{shop}:{p.stem}:{key}"
             st = state.setdefault(skey, {})
-            title = make_title(lst["title"], cfg)
+            title = (make_title(lst["title"], cfg) + pl.get("suffix", ""))[:140]
             tags = (lst.get("tags", [])[:11] + cfg.get("tags_extra", []))[:13]
             body = {
                 "title": title,

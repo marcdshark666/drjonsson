@@ -94,10 +94,13 @@ def forget_products(shop: str, slug: str) -> None:
     pb.save_state(st)
 
 
-def run_bulk(slugs: list[str], shop: str, publish: bool, products: list[str] | None = None, dry: bool = False) -> tuple[bool, str]:
+def run_bulk(slugs: list[str], shop: str, publish: bool, products: list[str] | None = None, dry: bool = False,
+             split: bool = False) -> tuple[bool, str]:
     cmd = [g.PY, str(HERE / "printify_bulk.py"), "--only", ",".join(slugs), "--shop", shop, "--yes", "--max-minutes", "40"]
     if publish:
         cmd.append("--publish")
+    if split:
+        cmd.append("--split-variants")
     if products:
         cmd += ["--products", ",".join(products)]
     if dry:
@@ -242,7 +245,7 @@ def do_mockups(status: dict, e: dict, P: pb.Printify | None, dry: bool) -> int:
         prods = pr.get("popup_products") or {}
         mock = pr.setdefault("mockups", {})
         for typ, pid in prods.items():
-            if typ in mock or n >= MOCKUPS_PER_RUN:
+            if (typ in mock and typ in pr.get("variants", {})) or n >= MOCKUPS_PER_RUN:
                 continue
             if dry:
                 continue
@@ -251,6 +254,7 @@ def do_mockups(status: dict, e: dict, P: pb.Printify | None, dry: bool) -> int:
                 p = P.get_product(popup, pid)
                 imgs = p.get("images") or []
                 front = next((x for x in imgs if x.get("is_default")), imgs[0] if imgs else None)
+                pr.setdefault("variants", {})[typ] = sum(1 for v in p.get("variants", []) if v.get("is_enabled"))
                 if front and front.get("src"):
                     mock[typ] = front["src"]
                     pr.setdefault("popup_urls", {})[typ] = f"https://drjonsson.printify.me/product/{pid}"
@@ -264,22 +268,25 @@ def do_mockups(status: dict, e: dict, P: pb.Printify | None, dry: bool) -> int:
 
 # ---------- 5. Etsy ----------
 
-def etsy_todo(status: dict, appr: dict, e: dict) -> list[tuple[str, list[str]]]:
-    """(slug, produkttyper som saknas pa Etsy) for varje ✅-motiv."""
+def etsy_todo(status: dict, appr: dict, e: dict) -> list[tuple[str, list[str], bool]]:
+    """(slug, produkttyper som saknas pa Etsy, separat) for varje ✅-motiv.
+    separat = Marcs val "Separata listningar": en listning per storlek/farg (printify_bulk --split-variants).
+    Annars "Samma listning": alla storlekar som alternativ i en listning per produkttyp."""
     etsy = e.get("PRINTIFY_ETSY_SHOP_ID")
     types = all_types()
     out = []
+    st = pb.load_state() if etsy else {}
     for slug, a in appr["items"].items():
         if a.get("beslut") != "ja" or a.get("raderad") or a.get("ersatt_av"):
             continue
         if not item_by_slug(status, slug):
             continue
         wanted = [t for t in (a.get("produkter") or []) if t in types]   # inga kryss = inget till Etsy
-        st = pb.load_state() if etsy else {}
-        done = {k.split(":")[2] for k, v in st.items() if etsy and k.startswith(f"{etsy}:{slug}:") and isinstance(v, dict) and v.get("published")}
+        done = {k.split(":")[2].split("#")[0] for k, v in st.items()
+                if etsy and k.startswith(f"{etsy}:{slug}:") and isinstance(v, dict) and v.get("published")}
         missing = [t for t in wanted if t not in done]
         if missing:
-            out.append((slug, missing))
+            out.append((slug, missing, a.get("lage") == "separat"))
     return out
 
 
@@ -295,11 +302,11 @@ def do_etsy(status: dict, appr: dict, e: dict, dry: bool) -> int:
     n = 0
     # gruppera per identisk produktlista sa det blir fa anrop
     groups: dict[tuple, list[str]] = {}
-    for slug, missing in todo:
-        groups.setdefault(tuple(missing), []).append(slug)
-    for types, slugs in groups.items():
-        g.log(f"  etsy: {len(slugs)} motiv x {list(types)}")
-        ok, out = run_bulk(slugs, etsy, publish=True, products=list(types), dry=dry)
+    for slug, missing, separat in todo:
+        groups.setdefault((tuple(missing), separat), []).append(slug)
+    for (types, separat), slugs in groups.items():
+        g.log(f"  etsy: {len(slugs)} motiv x {list(types)} {'separata listningar' if separat else 'samma listning'}")
+        ok, out = run_bulk(slugs, etsy, publish=True, products=list(types), dry=dry, split=separat)
         if not ok:
             g.log("  FEL etsy: " + out[-300:])
     ids = g.printify_ids(etsy)

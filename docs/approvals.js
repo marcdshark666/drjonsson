@@ -9,7 +9,10 @@
  *
  * Post per motiv:
  *   beslut    "ja" | "nej" | null      ja = publicera på Etsy (0,20 USD/listning)
- *   produkter ["poster", "mug", ...]   vilka produkttyper som ska till Etsy (null = alla)
+ *   produkter ["poster", "mug", ...]   vilka produkttyper som ska till Etsy (tom = inget)
+ *   lage      "samma" | "separat"       samma = storlekar/farger som alternativ i EN listning per
+ *                                       produkttyp (Printify kan aldrig lagga olika produkttyper i
+ *                                       samma Etsy-listning); separat = en listning per storlek/farg
  *   radera    iso | null               Marc vill ta bort motivet (Printify + sidan)
  *   raderad   iso | null               utfört av pipeline/drain.py
  *   redigera  [{text, nar, klar, ny_slug, fel}]   ändringsönskemål; drain.py gör om bilden
@@ -112,6 +115,10 @@ window.DJ_APPROVALS = (function () {
   function setProducts(slug, produkter) {
     return write((data) => { const e = entry(data, slug); e.produkter = produkter; e.nar = now(); e.av = login || "?"; });
   }
+  /** lage: "samma" | "separat" */
+  function setMode(slug, lage) {
+    return write((data) => { const e = entry(data, slug); e.lage = lage; e.nar = now(); e.av = login || "?"; });
+  }
   function requestEdit(slug, text) {
     return write((data) => { const e = entry(data, slug); (e.redigera = e.redigera || []).push({ text, nar: now(), klar: null }); e.av = login || "?"; });
   }
@@ -120,7 +127,7 @@ window.DJ_APPROVALS = (function () {
   }
 
   return {
-    load, decide, setProducts, requestEdit, remove, connect, disconnect,
+    load, decide, setProducts, setMode, requestEdit, remove, connect, disconnect,
     get: (slug) => (cache.data.items || {})[slug] || null,
     all: () => cache.data.items || {},
     connected: () => !!token,

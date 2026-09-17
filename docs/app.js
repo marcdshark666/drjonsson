@@ -24,6 +24,14 @@
   const pendingEdits = (a) => (a && a.redigera || []).filter((r) => !r.klar);
   const wanted = (a) => (a && a.produkter) || [];          // inga kryss = inget till Etsy
   const isDeleted = (a) => !!(a && a.radera && !a.raderad);
+  const mode = (a) => (a && a.lage) || "samma";
+  /** antal Etsy-listningar motivet blir med nuvarande kryss och lage */
+  function listingCount(it) {
+    const a = dec(it), v = (it.printify || {}).variants || {};
+    const w = wanted(a);
+    if (mode(a) !== "separat") return w.length;
+    return w.reduce((n, t) => n + (v[t] || 1), 0);
+  }
 
   function bucket(it) {
     const a = dec(it), p = it.printify || {};
@@ -43,7 +51,7 @@
     if (isDeleted(a)) c.push('<span class="chip no">🗑 raderas nästa timme</span>');
     else if (pendingEdits(a).length) c.push('<span class="chip wait">✏️ görs om nästa timme</span>');
     else if (p.etsy_published) c.push('<span class="chip ok">etsy ' + esc(p.etsy_count || "live") + '</span>');
-    else if (a && a.beslut === "ja") c.push('<span class="chip ok">✅ ' + wanted(a).length + ' produkter publiceras nästa timme</span>');
+    else if (a && a.beslut === "ja") c.push('<span class="chip ok">✅ ' + listingCount(it) + ' listningar publiceras nästa timme</span>');
     else if (a && a.beslut === "nej") c.push('<span class="chip no">❌ nekad</span>');
     else c.push('<span class="chip wait">väntar på ditt beslut</span>');
     if (p.popup_published) c.push('<span class="chip">pop-up ' + esc(p.popup_count || "live") + '</span>');
@@ -65,10 +73,20 @@
     }).join("") + "</div>";
   }
 
+  function modeRow(it) {
+    const a = dec(it), v = (it.printify || {}).variants || {};
+    const m = mode(a), w = wanted(a);
+    const nSep = w.reduce((n, t) => n + (v[t] || 1), 0);
+    return `<div class="mode">
+      <button data-mode="samma" class="${m === "samma" ? "on" : ""}" title="Alla storlekar och färger som alternativ i en listning per produkttyp">Samma listning <span>${w.length} st</span></button>
+      <button data-mode="separat" class="${m === "separat" ? "on" : ""}" title="En egen listning per storlek/färg – fler listningar, fler träffar i Etsys sök, högre avgift">Separata listningar <span>${nSep} st</span></button>
+    </div>`;
+  }
+
   function buttons(it) {
     const a = dec(it), p = it.printify || {};
     const ja = a && a.beslut === "ja", nej = a && a.beslut === "nej";
-    const n = wanted(a).length;
+    const n = listingCount(it);
     const del = isDeleted(a);
     return `<div class="btns">
       <button class="ja${ja ? " on" : ""}" data-act="ja" ${p.etsy_published ? "disabled" : ""} title="Publicera de ikryssade produkterna på Etsy: ${n} listningar ≈ ${(n * PER_ITEM_USD).toFixed(2)} USD">✅ Ja${n ? " (" + n + ")" : ""}</button>
@@ -86,7 +104,7 @@
     return `<div class="card ${b}" data-slug="${esc(it.slug)}">
       <img class="hero" src="${esc(it.thumb)}" alt="${esc(it.name)}" loading="lazy">
       <div class="b"><div class="n">${esc(it.name)}</div><div class="p">${esc(it.date)}</div>
-        <div class="chips">${stateLine(it)}</div>${productRow(it)}${editList}${buttons(it)}</div>
+        <div class="chips">${stateLine(it)}</div>${productRow(it)}${modeRow(it)}${editList}${buttons(it)}</div>
     </div>`;
   }
 
@@ -96,9 +114,11 @@
 
   async function decide(slug, beslut, btn) {
     if (beslut === "ja") {
-      const n = wanted(A.get(slug)).length;
-      if (!n) { window.alert("Kryssa först i vilka produkter (poster, mugg, kasse …) som ska till Etsy, tryck sedan ✅ Ja."); return; }
-      if (!window.confirm("Publicera det här motivet på Etsy som " + n + " produkter?\nEtsys listningsavgift: ≈ " + (n * PER_ITEM_USD).toFixed(2) + " USD. Inget annat kostar.")) return;
+      const it = status.items.find((i) => i.slug === slug);
+      const w = wanted(A.get(slug)).length, n = it ? listingCount(it) : w;
+      if (!w) { window.alert("Kryssa först i vilka produkter (poster, mugg, kasse …) som ska till Etsy, tryck sedan ✅ Ja."); return; }
+      const how = mode(A.get(slug)) === "separat" ? "en listning per storlek/färg" : "storlekarna som alternativ i en listning per produkt";
+      if (!window.confirm("Publicera det här motivet på Etsy: " + w + " produkter, " + how + " = " + n + " listningar?\nEtsys listningsavgift: ≈ " + (n * PER_ITEM_USD).toFixed(2) + " USD. Inget annat kostar.")) return;
     }
     if (btn) btn.disabled = true;
     try { await A.decide([slug], beslut); rerender(); }
@@ -129,6 +149,13 @@
         return;
       }
       decide(slug, cur && cur.beslut === act ? null : act, b);   // klick igen = ångra
+    }));
+    document.querySelectorAll(".card .mode button").forEach((b) => b.addEventListener("click", async (ev) => {
+      ev.preventDefault(); ev.stopPropagation();
+      const slug = b.closest(".card").dataset.slug;
+      b.disabled = true;
+      try { await A.setMode(slug, b.dataset.mode); rerender(); }
+      catch (e) { window.alert("Kunde inte spara: " + e.message); b.disabled = false; }
     }));
     document.querySelectorAll(".card .prods input").forEach((cb) => cb.addEventListener("change", async () => {
       const cardEl = cb.closest(".card"), slug = cardEl.dataset.slug;
