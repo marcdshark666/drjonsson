@@ -1949,11 +1949,16 @@
         "popup_products": {
           "poster": "6aac1e5e075086dbb6032cef",
           "framed": "6aac1f35e001f1aced0c6610",
-          "canvas": "6aac200ccbfc37cbd40e8d81"
+          "canvas": "6aac200ccbfc37cbd40e8d81",
+          "framed_canvas": "6aac46f814b2dfbb2a023eb9",
+          "metal": "6aac4714ab48ec648b052002",
+          "mug": "6aac4727b89305e1dc087ca7",
+          "tote": "6aac473914b2dfbb2a023ef9",
+          "tshirt": "6aac474a14b2dfbb2a023f08"
         },
         "popup_product": true,
-        "popup_published": false,
-        "popup_count": "0/3"
+        "popup_published": true,
+        "popup_count": "8/8"
       }
     },
     {
@@ -1980,7 +1985,21 @@
       "thumb": "img/20260917-9-kenya-polo.jpg",
       "prompt": "two polo players in white breeches and coloured jerseys with a groom holding a chestnut horse, a safari lodge veranda in Kenya with cane furniture, a brass telescope and golden plains and flat acacias beyond, harsh midday sun with short shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 562063836,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aac4765277be03d31036fd8",
+          "framed": "6aac4777e2f00d98b805f599",
+          "canvas": "6aac478786c28fddee0f5804",
+          "framed_canvas": "6aac4797dc0b22a4680916c7",
+          "metal": "6aac47a9c4296f1f0d0f399c",
+          "mug": "6aac47ba08fa4029c60bc75b",
+          "tote": "6aac47cc86c28fddee0f5825",
+          "tshirt": "6aac47dbdc0b22a4680916e5"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260917-10-palm-beach-golf",
@@ -3203,6 +3222,17 @@
       ],
       "dry_run": false,
       "finished": "2026-09-17T19:18:26"
+    },
+    {
+      "date": "2026-09-17",
+      "started": "2026-09-17T22:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 608,
+      "etsy": 0,
+      "errors": [],
+      "dry_run": false,
+      "finished": "2026-09-17T22:05:01"
     }
   ],
   "todo": [
@@ -3286,14 +3316,14 @@
   ],
   "stats": {
     "generated": 76,
-    "printify_drafts": 75,
-    "popup_live": 74,
+    "printify_drafts": 76,
+    "popup_live": 76,
     "etsy_live": 0,
     "days": 3,
     "streak": 3,
-    "errors_last_run": 1
+    "errors_last_run": 0
   },
-  "updated": "2026-09-17T19:18:26",
+  "updated": "2026-09-17T22:05:01",
   "store_mail": {
     "checked": "2026-09-17T06:24:33Z",
     "status": "atgard-kravs",
