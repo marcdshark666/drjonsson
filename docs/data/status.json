@@ -1862,10 +1862,10 @@
   },
   "updated": "2026-09-16T22:00:15",
   "store_mail": {
-    "checked": "2026-09-16T10:26:00Z",
+    "checked": "2026-09-17T06:24:33Z",
     "status": "atgard-kravs",
     "shop_open": false,
-    "headline": "Etsy Payments väntar på att det juridiska namnet skrivs utan specialtecken",
+    "headline": "Etsy vill att efternamnet skrivs utan specialtecken (ö → oe) så det matchar ID-handlingen",
     "action_url": "https://www.etsy.com/upload/verify",
     "who": "Marc"
   }
