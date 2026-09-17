@@ -1798,7 +1798,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "6/8"
+        "popup_count": "8/8"
       }
     },
     {
@@ -1827,11 +1827,18 @@
       "seed": 586788940,
       "printify": {
         "popup_products": {
-          "poster": "6aabf5d408fa4029c60ba33a"
+          "poster": "6aabf5d408fa4029c60ba33a",
+          "framed": "6aac1ce2ae5be567f6088d39",
+          "canvas": "6aac1cf1fab3e89cfa0e33a1",
+          "framed_canvas": "6aac1d02465d71eeb10fb682",
+          "metal": "6aac1d138863dcd6490b41d6",
+          "mug": "6aac1d23e0b70bf0910b2a68",
+          "tote": "6aac1d32f457ecfded0d5bb7",
+          "tshirt": "6aac1d41aaf2246e000c36bd"
         },
         "popup_product": true,
-        "popup_published": false,
-        "popup_count": "0/1"
+        "popup_published": true,
+        "popup_count": "8/8"
       }
     },
     {
@@ -1858,7 +1865,21 @@
       "thumb": "img/20260917-6-lake-como-magenta-gown.jpg",
       "prompt": "an elegant woman in a floor-length sheer magenta gown and a wide white sun hat standing by the pool with two dalmatians, a terraced villa garden on Lake Como with cypress trees, a long turquoise pool and the lake and mountains beyond, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1771287772,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aac1d57e0b70bf0910b2a79",
+          "framed": "6aac1d677968a4ffa80ace08",
+          "canvas": "6aac1d766925c45aa1009164",
+          "framed_canvas": "6aac1d86d36f8613d00793e3",
+          "metal": "6aac1d98ee41b1e8aa0a49a7",
+          "mug": "6aac1da7e001f1aced0c65a9",
+          "tote": "6aac1db61ece91d9540ede63",
+          "tshirt": "6aac1dc5d8ce91d3d70b304a"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260917-7-highlands-horse-riding",
@@ -1884,7 +1905,21 @@
       "thumb": "img/20260917-7-highlands-horse-riding.jpg",
       "prompt": "a rider in a hacking jacket on a grey horse on a gravel drive lined with cypresses, the lawn of a Scottish country house with a gravel drive, heather hills, a dark green estate car and a loch beyond, low golden hour sun raking across the scene, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 547501093,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aac1dda422363b6110c655a",
+          "framed": "6aac1deab65f502ee80eadd5",
+          "canvas": "6aac1df9d8ce91d3d70b3056",
+          "framed_canvas": "6aac1e0af457ecfded0d5be4",
+          "metal": "6aac1e1baaf2246e000c36db",
+          "mug": "6aac1e2b7968a4ffa80ace22",
+          "tote": "6aac1e3a7968a4ffa80ace2b",
+          "tshirt": "6aac1e49aaf2246e000c36e2"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260917-8-havana-backgammon",
@@ -1910,7 +1945,16 @@
       "thumb": "img/20260917-8-havana-backgammon.jpg",
       "prompt": "a couple in swimwear playing backgammon on a striped towel beside the pool, a Havana courtyard with faded turquoise colonnades, a vintage convertible in the drive and royal palms, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1940988589,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aac1e5e075086dbb6032cef",
+          "framed": "6aac1f35e001f1aced0c6610",
+          "canvas": "6aac200ccbfc37cbd40e8d81"
+        },
+        "popup_product": true,
+        "popup_published": false,
+        "popup_count": "0/3"
+      }
     },
     {
       "slug": "20260917-9-kenya-polo",
@@ -3146,6 +3190,19 @@
       ],
       "dry_run": false,
       "finished": "2026-09-17T16:18:21"
+    },
+    {
+      "date": "2026-09-17",
+      "started": "2026-09-17T19:00:04",
+      "count": 35,
+      "generated": 35,
+      "popup": 592,
+      "etsy": 0,
+      "errors": [
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1789665505@03c022d1-9ed0-4d4a-b044-397e4eabda6b\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-09-17T19:18:26"
     }
   ],
   "todo": [
@@ -3229,14 +3286,14 @@
   ],
   "stats": {
     "generated": 76,
-    "printify_drafts": 72,
-    "popup_live": 71,
+    "printify_drafts": 75,
+    "popup_live": 74,
     "etsy_live": 0,
     "days": 3,
     "streak": 3,
     "errors_last_run": 1
   },
-  "updated": "2026-09-17T16:18:21",
+  "updated": "2026-09-17T19:18:26",
   "store_mail": {
     "checked": "2026-09-17T06:24:33Z",
     "status": "atgard-kravs",
