@@ -6605,7 +6605,36 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "8/8",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aace329d8b2321e9e09fb31/43138/94683/the-hostess-bermuda-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aace339a372a358180250d3/69664/124091/the-hostess-bermuda-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aace348a372a358180250d7/91644/60165/the-hostess-bermuda-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aace3584b297974bd045775/111829/107096/the-hostess-bermuda-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aace368e5329b1a3f0a29b7/92006/62734/the-hostess-bermuda-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aace378be90687af50f30d3/65216/6310/the-hostess-bermuda-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aace386799a34d2c70b2b12/119446/109797/the-hostess-bermuda-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aace395b2a93f47f1021020/18542/102044/the-hostess-bermuda-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aace329d8b2321e9e09fb31",
+          "framed": "https://drjonsson.printify.me/product/6aace339a372a358180250d3",
+          "canvas": "https://drjonsson.printify.me/product/6aace348a372a358180250d7",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aace3584b297974bd045775",
+          "metal": "https://drjonsson.printify.me/product/6aace368e5329b1a3f0a29b7",
+          "mug": "https://drjonsson.printify.me/product/6aace378be90687af50f30d3",
+          "tote": "https://drjonsson.printify.me/product/6aace386799a34d2c70b2b12",
+          "tshirt": "https://drjonsson.printify.me/product/6aace395b2a93f47f1021020"
+        }
       }
     },
     {
@@ -6646,7 +6675,36 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "8/8",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aace3abe5329b1a3f0a29cd/43138/94683/the-foursome-lake-geneva-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aace3bbe5329b1a3f0a29d1/69664/124091/the-foursome-lake-geneva-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aace3cac3c8490a6b0d5e3d/91644/60165/the-foursome-lake-geneva-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aace3db810111279b0b8679/111829/107096/the-foursome-lake-geneva-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aace4b2fc190088ea03bfdb/92006/62734/the-foursome-lake-geneva-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aace588fc190088ea03c01b/65216/6310/the-foursome-lake-geneva-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aacefb87194cd84b40e6a24/119446/109797/the-foursome-lake-geneva-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aacefd25febb8d1d80fd06a/18542/102044/the-foursome-lake-geneva-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aace3abe5329b1a3f0a29cd",
+          "framed": "https://drjonsson.printify.me/product/6aace3bbe5329b1a3f0a29d1",
+          "canvas": "https://drjonsson.printify.me/product/6aace3cac3c8490a6b0d5e3d",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aace3db810111279b0b8679",
+          "metal": "https://drjonsson.printify.me/product/6aace4b2fc190088ea03bfdb",
+          "mug": "https://drjonsson.printify.me/product/6aace588fc190088ea03c01b",
+          "tote": "https://drjonsson.printify.me/product/6aacefb87194cd84b40e6a24",
+          "tshirt": "https://drjonsson.printify.me/product/6aacefd25febb8d1d80fd06a"
+        }
       }
     },
     {
@@ -6687,7 +6745,36 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "8/8",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aaceff57f66b994dc0233d8/43138/94683/tennis-whites-beverly-hills-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aacf005c08eb5e3210c314b/69664/124091/tennis-whites-beverly-hills-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aacf019cd835222030d0245/91644/60165/tennis-whites-beverly-hills-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aacf02b7194cd84b40e6a73/111829/107096/tennis-whites-beverly-hills-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aacf04137afcbf0f9063e5b/92006/62734/tennis-whites-beverly-hills-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aacf05037afcbf0f9063e69/65216/6310/tennis-whites-beverly-hills-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aacf05f959b59edfd04c1b1/119446/109797/tennis-whites-beverly-hills-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aacf06ec08eb5e3210c3171/18542/102044/tennis-whites-beverly-hills-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aaceff57f66b994dc0233d8",
+          "framed": "https://drjonsson.printify.me/product/6aacf005c08eb5e3210c314b",
+          "canvas": "https://drjonsson.printify.me/product/6aacf019cd835222030d0245",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aacf02b7194cd84b40e6a73",
+          "metal": "https://drjonsson.printify.me/product/6aacf04137afcbf0f9063e5b",
+          "mug": "https://drjonsson.printify.me/product/6aacf05037afcbf0f9063e69",
+          "tote": "https://drjonsson.printify.me/product/6aacf05f959b59edfd04c1b1",
+          "tshirt": "https://drjonsson.printify.me/product/6aacf06ec08eb5e3210c3171"
+        }
       }
     },
     {
@@ -6728,7 +6815,36 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "8/8",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aacf084bf5e3945f101fe16/43138/94683/the-bridge-four-positano-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aacf093127af026be0a6362/69664/124091/the-bridge-four-positano-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aacf0a2bf5e3945f101fe30/91644/60165/the-bridge-four-positano-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aacf0b27f66b994dc02340b/111829/107096/the-bridge-four-positano-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aacf0c341c39713db0a4b35/92006/62734/the-bridge-four-positano-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aacf0d2919619e7b9025862/65216/6310/the-bridge-four-positano-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aacf0e1bf5e3945f101fe52/119446/109797/the-bridge-four-positano-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aacf0f08e545adde10f0f19/18542/102044/the-bridge-four-positano-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aacf084bf5e3945f101fe16",
+          "framed": "https://drjonsson.printify.me/product/6aacf093127af026be0a6362",
+          "canvas": "https://drjonsson.printify.me/product/6aacf0a2bf5e3945f101fe30",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aacf0b27f66b994dc02340b",
+          "metal": "https://drjonsson.printify.me/product/6aacf0c341c39713db0a4b35",
+          "mug": "https://drjonsson.printify.me/product/6aacf0d2919619e7b9025862",
+          "tote": "https://drjonsson.printify.me/product/6aacf0e1bf5e3945f101fe52",
+          "tshirt": "https://drjonsson.printify.me/product/6aacf0f08e545adde10f0f19"
+        }
       }
     },
     {
@@ -6769,7 +6885,36 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/8",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aacf104959b59edfd04c1ee/43138/94683/the-cream-suit-santorini-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aacf1136d35da5b4904ae4c/69664/124091/the-cream-suit-santorini-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aacf12341c39713db0a4b5d/91644/60165/the-cream-suit-santorini-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aacf1344b297974bd045dd2/111829/107096/the-cream-suit-santorini-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aacf1448331fc3fac042fb3/92006/62734/the-cream-suit-santorini-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aacf15437afcbf0f9063ebe/65216/6310/the-cream-suit-santorini-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aacf22b920c25b1b3007df3/119446/109797/the-cream-suit-santorini-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aacf30008ea9c9c3302a244/18542/102044/the-cream-suit-santorini-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aacf104959b59edfd04c1ee",
+          "framed": "https://drjonsson.printify.me/product/6aacf1136d35da5b4904ae4c",
+          "canvas": "https://drjonsson.printify.me/product/6aacf12341c39713db0a4b5d",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aacf1344b297974bd045dd2",
+          "metal": "https://drjonsson.printify.me/product/6aacf1448331fc3fac042fb3",
+          "mug": "https://drjonsson.printify.me/product/6aacf15437afcbf0f9063ebe",
+          "tote": "https://drjonsson.printify.me/product/6aacf22b920c25b1b3007df3",
+          "tshirt": "https://drjonsson.printify.me/product/6aacf30008ea9c9c3302a244"
+        }
       }
     },
     {
@@ -7305,7 +7450,7 @@
     "errors_last_run": 1,
     "product_types": 8
   },
-  "updated": "2026-09-18T10:21:20",
+  "updated": "2026-09-18T11:20:31",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
