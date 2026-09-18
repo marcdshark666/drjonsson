@@ -5836,7 +5836,16 @@
       "prompt": "a silver-haired man in a cream linen suit and sunglasses leaning on a vintage pale-blue convertible, a mid-century modernist house in Palm Springs with a kidney-shaped pool, palm trees and desert mountains behind, bright hazy noon with the horizon washed pale, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1194872689,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aad98801d79070732029ca8/43138/94683/the-cream-suit-palm-springs-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aad989af9808a206e08691a/69664/124091/the-cream-suit-palm-springs-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aad98abde68b1c5b7012bc7/91644/60165/the-cream-suit-palm-springs-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aad98bc38d954c1270975d3/111829/107096/the-cream-suit-palm-springs-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aad98cf1d79070732029d24/92006/62734/the-cream-suit-palm-springs-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aad98df38d954c12709760c/65216/6310/the-cream-suit-palm-springs-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aad98f070dcfefafa0a1fa5/119446/109797/the-cream-suit-palm-springs-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aad9900081b2418340825af/18542/102044/the-cream-suit-palm-springs-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
         "popup_products": {
           "poster": "6aad98801d79070732029ca8",
           "framed": "6aad989af9808a206e08691a",
@@ -5849,7 +5858,27 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aad98801d79070732029ca8",
+          "framed": "https://drjonsson.printify.me/product/6aad989af9808a206e08691a",
+          "canvas": "https://drjonsson.printify.me/product/6aad98abde68b1c5b7012bc7",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aad98bc38d954c1270975d3",
+          "metal": "https://drjonsson.printify.me/product/6aad98cf1d79070732029d24",
+          "mug": "https://drjonsson.printify.me/product/6aad98df38d954c12709760c",
+          "tote": "https://drjonsson.printify.me/product/6aad98f070dcfefafa0a1fa5",
+          "tshirt": "https://drjonsson.printify.me/product/6aad9900081b2418340825af"
+        }
       }
     },
     {
@@ -5877,7 +5906,16 @@
       "prompt": "a crowd in evening wear at a garden cocktail party with waiters in white jackets carrying silver trays, a whitewashed Andalusian villa in Marbella with a blue-tiled pool, orange trees and arched colonnades, bright hazy noon with the horizon washed pale, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1475008392,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aad991751524a051c0405db/43138/94683/cocktail-hour-marbella-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aad99286e16ddd8460467af/69664/124091/cocktail-hour-marbella-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aad99391d79070732029dd7/91644/60165/cocktail-hour-marbella-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aad9949de68b1c5b7012cc8/111829/107096/cocktail-hour-marbella-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aad99611d79070732029e45/92006/62734/cocktail-hour-marbella-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aad99756a00ef66420d362c/65216/6310/cocktail-hour-marbella-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aad998870dcfefafa0a210c/119446/109797/cocktail-hour-marbella-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aad99a8b7ac63feaa0b1923/18542/102044/cocktail-hour-marbella-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
         "popup_products": {
           "poster": "6aad991751524a051c0405db",
           "framed": "6aad99286e16ddd8460467af",
@@ -5890,7 +5928,27 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aad991751524a051c0405db",
+          "framed": "https://drjonsson.printify.me/product/6aad99286e16ddd8460467af",
+          "canvas": "https://drjonsson.printify.me/product/6aad99391d79070732029dd7",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aad9949de68b1c5b7012cc8",
+          "metal": "https://drjonsson.printify.me/product/6aad99611d79070732029e45",
+          "mug": "https://drjonsson.printify.me/product/6aad99756a00ef66420d362c",
+          "tote": "https://drjonsson.printify.me/product/6aad998870dcfefafa0a210c",
+          "tshirt": "https://drjonsson.printify.me/product/6aad99a8b7ac63feaa0b1923"
+        }
       }
     },
     {
@@ -8072,7 +8130,7 @@
     "errors_last_run": 0,
     "product_types": 8
   },
-  "updated": "2026-09-18T22:06:37",
+  "updated": "2026-09-18T22:20:14",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
