@@ -230,7 +230,6 @@
     document.querySelectorAll(".card .prods input").forEach((cb) => cb.addEventListener("change", async () => {
       const cardEl = cb.closest(".card"), slug = cardEl.dataset.slug;
       const list = [...cardEl.querySelectorAll(".prods input")].filter((x) => x.checked).map((x) => x.dataset.type);
-      cb.disabled = true;
       try {
         await A.setProducts(slug, list);
         rerender();
