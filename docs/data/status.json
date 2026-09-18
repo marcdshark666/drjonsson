@@ -5508,7 +5508,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "7/8",
+        "popup_count": "8/8",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -5556,7 +5556,18 @@
       "prompt": "two men in rolled-up trousers on a jetty with rods and a wicker creel, a boy holding up the day's catch, a modernist apartment terrace above Copacabana in Rio with a mosaic pool, palms and Sugarloaf beyond, clear morning light, sky a saturated cerulean, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1039648366,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6aad456e253ea2b07f04eca7",
+          "framed": "6aad457ec6a10a3c3507c4fc",
+          "canvas": "6aad458d75218d0c980cd58b",
+          "framed_canvas": "6aad459e253ea2b07f04ecc0",
+          "metal": "6aad46776e22518dc009e559",
+          "mug": "6aad474d3e1599dca704cca8"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "3/6"
       }
     },
     {
@@ -7146,7 +7157,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "7/8",
+        "popup_count": "8/8",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -7346,11 +7357,14 @@
           "framed": "6aad1d7a0e82f615b1067c8a",
           "canvas": "6aad1d8a63027410fc033f14",
           "framed_canvas": "6aad1e620e82f615b1067cec",
-          "metal": "6aad1f3e0bcea286e70a7d2f"
+          "metal": "6aad1f3e0bcea286e70a7d2f",
+          "mug": "6aad4430a9c533cbca0fd4a5",
+          "tote": "6aad44402cf727b67400ad6f",
+          "tshirt": "6aad444f2cf39d5f6f05c768"
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "2/5",
+        "popup_count": "8/8",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -7392,7 +7406,20 @@
       "prompt": "a small band in white dinner jackets playing beside the pool while guests dance barefoot on the terrace, the lawn of a Scottish country house with a gravel drive, heather hills, a dark green estate car and a loch beyond, warm late-afternoon light with long shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 16980609,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6aad4466516347c72805831f",
+          "framed": "6aad44750ae5f916ab0c4bc7",
+          "canvas": "6aad44852fdf5571b90f7afc",
+          "framed_canvas": "6aad4495750439d60908bf87",
+          "metal": "6aad44a76b1a674b630a7685",
+          "mug": "6aad44b7e30d553a41020452",
+          "tote": "6aad44c61ba2327655077035",
+          "tshirt": "6aad44d575218d0c980cd527"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
       }
     },
     {
@@ -7420,7 +7447,20 @@
       "prompt": "a family at a lace-laid tea table with a tiered cake stand while a butler pours, a cliffside terrace on the Amalfi coast with lemon trees, white parasols and the deep blue Tyrrhenian sea far below, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 541575158,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6aad44e9e30d553a410204b3",
+          "framed": "6aad44f9c6a10a3c3507c4af",
+          "canvas": "6aad45092fdf5571b90f7b54",
+          "framed_canvas": "6aad45182fdf5571b90f7b64",
+          "metal": "6aad452b2cf39d5f6f05c7de",
+          "mug": "6aad453b2cf727b67400ae51",
+          "tote": "6aad45492fdf5571b90f7b7b",
+          "tshirt": "6aad455a0ae5f916ab0c4c1c"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
       }
     }
   ],
@@ -7654,6 +7694,19 @@
       ],
       "dry_run": false,
       "finished": "2026-09-18T13:27:17"
+    },
+    {
+      "date": "2026-09-18",
+      "started": "2026-09-18T16:00:01",
+      "count": 35,
+      "generated": 35,
+      "popup": 843,
+      "etsy": 0,
+      "errors": [
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1789741090@3ee91a16-ccff-4681-8a17-bc2fcc38c34a\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-09-18T16:18:10"
     }
   ],
   "todo": [
@@ -7737,15 +7790,15 @@
   ],
   "stats": {
     "generated": 111,
-    "printify_drafts": 103,
-    "popup_live": 103,
+    "printify_drafts": 106,
+    "popup_live": 106,
     "etsy_live": 0,
     "days": 4,
     "streak": 4,
     "errors_last_run": 1,
     "product_types": 8
   },
-  "updated": "2026-09-18T14:21:21",
+  "updated": "2026-09-18T16:18:10",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
