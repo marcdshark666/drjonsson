@@ -5486,7 +5486,16 @@
       "prompt": "an elderly gentleman in a paisley silk dressing gown reading a newspaper with a white standard poodle at his feet, a whitewashed finca terrace on Ibiza with a rough stone wall, a rectangular pool and pine-covered hills falling to the sea, low golden hour sun raking across the scene, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1387665595,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aad15bb10a6f945b307c572/43138/94683/the-silk-robe-ibiza-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aad15daf9c04c6b0208fac8/69664/124091/the-silk-robe-ibiza-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aad15ebf9c04c6b0208fae5/91644/60165/the-silk-robe-ibiza-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aad16022b108f00550f5c5f/111829/107096/the-silk-robe-ibiza-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aad161310a6f945b307c5ae/92006/62734/the-silk-robe-ibiza-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aad162410a6f945b307c5b6/65216/6310/the-silk-robe-ibiza-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aad163463027410fc033c48/119446/109797/the-silk-robe-ibiza-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aad16442b108f00550f5c76/18542/102044/the-silk-robe-ibiza-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
         "popup_products": {
           "poster": "6aad15bb10a6f945b307c572",
           "framed": "6aad15daf9c04c6b0208fac8",
@@ -5499,7 +5508,27 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "7/8"
+        "popup_count": "7/8",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aad15bb10a6f945b307c572",
+          "framed": "https://drjonsson.printify.me/product/6aad15daf9c04c6b0208fac8",
+          "canvas": "https://drjonsson.printify.me/product/6aad15ebf9c04c6b0208fae5",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aad16022b108f00550f5c5f",
+          "metal": "https://drjonsson.printify.me/product/6aad161310a6f945b307c5ae",
+          "mug": "https://drjonsson.printify.me/product/6aad162410a6f945b307c5b6",
+          "tote": "https://drjonsson.printify.me/product/6aad163463027410fc033c48",
+          "tshirt": "https://drjonsson.printify.me/product/6aad16442b108f00550f5c76"
+        }
       }
     },
     {
@@ -6955,7 +6984,16 @@
       "prompt": "a woman in a broad-brimmed hat and gloves cutting roses into a basket while a butler waits with a tray, a whitewashed Santorini terrace with a blue-domed church, a small plunge pool and the caldera dropping to the Aegean, bright hazy noon with the horizon washed pale, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 216138534,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aad14a25cee6b3a600afc7f/43138/94683/the-gardener-santorini-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aad14b2191ab6503202129a/69664/124091/the-gardener-santorini-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aad14c1bbd49f3b8804e3a7/91644/60165/the-gardener-santorini-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aad14d1bbd49f3b8804e3aa/111829/107096/the-gardener-santorini-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aad14e2bbd49f3b8804e3ae/92006/62734/the-gardener-santorini-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aad14f468fc55218000c134/65216/6310/the-gardener-santorini-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aad15033a19ce75da08abd1/119446/109797/the-gardener-santorini-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aad1512933deefb8d0dc3c3/18542/102044/the-gardener-santorini-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
         "popup_products": {
           "poster": "6aad14a25cee6b3a600afc7f",
           "framed": "6aad14b2191ab6503202129a",
@@ -6968,7 +7006,27 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aad14a25cee6b3a600afc7f",
+          "framed": "https://drjonsson.printify.me/product/6aad14b2191ab6503202129a",
+          "canvas": "https://drjonsson.printify.me/product/6aad14c1bbd49f3b8804e3a7",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aad14d1bbd49f3b8804e3aa",
+          "metal": "https://drjonsson.printify.me/product/6aad14e2bbd49f3b8804e3ae",
+          "mug": "https://drjonsson.printify.me/product/6aad14f468fc55218000c134",
+          "tote": "https://drjonsson.printify.me/product/6aad15033a19ce75da08abd1",
+          "tshirt": "https://drjonsson.printify.me/product/6aad1512933deefb8d0dc3c3"
+        }
       }
     },
     {
@@ -6996,7 +7054,16 @@
       "prompt": "two men in rolled-up trousers on a jetty with rods and a wicker creel, a boy holding up the day's catch, a harbourside lawn in Sydney with a sandstone house, a diving board over deep blue water and ferries crossing behind, bright hazy noon with the horizon washed pale, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 855174986,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aad1527191ab650320212e9/43138/94683/the-catch-sydney-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aad1537933deefb8d0dc3de/69664/124091/the-catch-sydney-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aad1546bbd49f3b8804e3e8/91644/60165/the-catch-sydney-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aad15563a19ce75da08ac08/111829/107096/the-catch-sydney-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aad1567f9c04c6b0208fa3c/92006/62734/the-catch-sydney-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aad157810a6f945b307c53e/65216/6310/the-catch-sydney-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aad1589191ab65032021317/119446/109797/the-catch-sydney-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aad159c10a6f945b307c553/18542/102044/the-catch-sydney-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
         "popup_products": {
           "poster": "6aad1527191ab650320212e9",
           "framed": "6aad1537933deefb8d0dc3de",
@@ -7009,7 +7076,27 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aad1527191ab650320212e9",
+          "framed": "https://drjonsson.printify.me/product/6aad1537933deefb8d0dc3de",
+          "canvas": "https://drjonsson.printify.me/product/6aad1546bbd49f3b8804e3e8",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aad15563a19ce75da08ac08",
+          "metal": "https://drjonsson.printify.me/product/6aad1567f9c04c6b0208fa3c",
+          "mug": "https://drjonsson.printify.me/product/6aad157810a6f945b307c53e",
+          "tote": "https://drjonsson.printify.me/product/6aad1589191ab65032021317",
+          "tshirt": "https://drjonsson.printify.me/product/6aad159c10a6f945b307c553"
+        }
       }
     },
     {
@@ -7037,7 +7124,16 @@
       "prompt": "four players in white summer clothes with croquet mallets and a scoreboard, a spaniel watching from the shade, the lawn of a Newport mansion above the cliff walk with a marble balustrade, old oaks and sailing yachts out on the sound, low golden hour sun raking across the scene, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 109799443,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aad171e632b201941017fdc/43138/94683/the-croquet-match-newport-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aad17f6f9c04c6b0208fc15/69664/124091/the-croquet-match-newport-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aad1bcc649fd40dda05178b/91644/60165/the-croquet-match-newport-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aad1bdcc0b462b2ad0110a8/111829/107096/the-croquet-match-newport-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aad1bedce7d0ceaa10c21fd/92006/62734/the-croquet-match-newport-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aad1bfc0b0062264e075413/65216/6310/the-croquet-match-newport-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aad1c0b10a6f945b307c919/119446/109797/the-croquet-match-newport-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aad1c1b10a6f945b307c928/18542/102044/the-croquet-match-newport-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
         "popup_products": {
           "poster": "6aad171e632b201941017fdc",
           "framed": "6aad17f6f9c04c6b0208fc15",
@@ -7050,7 +7146,27 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "7/8"
+        "popup_count": "7/8",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aad171e632b201941017fdc",
+          "framed": "https://drjonsson.printify.me/product/6aad17f6f9c04c6b0208fc15",
+          "canvas": "https://drjonsson.printify.me/product/6aad1bcc649fd40dda05178b",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aad1bdcc0b462b2ad0110a8",
+          "metal": "https://drjonsson.printify.me/product/6aad1bedce7d0ceaa10c21fd",
+          "mug": "https://drjonsson.printify.me/product/6aad1bfc0b0062264e075413",
+          "tote": "https://drjonsson.printify.me/product/6aad1c0b10a6f945b307c919",
+          "tshirt": "https://drjonsson.printify.me/product/6aad1c1b10a6f945b307c928"
+        }
       }
     },
     {
@@ -7078,7 +7194,16 @@
       "prompt": "a couple in swimwear playing backgammon on a striped towel beside the pool, a riad courtyard in Marrakech with a green-tiled pool, orange trees, ochre walls and a striped cabana, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 28169590,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aad1c2fc0b462b2ad0110c7/43138/94683/backgammon-marrakech-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aad1c47649fd40dda0517cb/69664/124091/backgammon-marrakech-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aad1c5f460ac5573e0aedda/91644/60165/backgammon-marrakech-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aad1c7710a6f945b307c954/111829/107096/backgammon-marrakech-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aad1c9863027410fc033ec9/92006/62734/backgammon-marrakech-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aad1cac8a46f8a1a90d4704/65216/6310/backgammon-marrakech-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aad1cbc649fd40dda0517f8/119446/109797/backgammon-marrakech-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aad1ccc8a46f8a1a90d4718/18542/102044/backgammon-marrakech-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
         "popup_products": {
           "poster": "6aad1c2fc0b462b2ad0110c7",
           "framed": "6aad1c47649fd40dda0517cb",
@@ -7091,7 +7216,27 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aad1c2fc0b462b2ad0110c7",
+          "framed": "https://drjonsson.printify.me/product/6aad1c47649fd40dda0517cb",
+          "canvas": "https://drjonsson.printify.me/product/6aad1c5f460ac5573e0aedda",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aad1c7710a6f945b307c954",
+          "metal": "https://drjonsson.printify.me/product/6aad1c9863027410fc033ec9",
+          "mug": "https://drjonsson.printify.me/product/6aad1cac8a46f8a1a90d4704",
+          "tote": "https://drjonsson.printify.me/product/6aad1cbc649fd40dda0517f8",
+          "tshirt": "https://drjonsson.printify.me/product/6aad1ccc8a46f8a1a90d4718"
+        }
       }
     },
     {
@@ -7119,7 +7264,16 @@
       "prompt": "a picnic on a tartan rug with a wicker hamper, a bottle of rose in a silver bucket and a vintage convertible parked behind, the tiered pastel houses of Positano seen from a balcony, with bougainvillea, a pebble beach and fishing boats below, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1227777104,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aad1ce010a6f945b307c98b/43138/94683/the-picnic-positano-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aad1cf0632b20194101820f/69664/124091/the-picnic-positano-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aad1d03bef9404759031f66/91644/60165/the-picnic-positano-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aad1d13191ab6503202165a/111829/107096/the-picnic-positano-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aad1d240e82f615b1067bf2/92006/62734/the-picnic-positano-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front",
+          "mug": "https://images-api.printify.com/mockup/6aad1d331e2004aa900ddc68/65216/6310/the-picnic-positano-drjonsson-photo-mug-old-money-aesthetic-coffee-mug-gift-for-him.jpg?camera_label=front",
+          "tote": "https://images-api.printify.com/mockup/6aad1d43649fd40dda051834/119446/109797/the-picnic-positano-drjonsson-photo-tote-bag-old-money-aesthetic-bag-beach-tote.jpg?camera_label=front",
+          "tshirt": "https://images-api.printify.com/mockup/6aad1d5610a6f945b307c9be/18542/102044/the-picnic-positano-drjonsson-photo-tee-old-money-aesthetic-t-shirt-vintage-riviera-shirt.jpg?camera_label=front-2"
+        },
         "popup_products": {
           "poster": "6aad1ce010a6f945b307c98b",
           "framed": "6aad1cf0632b20194101820f",
@@ -7132,7 +7286,27 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "8/8"
+        "popup_count": "8/8",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1,
+          "mug": 2,
+          "tote": 2,
+          "tshirt": 15
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aad1ce010a6f945b307c98b",
+          "framed": "https://drjonsson.printify.me/product/6aad1cf0632b20194101820f",
+          "canvas": "https://drjonsson.printify.me/product/6aad1d03bef9404759031f66",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aad1d13191ab6503202165a",
+          "metal": "https://drjonsson.printify.me/product/6aad1d240e82f615b1067bf2",
+          "mug": "https://drjonsson.printify.me/product/6aad1d331e2004aa900ddc68",
+          "tote": "https://drjonsson.printify.me/product/6aad1d43649fd40dda051834",
+          "tshirt": "https://drjonsson.printify.me/product/6aad1d5610a6f945b307c9be"
+        }
       }
     },
     {
@@ -7160,7 +7334,13 @@
       "prompt": "a woman in a red bikini on a striped inflatable float with a cocktail balanced on the rim, a white sand beach on Mustique with a thatched pavilion, a wooden sailboat and impossibly clear turquoise water, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1917280035,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aad1d6a10a6f945b307c9c9/43138/94683/the-float-mustique-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aad1d7a0e82f615b1067c8a/69664/124091/the-float-mustique-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aad1d8a63027410fc033f14/91644/60165/the-float-mustique-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aad1e620e82f615b1067cec/111829/107096/the-float-mustique-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aad1f3e0bcea286e70a7d2f/92006/62734/the-float-mustique-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6aad1d6a10a6f945b307c9c9",
           "framed": "6aad1d7a0e82f615b1067c8a",
@@ -7170,7 +7350,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "2/5"
+        "popup_count": "2/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aad1d6a10a6f945b307c9c9",
+          "framed": "https://drjonsson.printify.me/product/6aad1d7a0e82f615b1067c8a",
+          "canvas": "https://drjonsson.printify.me/product/6aad1d8a63027410fc033f14",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aad1e620e82f615b1067cec",
+          "metal": "https://drjonsson.printify.me/product/6aad1f3e0bcea286e70a7d2f"
+        }
       }
     },
     {
@@ -7551,7 +7745,7 @@
     "errors_last_run": 1,
     "product_types": 8
   },
-  "updated": "2026-09-18T13:27:17",
+  "updated": "2026-09-18T14:21:21",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
