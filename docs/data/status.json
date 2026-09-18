@@ -5563,7 +5563,7 @@
       "text": "Etsy-butik öppnad (15–29 USD, ID-verifiering)",
       "who": "etsy.com/sell – du (Gmail-kollen bockar av)",
       "auto": false,
-      "done": false
+      "done": true
     },
     {
       "id": "etsy-connect",
@@ -5604,13 +5604,13 @@
     "errors_last_run": 0,
     "product_types": 8
   },
-  "updated": "2026-09-18T00:22:57",
+  "updated": "2026-09-18T08:20:04",
   "store_mail": {
-    "checked": "2026-09-17T06:24:33Z",
-    "status": "atgard-kravs",
-    "shop_open": false,
-    "headline": "Etsy vill att efternamnet skrivs utan specialtecken (ö → oe) så det matchar ID-handlingen",
-    "action_url": "https://www.etsy.com/upload/verify",
+    "checked": "2026-09-18T06:30:00Z",
+    "status": "bekraftat",
+    "shop_open": true,
+    "headline": "Etsy godkande identiteten 17/9 kvall - butiken DrJonssonDesign ar registrerad och startavgiften betald",
+    "action_url": "https://www.etsy.com/your/shops/me/onboarding/billing",
     "who": "Marc"
   }
 }
