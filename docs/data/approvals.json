@@ -1,5 +1,5 @@
 {
   "_hjalp": "Marcs beslut per motiv fran dashboarden. beslut ja = far publiceras pa Etsy (0,20 USD per listning), nej = aldrig. Skrivs av docs/approvals.js via GitHub, lases av pipeline/generate_daily.py --etsy-only.",
   "items": {},
-  "updated": "2026-09-18T11:20:31"
+  "updated": "2026-09-18T13:20:02"
 }

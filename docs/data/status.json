@@ -5486,7 +5486,20 @@
       "prompt": "an elderly gentleman in a paisley silk dressing gown reading a newspaper with a white standard poodle at his feet, a whitewashed finca terrace on Ibiza with a rough stone wall, a rectangular pool and pine-covered hills falling to the sea, low golden hour sun raking across the scene, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1387665595,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6aad15bb10a6f945b307c572",
+          "framed": "6aad15daf9c04c6b0208fac8",
+          "canvas": "6aad15ebf9c04c6b0208fae5",
+          "framed_canvas": "6aad16022b108f00550f5c5f",
+          "metal": "6aad161310a6f945b307c5ae",
+          "mug": "6aad162410a6f945b307c5b6",
+          "tote": "6aad163463027410fc033c48",
+          "tshirt": "6aad16442b108f00550f5c76"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "7/8"
       }
     },
     {
@@ -6884,7 +6897,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/8",
+        "popup_count": "8/8",
         "mockups": {
           "poster": "https://images-api.printify.com/mockup/6aacf104959b59edfd04c1ee/43138/94683/the-cream-suit-santorini-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
           "framed": "https://images-api.printify.com/mockup/6aacf1136d35da5b4904ae4c/69664/124091/the-cream-suit-santorini-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
@@ -6942,7 +6955,20 @@
       "prompt": "a woman in a broad-brimmed hat and gloves cutting roses into a basket while a butler waits with a tray, a whitewashed Santorini terrace with a blue-domed church, a small plunge pool and the caldera dropping to the Aegean, bright hazy noon with the horizon washed pale, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 216138534,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6aad14a25cee6b3a600afc7f",
+          "framed": "6aad14b2191ab6503202129a",
+          "canvas": "6aad14c1bbd49f3b8804e3a7",
+          "framed_canvas": "6aad14d1bbd49f3b8804e3aa",
+          "metal": "6aad14e2bbd49f3b8804e3ae",
+          "mug": "6aad14f468fc55218000c134",
+          "tote": "6aad15033a19ce75da08abd1",
+          "tshirt": "6aad1512933deefb8d0dc3c3"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
       }
     },
     {
@@ -6970,7 +6996,20 @@
       "prompt": "two men in rolled-up trousers on a jetty with rods and a wicker creel, a boy holding up the day's catch, a harbourside lawn in Sydney with a sandstone house, a diving board over deep blue water and ferries crossing behind, bright hazy noon with the horizon washed pale, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 855174986,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6aad1527191ab650320212e9",
+          "framed": "6aad1537933deefb8d0dc3de",
+          "canvas": "6aad1546bbd49f3b8804e3e8",
+          "framed_canvas": "6aad15563a19ce75da08ac08",
+          "metal": "6aad1567f9c04c6b0208fa3c",
+          "mug": "6aad157810a6f945b307c53e",
+          "tote": "6aad1589191ab65032021317",
+          "tshirt": "6aad159c10a6f945b307c553"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
       }
     },
     {
@@ -6998,7 +7037,20 @@
       "prompt": "four players in white summer clothes with croquet mallets and a scoreboard, a spaniel watching from the shade, the lawn of a Newport mansion above the cliff walk with a marble balustrade, old oaks and sailing yachts out on the sound, low golden hour sun raking across the scene, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 109799443,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6aad171e632b201941017fdc",
+          "framed": "6aad17f6f9c04c6b0208fc15",
+          "canvas": "6aad1bcc649fd40dda05178b",
+          "framed_canvas": "6aad1bdcc0b462b2ad0110a8",
+          "metal": "6aad1bedce7d0ceaa10c21fd",
+          "mug": "6aad1bfc0b0062264e075413",
+          "tote": "6aad1c0b10a6f945b307c919",
+          "tshirt": "6aad1c1b10a6f945b307c928"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "7/8"
       }
     },
     {
@@ -7026,7 +7078,20 @@
       "prompt": "a couple in swimwear playing backgammon on a striped towel beside the pool, a riad courtyard in Marrakech with a green-tiled pool, orange trees, ochre walls and a striped cabana, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 28169590,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6aad1c2fc0b462b2ad0110c7",
+          "framed": "6aad1c47649fd40dda0517cb",
+          "canvas": "6aad1c5f460ac5573e0aedda",
+          "framed_canvas": "6aad1c7710a6f945b307c954",
+          "metal": "6aad1c9863027410fc033ec9",
+          "mug": "6aad1cac8a46f8a1a90d4704",
+          "tote": "6aad1cbc649fd40dda0517f8",
+          "tshirt": "6aad1ccc8a46f8a1a90d4718"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
       }
     },
     {
@@ -7054,7 +7119,20 @@
       "prompt": "a picnic on a tartan rug with a wicker hamper, a bottle of rose in a silver bucket and a vintage convertible parked behind, the tiered pastel houses of Positano seen from a balcony, with bougainvillea, a pebble beach and fishing boats below, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1227777104,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6aad1ce010a6f945b307c98b",
+          "framed": "6aad1cf0632b20194101820f",
+          "canvas": "6aad1d03bef9404759031f66",
+          "framed_canvas": "6aad1d13191ab6503202165a",
+          "metal": "6aad1d240e82f615b1067bf2",
+          "mug": "6aad1d331e2004aa900ddc68",
+          "tote": "6aad1d43649fd40dda051834",
+          "tshirt": "6aad1d5610a6f945b307c9be"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
       }
     },
     {
@@ -7082,7 +7160,17 @@
       "prompt": "a woman in a red bikini on a striped inflatable float with a cocktail balanced on the rim, a white sand beach on Mustique with a thatched pavilion, a wooden sailboat and impossibly clear turquoise water, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1917280035,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6aad1d6a10a6f945b307c9c9",
+          "framed": "6aad1d7a0e82f615b1067c8a",
+          "canvas": "6aad1d8a63027410fc033f14",
+          "framed_canvas": "6aad1e620e82f615b1067cec",
+          "metal": "6aad1f3e0bcea286e70a7d2f"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "2/5"
       }
     },
     {
@@ -7359,6 +7447,19 @@
       ],
       "dry_run": false,
       "finished": "2026-09-18T10:18:32"
+    },
+    {
+      "date": "2026-09-18",
+      "started": "2026-09-18T13:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 816,
+      "etsy": 0,
+      "errors": [
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1789730837@b77a94a8-410d-4800-acef-206c96d3fe16\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 5 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-09-18T13:27:17"
     }
   ],
   "todo": [
@@ -7442,15 +7543,15 @@
   ],
   "stats": {
     "generated": 111,
-    "printify_drafts": 96,
-    "popup_live": 96,
+    "printify_drafts": 103,
+    "popup_live": 103,
     "etsy_live": 0,
     "days": 4,
     "streak": 4,
     "errors_last_run": 1,
     "product_types": 8
   },
-  "updated": "2026-09-18T11:20:31",
+  "updated": "2026-09-18T13:27:17",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
