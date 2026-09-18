@@ -6174,11 +6174,13 @@
           "canvas": "6aace3cac3c8490a6b0d5e3d",
           "framed_canvas": "6aace3db810111279b0b8679",
           "metal": "6aace4b2fc190088ea03bfdb",
-          "mug": "6aace588fc190088ea03c01b"
+          "mug": "6aace588fc190088ea03c01b",
+          "tote": "6aacefb87194cd84b40e6a24",
+          "tshirt": "6aacefd25febb8d1d80fd06a"
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "3/6"
+        "popup_count": "8/8"
       }
     },
     {
@@ -6205,7 +6207,21 @@
       "thumb": "img/20260918-25-beverly-hills-tennis-whites.jpg",
       "prompt": "a couple in crisp 1960s tennis whites with wooden racquets, laughing beside a courtside table with lemonade, a Beverly Hills garden with a rectangular pool, a white modernist house, sculpted topiary and palm trees, clear morning light, sky a saturated cerulean, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1731412568,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aaceff57f66b994dc0233d8",
+          "framed": "6aacf005c08eb5e3210c314b",
+          "canvas": "6aacf019cd835222030d0245",
+          "framed_canvas": "6aacf02b7194cd84b40e6a73",
+          "metal": "6aacf04137afcbf0f9063e5b",
+          "mug": "6aacf05037afcbf0f9063e69",
+          "tote": "6aacf05f959b59edfd04c1b1",
+          "tshirt": "6aacf06ec08eb5e3210c3171"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260918-26-positano-bridge",
@@ -6231,7 +6247,21 @@
       "thumb": "img/20260918-26-positano-bridge.jpg",
       "prompt": "four women at a card table under a parasol with iced drinks and a silver cigarette box, the tiered pastel houses of Positano seen from a balcony, with bougainvillea, a pebble beach and fishing boats below, low golden hour sun raking across the scene, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1805843644,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aacf084bf5e3945f101fe16",
+          "framed": "6aacf093127af026be0a6362",
+          "canvas": "6aacf0a2bf5e3945f101fe30",
+          "framed_canvas": "6aacf0b27f66b994dc02340b",
+          "metal": "6aacf0c341c39713db0a4b35",
+          "mug": "6aacf0d2919619e7b9025862",
+          "tote": "6aacf0e1bf5e3945f101fe52",
+          "tshirt": "6aacf0f08e545adde10f0f19"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260918-27-santorini-cream-suit",
@@ -6257,7 +6287,21 @@
       "thumb": "img/20260918-27-santorini-cream-suit.jpg",
       "prompt": "a silver-haired man in a cream linen suit and sunglasses leaning on a vintage pale-blue convertible, a whitewashed Santorini terrace with a blue-domed church, a small plunge pool and the caldera dropping to the Aegean, bright hazy noon with the horizon washed pale, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 2033620474,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aacf104959b59edfd04c1ee",
+          "framed": "6aacf1136d35da5b4904ae4c",
+          "canvas": "6aacf12341c39713db0a4b5d",
+          "framed_canvas": "6aacf1344b297974bd045dd2",
+          "metal": "6aacf1448331fc3fac042fb3",
+          "mug": "6aacf15437afcbf0f9063ebe",
+          "tote": "6aacf22b920c25b1b3007df3",
+          "tshirt": "6aacf30008ea9c9c3302a244"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/8"
+      }
     },
     {
       "slug": "20260918-28-santorini-gardener",
@@ -6672,6 +6716,19 @@
       ],
       "dry_run": false,
       "finished": "2026-09-18T09:21:01"
+    },
+    {
+      "date": "2026-09-18",
+      "started": "2026-09-18T10:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 765,
+      "etsy": 0,
+      "errors": [
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1789719512@8285a242-24ac-4bd6-aef1-5da6cafc3c02\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-09-18T10:18:32"
     }
   ],
   "todo": [
@@ -6755,15 +6812,15 @@
   ],
   "stats": {
     "generated": 111,
-    "printify_drafts": 93,
-    "popup_live": 93,
+    "printify_drafts": 96,
+    "popup_live": 96,
     "etsy_live": 0,
     "days": 4,
     "streak": 4,
     "errors_last_run": 1,
     "product_types": 8
   },
-  "updated": "2026-09-18T09:21:01",
+  "updated": "2026-09-18T10:18:32",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
