@@ -343,27 +343,52 @@
             <input type="password" id="gh-tok-in" placeholder="Klistra in github_pat_... här" style="flex:1; padding:7px 10px; font:inherit; font-size:0.85rem; border:1px solid var(--rule); background:var(--ground); color:var(--ink); border-radius:2px;">
             <button id="gh-tok-save" style="white-space:nowrap; padding:7px 12px; background:var(--ink); color:var(--ground); border:none; cursor:pointer; font-weight:600;">Koppla & Spara</button>
           </div>
-          <small style="color:var(--ink-2);">När du sparar token här stannar den i din webbläsare så du slipper skriva den igen.</small>
+          <small style="color:var(--ink-2);">När du sparar token här stannar den i din webbläsare så du slipper skriva den igen (sparas automatiskt vid inklistring).</small>
         </div>
       `;
       const saveBtn = $("#gh-tok-save");
       const tokIn = $("#gh-tok-in");
-      const doConnect = async () => {
-        const val = tokIn.value.trim();
-        if (!val) { window.alert("Klistra in din GitHub-token i fältet först."); return; }
-        saveBtn.disabled = true;
-        saveBtn.textContent = "Testar...";
+      let autoTimer = null;
+
+      const doConnect = async (isAuto = false) => {
+        const val = tokIn ? tokIn.value.trim() : "";
+        if (!val) {
+          if (!isAuto) window.alert("Klistra in din GitHub-token i fältet först.");
+          return;
+        }
+        if (saveBtn) {
+          saveBtn.disabled = true;
+          saveBtn.textContent = "Testar...";
+        }
         const ok = await A.connect(val);
         if (ok) {
           rerender();
         } else {
-          window.alert("GitHub godkände inte den token. Kontrollera att den har Read & Write på contents för marcdshark666/drjonsson.");
-          saveBtn.disabled = false;
-          saveBtn.textContent = "Koppla & Spara";
+          if (!isAuto) {
+            window.alert("GitHub godkände inte den token. Kontrollera att den har Read & Write på contents för marcdshark666/drjonsson.");
+          }
+          if (saveBtn) {
+            saveBtn.disabled = false;
+            saveBtn.textContent = "Koppla & Spara";
+          }
         }
       };
-      if (saveBtn) saveBtn.addEventListener("click", doConnect);
-      if (tokIn) tokIn.addEventListener("keydown", (e) => { if (e.key === "Enter") doConnect(); });
+
+      const triggerAutoSave = () => {
+        if (autoTimer) clearTimeout(autoTimer);
+        const val = tokIn ? tokIn.value.trim() : "";
+        if (val.startsWith("github_pat_") || val.startsWith("ghp_") || val.length >= 25) {
+          autoTimer = setTimeout(() => doConnect(true), 300);
+        }
+      };
+
+      if (saveBtn) saveBtn.addEventListener("click", () => doConnect(false));
+      if (tokIn) {
+        tokIn.addEventListener("keydown", (e) => { if (e.key === "Enter") doConnect(false); });
+        tokIn.addEventListener("input", triggerAutoSave);
+        tokIn.addEventListener("paste", () => setTimeout(triggerAutoSave, 50));
+        tokIn.addEventListener("change", triggerAutoSave);
+      }
     }
   }
 
