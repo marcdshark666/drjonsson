@@ -5788,7 +5788,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/8",
+        "popup_count": "8/8",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -5836,7 +5836,20 @@
       "prompt": "a silver-haired man in a cream linen suit and sunglasses leaning on a vintage pale-blue convertible, a mid-century modernist house in Palm Springs with a kidney-shaped pool, palm trees and desert mountains behind, bright hazy noon with the horizon washed pale, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1194872689,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6aad98801d79070732029ca8",
+          "framed": "6aad989af9808a206e08691a",
+          "canvas": "6aad98abde68b1c5b7012bc7",
+          "framed_canvas": "6aad98bc38d954c1270975d3",
+          "metal": "6aad98cf1d79070732029d24",
+          "mug": "6aad98df38d954c12709760c",
+          "tote": "6aad98f070dcfefafa0a1fa5",
+          "tshirt": "6aad9900081b2418340825af"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
       }
     },
     {
@@ -5864,7 +5877,20 @@
       "prompt": "a crowd in evening wear at a garden cocktail party with waiters in white jackets carrying silver trays, a whitewashed Andalusian villa in Marbella with a blue-tiled pool, orange trees and arched colonnades, bright hazy noon with the horizon washed pale, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1475008392,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6aad991751524a051c0405db",
+          "framed": "6aad99286e16ddd8460467af",
+          "canvas": "6aad99391d79070732029dd7",
+          "framed_canvas": "6aad9949de68b1c5b7012cc8",
+          "metal": "6aad99611d79070732029e45",
+          "mug": "6aad99756a00ef66420d362c",
+          "tote": "6aad998870dcfefafa0a210c",
+          "tshirt": "6aad99a8b7ac63feaa0b1923"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
       }
     },
     {
@@ -7944,6 +7970,17 @@
       ],
       "dry_run": false,
       "finished": "2026-09-18T19:17:56"
+    },
+    {
+      "date": "2026-09-18",
+      "started": "2026-09-18T22:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 888,
+      "etsy": 0,
+      "errors": [],
+      "dry_run": false,
+      "finished": "2026-09-18T22:06:37"
     }
   ],
   "todo": [
@@ -8027,15 +8064,15 @@
   ],
   "stats": {
     "generated": 111,
-    "printify_drafts": 109,
-    "popup_live": 109,
+    "printify_drafts": 111,
+    "popup_live": 111,
     "etsy_live": 0,
     "days": 4,
     "streak": 4,
-    "errors_last_run": 1,
+    "errors_last_run": 0,
     "product_types": 8
   },
-  "updated": "2026-09-18T19:20:20",
+  "updated": "2026-09-18T22:06:37",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
