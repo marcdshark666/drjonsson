@@ -5570,11 +5570,13 @@
           "canvas": "6aad458d75218d0c980cd58b",
           "framed_canvas": "6aad459e253ea2b07f04ecc0",
           "metal": "6aad46776e22518dc009e559",
-          "mug": "6aad474d3e1599dca704cca8"
+          "mug": "6aad474d3e1599dca704cca8",
+          "tote": "6aad6e4667ca96eac00bf3e3",
+          "tshirt": "6aad6e56fe34c9985b0bd7cd"
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "3/6",
+        "popup_count": "8/8",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -5618,7 +5620,20 @@
       "prompt": "an elderly gentleman in a paisley silk dressing gown reading a newspaper with a white standard poodle at his feet, a mid-century modernist house in Palm Springs with a kidney-shaped pool, palm trees and desert mountains behind, bright hazy noon with the horizon washed pale, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 213165537,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6aad6e6af24cf7bbd50c4c13",
+          "framed": "6aad6e7ac33b8787fb0700c6",
+          "canvas": "6aad6e89015bcf160d08dd57",
+          "framed_canvas": "6aad6e9a9f645303d10ac1db",
+          "metal": "6aad6eac09c2b2282e0ae352",
+          "mug": "6aad6ebbae5a8dcb390e3c2f",
+          "tote": "6aad6eca9f645303d10ac1f1",
+          "tshirt": "6aad6ed909c131b39105e47f"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
       }
     },
     {
@@ -5646,7 +5661,20 @@
       "prompt": "two women in white with longbows and a straw target set up on the lawn, a grey-shingled Nantucket house with white trim, blue hydrangeas, a picket fence and catboats out in the harbour, low golden hour sun raking across the scene, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1667906590,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6aad6eeef00e3e31820db30c",
+          "framed": "6aad6efe70b360cf47077ba9",
+          "canvas": "6aad6f0d015bcf160d08dd88",
+          "framed_canvas": "6aad6f1dfe34c9985b0bd821",
+          "metal": "6aad6f2e09c2b2282e0ae36f",
+          "mug": "6aad6f3ef00e3e31820db339",
+          "tote": "6aad6f4dccc1a3488009c633",
+          "tshirt": "6aad6f5df24cf7bbd50c4ca4"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
       }
     },
     {
@@ -5674,7 +5702,20 @@
       "prompt": "a family at a lace-laid tea table with a tiered cake stand while a butler pours, a modernist apartment terrace above Copacabana in Rio with a mosaic pool, palms and Sugarloaf beyond, warm late-afternoon light with long shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1658854908,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6aad6f71f00e3e31820db363",
+          "framed": "6aad6f8070b360cf47077be4",
+          "canvas": "6aad6f909f645303d10ac236",
+          "framed_canvas": "6aad6f9fc6a0b5074f0f45c7",
+          "metal": "6aad6fb19f645303d10ac249",
+          "mug": "6aad6fc05605d418e0015e51",
+          "tote": "6aad709750d932cf1709f46e",
+          "tshirt": "6aad716d5e4d681fd80b02b0"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/8"
       }
     },
     {
@@ -7797,6 +7838,19 @@
       ],
       "dry_run": false,
       "finished": "2026-09-18T16:18:10"
+    },
+    {
+      "date": "2026-09-18",
+      "started": "2026-09-18T19:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 869,
+      "etsy": 0,
+      "errors": [
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1789751876@229cdd2c-a616-403e-ac38-d295404cc96f\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-09-18T19:17:56"
     }
   ],
   "todo": [
@@ -7880,15 +7934,15 @@
   ],
   "stats": {
     "generated": 111,
-    "printify_drafts": 106,
-    "popup_live": 106,
+    "printify_drafts": 109,
+    "popup_live": 109,
     "etsy_live": 0,
     "days": 4,
     "streak": 4,
     "errors_last_run": 1,
     "product_types": 8
   },
-  "updated": "2026-09-18T16:20:21",
+  "updated": "2026-09-18T19:17:56",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
