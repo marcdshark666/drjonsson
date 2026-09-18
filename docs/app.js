@@ -65,9 +65,14 @@
     const mock = p.mockups || {}, urls = p.popup_urls || {};
     return '<div class="prods">' + types.map((t) => {
       const on = sel.has(t);
-      const img = mock[t] ? `<img src="${esc(mock[t])}" alt="${esc(label(t))}" loading="lazy">` : `<span class="ph">${esc(label(t))}<br><small>bild hämtas inom en timme</small></span>`;
-      const zoom = mock[t] ? `<button type="button" class="pz" data-src="${esc(mock[t])}" data-name="${esc(label(t))}" title="Förstora">🔍</button>` : "";
-      const link = urls[t] ? `<a class="pl" href="${esc(urls[t])}" target="_blank" rel="noopener" title="Öppna i butiken">↗</a>` : "";
+      const imgSrc = mock[t] || it.thumb || "";
+      const isPlaceholder = !mock[t];
+      const img = imgSrc
+        ? `<img src="${esc(imgSrc)}" alt="${esc(label(t))}" loading="lazy" style="${isPlaceholder ? 'opacity: 0.85; filter: saturate(0.9);' : ''}">`
+        : `<span class="ph">${esc(label(t))}<br><small>bild hämtas</small></span>`;
+      const zoomSrc = mock[t] || it.thumb || "";
+      const zoom = zoomSrc ? `<button type="button" class="pz" data-src="${esc(zoomSrc)}" data-name="${esc(label(t))}" title="Förstora">🔍</button>` : "";
+      const link = urls[t] ? `<a class="pl" href="${esc(urls[t])}" target="_blank" rel="noopener" title="Öppna i Printify-butiken">↗</a>` : "";
       return `<label class="prod${on ? " on" : ""}" title="${esc(label(t))} – kryssa i för att ta med till Etsy">
         <input type="checkbox" data-type="${esc(t)}" ${on ? "checked" : ""}>${img}<span class="pn">${on ? "☑ " : "☐ "}${esc(label(t))}</span>${zoom}${link}</label>`;
     }).join("") + "</div>";
