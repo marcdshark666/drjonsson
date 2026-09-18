@@ -112,7 +112,19 @@
 
   function rerender() { if (status) render(status); }
 
+  function promptTokenConnect(msg) {
+    ghBar(msg || "⚠️ Klistra in din GitHub-token nedan och tryck 'Koppla & Spara' för att spara dina val.");
+    const ghEl = $("#gh");
+    if (ghEl) ghEl.scrollIntoView({ behavior: "smooth", block: "center" });
+    const tokIn = $("#gh-tok-in");
+    if (tokIn) tokIn.focus();
+  }
+
   async function decide(slug, beslut, btn) {
+    if (!A.connected()) {
+      promptTokenConnect();
+      return;
+    }
     if (beslut === "ja") {
       const it = status.items.find((i) => i.slug === slug);
       const w = wanted(A.get(slug)).length, n = it ? listingCount(it) : w;
@@ -122,10 +134,18 @@
     }
     if (btn) btn.disabled = true;
     try { await A.decide([slug], beslut); rerender(); }
-    catch (e) { window.alert("Kunde inte spara: " + e.message); if (btn) btn.disabled = false; }
+    catch (e) {
+      if (!A.connected()) promptTokenConnect();
+      else window.alert("Kunde inte spara: " + e.message);
+      if (btn) btn.disabled = false;
+    }
   }
 
   function openEdit(slug) {
+    if (!A.connected()) {
+      promptTokenConnect();
+      return;
+    }
     const it = status.items.find((i) => i.slug === slug);
     $("#ed-name").textContent = it ? it.name : slug;
     $("#ed-text").value = "";
@@ -137,6 +157,10 @@
   function wire() {
     document.querySelectorAll(".card .btns button").forEach((b) => b.addEventListener("click", async (ev) => {
       ev.stopPropagation();
+      if (!A.connected()) {
+        promptTokenConnect();
+        return;
+      }
       const slug = b.closest(".card").dataset.slug;
       const cur = A.get(slug);
       const act = b.dataset.act;
@@ -152,17 +176,34 @@
     }));
     document.querySelectorAll(".card .mode button").forEach((b) => b.addEventListener("click", async (ev) => {
       ev.preventDefault(); ev.stopPropagation();
+      if (!A.connected()) {
+        promptTokenConnect();
+        return;
+      }
       const slug = b.closest(".card").dataset.slug;
       b.disabled = true;
       try { await A.setMode(slug, b.dataset.mode); rerender(); }
-      catch (e) { window.alert("Kunde inte spara: " + e.message); b.disabled = false; }
+      catch (e) {
+        if (!A.connected()) promptTokenConnect();
+        else window.alert("Kunde inte spara: " + e.message);
+        b.disabled = false;
+      }
     }));
     document.querySelectorAll(".card .prods input").forEach((cb) => cb.addEventListener("change", async () => {
       const cardEl = cb.closest(".card"), slug = cardEl.dataset.slug;
+      if (!A.connected()) {
+        cb.checked = !cb.checked;
+        promptTokenConnect();
+        return;
+      }
       const list = [...cardEl.querySelectorAll(".prods input")].filter((x) => x.checked).map((x) => x.dataset.type);
       cb.disabled = true;
       try { await A.setProducts(slug, list); rerender(); }
-      catch (e) { window.alert("Kunde inte spara: " + e.message); cb.disabled = false; cb.checked = !cb.checked; }
+      catch (e) {
+        if (!A.connected()) promptTokenConnect();
+        else window.alert("Kunde inte spara: " + e.message);
+        cb.disabled = false; cb.checked = !cb.checked;
+      }
     }));
     document.querySelectorAll(".card .prods .pz").forEach((b) => b.addEventListener("click", (ev) => {
       ev.preventDefault(); ev.stopPropagation();
@@ -185,16 +226,46 @@
 
   /* ---------- GitHub-rad ---------- */
 
-  function ghBar() {
+  function ghBar(errorMsg) {
     const el = $("#gh");
     if (!A) { el.hidden = true; return; }
     el.hidden = false;
-    el.innerHTML = A.connected()
-      ? `Kopplad till GitHub som <b>${esc(A.login())}</b>. Dina beslut sparas i repot. <button id="gh-off">Koppla från</button>`
-      : `<b>Koppla GitHub</b> för att spara dina beslut (behövs en gång per webbläsare). <button id="gh-on">Koppla</button>`;
-    const on = $("#gh-on"), off = $("#gh-off");
-    if (on) on.addEventListener("click", async () => { if (await A.connect()) rerender(); });
-    if (off) off.addEventListener("click", () => { A.disconnect(); rerender(); });
+    if (A.connected()) {
+      el.innerHTML = `Kopplad till GitHub som <b>${esc(A.login())}</b>. Dina beslut sparas i repot. <button id="gh-off">Koppla från</button>`;
+      const off = $("#gh-off");
+      if (off) off.addEventListener("click", () => { A.disconnect(); rerender(); });
+    } else {
+      const alertHtml = errorMsg ? `<div style="color:var(--warn); font-weight:600; margin-bottom:8px;">${esc(errorMsg)}</div>` : "";
+      el.innerHTML = `
+        ${alertHtml}
+        <div style="display:flex; flex-direction:column; gap:6px;">
+          <div><b>Koppla GitHub-token</b> (behövs bara en gång per webbläsare för att spara dina beslut):</div>
+          <div style="display:flex; gap:8px; align-items:center;">
+            <input type="password" id="gh-tok-in" placeholder="Klistra in github_pat_... här" style="flex:1; padding:7px 10px; font:inherit; font-size:0.85rem; border:1px solid var(--rule); background:var(--ground); color:var(--ink); border-radius:2px;">
+            <button id="gh-tok-save" style="white-space:nowrap; padding:7px 12px; background:var(--ink); color:var(--ground); border:none; cursor:pointer; font-weight:600;">Koppla & Spara</button>
+          </div>
+          <small style="color:var(--ink-2);">När du sparar token här stannar den i din webbläsare så du slipper skriva den igen.</small>
+        </div>
+      `;
+      const saveBtn = $("#gh-tok-save");
+      const tokIn = $("#gh-tok-in");
+      const doConnect = async () => {
+        const val = tokIn.value.trim();
+        if (!val) { window.alert("Klistra in din GitHub-token i fältet först."); return; }
+        saveBtn.disabled = true;
+        saveBtn.textContent = "Testar...";
+        const ok = await A.connect(val);
+        if (ok) {
+          rerender();
+        } else {
+          window.alert("GitHub godkände inte den token. Kontrollera att den har Read & Write på contents för marcdshark666/drjonsson.");
+          saveBtn.disabled = false;
+          saveBtn.textContent = "Koppla & Spara";
+        }
+      };
+      if (saveBtn) saveBtn.addEventListener("click", doConnect);
+      if (tokIn) tokIn.addEventListener("keydown", (e) => { if (e.key === "Enter") doConnect(); });
+    }
   }
 
   /* ---------- butiksmail (rutinen DrJonsson-ButikMail) ---------- */

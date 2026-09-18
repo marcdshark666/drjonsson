@@ -32,13 +32,16 @@ window.DJ_APPROVALS = (function () {
     set: (k, v) => { try { v ? localStorage.setItem(k, v) : localStorage.removeItem(k); } catch (e) { /* privat läge */ } },
   };
   let token = ls.get(KEY), login = ls.get(KEY_LOGIN);
-  // Engangslank fran Telegram: https://.../drjonsson/#gh=<token>  (fragmentet nar aldrig servern)
+  // Engangslank fran Telegram eller URL: https://.../drjonsson/#gh=<token> eller ?gh=<token>
   try {
-    const m = /[#&]gh=([^&]+)/.exec(location.hash || "");
+    const m = /[#&?]gh=([^&]+)/.exec(location.hash || location.search || "") || /[#&?]token=([^&]+)/.exec(location.hash || location.search || "");
     if (m) {
       token = decodeURIComponent(m[1]).trim(); login = "";
       ls.set(KEY, token);
-      history.replaceState(null, "", location.pathname + location.search);
+      try {
+        const cleanUrl = location.pathname + (location.search ? location.search.replace(/[?&](?:gh|token)=[^&]+/, "").replace(/^&/, "?") : "");
+        history.replaceState(null, "", cleanUrl || location.pathname);
+      } catch (e2) { /* */ }
     }
   } catch (e) { /* */ }
   let cache = { data: { items: {}, updated: null }, sha: null };
@@ -73,15 +76,20 @@ window.DJ_APPROVALS = (function () {
     if (!r.ok) return "";
     return (await r.json()).login || "";
   }
-  async function connect() {
-    const t = window.prompt(
-      "För att spara dina beslut behövs din egen GitHub-token (den stannar i den här webbläsaren).\n\n" +
-      "Skapa den på github.com → Settings → Developer settings → Fine-grained tokens:\n" +
-      "Repository: bara marcdshark666/drjonsson · Permissions: Contents = Read and write.\n\nKlistra in token här:", "");
+  async function connect(suppliedToken) {
+    const t = (suppliedToken !== undefined && suppliedToken !== null)
+      ? String(suppliedToken).trim()
+      : window.prompt(
+        "För att spara dina beslut behövs din egen GitHub-token (den stannar i den här webbläsaren).\n\n" +
+        "Skapa den på github.com → Settings → Developer settings → Fine-grained tokens:\n" +
+        "Repository: bara marcdshark666/drjonsson · Permissions: Contents = Read and write.\n\nKlistra in token här:", "");
     if (!t) return false;
-    const l = await whoami(t.trim());
-    if (!l) { window.alert("GitHub godkände inte den token."); return false; }
-    token = t.trim(); login = l; ls.set(KEY, token); ls.set(KEY_LOGIN, login);
+    const l = await whoami(t);
+    if (!l) {
+      if (suppliedToken === undefined) window.alert("GitHub godkände inte den token.");
+      return false;
+    }
+    token = t; login = l; ls.set(KEY, token); ls.set(KEY_LOGIN, login);
     await load();
     return true;
   }
@@ -95,7 +103,8 @@ window.DJ_APPROVALS = (function () {
   }
 
   async function write(mutate) {
-    if (!token && !(await connect())) throw new Error("Inte kopplad till GitHub");
+    if (!token) throw new Error("Inte kopplad till GitHub. Skriv/klistra in din token i fältet högst upp.");
+    for (let attempt = 0; attempt < 2; attempt++) {
     for (let attempt = 0; attempt < 2; attempt++) {
       const cur = await readViaApi();
       const data = cur.data; data.items = data.items || {};
