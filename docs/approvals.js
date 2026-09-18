@@ -26,12 +26,25 @@ window.DJ_APPROVALS = (function () {
   const PATH = "docs/data/approvals.json";
   const API = `https://api.github.com/repos/${REPO}/contents/${PATH}`;
   const RAW = `https://raw.githubusercontent.com/${REPO}/main/${PATH}`;
-  const KEY = "dj.gh.token", KEY_LOGIN = "dj.gh.login";
+  const KEY = "dj.gh.token", KEY_LOGIN = "dj.gh.login", KEY_DRAFT = "dj.gh.draft";
   const ls = {
     get: (k) => { try { return localStorage.getItem(k) || ""; } catch (e) { return ""; } },
     set: (k, v) => { try { v ? localStorage.setItem(k, v) : localStorage.removeItem(k); } catch (e) { /* privat läge */ } },
   };
   let token = ls.get(KEY), login = ls.get(KEY_LOGIN);
+
+  function loadDraft() {
+    try {
+      const d = localStorage.getItem(KEY_DRAFT);
+      return d ? JSON.parse(d) : null;
+    } catch (e) { return null; }
+  }
+  function saveDraft(items) {
+    try {
+      localStorage.setItem(KEY_DRAFT, JSON.stringify(items));
+    } catch (e) { /* privat läge */ }
+  }
+
   // Engangslank fran Telegram eller URL: https://.../drjonsson/#gh=<token> eller ?gh=<token>
   try {
     const m = /[#&?]gh=([^&]+)/.exec(location.hash || location.search || "") || /[#&?]token=([^&]+)/.exec(location.hash || location.search || "");
@@ -68,6 +81,14 @@ window.DJ_APPROVALS = (function () {
     try { cache = token ? await readViaApi() : await readRaw(); }
     catch (e) { try { cache = await readRaw(); } catch (e2) { /* behåll det vi har */ } }
     if (!cache.data.items) cache.data.items = {};
+    const draft = loadDraft();
+    if (draft) {
+      for (const [slug, item] of Object.entries(draft)) {
+        if (item && (!cache.data.items[slug] || (item.nar && (!cache.data.items[slug].nar || item.nar > cache.data.items[slug].nar)))) {
+          cache.data.items[slug] = Object.assign({}, cache.data.items[slug] || {}, item);
+        }
+      }
+    }
     return cache.data;
   }
 
@@ -91,6 +112,17 @@ window.DJ_APPROVALS = (function () {
     }
     token = t; login = l; ls.set(KEY, token); ls.set(KEY_LOGIN, login);
     await load();
+    if (token) {
+      // If we have draft decisions locally, attempt sync now
+      const draft = loadDraft();
+      if (draft && Object.keys(draft).length > 0) {
+        try {
+          await write((data) => {
+            Object.assign(data.items, draft);
+          });
+        } catch (e) { /* will retry later */ }
+      }
+    }
     return true;
   }
   function disconnect() { token = ""; login = ""; ls.set(KEY, ""); ls.set(KEY_LOGIN, ""); }
@@ -103,11 +135,20 @@ window.DJ_APPROVALS = (function () {
   }
 
   async function write(mutate) {
-    if (!token) throw new Error("Inte kopplad till GitHub. Skriv/klistra in din token i fältet högst upp.");
-    for (let attempt = 0; attempt < 2; attempt++) {
+    // ALWAYS mutate local cache and update local draft FIRST so UI updates instantly!
+    cache.data.items = cache.data.items || {};
+    mutate(cache.data);
+    saveDraft(cache.data.items);
+
+    if (!token) {
+      throw new Error("Inte kopplad till GitHub. Skriv/klistra in din token i fältet högst upp.");
+    }
+
     for (let attempt = 0; attempt < 2; attempt++) {
       const cur = await readViaApi();
       const data = cur.data; data.items = data.items || {};
+      const draft = loadDraft();
+      if (draft) Object.assign(data.items, draft);
       mutate(data);
       data.updated = now();
       const body = { message: "Beslut: " + summarize(data), content: b64enc(JSON.stringify(data, null, 2) + "\n"), branch: "main" };
@@ -117,6 +158,7 @@ window.DJ_APPROVALS = (function () {
       if (!r.ok) throw new Error("GitHub " + r.status + " " + (await r.text()).slice(0, 120));
       const j = await r.json();
       cache = { data, sha: j.content && j.content.sha };
+      try { localStorage.removeItem(KEY_DRAFT); } catch (e) { /* */ }
       return data;
     }
     throw new Error("Kunde inte spara (sha-krock två gånger)");

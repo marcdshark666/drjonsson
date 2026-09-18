@@ -63,18 +63,27 @@
     const a = dec(it), p = it.printify || {};
     const sel = new Set(wanted(a));
     const mock = p.mockups || {}, urls = p.popup_urls || {};
-    return '<div class="prods">' + types.map((t) => {
-      const on = sel.has(t);
-      const imgSrc = mock[t] || it.thumb || "";
-      const isPlaceholder = !mock[t];
+    const allChecked = types.every((t) => sel.has(t[0]));
+    const quickBar = `<div style="display:flex; justify-content:space-between; align-items:center; margin:8px 0 4px; font-size:0.75rem;">
+      <span style="font-weight:600; color:var(--ink-2); font-size:0.72rem; letter-spacing:0.05em; text-transform:uppercase;">PRODUKTER (${sel.size}/8):</span>
+      <button type="button" class="btn-toggle-all" data-slug="${esc(it.slug)}" style="font-size:0.72rem; padding:2px 8px; cursor:pointer; border:1px solid var(--rule); background:var(--ground); color:var(--ink); border-radius:2px;">
+        ${allChecked ? '☐ Rensa alla' : '☑ Välj alla 8'}
+      </button>
+    </div>`;
+
+    return quickBar + '<div class="prods">' + types.map((t) => {
+      const typeKey = t[0];
+      const on = sel.has(typeKey);
+      const imgSrc = mock[typeKey] || it.thumb || "";
+      const isPlaceholder = !mock[typeKey];
       const img = imgSrc
-        ? `<img src="${esc(imgSrc)}" alt="${esc(label(t))}" loading="lazy" style="${isPlaceholder ? 'opacity: 0.85; filter: saturate(0.9);' : ''}">`
-        : `<span class="ph">${esc(label(t))}<br><small>bild hämtas</small></span>`;
-      const zoomSrc = mock[t] || it.thumb || "";
-      const zoom = zoomSrc ? `<button type="button" class="pz" data-src="${esc(zoomSrc)}" data-name="${esc(label(t))}" title="Förstora">🔍</button>` : "";
-      const link = urls[t] ? `<a class="pl" href="${esc(urls[t])}" target="_blank" rel="noopener" title="Öppna i Printify-butiken">↗</a>` : "";
-      return `<label class="prod${on ? " on" : ""}" title="${esc(label(t))} – kryssa i för att ta med till Etsy">
-        <input type="checkbox" data-type="${esc(t)}" ${on ? "checked" : ""}>${img}<span class="pn">${on ? "☑ " : "☐ "}${esc(label(t))}</span>${zoom}${link}</label>`;
+        ? `<img src="${esc(imgSrc)}" alt="${esc(label(typeKey))}" loading="lazy" style="${isPlaceholder ? 'opacity: 0.85; filter: saturate(0.9);' : ''}">`
+        : `<span class="ph">${esc(label(typeKey))}<br><small>bild hämtas</small></span>`;
+      const zoomSrc = mock[typeKey] || it.thumb || "";
+      const zoom = zoomSrc ? `<button type="button" class="pz" data-src="${esc(zoomSrc)}" data-name="${esc(label(typeKey))}" title="Förstora">🔍</button>` : "";
+      const link = urls[typeKey] ? `<a class="pl" href="${esc(urls[typeKey])}" target="_blank" rel="noopener" title="Öppna i Printify-butiken">↗</a>` : "";
+      return `<label class="prod${on ? " on" : ""}" title="${esc(label(typeKey))} – kryssa i för att ta med till Etsy">
+        <input type="checkbox" data-type="${esc(typeKey)}" ${on ? "checked" : ""}>${img}<span class="pn">${on ? "☑ " : "☐ "}${esc(label(typeKey))}</span>${zoom}${link}</label>`;
     }).join("") + "</div>";
   }
 
@@ -117,6 +126,11 @@
 
   function rerender() { if (status) render(status); }
 
+  function getVisibleItems() {
+    if (!status || !status.items) return [];
+    return status.items.filter((it) => bucket(it) === tab);
+  }
+
   function promptTokenConnect(msg) {
     ghBar(msg || "⚠️ Klistra in din GitHub-token nedan och tryck 'Koppla & Spara' för att spara dina val.");
     const ghEl = $("#gh");
@@ -126,10 +140,6 @@
   }
 
   async function decide(slug, beslut, btn) {
-    if (!A.connected()) {
-      promptTokenConnect();
-      return;
-    }
     if (beslut === "ja") {
       const it = status.items.find((i) => i.slug === slug);
       const w = wanted(A.get(slug)).length, n = it ? listingCount(it) : w;
@@ -138,8 +148,11 @@
       if (!window.confirm("Publicera det här motivet på Etsy: " + w + " produkter, " + how + " = " + n + " listningar?\nEtsys listningsavgift: ≈ " + (n * PER_ITEM_USD).toFixed(2) + " USD. Inget annat kostar.")) return;
     }
     if (btn) btn.disabled = true;
-    try { await A.decide([slug], beslut); rerender(); }
-    catch (e) {
+    try {
+      await A.decide([slug], beslut);
+      rerender();
+    } catch (e) {
+      rerender();
       if (!A.connected()) promptTokenConnect();
       else window.alert("Kunde inte spara: " + e.message);
       if (btn) btn.disabled = false;
@@ -147,10 +160,6 @@
   }
 
   function openEdit(slug) {
-    if (!A.connected()) {
-      promptTokenConnect();
-      return;
-    }
     const it = status.items.find((i) => i.slug === slug);
     $("#ed-name").textContent = it ? it.name : slug;
     $("#ed-text").value = "";
@@ -162,10 +171,6 @@
   function wire() {
     document.querySelectorAll(".card .btns button").forEach((b) => b.addEventListener("click", async (ev) => {
       ev.stopPropagation();
-      if (!A.connected()) {
-        promptTokenConnect();
-        return;
-      }
       const slug = b.closest(".card").dataset.slug;
       const cur = A.get(slug);
       const act = b.dataset.act;
@@ -174,48 +179,62 @@
         const undo = isDeleted(cur);
         if (!undo && !window.confirm("Ta bort motivet från Printify (alla produkter) och från den här sidan?")) return;
         b.disabled = true;
-        try { await A.remove([slug], undo); rerender(); } catch (e) { window.alert("Kunde inte spara: " + e.message); b.disabled = false; }
+        try { await A.remove([slug], undo); rerender(); } catch (e) { rerender(); if (!A.connected()) promptTokenConnect(); else window.alert("Kunde inte spara: " + e.message); b.disabled = false; }
         return;
       }
-      decide(slug, cur && cur.beslut === act ? null : act, b);   // klick igen = ångra
+      decide(slug, cur && cur.beslut === act ? null : act, b);
     }));
+
     document.querySelectorAll(".card .mode button").forEach((b) => b.addEventListener("click", async (ev) => {
       ev.preventDefault(); ev.stopPropagation();
-      if (!A.connected()) {
-        promptTokenConnect();
-        return;
-      }
       const slug = b.closest(".card").dataset.slug;
       b.disabled = true;
-      try { await A.setMode(slug, b.dataset.mode); rerender(); }
-      catch (e) {
+      try {
+        await A.setMode(slug, b.dataset.mode);
+        rerender();
+      } catch (e) {
+        rerender();
         if (!A.connected()) promptTokenConnect();
         else window.alert("Kunde inte spara: " + e.message);
         b.disabled = false;
       }
     }));
-    document.querySelectorAll(".card .prods input").forEach((cb) => cb.addEventListener("change", async () => {
-      const cardEl = cb.closest(".card"), slug = cardEl.dataset.slug;
-      if (!A.connected()) {
-        cb.checked = !cb.checked;
-        promptTokenConnect();
-        return;
-      }
-      const list = [...cardEl.querySelectorAll(".prods input")].filter((x) => x.checked).map((x) => x.dataset.type);
-      cb.disabled = true;
-      try { await A.setProducts(slug, list); rerender(); }
-      catch (e) {
+
+    document.querySelectorAll(".card .btn-toggle-all").forEach((b) => b.addEventListener("click", async (ev) => {
+      ev.preventDefault(); ev.stopPropagation();
+      const slug = b.dataset.slug;
+      const curWanted = wanted(A.get(slug));
+      const allTypes = types.map((t) => t[0]);
+      const newList = curWanted.length === allTypes.length ? [] : allTypes;
+      try {
+        await A.setProducts(slug, newList);
+        rerender();
+      } catch (e) {
+        rerender();
         if (!A.connected()) promptTokenConnect();
-        else window.alert("Kunde inte spara: " + e.message);
-        cb.disabled = false; cb.checked = !cb.checked;
       }
     }));
+
+    document.querySelectorAll(".card .prods input").forEach((cb) => cb.addEventListener("change", async () => {
+      const cardEl = cb.closest(".card"), slug = cardEl.dataset.slug;
+      const list = [...cardEl.querySelectorAll(".prods input")].filter((x) => x.checked).map((x) => x.dataset.type);
+      cb.disabled = true;
+      try {
+        await A.setProducts(slug, list);
+        rerender();
+      } catch (e) {
+        rerender();
+        if (!A.connected()) promptTokenConnect();
+      }
+    }));
+
     document.querySelectorAll(".card .prods .pz").forEach((b) => b.addEventListener("click", (ev) => {
       ev.preventDefault(); ev.stopPropagation();
       $("#dlg-img").src = b.dataset.src; $("#dlg-img").alt = b.dataset.name;
       $("#dlg-txt").textContent = b.dataset.name + " – " + (b.closest(".card").querySelector(".n") || {}).textContent;
       $("#dlg").showModal();
     }));
+
     document.querySelectorAll(".card img.hero").forEach((img) => img.addEventListener("click", () => {
       const it = status.items.find((i) => i.slug === img.closest(".card").dataset.slug);
       if (!it) return;
@@ -223,10 +242,73 @@
       $("#dlg-txt").textContent = it.title;
       $("#dlg").showModal();
     }));
+
     document.querySelectorAll("#tabs button").forEach((b) => b.addEventListener("click", () => {
       tab = b.dataset.tab; try { localStorage.setItem("dj.tab", tab); } catch (e) { /* */ }
       rerender();
     }));
+
+    /* Masshantera flik */
+    const batchAll8 = $("#batch-all-8");
+    if (batchAll8) batchAll8.addEventListener("click", async () => {
+      const visibleItems = getVisibleItems();
+      if (!visibleItems.length) return;
+      const allTypes = types.map((t) => t[0]);
+      batchAll8.disabled = true;
+      try {
+        for (const item of visibleItems) {
+          await A.setProducts(item.slug, allTypes);
+        }
+        rerender();
+      } catch (e) {
+        rerender();
+        if (!A.connected()) promptTokenConnect();
+      } finally {
+        batchAll8.disabled = false;
+      }
+    });
+
+    const batchJaAll = $("#batch-ja-all");
+    if (batchJaAll) batchJaAll.addEventListener("click", async () => {
+      const visibleItems = getVisibleItems();
+      const withProducts = visibleItems.filter((i) => wanted(A.get(i.slug)).length > 0);
+      if (!withProducts.length) {
+        window.alert("Kryssa först i produkter på de motiv du vill publicera på Etsy (använd t.ex. '☑ Kryssa alla 8 produkter').");
+        return;
+      }
+      if (!window.confirm(`Godkänn ${withProducts.length} motiv för publicering på Etsy?`)) return;
+      batchJaAll.disabled = true;
+      try {
+        for (const item of withProducts) {
+          await A.decide([item.slug], "ja");
+        }
+        rerender();
+      } catch (e) {
+        rerender();
+        if (!A.connected()) promptTokenConnect();
+      } finally {
+        batchJaAll.disabled = false;
+      }
+    });
+
+    const batchNejAll = $("#batch-nej-all");
+    if (batchNejAll) batchNejAll.addEventListener("click", async () => {
+      const visibleItems = getVisibleItems().filter((i) => !dec(i) || !dec(i).beslut);
+      if (!visibleItems.length) return;
+      if (!window.confirm(`Neka ${visibleItems.length} motiv på den här fliken?`)) return;
+      batchNejAll.disabled = true;
+      try {
+        for (const item of visibleItems) {
+          await A.decide([item.slug], "nej");
+        }
+        rerender();
+      } catch (e) {
+        rerender();
+        if (!A.connected()) promptTokenConnect();
+      } finally {
+        batchNejAll.disabled = false;
+      }
+    });
   }
 
   /* ---------- GitHub-rad ---------- */
