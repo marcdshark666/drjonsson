@@ -99,15 +99,17 @@
   #list h3 { margin: 18px 0 8px; }
   .grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
   .card img.hero { cursor: zoom-in; }
-  .prods { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; margin-top: 8px; }
-  .prod { position: relative; display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 4px 4px 5px; border: 2px solid var(--rule); border-radius: 2px; cursor: pointer; opacity: .92; font-size: 0.68rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-2); background: var(--ground); }
-  .prod.on { opacity: 1; border-color: var(--ok); background: var(--ok-bg); color: var(--ok); font-weight: 600; }
-  .prod .pz { position: absolute; top: 4px; left: 4px; z-index: 1; font-size: 0.85rem; padding: 1px 4px; border: none; background: rgba(255,255,255,.75); border-radius: 2px; cursor: zoom-in; }
-  .prod .ph small { display: block; text-transform: none; letter-spacing: 0; opacity: .7; margin-top: 4px; }
-  .prod input { position: absolute; inset: 0; opacity: 0; cursor: pointer; margin: 0; }
-  .prod img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; background: var(--rule); }
-  .prod .ph { width: 100%; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; background: var(--ground); text-align: center; font-size: 0.6rem; }
-  .prod .pl { position: absolute; top: 2px; right: 4px; color: var(--gold); text-decoration: none; font-size: 0.8rem; z-index: 1; }
+  .prods { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-top: 6px; }
+  .prod { position: relative; display: flex; flex-direction: column; align-items: stretch; gap: 3px; padding: 6px 6px 8px; border: 2px solid var(--rule); border-radius: 4px; cursor: pointer; opacity: .92; background: var(--ground); text-decoration: none; }
+  .prod.on { opacity: 1; border-color: var(--ok); background: var(--ok-bg); color: var(--ok); }
+  .prod .pz { position: absolute; top: 4px; left: 4px; z-index: 2; font-size: 0.85rem; padding: 1px 4px; border: none; background: rgba(255,255,255,.85); border-radius: 2px; cursor: zoom-in; }
+  .prod input { position: absolute; inset: 0; opacity: 0; cursor: pointer; margin: 0; z-index: 1; }
+  .prod img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; background: var(--rule); border-radius: 2px; }
+  .prod .ph { width: 100%; aspect-ratio: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--ground); text-align: center; font-size: 0.7rem; color: var(--ink-2); }
+  .prod .pl { position: absolute; top: 4px; right: 4px; color: #fff; text-decoration: none; font-size: 0.85rem; z-index: 2; background: rgba(0,0,0,.55); padding: 1px 5px; border-radius: 2px; }
+  .prod .pn { font-size: 0.76rem; font-weight: 600; line-height: 1.25; text-transform: none; text-align: center; margin-top: 4px; color: var(--ink); word-break: break-word; }
+  .prod.on .pn { color: var(--ok); }
+  .prod .price { font-size: 0.72rem; font-family: "IBM Plex Mono", monospace; color: var(--gold); text-align: center; font-weight: 600; margin-top: 2px; }
   .mode { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin-top: 8px; }
   .mode button { font: inherit; font-size: 0.72rem; padding: 6px 6px; border: 1px solid var(--rule); background: var(--ground); color: var(--ink-2); cursor: pointer; border-radius: 2px; line-height: 1.2; }
   .mode button span { display: block; font-size: 0.68rem; opacity: .75; }

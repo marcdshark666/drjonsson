@@ -11,11 +11,18 @@
   const PER_ITEM_USD = 0.2;
 
   const TYPES = [
-    ["poster", "Poster"], ["framed", "Inramad"], ["canvas", "Canvas"], ["framed_canvas", "Inramad canvas"],
-    ["metal", "Metall"], ["mug", "Mugg"], ["tote", "Kasse"], ["tshirt", "T-shirt"],
+    ["poster", "Fine Art Poster", "fr. $24.99"],
+    ["framed", "Inramad Poster", "fr. $85.99"],
+    ["canvas", "Matte Canvas", "fr. $48.99"],
+    ["framed_canvas", "Inramad Canvas", "fr. $88.99"],
+    ["metal", "Metallprint", "$132.99"],
+    ["mug", "Fotomugg", "$13.99"],
+    ["tote", "Tygkasse", "$38.99"],
+    ["tshirt", "Foto T-Shirt", "fr. $28.99"],
   ];
   let types = TYPES.map((t) => t[0]);
-  const label = (t) => (TYPES.find((x) => x[0] === t) || [t, t])[1];
+  const label = (t) => (TYPES.find((x) => x[0] === t) || [t, t, ""])[1];
+  const priceTag = (t) => (TYPES.find((x) => x[0] === t) || [t, t, ""])[2];
 
   let status = null, tab = "vantar";
   try { tab = localStorage.getItem("dj.tab") || "vantar"; } catch (e) { /* */ }
@@ -63,27 +70,32 @@
     const a = dec(it), p = it.printify || {};
     const sel = new Set(wanted(a));
     const mock = p.mockups || {}, urls = p.popup_urls || {};
-    const allChecked = types.every((t) => sel.has(t[0]));
-    const quickBar = `<div style="display:flex; justify-content:space-between; align-items:center; margin:8px 0 4px; font-size:0.75rem;">
-      <span style="font-weight:600; color:var(--ink-2); font-size:0.72rem; letter-spacing:0.05em; text-transform:uppercase;">PRODUKTER (${sel.size}/8):</span>
-      <button type="button" class="btn-toggle-all" data-slug="${esc(it.slug)}" style="font-size:0.72rem; padding:2px 8px; cursor:pointer; border:1px solid var(--rule); background:var(--ground); color:var(--ink); border-radius:2px;">
+    const allChecked = TYPES.every((t) => sel.has(t[0]));
+    const quickBar = `<div style="display:flex; justify-content:space-between; align-items:center; margin:10px 0 6px; font-size:0.75rem;">
+      <span style="font-weight:600; color:var(--ink-2); font-size:0.75rem; letter-spacing:0.04em;">PRODUKTER (${sel.size}/8):</span>
+      <button type="button" class="btn-toggle-all" data-slug="${esc(it.slug)}" style="font-size:0.75rem; padding:3px 8px; cursor:pointer; border:1px solid var(--rule); background:var(--ground); color:var(--ink); border-radius:3px; font-weight:500;">
         ${allChecked ? '☐ Rensa alla' : '☑ Välj alla 8'}
       </button>
     </div>`;
 
-    return quickBar + '<div class="prods">' + types.map((t) => {
-      const typeKey = t[0];
+    return quickBar + '<div class="prods">' + TYPES.map((t) => {
+      const typeKey = t[0], typeName = t[1], typePrice = t[2];
       const on = sel.has(typeKey);
       const imgSrc = mock[typeKey] || it.thumb || "";
       const isPlaceholder = !mock[typeKey];
       const img = imgSrc
-        ? `<img src="${esc(imgSrc)}" alt="${esc(label(typeKey))}" loading="lazy" style="${isPlaceholder ? 'opacity: 0.85; filter: saturate(0.9);' : ''}">`
-        : `<span class="ph">${esc(label(typeKey))}<br><small>bild hämtas</small></span>`;
+        ? `<img src="${esc(imgSrc)}" alt="${esc(typeName)}" loading="lazy" style="${isPlaceholder ? 'opacity: 0.88; filter: saturate(0.9);' : ''}">`
+        : `<span class="ph">${esc(typeName)}<br><small>bild hämtas</small></span>`;
       const zoomSrc = mock[typeKey] || it.thumb || "";
-      const zoom = zoomSrc ? `<button type="button" class="pz" data-src="${esc(zoomSrc)}" data-name="${esc(label(typeKey))}" title="Förstora">🔍</button>` : "";
-      const link = urls[typeKey] ? `<a class="pl" href="${esc(urls[typeKey])}" target="_blank" rel="noopener" title="Öppna i Printify-butiken">↗</a>` : "";
-      return `<label class="prod${on ? " on" : ""}" title="${esc(label(typeKey))} – kryssa i för att ta med till Etsy">
-        <input type="checkbox" data-type="${esc(typeKey)}" ${on ? "checked" : ""}>${img}<span class="pn">${on ? "☑ " : "☐ "}${esc(label(typeKey))}</span>${zoom}${link}</label>`;
+      const zoom = zoomSrc ? `<button type="button" class="pz" data-src="${esc(zoomSrc)}" data-name="${esc(typeName)}" title="Förstora mockup">🔍</button>` : "";
+      const link = urls[typeKey] ? `<a class="pl" href="${esc(urls[typeKey])}" target="_blank" rel="noopener" title="Öppna på drjonsson.printify.me">↗</a>` : "";
+      return `<label class="prod${on ? " on" : ""}" title="${esc(typeName)} – ${typePrice} – kryssa i för att ta med till Etsy">
+        <input type="checkbox" data-type="${esc(typeKey)}" ${on ? "checked" : ""}>
+        ${img}
+        <span class="pn">${on ? "☑ " : "☐ "}${esc(typeName)}</span>
+        <span class="price">${typePrice}</span>
+        ${zoom}${link}
+      </label>`;
     }).join("") + "</div>";
   }
 
