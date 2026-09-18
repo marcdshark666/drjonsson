@@ -136,7 +136,12 @@
 
   /* ---------- handlingar ---------- */
 
-  function rerender() { if (status) render(status); }
+  function rerender() {
+    if (!status) return;
+    const scrollPos = window.scrollY || window.pageYOffset || 0;
+    render(status);
+    window.scrollTo(0, scrollPos);
+  }
 
   function getVisibleItems() {
     if (!status || !status.items) return [];
@@ -144,11 +149,7 @@
   }
 
   function promptTokenConnect(msg) {
-    ghBar(msg || "⚠️ Klistra in din GitHub-token nedan och tryck 'Koppla & Spara' för att spara dina val.");
-    const ghEl = $("#gh");
-    if (ghEl) ghEl.scrollIntoView({ behavior: "smooth", block: "center" });
-    const tokIn = $("#gh-tok-in");
-    if (tokIn) tokIn.focus();
+    ghBar(msg || "⚠️ Klistra in din GitHub-token i fältet högst upp för att spara dina val till servern.");
   }
 
   async function decide(slug, beslut, btn) {
