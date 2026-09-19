@@ -70,6 +70,7 @@
     const a = dec(it), p = it.printify || {};
     const sel = new Set(wanted(a));
     const mock = p.mockups || {}, urls = p.popup_urls || {};
+    const isEtsyLive = !!(p && p.etsy_published);
     const allChecked = TYPES.every((t) => sel.has(t[0]));
     const quickBar = `<div style="display:flex; justify-content:space-between; align-items:center; margin:10px 0 6px; font-size:0.75rem;">
       <span style="font-weight:600; color:var(--ink-2); font-size:0.75rem; letter-spacing:0.04em;">PRODUKTER (${sel.size}/8):</span>
@@ -83,16 +84,17 @@
       const on = sel.has(typeKey);
       const imgSrc = mock[typeKey] || it.thumb || "";
       const isPlaceholder = !mock[typeKey];
+      const badgeText = isEtsyLive ? '✔ ' : (on ? '☑ ' : '☐ ');
       const img = imgSrc
         ? `<img src="${esc(imgSrc)}" alt="${esc(typeName)}" loading="lazy" style="${isPlaceholder ? 'opacity: 0.88; filter: saturate(0.9);' : ''}">`
         : `<span class="ph">${esc(typeName)}<br><small>bild hämtas</small></span>`;
       const zoomSrc = mock[typeKey] || it.thumb || "";
       const zoom = zoomSrc ? `<button type="button" class="pz" data-src="${esc(zoomSrc)}" data-name="${esc(typeName)}" title="Förstora mockup">🔍</button>` : "";
       const link = urls[typeKey] ? `<a class="pl" href="${esc(urls[typeKey])}" target="_blank" rel="noopener" title="Öppna på drjonsson.printify.me">↗</a>` : "";
-      return `<label class="prod${on ? " on" : ""}" title="${esc(typeName)} – ${typePrice} – kryssa i för att ta med till Etsy">
+      return `<label class="prod${on ? " on" : ""}${isEtsyLive ? " live-etsy" : ""}" title="${esc(typeName)} – ${typePrice} ${isEtsyLive ? '– Publicerad på Etsy' : ''}">
         <input type="checkbox" data-type="${esc(typeKey)}" ${on ? "checked" : ""}>
         ${img}
-        <span class="pn">${on ? "☑ " : "☐ "}${esc(typeName)}</span>
+        <span class="pn">${badgeText}${esc(typeName)}</span>
         <span class="price">${typePrice}</span>
         ${zoom}${link}
       </label>`;

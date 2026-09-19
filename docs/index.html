@@ -102,6 +102,8 @@
   .prods { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-top: 6px; }
   .prod { position: relative; display: flex; flex-direction: column; align-items: stretch; gap: 3px; padding: 6px 6px 8px; border: 2px solid var(--rule); border-radius: 4px; cursor: pointer; opacity: .92; background: var(--ground); text-decoration: none; }
   .prod.on { opacity: 1; border-color: var(--ok); background: var(--ok-bg); color: var(--ok); }
+  .prod.live-etsy { opacity: 0.65; border-color: var(--ok); background: var(--ok-bg); filter: saturate(0.85); }
+  .prod.live-etsy .pn { color: var(--ok); font-weight: 600; }
   .prod .pz { position: absolute; top: 4px; left: 4px; z-index: 2; font-size: 0.85rem; padding: 1px 4px; border: none; background: rgba(255,255,255,.85); border-radius: 2px; cursor: zoom-in; }
   .prod input { position: absolute; inset: 0; opacity: 0; cursor: pointer; margin: 0; z-index: 1; }
   .prod img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; background: var(--rule); border-radius: 2px; }
@@ -194,7 +196,7 @@
   <textarea id="ed-text" placeholder="t.ex. ta bort hundarna, byt klänningen till vit, mer himmel, kvällsljus"></textarea>
   <div class="row"><button id="ed-cancel">Avbryt</button><button id="ed-save" class="primary">Skicka önskemål</button></div>
 </form></dialog>
-<script src="approvals.js?v=20260919_1028"></script>
-<script src="app.js?v=20260919_1028"></script>
+<script src="approvals.js?v=20260919_1153"></script>
+<script src="app.js?v=20260919_1153"></script>
 </body>
 </html>
