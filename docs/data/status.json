@@ -698,7 +698,20 @@
           "mug": 2,
           "tote": 2,
           "tshirt": 15
-        }
+        },
+        "etsy_products": {
+          "poster": "6aae645b4301bb9b000f92ca",
+          "framed": "6aae64696cbe45e649063ed5",
+          "canvas": "6aae647780b5cb1725054921",
+          "framed_canvas": "6aae647fd30df3cd0202c015",
+          "metal": "6aae648f6cbe45e649063eef",
+          "mug": "6aae649a0377ed614404c7db",
+          "tote": "6aae64a31ebe19d3f9032cf0",
+          "tshirt": "6aae64b2d30df3cd0202c047"
+        },
+        "etsy_product": true,
+        "etsy_published": true,
+        "etsy_count": "8/8"
       }
     },
     {
@@ -10332,13 +10345,13 @@
     "generated": 146,
     "printify_drafts": 140,
     "popup_live": 140,
-    "etsy_live": 0,
+    "etsy_live": 1,
     "days": 5,
     "streak": 5,
     "errors_last_run": 1,
     "product_types": 8
   },
-  "updated": "2026-09-19T11:21:19",
+  "updated": "2026-09-19T12:32:28",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",

@@ -1,5 +1,25 @@
 {
   "_hjalp": "Marcs beslut per motiv fran dashboarden. beslut ja = far publiceras pa Etsy (0,20 USD per listning), nej = aldrig. Skrivs av docs/approvals.js via GitHub, lases av pipeline/generate_daily.py --etsy-only.",
-  "items": {},
-  "updated": "2026-09-19T11:21:19"
+  "items": {
+    "20260916-4-sydney-roadster": {
+      "beslut": "ja",
+      "produkter": [
+        "poster",
+        "framed",
+        "canvas",
+        "framed_canvas",
+        "metal",
+        "mug",
+        "tote",
+        "tshirt"
+      ],
+      "lage": "samma",
+      "radera": null,
+      "raderad": null,
+      "redigera": [],
+      "nar": "2026-09-19T12:30:42.350281",
+      "av": "Marc"
+    }
+  },
+  "updated": "2026-09-19T12:32:28"
 }
