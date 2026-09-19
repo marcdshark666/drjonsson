@@ -8290,7 +8290,13 @@
       "prompt": "a hostess in an emerald turban and gold jewellery arranging a table of pastries and fruit, a harbourside lawn in Sydney with a sandstone house, a diving board over deep blue water and ferries crossing behind, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1676714610,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aae959639d3de198e0b9884/43138/94683/the-hostess-sydney-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aae95abf85a3e9f82097c2e/69664/124091/the-hostess-sydney-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aae95bbd7eecf91050245a2/91644/60165/the-hostess-sydney-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aae95cad7dffc92280b7f00/111829/107096/the-hostess-sydney-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aae95de63032885970807e2/92006/62734/the-hostess-sydney-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6aae959639d3de198e0b9884",
           "framed": "6aae95abf85a3e9f82097c2e",
@@ -8300,7 +8306,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aae959639d3de198e0b9884",
+          "framed": "https://drjonsson.printify.me/product/6aae95abf85a3e9f82097c2e",
+          "canvas": "https://drjonsson.printify.me/product/6aae95bbd7eecf91050245a2",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aae95cad7dffc92280b7f00",
+          "metal": "https://drjonsson.printify.me/product/6aae95de63032885970807e2"
+        }
       }
     },
     {
@@ -8328,7 +8348,13 @@
       "prompt": "a young woman in a red swimsuit and white cap carrying water skis along the shore, a casino-hotel terrace at Estoril with azulejo tiles, a crescent bay below and pine-covered hills, low golden hour sun raking across the scene, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1473627513,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aae95f1467bfa003005f47a/43138/94683/water-skis-estoril-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aae9603467bfa003005f483/69664/124091/water-skis-estoril-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aae96133b31a5254c0c882c/91644/60165/water-skis-estoril-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aae9624b7852198b5041063/111829/107096/water-skis-estoril-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aae9636f92330e6ea0a3a8e/92006/62734/water-skis-estoril-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6aae95f1467bfa003005f47a",
           "framed": "6aae9603467bfa003005f483",
@@ -8338,7 +8364,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aae95f1467bfa003005f47a",
+          "framed": "https://drjonsson.printify.me/product/6aae9603467bfa003005f483",
+          "canvas": "https://drjonsson.printify.me/product/6aae96133b31a5254c0c882c",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aae9624b7852198b5041063",
+          "metal": "https://drjonsson.printify.me/product/6aae9636f92330e6ea0a3a8e"
+        }
       }
     },
     {
@@ -8366,7 +8406,13 @@
       "prompt": "a hostess in an emerald turban and gold jewellery arranging a table of pastries and fruit, a log-and-glass lodge in Aspen with a stone chimney, snow-laden aspens and skis stacked by the door, harsh midday sun with short shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1335419156,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aae9647467bfa003005f4a9/43138/94683/the-hostess-aspen-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aae9657f92330e6ea0a3aa3/69664/124091/the-hostess-aspen-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aae9668467bfa003005f4b6/91644/60165/the-hostess-aspen-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aae9677b7852198b504108b/111829/107096/the-hostess-aspen-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aae968a467bfa003005f4c8/92006/62734/the-hostess-aspen-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6aae9647467bfa003005f4a9",
           "framed": "6aae9657f92330e6ea0a3aa3",
@@ -8376,7 +8422,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aae9647467bfa003005f4a9",
+          "framed": "https://drjonsson.printify.me/product/6aae9657f92330e6ea0a3aa3",
+          "canvas": "https://drjonsson.printify.me/product/6aae9668467bfa003005f4b6",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aae9677b7852198b504108b",
+          "metal": "https://drjonsson.printify.me/product/6aae968a467bfa003005f4c8"
+        }
       }
     },
     {
@@ -10608,7 +10668,7 @@
     "errors_last_run": 0,
     "product_types": 5
   },
-  "updated": "2026-09-19T16:05:15",
+  "updated": "2026-09-19T16:20:16",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
