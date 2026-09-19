@@ -35,7 +35,13 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aae851e8daa96f9b90b37aa/43138/94683/the-silver-roadster-sydney-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aae8526a8ab49ce290a119a/69664/124091/the-silver-roadster-sydney-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aae852d8daa96f9b90b37b3/91644/60165/the-silver-roadster-sydney-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aae8535a8ab49ce290a11a3/111829/107096/the-silver-roadster-sydney-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aae853f630328859707ffc9/92006/62734/the-silver-roadster-sydney-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_urls": {
           "poster": "https://drjonsson.printify.me/product/6aae851e8daa96f9b90b37aa",
           "framed": "https://drjonsson.printify.me/product/6aae8526a8ab49ce290a119a",
@@ -44,12 +50,22 @@
           "metal": "https://drjonsson.printify.me/product/6aae853f630328859707ffc9"
         },
         "etsy_products": {
-          "metal": "6aaeeaac8b5ddbc2950caa03",
-          "poster": "6aae856d717a58dc170072a9"
+          "framed": "6aae8554b9949aa8160fee50",
+          "framed_canvas": "6aae856467153aa74b02690f",
+          "poster": "6aaeea94f8b71d4a2d0c5a88",
+          "canvas": "6aaeeaa06029b4ba73018b6a",
+          "metal": "6aaeeaac8b5ddbc2950caa03"
         },
         "etsy_product": true,
         "etsy_published": true,
-        "etsy_count": "2/2 (Alla 5 tavelmodeller automatiserade på Etsy)"
+        "etsy_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        }
       },
       "version": 6,
       "root": "20260916-4-sydney-roadster",
@@ -757,18 +773,15 @@
           "tshirt": 15
         },
         "etsy_products": {
-          "poster": "6aae645b4301bb9b000f92ca",
-          "framed": "6aae64696cbe45e649063ed5",
-          "canvas": "6aae647780b5cb1725054921",
-          "framed_canvas": "6aae647fd30df3cd0202c015",
-          "metal": "6aae648f6cbe45e649063eef",
-          "mug": "6aae649a0377ed614404c7db",
-          "tote": "6aae64a31ebe19d3f9032cf0",
-          "tshirt": "6aae64b2d30df3cd0202c047"
+          "poster": "6aaeee7921d737aea90fb1c7",
+          "framed": "6aaeee81c1f0393bbd0cb653",
+          "canvas": "6aaeee896029b4ba73018ce0",
+          "framed_canvas": "6aaeee90c1f0393bbd0cb662",
+          "metal": "6aaeee9a68ef00d4d20860d1"
         },
         "etsy_product": true,
         "etsy_published": true,
-        "etsy_count": "8/8"
+        "etsy_count": "5/5"
       }
     },
     {
@@ -10674,7 +10687,7 @@
     "errors_last_run": 0,
     "product_types": 5
   },
-  "updated": "2026-09-19T22:07:51",
+  "updated": "2026-09-19T22:20:48",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
