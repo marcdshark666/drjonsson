@@ -168,7 +168,7 @@ cover_html = f"""<!DOCTYPE html>
       </div>
     </div>
   </div>
-  <div class="announcement">Attractive people doing attractive things · Fine Art Photography Prints</div>
+  <div class="announcement">Fine Art Photography Prints · Shipped Worldwide</div>
 </div>
 
 <div class="gallery-right">
