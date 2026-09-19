@@ -1,9 +1,9 @@
 {
   "items": [
     {
-      "slug": "20260916-4-sydney-roadster-v5",
+      "slug": "20260916-4-sydney-roadster-v6",
       "date": "2026-09-16",
-      "name": "The Silver Roadster, Sydney (v5 - Hand helt borttagen)",
+      "name": "The Silver Roadster, Sydney (v6 - Ny ren AI-generering utan artefakter)",
       "place": "Sydney",
       "party": "The Silver Roadster",
       "title": "The Silver Roadster, Sydney | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
@@ -21,15 +21,15 @@
         "drjonsson print",
         "living room art"
       ],
-      "thumb": "img/20260916-4-sydney-roadster-v5.jpg",
-      "prompt": "a couple by a silver open-top vintage roadster, driver wearing vintage leather driving gloves with detailed hand gripping firmly onto the classic wooden steering wheel, realistic anatomical fingers and hand position holding the wheel, folded maps and a picnic basket on the bonnet, a harbourside lawn in Sydney with a sandstone mansion, diving board over deep blue ocean water and harbour ferries crossing behind, warm late-afternoon golden hour sunlight, 1960s Kodachrome colour photograph in the style of Slim Aarons, luxury editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
-      "seed": 987654321,
+      "thumb": "img/20260916-4-sydney-roadster-v6.jpg",
+      "prompt": "A glamorous couple beside a vintage silver open-top convertible roadster on a harbourside lawn in Sydney. An elegant woman in chic 1960s resort wear leans gracefully against the car hood. A handsome man in a tailored linen suit and sunglasses stands naturally beside the vehicle with his hands at his side. Detailed classic roadster with wooden steering wheel visible in open cockpit, folded paper map and wicker picnic basket on the bonnet. Sydney Harbour in background with deep blue water, sandstone heritage estate, and vintage ferries under warm golden hour sunlight. 1960s Kodachrome editorial photograph in the style of Slim Aarons, hyper-realistic, perfect human anatomy, clean realistic hands, medium format film, 8k resolution, vertical framing, no text",
+      "seed": 12345678,
       "printify": {},
-      "version": 5,
+      "version": 6,
       "root": "20260916-4-sydney-roadster",
       "edited_from": "20260916-4-sydney-roadster",
-      "edit_text": "Handen helt borttagen, originalbilden 100% bevarad",
-      "edited": "2026-09-19T14:37:51"
+      "edit_text": "Helt ny ren AI-generering (utan artefakter/händer genom fönster)",
+      "edited": "2026-09-19T14:46:14"
     },
     {
       "slug": "test-poolside-riviera",
@@ -10525,7 +10525,7 @@
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-09-19T14:37:51",
+  "updated": "2026-09-19T14:46:14",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
