@@ -7808,7 +7808,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "7/8"
+        "popup_count": "8/8"
       }
     },
     {
@@ -8953,11 +8953,18 @@
       "seed": 722993726,
       "printify": {
         "popup_products": {
-          "poster": "6aae38c0bf628bf5cc0b5ec8"
+          "poster": "6aae38c0bf628bf5cc0b5ec8",
+          "framed": "6aae411ce45ee067ef0c67fc",
+          "canvas": "6aae412e338854063601ccd3",
+          "framed_canvas": "6aae415022670684a50e553e",
+          "metal": "6aae417812f56ced52056737",
+          "mug": "6aae4197be403b9d270d1ca1",
+          "tote": "6aae41a9be403b9d270d1cae",
+          "tshirt": "6aae41ba12f56ced5205676e"
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "1/1"
+        "popup_count": "8/8"
       }
     },
     {
@@ -8984,7 +8991,21 @@
       "thumb": "img/20260919-33-santorini-loungers.jpg",
       "prompt": "a group of glamorous friends in colourful swimsuits and caftans on sun loungers under striped umbrellas, cocktails in hand, a whitewashed Santorini terrace with a blue-domed church, a small plunge pool and the caldera dropping to the Aegean, clear morning light, sky a saturated cerulean, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 285444443,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aae41d112f56ced5205677d",
+          "framed": "6aae41e04317dc3efe06e4c0",
+          "canvas": "6aae41f0e2129b1ccd020675",
+          "framed_canvas": "6aae420012f56ced52056791",
+          "metal": "6aae4211dfbfdc1125031a1b",
+          "mug": "6aae4221e2129b1ccd02069f",
+          "tote": "6aae4230be403b9d270d1ccb",
+          "tshirt": "6aae423f18f3d150cf034b05"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260919-34-highlands-afternoon-tea",
@@ -9010,7 +9031,21 @@
       "thumb": "img/20260919-34-highlands-afternoon-tea.jpg",
       "prompt": "a family at a lace-laid tea table with a tiered cake stand while a butler pours, the lawn of a Scottish country house with a gravel drive, heather hills, a dark green estate car and a loch beyond, clear morning light, sky a saturated cerulean, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1055147298,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aae4253dfbfdc1125031a2f",
+          "framed": "6aae426268e3350c0000e5e0",
+          "canvas": "6aae4272901ff33f8b0e7c03",
+          "framed_canvas": "6aae4281356d01050e04f7be",
+          "metal": "6aae42923f2aaa040900435d",
+          "mug": "6aae42a2338854063601cd70",
+          "tote": "6aae42b0f8f1adb8c60d6584",
+          "tshirt": "6aae42c010057133b0081379"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "8/8"
+      }
     },
     {
       "slug": "20260919-35-marbella-the-float",
@@ -9036,7 +9071,17 @@
       "thumb": "img/20260919-35-marbella-the-float.jpg",
       "prompt": "a woman in a red bikini on a striped inflatable float with a cocktail balanced on the rim, a whitewashed Andalusian villa in Marbella with a blue-tiled pool, orange trees and arched colonnades, bright hazy noon with the horizon washed pale, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 339530980,
-      "printify": {}
+      "printify": {
+        "popup_products": {
+          "poster": "6aae42d4435fc9d36a03e56c",
+          "framed": "6aae42e4dfbfdc1125031a53",
+          "canvas": "6aae43bc338854063601cdb9",
+          "framed_canvas": "6aae449218f3d150cf034b96"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "1/4"
+      }
     }
   ],
   "runs": [
@@ -9319,6 +9364,19 @@
       ],
       "dry_run": false,
       "finished": "2026-09-19T09:25:03"
+    },
+    {
+      "date": "2026-09-19",
+      "started": "2026-09-19T10:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 1113,
+      "etsy": 0,
+      "errors": [
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1789805928@a8dbe618-2879-40cf-ad26-3a594c8c2416\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-09-19T10:18:48"
     }
   ],
   "todo": [
@@ -9402,15 +9460,15 @@
   ],
   "stats": {
     "generated": 146,
-    "printify_drafts": 137,
-    "popup_live": 137,
+    "printify_drafts": 140,
+    "popup_live": 140,
     "etsy_live": 0,
     "days": 5,
     "streak": 5,
     "errors_last_run": 1,
     "product_types": 8
   },
-  "updated": "2026-09-19T09:25:03",
+  "updated": "2026-09-19T10:18:48",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
