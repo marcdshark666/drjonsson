@@ -5,10 +5,7 @@
     "framed",
     "canvas",
     "framed_canvas",
-    "metal",
-    "mug",
-    "tote",
-    "tshirt"
+    "metal"
   ],
   "poster": {
     "blueprint": "Matte Vertical Posters",
