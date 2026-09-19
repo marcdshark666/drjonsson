@@ -35,13 +35,7 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {
-          "poster": "https://images-api.printify.com/mockup/6aae851e8daa96f9b90b37aa/43138/94683/the-silver-roadster-sydney-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
-          "framed": "https://images-api.printify.com/mockup/6aae8526a8ab49ce290a119a/69664/124091/the-silver-roadster-sydney-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
-          "canvas": "https://images-api.printify.com/mockup/6aae852d8daa96f9b90b37b3/91644/60165/the-silver-roadster-sydney-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
-          "framed_canvas": "https://images-api.printify.com/mockup/6aae8535a8ab49ce290a11a3/111829/107096/the-silver-roadster-sydney-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
-          "metal": "https://images-api.printify.com/mockup/6aae853f630328859707ffc9/92006/62734/the-silver-roadster-sydney-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
-        },
+        "mockups": {},
         "popup_urls": {
           "poster": "https://drjonsson.printify.me/product/6aae851e8daa96f9b90b37aa",
           "framed": "https://drjonsson.printify.me/product/6aae8526a8ab49ce290a119a",
@@ -50,11 +44,12 @@
           "metal": "https://drjonsson.printify.me/product/6aae853f630328859707ffc9"
         },
         "etsy_products": {
-          "master": "6aae856d717a58dc170072a9"
+          "metal": "6aaeeaac8b5ddbc2950caa03",
+          "poster": "6aae856d717a58dc170072a9"
         },
         "etsy_product": true,
         "etsy_published": true,
-        "etsy_count": "1/1 (1 samlad listning med alla tavelmodeller & storlekar)"
+        "etsy_count": "2/2 (Alla 5 tavelmodeller automatiserade på Etsy)"
       },
       "version": 6,
       "root": "20260916-4-sydney-roadster",
@@ -10679,7 +10674,7 @@
     "errors_last_run": 0,
     "product_types": 5
   },
-  "updated": "2026-09-19T22:00:14",
+  "updated": "2026-09-19T22:07:51",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
