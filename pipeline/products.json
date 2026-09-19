@@ -1,11 +1,7 @@
 {
   "_hjalp": "Vilka produkter varje motiv blir i Printify. blueprint = titel i Printifys katalog (matchas exakt, annars 'innehaller'). providers = onskad ordning; forsta som finns tas. markup = pris/kostnad (avrundas till .99 USD). include/exclude/colors/sizes filtrerar varianter. scale/x/y = bildens placering pa tryckytan (0-1). Kor `printify_bulk.py --catalog \"tee\"` for att se katalogtitlar. Standardlistan ar alla tavelmodeller (poster, inramad, canvas, inramad canvas, metall, akryl) + mugg, tygkasse, t-shirt. Titlar som inte finns i katalogen hoppas over med ett meddelande - ratta med --catalog.",
   "default": [
-    "poster",
-    "framed",
-    "canvas",
-    "framed_canvas",
-    "metal"
+    "framed"
   ],
   "poster": {
     "blueprint": "Matte Vertical Posters",
