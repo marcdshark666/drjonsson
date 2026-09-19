@@ -82,11 +82,18 @@ window.DJ_APPROVALS = (function () {
     catch (e) { try { cache = await readRaw(); } catch (e2) { /* behåll det vi har */ } }
     if (!cache.data.items) cache.data.items = {};
     const draft = loadDraft();
-    if (draft) {
+    if (draft && Object.keys(draft).length > 0) {
       for (const [slug, item] of Object.entries(draft)) {
         if (item && (!cache.data.items[slug] || (item.nar && (!cache.data.items[slug].nar || item.nar > cache.data.items[slug].nar)))) {
           cache.data.items[slug] = Object.assign({}, cache.data.items[slug] || {}, item);
         }
+      }
+      if (token) {
+        try {
+          await write((data) => {
+            Object.assign(data.items, draft);
+          });
+        } catch (e) { /* sparad lokalt, försök igen vid nästa klick */ }
       }
     }
     return cache.data;
