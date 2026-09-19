@@ -1,6 +1,37 @@
 {
   "items": [
     {
+      "slug": "20260916-4-sydney-roadster-v2",
+      "date": "2026-09-16",
+      "name": "The Silver Roadster, Sydney (v2 - Handskorrigerad)",
+      "place": "Sydney",
+      "party": "The Silver Roadster",
+      "title": "The Silver Roadster, Sydney | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "sydney print",
+        "sydney poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260916-4-sydney-roadster-v2.jpg",
+      "prompt": "a couple leaning against a silver open-top roadster with driving gloves, folded maps and a picnic basket on the bonnet, a harbourside lawn in Sydney with a sandstone house, a diving board over deep blue water and ferries crossing behind, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text Requested change: anatomically perfect realistic driving gloves resting naturally on steering wheel, clean hand details, elegant posture.",
+      "seed": 2135990789,
+      "printify": {},
+      "version": 2,
+      "root": "20260916-4-sydney-roadster",
+      "edited_from": "20260916-4-sydney-roadster",
+      "edit_text": "Korrigera handen på bilen",
+      "edited": "2026-09-19T14:04:46"
+    },
+    {
       "slug": "test-poolside-riviera",
       "date": "2026-09-15",
       "name": "Poolside Riviera, Magenta at Noon (testmotiv, Marcs bild)",
@@ -10485,7 +10516,7 @@
     }
   ],
   "stats": {
-    "generated": 146,
+    "generated": 147,
     "printify_drafts": 143,
     "popup_live": 143,
     "etsy_live": 1,
@@ -10494,7 +10525,7 @@
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-09-19T13:20:20",
+  "updated": "2026-09-19T14:04:46",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
