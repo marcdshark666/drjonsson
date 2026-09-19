@@ -201,8 +201,9 @@ def filter_variants(variants: list[dict], cfg: dict) -> list[dict]:
 
 
 def price_from_cost(cost_cents: int, markup: float) -> int:
-    usd = math.ceil(cost_cents * markup / 100)
-    return max(usd, 5) * 100 - 1   # .99
+    cost_usd = cost_cents / 100.0
+    sek = math.ceil(cost_usd * markup * 10.50)
+    return max(sek, 50) * 100 - 1   # .99 kr
 
 
 # ---------- hjalp ----------
