@@ -24,7 +24,36 @@
       "thumb": "img/20260916-4-sydney-roadster-v6.jpg",
       "prompt": "A glamorous couple beside a vintage silver open-top convertible roadster on a harbourside lawn in Sydney. An elegant woman in chic 1960s resort wear leans gracefully against the car hood. A handsome man in a tailored linen suit and sunglasses stands naturally beside the vehicle with his hands at his side. Detailed classic roadster with wooden steering wheel visible in open cockpit, folded paper map and wicker picnic basket on the bonnet. Sydney Harbour in background with deep blue water, sandstone heritage estate, and vintage ferries under warm golden hour sunlight. 1960s Kodachrome editorial photograph in the style of Slim Aarons, hyper-realistic, perfect human anatomy, clean realistic hands, medium format film, 8k resolution, vertical framing, no text",
       "seed": 12345678,
-      "printify": {},
+      "printify": {
+        "popup_products": {
+          "poster": "6aae851e8daa96f9b90b37aa",
+          "framed": "6aae8526a8ab49ce290a119a",
+          "canvas": "6aae852d8daa96f9b90b37b3",
+          "framed_canvas": "6aae8535a8ab49ce290a11a3",
+          "metal": "6aae853f630328859707ffc9"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5",
+        "mockups": {},
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aae851e8daa96f9b90b37aa",
+          "framed": "https://drjonsson.printify.me/product/6aae8526a8ab49ce290a119a",
+          "canvas": "https://drjonsson.printify.me/product/6aae852d8daa96f9b90b37b3",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aae8535a8ab49ce290a11a3",
+          "metal": "https://drjonsson.printify.me/product/6aae853f630328859707ffc9"
+        },
+        "etsy_products": {
+          "poster": "6aae854cd616f40d1e076c4a",
+          "framed": "6aae8554b9949aa8160fee50",
+          "canvas": "6aae855cd616f40d1e076c62",
+          "framed_canvas": "6aae856467153aa74b02690f",
+          "metal": "6aae856d717a58dc170072a9"
+        },
+        "etsy_product": true,
+        "etsy_published": true,
+        "etsy_count": "5/5"
+      },
       "version": 6,
       "root": "20260916-4-sydney-roadster",
       "edited_from": "20260916-4-sydney-roadster",
@@ -10517,15 +10546,15 @@
   ],
   "stats": {
     "generated": 147,
-    "printify_drafts": 143,
-    "popup_live": 143,
-    "etsy_live": 1,
+    "printify_drafts": 144,
+    "popup_live": 144,
+    "etsy_live": 2,
     "days": 5,
     "streak": 5,
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-09-19T14:46:14",
+  "updated": "2026-09-19T14:52:50",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
