@@ -8131,7 +8131,17 @@
           "mug": "https://drjonsson.printify.me/product/6aae6c334301bb9b000f9715",
           "tote": "https://drjonsson.printify.me/product/6aae6c422a78e7d25608cada",
           "tshirt": "https://drjonsson.printify.me/product/6aae6c51dbfc3326f404101b"
-        }
+        },
+        "etsy_products": {
+          "poster": "6aaf22c9a3f116f3980acd76",
+          "framed": "6aaf22d6625208a2e90f2662",
+          "canvas": "6aaf22de625208a2e90f266b",
+          "framed_canvas": "6aaf22e6f6761d9f2e0f6ef0",
+          "metal": "6aaf22efadd3587cd009554b"
+        },
+        "etsy_product": true,
+        "etsy_published": true,
+        "etsy_count": "5/5"
       }
     },
     {
@@ -8201,7 +8211,17 @@
           "mug": "https://drjonsson.printify.me/product/6aae6cb5d30df3cd0202c3ec",
           "tote": "https://drjonsson.printify.me/product/6aae6cc3755ac944690c5f20",
           "tshirt": "https://drjonsson.printify.me/product/6aae6cd34301bb9b000f9753"
-        }
+        },
+        "etsy_products": {
+          "poster": "6aaf2376625208a2e90f2692",
+          "framed": "6aaf237ee95c6ce17b02bedb",
+          "canvas": "6aaf2385a1bcb4fe8d0cb6f3",
+          "framed_canvas": "6aaf238d625208a2e90f26a1",
+          "metal": "6aaf239774d17f53d30971f8"
+        },
+        "etsy_product": true,
+        "etsy_published": true,
+        "etsy_count": "5/5"
       }
     },
     {
@@ -8259,7 +8279,17 @@
           "canvas": "https://drjonsson.printify.me/product/6aae6d06d30df3cd0202c438",
           "framed_canvas": "https://drjonsson.printify.me/product/6aae6dde79c13a4d690d5b19",
           "metal": "https://drjonsson.printify.me/product/6aae6eb53852887d950ad238"
-        }
+        },
+        "etsy_products": {
+          "poster": "6aaf239f625208a2e90f26b3",
+          "framed": "6aaf23a7625208a2e90f26b9",
+          "canvas": "6aaf23ae53b4d83af007ebc7",
+          "framed_canvas": "6aaf23b754784efea00e608e",
+          "metal": "6aaf23c0864be7ed070b40d1"
+        },
+        "etsy_product": true,
+        "etsy_published": true,
+        "etsy_count": "5/5"
       }
     },
     {
@@ -8317,7 +8347,17 @@
           "canvas": "https://drjonsson.printify.me/product/6aae95bbd7eecf91050245a2",
           "framed_canvas": "https://drjonsson.printify.me/product/6aae95cad7dffc92280b7f00",
           "metal": "https://drjonsson.printify.me/product/6aae95de63032885970807e2"
-        }
+        },
+        "etsy_products": {
+          "poster": "6aaf22fae95c6ce17b02beab",
+          "framed": "6aaf2302e95c6ce17b02beae",
+          "canvas": "6aaf23098ad20a1fd501e76e",
+          "framed_canvas": "6aaf2311e95c6ce17b02beb4",
+          "metal": "6aaf231b2116f1b6f502d09b"
+        },
+        "etsy_product": true,
+        "etsy_published": true,
+        "etsy_count": "5/5"
       }
     },
     {
@@ -8375,7 +8415,17 @@
           "canvas": "https://drjonsson.printify.me/product/6aae96133b31a5254c0c882c",
           "framed_canvas": "https://drjonsson.printify.me/product/6aae9624b7852198b5041063",
           "metal": "https://drjonsson.printify.me/product/6aae9636f92330e6ea0a3a8e"
-        }
+        },
+        "etsy_products": {
+          "poster": "6aaf2322a1bcb4fe8d0cb6df",
+          "framed": "6aaf232a16f9b5c0030f9067",
+          "canvas": "6aaf2332a1bcb4fe8d0cb6e3",
+          "framed_canvas": "6aaf23394289d61c690efa67",
+          "metal": "6aaf2342f070600fa1090900"
+        },
+        "etsy_product": true,
+        "etsy_published": true,
+        "etsy_count": "5/5"
       }
     },
     {
@@ -8433,7 +8483,17 @@
           "canvas": "https://drjonsson.printify.me/product/6aae9668467bfa003005f4b6",
           "framed_canvas": "https://drjonsson.printify.me/product/6aae9677b7852198b504108b",
           "metal": "https://drjonsson.printify.me/product/6aae968a467bfa003005f4c8"
-        }
+        },
+        "etsy_products": {
+          "poster": "6aaf234c7e8e31e33d02961e",
+          "framed": "6aaf2354f070600fa1090908",
+          "canvas": "6aaf235cf070600fa109090a",
+          "framed_canvas": "6aaf2363dec5020e2b082cdf",
+          "metal": "6aaf236ddec5020e2b082ce6"
+        },
+        "etsy_product": true,
+        "etsy_published": true,
+        "etsy_count": "5/5"
       }
     },
     {
@@ -10681,13 +10741,13 @@
     "generated": 147,
     "printify_drafts": 147,
     "popup_live": 147,
-    "etsy_live": 2,
+    "etsy_live": 8,
     "days": 5,
     "streak": 5,
     "errors_last_run": 0,
     "product_types": 5
   },
-  "updated": "2026-09-19T22:20:48",
+  "updated": "2026-09-20T02:38:29",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
