@@ -11743,7 +11743,27 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aaf99fc48b86a4f85037ed8/43138/94683/the-hostess-jaipur-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aaf9a0b9b81a66fda002151/69664/124091/the-hostess-jaipur-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aaf9a1bec7bb056290987b6/91644/60165/the-hostess-jaipur-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aaf9a2a0321ec9d5f0894e4/111829/107096/the-hostess-jaipur-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aaf9a3b7398503b100062e2/92006/62734/the-hostess-jaipur-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aaf99fc48b86a4f85037ed8",
+          "framed": "https://drjonsson.printify.me/product/6aaf9a0b9b81a66fda002151",
+          "canvas": "https://drjonsson.printify.me/product/6aaf9a1bec7bb056290987b6",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aaf9a2a0321ec9d5f0894e4",
+          "metal": "https://drjonsson.printify.me/product/6aaf9a3b7398503b100062e2"
+        }
       }
     },
     {
@@ -11781,7 +11801,27 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aaf9a4c0f3d4ecd570e30b0/43138/94683/three-caftans-the-riviera-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aaf9a5c7398503b100062ea/69664/124091/three-caftans-the-riviera-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aaf9a6c82def4823b029352/91644/60165/three-caftans-the-riviera-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aaf9a7b82def4823b02935b/111829/107096/three-caftans-the-riviera-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aaf9a900321ec9d5f089529/92006/62734/three-caftans-the-riviera-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aaf9a4c0f3d4ecd570e30b0",
+          "framed": "https://drjonsson.printify.me/product/6aaf9a5c7398503b100062ea",
+          "canvas": "https://drjonsson.printify.me/product/6aaf9a6c82def4823b029352",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aaf9a7b82def4823b02935b",
+          "metal": "https://drjonsson.printify.me/product/6aaf9a900321ec9d5f089529"
+        }
       }
     },
     {
@@ -11819,7 +11859,27 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aaf9aa30f3d4ecd570e313b/43138/94683/the-float-monaco-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aaf9ab30f3d4ecd570e3143/69664/124091/the-float-monaco-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aaf9ac39b81a66fda002189/91644/60165/the-float-monaco-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aaf9ad30321ec9d5f089551/111829/107096/the-float-monaco-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aaf9ae49b81a66fda0021a1/92006/62734/the-float-monaco-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aaf9aa30f3d4ecd570e313b",
+          "framed": "https://drjonsson.printify.me/product/6aaf9ab30f3d4ecd570e3143",
+          "canvas": "https://drjonsson.printify.me/product/6aaf9ac39b81a66fda002189",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aaf9ad30321ec9d5f089551",
+          "metal": "https://drjonsson.printify.me/product/6aaf9ae49b81a66fda0021a1"
+        }
       }
     },
     {
@@ -11857,7 +11917,27 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aaf9af50321ec9d5f08955c/43138/94683/the-loungers-palm-springs-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aaf9b059b81a66fda0021af/69664/124091/the-loungers-palm-springs-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aaf9b147398503b10006349/91644/60165/the-loungers-palm-springs-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aaf9b28933fb8c20f0ca81b/111829/107096/the-loungers-palm-springs-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aaf9b39ec7bb0562909882e/92006/62734/the-loungers-palm-springs-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aaf9af50321ec9d5f08955c",
+          "framed": "https://drjonsson.printify.me/product/6aaf9b059b81a66fda0021af",
+          "canvas": "https://drjonsson.printify.me/product/6aaf9b147398503b10006349",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aaf9b28933fb8c20f0ca81b",
+          "metal": "https://drjonsson.printify.me/product/6aaf9b39ec7bb0562909882e"
+        }
       }
     },
     {
@@ -11895,7 +11975,27 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aaf9b497398503b10006393/43138/94683/the-hostess-cortina-dampezzo-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aaf9b59ec7bb0562909883f/69664/124091/the-hostess-cortina-dampezzo-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aaf9b68703c739e7a03d372/91644/60165/the-hostess-cortina-dampezzo-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aaf9b78933fb8c20f0ca833/111829/107096/the-hostess-cortina-dampezzo-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aaf9b89933fb8c20f0ca837/92006/62734/the-hostess-cortina-dampezzo-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aaf9b497398503b10006393",
+          "framed": "https://drjonsson.printify.me/product/6aaf9b59ec7bb0562909883f",
+          "canvas": "https://drjonsson.printify.me/product/6aaf9b68703c739e7a03d372",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aaf9b78933fb8c20f0ca833",
+          "metal": "https://drjonsson.printify.me/product/6aaf9b89933fb8c20f0ca837"
+        }
       }
     },
     {
@@ -11933,7 +12033,27 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aaf9bea703c739e7a03d395/43138/94683/tennis-whites-estoril-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aaf9bf90f3d4ecd570e3205/69664/124091/tennis-whites-estoril-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aaf9c099b81a66fda00221a/91644/60165/tennis-whites-estoril-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aaf9c199b81a66fda002226/111829/107096/tennis-whites-estoril-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aaf9c2a48b86a4f8503802c/92006/62734/tennis-whites-estoril-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aaf9bea703c739e7a03d395",
+          "framed": "https://drjonsson.printify.me/product/6aaf9bf90f3d4ecd570e3205",
+          "canvas": "https://drjonsson.printify.me/product/6aaf9c099b81a66fda00221a",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aaf9c199b81a66fda002226",
+          "metal": "https://drjonsson.printify.me/product/6aaf9c2a48b86a4f8503802c"
+        }
       }
     },
     {
@@ -11971,7 +12091,27 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aaf9c3b0f3d4ecd570e3223/43138/94683/the-float-saint-tropez-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aaf9c4b82def4823b029468/69664/124091/the-float-saint-tropez-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aaf9c5b933fb8c20f0ca8b2/91644/60165/the-float-saint-tropez-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aaf9c6bdcc60d827806aaf7/111829/107096/the-float-saint-tropez-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aaf9c7c703c739e7a03d3e0/92006/62734/the-float-saint-tropez-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aaf9c3b0f3d4ecd570e3223",
+          "framed": "https://drjonsson.printify.me/product/6aaf9c4b82def4823b029468",
+          "canvas": "https://drjonsson.printify.me/product/6aaf9c5b933fb8c20f0ca8b2",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aaf9c6bdcc60d827806aaf7",
+          "metal": "https://drjonsson.printify.me/product/6aaf9c7c703c739e7a03d3e0"
+        }
       }
     },
     {
@@ -12009,7 +12149,27 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aaf9c8e7398503b1000641c/43138/94683/afternoon-tea-ibiza-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aaf9c9d703c739e7a03d3fd/69664/124091/afternoon-tea-ibiza-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aaf9cac703c739e7a03d400/91644/60165/afternoon-tea-ibiza-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aaf9cbc933fb8c20f0ca8d2/111829/107096/afternoon-tea-ibiza-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aaf9cd1dcc60d827806ab18/92006/62734/afternoon-tea-ibiza-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aaf9c8e7398503b1000641c",
+          "framed": "https://drjonsson.printify.me/product/6aaf9c9d703c739e7a03d3fd",
+          "canvas": "https://drjonsson.printify.me/product/6aaf9cac703c739e7a03d400",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aaf9cbc933fb8c20f0ca8d2",
+          "metal": "https://drjonsson.printify.me/product/6aaf9cd1dcc60d827806ab18"
+        }
       }
     },
     {
@@ -12047,7 +12207,27 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aaf9ce37398503b1000643f/43138/94683/chess-on-the-terrace-malibu-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aaf9cf282def4823b0294ac/69664/124091/chess-on-the-terrace-malibu-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aaf9d01933fb8c20f0ca8e0/91644/60165/chess-on-the-terrace-malibu-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aaf9d110321ec9d5f089637/111829/107096/chess-on-the-terrace-malibu-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aaf9d250f3d4ecd570e3286/92006/62734/chess-on-the-terrace-malibu-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aaf9ce37398503b1000643f",
+          "framed": "https://drjonsson.printify.me/product/6aaf9cf282def4823b0294ac",
+          "canvas": "https://drjonsson.printify.me/product/6aaf9d01933fb8c20f0ca8e0",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aaf9d110321ec9d5f089637",
+          "metal": "https://drjonsson.printify.me/product/6aaf9d250f3d4ecd570e3286"
+        }
       }
     },
     {
@@ -12085,7 +12265,27 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aaf9d3682def4823b0294cd/43138/94683/the-arrival-marbella-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aaf9d490f3d4ecd570e32b6/69664/124091/the-arrival-marbella-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aaf9d5a0f3d4ecd570e32bd/91644/60165/the-arrival-marbella-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aaf9d6948b86a4f850380b6/111829/107096/the-arrival-marbella-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aaf9d7c48b86a4f850380c1/92006/62734/the-arrival-marbella-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aaf9d3682def4823b0294cd",
+          "framed": "https://drjonsson.printify.me/product/6aaf9d490f3d4ecd570e32b6",
+          "canvas": "https://drjonsson.printify.me/product/6aaf9d5a0f3d4ecd570e32bd",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aaf9d6948b86a4f850380b6",
+          "metal": "https://drjonsson.printify.me/product/6aaf9d7c48b86a4f850380c1"
+        }
       }
     },
     {
@@ -12123,7 +12323,27 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6aaf9d8e9b81a66fda0022a6/43138/94683/the-picnic-bermuda-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6aaf9d9e703c739e7a03d46f/69664/124091/the-picnic-bermuda-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6aaf9dafdcc60d827806ab80/91644/60165/the-picnic-bermuda-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6aaf9dc148b86a4f850380dc/111829/107096/the-picnic-bermuda-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6aaf9dd69b81a66fda0022c6/92006/62734/the-picnic-bermuda-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6aaf9d8e9b81a66fda0022a6",
+          "framed": "https://drjonsson.printify.me/product/6aaf9d9e703c739e7a03d46f",
+          "canvas": "https://drjonsson.printify.me/product/6aaf9dafdcc60d827806ab80",
+          "framed_canvas": "https://drjonsson.printify.me/product/6aaf9dc148b86a4f850380dc",
+          "metal": "https://drjonsson.printify.me/product/6aaf9dd69b81a66fda0022c6"
+        }
       }
     }
   ],
@@ -12568,7 +12788,7 @@
     "errors_last_run": 0,
     "product_types": 5
   },
-  "updated": "2026-09-20T11:21:20",
+  "updated": "2026-09-20T12:21:04",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
