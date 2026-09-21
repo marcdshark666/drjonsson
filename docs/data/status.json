@@ -12677,7 +12677,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "2/5",
+        "popup_count": "5/5",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -12719,7 +12719,17 @@
       "prompt": "three children in matching sailor outfits with a nanny in white holding a toy boat, a lakeside lawn on Lake Geneva with a white wooden pier, a vintage motorboat and the Alps across the water, clear morning light, sky a saturated cerulean, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1286507070,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab138a6459b0f55ad0db751",
+          "framed": "6ab138c134a1333335036d26",
+          "canvas": "6ab138d591e6204d86064b11",
+          "framed_canvas": "6ab138e59610660f4902623d",
+          "metal": "6ab138f64813ba98501000c8"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -12747,7 +12757,17 @@
       "prompt": "a silver-haired man in a cream linen suit and sunglasses leaning on a vintage pale-blue convertible, a redwood beach house deck in Malibu with a glass windbreak, surfboards and the Pacific breaking below, harsh midday sun with short shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 264352585,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab139071f40331e3700e200",
+          "framed": "6ab139174029ebb8ae0440e1",
+          "canvas": "6ab139260bf1edb13103dd7f",
+          "framed_canvas": "6ab13936405ed804cc03220d",
+          "metal": "6ab13947ba06a6c3110eb43b"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -12775,7 +12795,17 @@
       "prompt": "a couple in crisp 1960s tennis whites with wooden racquets, laughing beside a courtside table with lemonade, a safari lodge veranda in Kenya with cane furniture, a brass telescope and golden plains and flat acacias beyond, low golden hour sun raking across the scene, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1351600255,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab13959ba06a6c3110eb448",
+          "framed": "6ab139681f40331e3700e219",
+          "canvas": "6ab13977b25bdf969a0dba18",
+          "framed_canvas": "6ab13987201d988b6c0dc264",
+          "metal": "6ab13999b25bdf969a0dba22"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -14720,6 +14750,17 @@
       ],
       "dry_run": false,
       "finished": "2026-09-21T13:17:59"
+    },
+    {
+      "date": "2026-09-21",
+      "started": "2026-09-21T16:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 1511,
+      "etsy": 0,
+      "errors": [],
+      "dry_run": false,
+      "finished": "2026-09-21T16:05:28"
     }
   ],
   "todo": [
@@ -14803,15 +14844,15 @@
   ],
   "stats": {
     "generated": 217,
-    "printify_drafts": 214,
-    "popup_live": 214,
+    "printify_drafts": 217,
+    "popup_live": 217,
     "etsy_live": 8,
     "days": 7,
     "streak": 7,
-    "errors_last_run": 1,
+    "errors_last_run": 0,
     "product_types": 5
   },
-  "updated": "2026-09-21T13:20:48",
+  "updated": "2026-09-21T16:05:28",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
