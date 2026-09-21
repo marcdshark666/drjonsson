@@ -12719,7 +12719,13 @@
       "prompt": "three children in matching sailor outfits with a nanny in white holding a toy boat, a lakeside lawn on Lake Geneva with a white wooden pier, a vintage motorboat and the Alps across the water, clear morning light, sky a saturated cerulean, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1286507070,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab138a6459b0f55ad0db751/43138/94683/the-cousins-lake-geneva-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab138c134a1333335036d26/69664/124091/the-cousins-lake-geneva-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab138d591e6204d86064b11/91644/60165/the-cousins-lake-geneva-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab138e59610660f4902623d/111829/107096/the-cousins-lake-geneva-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab138f64813ba98501000c8/92006/62734/the-cousins-lake-geneva-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ab138a6459b0f55ad0db751",
           "framed": "6ab138c134a1333335036d26",
@@ -12729,7 +12735,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab138a6459b0f55ad0db751",
+          "framed": "https://drjonsson.printify.me/product/6ab138c134a1333335036d26",
+          "canvas": "https://drjonsson.printify.me/product/6ab138d591e6204d86064b11",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab138e59610660f4902623d",
+          "metal": "https://drjonsson.printify.me/product/6ab138f64813ba98501000c8"
+        }
       }
     },
     {
@@ -12757,7 +12777,13 @@
       "prompt": "a silver-haired man in a cream linen suit and sunglasses leaning on a vintage pale-blue convertible, a redwood beach house deck in Malibu with a glass windbreak, surfboards and the Pacific breaking below, harsh midday sun with short shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 264352585,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab139071f40331e3700e200/43138/94683/the-cream-suit-malibu-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab139174029ebb8ae0440e1/69664/124091/the-cream-suit-malibu-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab139260bf1edb13103dd7f/91644/60165/the-cream-suit-malibu-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab13936405ed804cc03220d/111829/107096/the-cream-suit-malibu-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab13947ba06a6c3110eb43b/92006/62734/the-cream-suit-malibu-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ab139071f40331e3700e200",
           "framed": "6ab139174029ebb8ae0440e1",
@@ -12767,7 +12793,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab139071f40331e3700e200",
+          "framed": "https://drjonsson.printify.me/product/6ab139174029ebb8ae0440e1",
+          "canvas": "https://drjonsson.printify.me/product/6ab139260bf1edb13103dd7f",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab13936405ed804cc03220d",
+          "metal": "https://drjonsson.printify.me/product/6ab13947ba06a6c3110eb43b"
+        }
       }
     },
     {
@@ -12795,7 +12835,13 @@
       "prompt": "a couple in crisp 1960s tennis whites with wooden racquets, laughing beside a courtside table with lemonade, a safari lodge veranda in Kenya with cane furniture, a brass telescope and golden plains and flat acacias beyond, low golden hour sun raking across the scene, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1351600255,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab13959ba06a6c3110eb448/43138/94683/tennis-whites-kenya-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab139681f40331e3700e219/69664/124091/tennis-whites-kenya-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab13977b25bdf969a0dba18/91644/60165/tennis-whites-kenya-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab13987201d988b6c0dc264/111829/107096/tennis-whites-kenya-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab13999b25bdf969a0dba22/92006/62734/tennis-whites-kenya-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ab13959ba06a6c3110eb448",
           "framed": "6ab139681f40331e3700e219",
@@ -12805,7 +12851,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab13959ba06a6c3110eb448",
+          "framed": "https://drjonsson.printify.me/product/6ab139681f40331e3700e219",
+          "canvas": "https://drjonsson.printify.me/product/6ab13977b25bdf969a0dba18",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab13987201d988b6c0dc264",
+          "metal": "https://drjonsson.printify.me/product/6ab13999b25bdf969a0dba22"
+        }
       }
     },
     {
@@ -14852,7 +14912,7 @@
     "errors_last_run": 0,
     "product_types": 5
   },
-  "updated": "2026-09-21T16:05:28",
+  "updated": "2026-09-21T16:20:14",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
