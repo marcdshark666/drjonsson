@@ -12487,7 +12487,17 @@
       "prompt": "a group of glamorous friends in colourful swimsuits and caftans on sun loungers under striped umbrellas, cocktails in hand, the boardwalk at Deauville with candy-striped parasols, white bathing cabins and the grey-green Channel, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 2116753167,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab0e47ba880d1cdfb054071",
+          "framed": "6ab0e48df228aa95250132cf",
+          "canvas": "6ab0e49fcad4a5627707871e",
+          "framed_canvas": "6ab0e4afba7a2e9c4d06c726",
+          "metal": "6ab0e4c0291c406ca00ccb7d"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -13788,11 +13798,13 @@
         "popup_products": {
           "poster": "6ab0cf45e35208b9450e1077",
           "framed": "6ab0d01ff89e6e108807b83b",
-          "canvas": "6ab0d0f61fe99b23220bbfae"
+          "canvas": "6ab0d0f61fe99b23220bbfae",
+          "framed_canvas": "6ab0e445cad4a562770786ca",
+          "metal": "6ab0e467c2bce5a03e0ef083"
         },
         "popup_product": true,
-        "popup_published": false,
-        "popup_count": "0/3",
+        "popup_published": true,
+        "popup_count": "5/5",
         "mockups": {
           "poster": "https://images-api.printify.com/mockup/6ab0cf45e35208b9450e1077/43138/94683/breakfast-at-eleven-havana-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
           "framed": "https://images-api.printify.com/mockup/6ab0d01ff89e6e108807b83b/69664/124091/breakfast-at-eleven-havana-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
@@ -13835,7 +13847,17 @@
       "prompt": "a hostess in an emerald turban and gold jewellery arranging a table of pastries and fruit, the frozen lake at St. Moritz with a grand hotel behind, horse-drawn sleighs and sharp alpine light, harsh midday sun with short shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 969507284,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab0e4d2deb28aefc3047c89",
+          "framed": "6ab0e4e225c2d08de0084cf4",
+          "canvas": "6ab0e4f1db3d20adb6079269",
+          "framed_canvas": "6ab0e501cb7a9430dc087db2",
+          "metal": "6ab0e51225c2d08de0084d24"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -13863,7 +13885,17 @@
       "prompt": "four golfers in cashmere sweaters and plaid trousers with a caddie and vintage golf bags, a whitewashed Andalusian villa in Marbella with a blue-tiled pool, orange trees and arched colonnades, warm late-afternoon light with long shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 867649226,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab0e523291c406ca00ccb98",
+          "framed": "6ab0e533dc073190ad034eff",
+          "canvas": "6ab0e5423a6c87dff5071690",
+          "framed_canvas": "6ab0e552f90db5a3df069411",
+          "metal": "6ab0e563613b24f4f806e232"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -13891,7 +13923,17 @@
       "prompt": "a young woman in a red swimsuit and white cap carrying water skis along the shore, the quay of Saint-Tropez with wooden speedboats, pastel houses and cafe tables under plane trees, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 100305960,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab0e574cb7a9430dc087dc4",
+          "framed": "6ab0e5842c07f8a198031d7f",
+          "canvas": "6ab0e5942987c743670cf5b7",
+          "framed_canvas": "6ab0e5a3c2bce5a03e0ef0ea",
+          "metal": "6ab0e5b5a8ffe33acc069d0b"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -13919,7 +13961,16 @@
       "prompt": "a couple in silk dressing gowns at a breakfast table with silver domes, orange juice and a stack of newspapers, the quay of Saint-Tropez with wooden speedboats, pastel houses and cafe tables under plane trees, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 437905187,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab0e5c77d373e3c6f06f4af",
+          "framed": "6ab0e5d6bf4529fd4d08a218",
+          "canvas": "6ab0e6af28b9d4bff4007a5f",
+          "framed_canvas": "6ab0e7866d609f5657076b05"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "1/4"
       }
     },
     {
@@ -14386,6 +14437,19 @@
       ],
       "dry_run": false,
       "finished": "2026-09-21T08:42:19"
+    },
+    {
+      "date": "2026-09-21",
+      "started": "2026-09-21T10:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 1467,
+      "etsy": 0,
+      "errors": [
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1789978718@a28cc6d9-0e94-4f42-8f67-820c0f68e803\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-09-21T10:18:38"
     }
   ],
   "todo": [
@@ -14469,15 +14533,15 @@
   ],
   "stats": {
     "generated": 217,
-    "printify_drafts": 204,
-    "popup_live": 203,
+    "printify_drafts": 209,
+    "popup_live": 209,
     "etsy_live": 8,
     "days": 7,
     "streak": 7,
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-09-21T09:21:15",
+  "updated": "2026-09-21T10:18:38",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
