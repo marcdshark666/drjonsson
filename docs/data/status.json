@@ -14410,7 +14410,28 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab21e88af4e7aec13081456/43138/94683/the-loungers-bermuda-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab21e98eb2732631c0bc3ab/69664/124091/the-loungers-bermuda-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab21ea7747145216a0d803b/91644/60165/the-loungers-bermuda-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab21eb7c28926001a04ba6b/111829/107096/the-loungers-bermuda-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab21ec9747145216a0d8048/92006/62734/the-loungers-bermuda-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab21e88af4e7aec13081456",
+          "framed": "https://drjonsson.printify.me/product/6ab21e98eb2732631c0bc3ab",
+          "canvas": "https://drjonsson.printify.me/product/6ab21ea7747145216a0d803b",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab21eb7c28926001a04ba6b",
+          "metal": "https://drjonsson.printify.me/product/6ab21ec9747145216a0d8048"
+        }
       }
     },
     {
@@ -14437,7 +14458,9 @@
       "thumb": "img/20260922-2-positano-high-board.jpg",
       "prompt": "a young woman in a white swimming cap poised on a diving board while friends watch from the water below, the tiered pastel houses of Positano seen from a balcony, with bougainvillea, a pebble beach and fishing boats below, bright hazy noon with the horizon washed pale, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 499311235,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-3-sydney-cream-suit",
@@ -14463,7 +14486,9 @@
       "thumb": "img/20260922-3-sydney-cream-suit.jpg",
       "prompt": "a silver-haired man in a cream linen suit and sunglasses leaning on a vintage pale-blue convertible, a harbourside lawn in Sydney with a sandstone house, a diving board over deep blue water and ferries crossing behind, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1374035223,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-4-positano-emerald-turban",
@@ -14489,7 +14514,9 @@
       "thumb": "img/20260922-4-positano-emerald-turban.jpg",
       "prompt": "a hostess in an emerald turban and gold jewellery arranging a table of pastries and fruit, the tiered pastel houses of Positano seen from a balcony, with bougainvillea, a pebble beach and fishing boats below, bright hazy noon with the horizon washed pale, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 164337603,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-5-portofino-the-trio",
@@ -14515,7 +14542,9 @@
       "thumb": "img/20260922-5-portofino-the-trio.jpg",
       "prompt": "a small band in white dinner jackets playing beside the pool while guests dance barefoot on the terrace, the pastel harbour of Portofino seen from above, with fishing boats, ochre and rose facades and a wooded headland, clear morning light, sky a saturated cerulean, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 418265996,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-6-monaco-the-painter",
@@ -14541,7 +14570,9 @@
       "thumb": "img/20260922-6-monaco-the-painter.jpg",
       "prompt": "a woman at an easel in a straw hat painting the view while a friend in a swimsuit watches over her shoulder, a yacht deck in the harbour of Monaco with teak decking, brass rails and the pastel apartment blocks of Monte Carlo behind, low golden hour sun raking across the scene, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 43907115,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-7-sydney-backgammon",
@@ -14567,7 +14598,9 @@
       "thumb": "img/20260922-7-sydney-backgammon.jpg",
       "prompt": "a couple in swimwear playing backgammon on a striped towel beside the pool, a harbourside lawn in Sydney with a sandstone house, a diving board over deep blue water and ferries crossing behind, harsh midday sun with short shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 165815605,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-8-positano-caftans",
@@ -14593,7 +14626,9 @@
       "thumb": "img/20260922-8-positano-caftans.jpg",
       "prompt": "three women in pastel silk caftans and oversized sunglasses holding champagne coupes, the tiered pastel houses of Positano seen from a balcony, with bougainvillea, a pebble beach and fishing boats below, clear morning light, sky a saturated cerulean, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 202602905,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-9-palm-springs-late-breakfast",
@@ -14619,7 +14654,9 @@
       "thumb": "img/20260922-9-palm-springs-late-breakfast.jpg",
       "prompt": "a couple in silk dressing gowns at a breakfast table with silver domes, orange juice and a stack of newspapers, a mid-century modernist house in Palm Springs with a kidney-shaped pool, palm trees and desert mountains behind, low golden hour sun raking across the scene, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1686043380,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-10-highlands-gardener",
@@ -14655,7 +14692,28 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab21eda25820887160f97b5/43138/94683/the-gardener-the-highlands-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab21eea747145216a0d8051/69664/124091/the-gardener-the-highlands-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab21ef925820887160f97c3/91644/60165/the-gardener-the-highlands-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab21f0a777711e11c08a169/111829/107096/the-gardener-the-highlands-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab21f1c25820887160f97d3/92006/62734/the-gardener-the-highlands-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab21eda25820887160f97b5",
+          "framed": "https://drjonsson.printify.me/product/6ab21eea747145216a0d8051",
+          "canvas": "https://drjonsson.printify.me/product/6ab21ef925820887160f97c3",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab21f0a777711e11c08a169",
+          "metal": "https://drjonsson.printify.me/product/6ab21f1c25820887160f97d3"
+        }
       }
     },
     {
@@ -14692,7 +14750,28 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab21f2dede974675f00b10b/43138/94683/the-vespa-palm-beach-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab21f3ceb2732631c0bc3e7/69664/124091/the-vespa-palm-beach-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab21f4ce8fb6a62e30769c5/91644/60165/the-vespa-palm-beach-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab21f5de8fb6a62e30769cb/111829/107096/the-vespa-palm-beach-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab21f70af4e7aec1308149f/92006/62734/the-vespa-palm-beach-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab21f2dede974675f00b10b",
+          "framed": "https://drjonsson.printify.me/product/6ab21f3ceb2732631c0bc3e7",
+          "canvas": "https://drjonsson.printify.me/product/6ab21f4ce8fb6a62e30769c5",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab21f5de8fb6a62e30769cb",
+          "metal": "https://drjonsson.printify.me/product/6ab21f70af4e7aec1308149f"
+        }
       }
     },
     {
@@ -14729,7 +14808,28 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab21f81f6d8e173cf074668/43138/94683/the-silver-roadster-rio-de-janeiro-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab21f91af4e7aec130814bb/69664/124091/the-silver-roadster-rio-de-janeiro-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab21fa1747145216a0d8089/91644/60165/the-silver-roadster-rio-de-janeiro-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab21fb0eb2732631c0bc41d/111829/107096/the-silver-roadster-rio-de-janeiro-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab21fc2f6d8e173cf074676/92006/62734/the-silver-roadster-rio-de-janeiro-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab21f81f6d8e173cf074668",
+          "framed": "https://drjonsson.printify.me/product/6ab21f91af4e7aec130814bb",
+          "canvas": "https://drjonsson.printify.me/product/6ab21fa1747145216a0d8089",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab21fb0eb2732631c0bc41d",
+          "metal": "https://drjonsson.printify.me/product/6ab21fc2f6d8e173cf074676"
+        }
       }
     },
     {
@@ -14766,7 +14866,28 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab21fd3e975e922260a14f0/43138/94683/three-caftans-marbella-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab21fe2eb2732631c0bc42c/69664/124091/three-caftans-marbella-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab21ff2777711e11c08a19c/91644/60165/three-caftans-marbella-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab22002747145216a0d80ab/111829/107096/three-caftans-marbella-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab2201325820887160f9828/92006/62734/three-caftans-marbella-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab21fd3e975e922260a14f0",
+          "framed": "https://drjonsson.printify.me/product/6ab21fe2eb2732631c0bc42c",
+          "canvas": "https://drjonsson.printify.me/product/6ab21ff2777711e11c08a19c",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab22002747145216a0d80ab",
+          "metal": "https://drjonsson.printify.me/product/6ab2201325820887160f9828"
+        }
       }
     },
     {
@@ -14803,7 +14924,28 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab22024c28926001a04bab5/43138/94683/the-silk-robe-havana-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab22034ede974675f00b147/69664/124091/the-silk-robe-havana-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab22043e975e922260a1512/91644/60165/the-silk-robe-havana-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab22053982ca8005b059a79/111829/107096/the-silk-robe-havana-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab22067ede974675f00b16a/92006/62734/the-silk-robe-havana-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab22024c28926001a04bab5",
+          "framed": "https://drjonsson.printify.me/product/6ab22034ede974675f00b147",
+          "canvas": "https://drjonsson.printify.me/product/6ab22043e975e922260a1512",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab22053982ca8005b059a79",
+          "metal": "https://drjonsson.printify.me/product/6ab22067ede974675f00b16a"
+        }
       }
     },
     {
@@ -14840,7 +14982,28 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab2207b982ca8005b059a90/43138/94683/the-gardener-rio-de-janeiro-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab220a40113f119810b3be8/69664/124091/the-gardener-rio-de-janeiro-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab220c587bd17941e094274/91644/60165/the-gardener-rio-de-janeiro-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab220dbc707227d120f5219/111829/107096/the-gardener-rio-de-janeiro-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab220f0eafb8d3e1b0c7e2e/92006/62734/the-gardener-rio-de-janeiro-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab2207b982ca8005b059a90",
+          "framed": "https://drjonsson.printify.me/product/6ab220a40113f119810b3be8",
+          "canvas": "https://drjonsson.printify.me/product/6ab220c587bd17941e094274",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab220dbc707227d120f5219",
+          "metal": "https://drjonsson.printify.me/product/6ab220f0eafb8d3e1b0c7e2e"
+        }
       }
     },
     {
@@ -14877,7 +15040,28 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab22101cabf6e7b98008dc2/43138/94683/the-silver-roadster-nantucket-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab2211157028d0bea078ac5/69664/124091/the-silver-roadster-nantucket-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab22120eafb8d3e1b0c7e3a/91644/60165/the-silver-roadster-nantucket-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab22130eafb8d3e1b0c7e3d/111829/107096/the-silver-roadster-nantucket-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab22141fcb23e55650e2a3a/92006/62734/the-silver-roadster-nantucket-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab22101cabf6e7b98008dc2",
+          "framed": "https://drjonsson.printify.me/product/6ab2211157028d0bea078ac5",
+          "canvas": "https://drjonsson.printify.me/product/6ab22120eafb8d3e1b0c7e3a",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab22130eafb8d3e1b0c7e3d",
+          "metal": "https://drjonsson.printify.me/product/6ab22141fcb23e55650e2a3a"
+        }
       }
     },
     {
@@ -14914,7 +15098,28 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "4/5"
+        "popup_count": "4/5",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab221520113f119810b3c18/43138/94683/the-foursome-kenya-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab22162a1c4c6d6160028be/69664/124091/the-foursome-kenya-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab22171e6f4d009270019c6/91644/60165/the-foursome-kenya-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab22181e6f4d009270019cb/111829/107096/the-foursome-kenya-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab2219287ebfb3dbf0b70bd/92006/62734/the-foursome-kenya-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab221520113f119810b3c18",
+          "framed": "https://drjonsson.printify.me/product/6ab22162a1c4c6d6160028be",
+          "canvas": "https://drjonsson.printify.me/product/6ab22171e6f4d009270019c6",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab22181e6f4d009270019cb",
+          "metal": "https://drjonsson.printify.me/product/6ab2219287ebfb3dbf0b70bd"
+        }
       }
     },
     {
@@ -14948,7 +15153,19 @@
         },
         "popup_product": true,
         "popup_published": false,
-        "popup_count": "0/2"
+        "popup_count": "0/2",
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab222691330e9c5e50c84d2/43138/94683/breakfast-at-eleven-marbella-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab2234060c772d31f0bed17/69664/124091/breakfast-at-eleven-marbella-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab222691330e9c5e50c84d2",
+          "framed": "https://drjonsson.printify.me/product/6ab2234060c772d31f0bed17"
+        }
       }
     },
     {
@@ -14975,7 +15192,9 @@
       "thumb": "img/20260922-19-havana-cocktail-hour.jpg",
       "prompt": "a crowd in evening wear at a garden cocktail party with waiters in white jackets carrying silver trays, a Havana courtyard with faded turquoise colonnades, a vintage convertible in the drive and royal palms, low golden hour sun raking across the scene, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1537262444,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-20-gstaad-silk-robe",
@@ -15001,7 +15220,9 @@
       "thumb": "img/20260922-20-gstaad-silk-robe.jpg",
       "prompt": "an elderly gentleman in a paisley silk dressing gown reading a newspaper with a white standard poodle at his feet, a sun terrace of a chalet in Gstaad with snowy peaks, wooden loungers and fur throws, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1505603150,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-21-hamptons-the-arrival",
@@ -15027,7 +15248,9 @@
       "thumb": "img/20260922-21-hamptons-the-arrival.jpg",
       "prompt": "a woman in a fur stole and evening gloves stepping from a car while a porter carries monogrammed leather luggage, a shingled Hamptons beach house with a striped awning, a clipped privet hedge and dune grass leading down to the Atlantic, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1503527787,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-22-portofino-speedboat",
@@ -15053,7 +15276,9 @@
       "thumb": "img/20260922-22-portofino-speedboat.jpg",
       "prompt": "a family in nautical stripes stepping off a polished wooden speedboat with a picnic hamper, the pastel harbour of Portofino seen from above, with fishing boats, ochre and rose facades and a wooded headland, clear morning light, sky a saturated cerulean, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1404294295,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-23-malibu-picnic",
@@ -15079,7 +15304,9 @@
       "thumb": "img/20260922-23-malibu-picnic.jpg",
       "prompt": "a picnic on a tartan rug with a wicker hamper, a bottle of rose in a silver bucket and a vintage convertible parked behind, a redwood beach house deck in Malibu with a glass windbreak, surfboards and the Pacific breaking below, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 504648259,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-24-portofino-high-board",
@@ -15105,7 +15332,9 @@
       "thumb": "img/20260922-24-portofino-high-board.jpg",
       "prompt": "a young woman in a white swimming cap poised on a diving board while friends watch from the water below, the pastel harbour of Portofino seen from above, with fishing boats, ochre and rose facades and a wooded headland, warm late-afternoon light with long shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1400242265,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-25-havana-the-painter",
@@ -15131,7 +15360,9 @@
       "thumb": "img/20260922-25-havana-the-painter.jpg",
       "prompt": "a woman at an easel in a straw hat painting the view while a friend in a swimsuit watches over her shoulder, a Havana courtyard with faded turquoise colonnades, a vintage convertible in the drive and royal palms, harsh midday sun with short shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1567758163,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-26-highlands-bridge",
@@ -15157,7 +15388,9 @@
       "thumb": "img/20260922-26-highlands-bridge.jpg",
       "prompt": "four women at a card table under a parasol with iced drinks and a silver cigarette box, the lawn of a Scottish country house with a gravel drive, heather hills, a dark green estate car and a loch beyond, bright hazy noon with the horizon washed pale, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1653830418,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-27-marbella-polo",
@@ -15183,7 +15416,9 @@
       "thumb": "img/20260922-27-marbella-polo.jpg",
       "prompt": "two polo players in white breeches and coloured jerseys with a groom holding a chestnut horse, a whitewashed Andalusian villa in Marbella with a blue-tiled pool, orange trees and arched colonnades, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1589756695,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-28-portofino-newlyweds",
@@ -15209,7 +15444,9 @@
       "thumb": "img/20260922-28-portofino-newlyweds.jpg",
       "prompt": "a young couple in wedding clothes barefoot at the water's edge, shoes in hand and confetti still in her hair, the pastel harbour of Portofino seen from above, with fishing boats, ochre and rose facades and a wooded headland, clear morning light, sky a saturated cerulean, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 887631176,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-29-lake-geneva-polo",
@@ -15235,7 +15472,9 @@
       "thumb": "img/20260922-29-lake-geneva-polo.jpg",
       "prompt": "two polo players in white breeches and coloured jerseys with a groom holding a chestnut horse, a lakeside lawn on Lake Geneva with a white wooden pier, a vintage motorboat and the Alps across the water, clear morning light, sky a saturated cerulean, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1395075899,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-30-acapulco-the-archers",
@@ -15261,7 +15500,9 @@
       "thumb": "img/20260922-30-acapulco-the-archers.jpg",
       "prompt": "two women in white with longbows and a straw target set up on the lawn, a cliff-top villa in Acapulco with a white infinity pool, bougainvillea and the Pacific bay glittering below, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1799208484,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-31-saint-tropez-loungers",
@@ -15287,7 +15528,9 @@
       "thumb": "img/20260922-31-saint-tropez-loungers.jpg",
       "prompt": "a group of glamorous friends in colourful swimsuits and caftans on sun loungers under striped umbrellas, cocktails in hand, the quay of Saint-Tropez with wooden speedboats, pastel houses and cafe tables under plane trees, clear morning light, sky a saturated cerulean, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1917968752,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-32-sardinia-tennis-whites",
@@ -15313,7 +15556,9 @@
       "thumb": "img/20260922-32-sardinia-tennis-whites.jpg",
       "prompt": "a couple in crisp 1960s tennis whites with wooden racquets, laughing beside a courtside table with lemonade, a rocky cove on the Costa Smeralda in Sardinia with granite boulders, a wooden Riva boat and emerald water, clear morning light, sky a saturated cerulean, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 895650348,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-33-havana-gardener",
@@ -15339,7 +15584,9 @@
       "thumb": "img/20260922-33-havana-gardener.jpg",
       "prompt": "a woman in a broad-brimmed hat and gloves cutting roses into a basket while a butler waits with a tray, a Havana courtyard with faded turquoise colonnades, a vintage convertible in the drive and royal palms, warm late-afternoon light with long shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 409412712,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-34-beverly-hills-loungers",
@@ -15365,7 +15612,9 @@
       "thumb": "img/20260922-34-beverly-hills-loungers.jpg",
       "prompt": "a group of glamorous friends in colourful swimsuits and caftans on sun loungers under striped umbrellas, cocktails in hand, a Beverly Hills garden with a rectangular pool, a white modernist house, sculpted topiary and palm trees, harsh midday sun with short shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 427446277,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     },
     {
       "slug": "20260922-35-jaipur-afternoon-tea",
@@ -15391,7 +15640,9 @@
       "thumb": "img/20260922-35-jaipur-afternoon-tea.jpg",
       "prompt": "a family at a lace-laid tea table with a tiered cake stand while a butler pours, a pink sandstone palace courtyard in Jaipur with a marble step-pool, fretwork screens and potted palms, low golden hour sun raking across the scene, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 2097843987,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     }
   ],
   "runs": [
@@ -15964,7 +16215,7 @@
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-09-22T08:45:42",
+  "updated": "2026-09-22T09:20:58",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
