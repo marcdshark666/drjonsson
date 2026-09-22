@@ -14591,7 +14591,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "3/5",
+        "popup_count": "5/5",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -14637,11 +14637,15 @@
           "poster": "https://images-api.printify.com/mockup/6ab2b77bde45f55972011eac/43138/94683/the-trio-portofino-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front"
         },
         "popup_products": {
-          "poster": "6ab2b77bde45f55972011eac"
+          "poster": "6ab2b77bde45f55972011eac",
+          "framed": "6ab2de79ed58417a130935f4",
+          "canvas": "6ab2de90ff539ff96e0b204d",
+          "framed_canvas": "6ab2dea406632c365d0f2582",
+          "metal": "6ab2deb94724dd31190f7650"
         },
         "popup_product": true,
-        "popup_published": false,
-        "popup_count": "0/1",
+        "popup_published": true,
+        "popup_count": "5/5",
         "variants": {
           "poster": 4
         },
@@ -14675,7 +14679,17 @@
       "prompt": "a woman at an easel in a straw hat painting the view while a friend in a swimsuit watches over her shoulder, a yacht deck in the harbour of Monaco with teak decking, brass rails and the pastel apartment blocks of Monte Carlo behind, low golden hour sun raking across the scene, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 43907115,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab2decc1fefbba70c0176c4",
+          "framed": "6ab2dedd7ba431b37b0cb94e",
+          "canvas": "6ab2def07ba431b37b0cb95f",
+          "framed_canvas": "6ab2df054724dd31190f7673",
+          "metal": "6ab2df17896ea9891f0fb0b4"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -14703,7 +14717,17 @@
       "prompt": "a couple in swimwear playing backgammon on a striped towel beside the pool, a harbourside lawn in Sydney with a sandstone house, a diving board over deep blue water and ferries crossing behind, harsh midday sun with short shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 165815605,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab2df284724dd31190f767e",
+          "framed": "6ab2df383b1793a2c70fb138",
+          "canvas": "6ab2df48896ea9891f0fb0df",
+          "framed_canvas": "6ab2df580505ef3c32061913",
+          "metal": "6ab2df69e0f37a4e5e0ff8a6"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -14731,7 +14755,17 @@
       "prompt": "three women in pastel silk caftans and oversized sunglasses holding champagne coupes, the tiered pastel houses of Positano seen from a balcony, with bougainvillea, a pebble beach and fishing boats below, clear morning light, sky a saturated cerulean, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 202602905,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab2df7b8d09472c7e0e9c5c",
+          "framed": "6ab2df8bb38acf8c5500b28c",
+          "canvas": "6ab2df9aae5d0d9f0e03ea66",
+          "framed_canvas": "6ab2dfaa97f8e992220ce305",
+          "metal": "6ab2dfbd896ea9891f0fb109"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -14759,7 +14793,17 @@
       "prompt": "a couple in silk dressing gowns at a breakfast table with silver domes, orange juice and a stack of newspapers, a mid-century modernist house in Palm Springs with a kidney-shaped pool, palm trees and desert mountains behind, low golden hour sun raking across the scene, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1686043380,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab2dfce6074baa8b30e1094",
+          "framed": "6ab2dfde1fefbba70c017752",
+          "canvas": "6ab2dfed3b1793a2c70fb16f",
+          "framed_canvas": "6ab2dffd3b1793a2c70fb17e",
+          "metal": "6ab2e00fb92eb5a8e10554c5"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "4/5"
       }
     },
     {
@@ -16802,6 +16846,19 @@
       ],
       "dry_run": false,
       "finished": "2026-09-22T19:18:08"
+    },
+    {
+      "date": "2026-09-22",
+      "started": "2026-09-22T22:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 1685,
+      "etsy": 0,
+      "errors": [
+        "printify popup:            FEL metal: POST /shops/28956931/products/6ab2e00fb92eb5a8e10554c5/publish.json -> HTTP 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1790107876@b5a97d78-2881-4aba-b089-5016821d979f\"}\n\nKlart. 1 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-09-22T22:11:16"
     }
   ],
   "todo": [
@@ -16885,15 +16942,15 @@
   ],
   "stats": {
     "generated": 252,
-    "printify_drafts": 248,
-    "popup_live": 247,
+    "printify_drafts": 252,
+    "popup_live": 252,
     "etsy_live": 8,
     "days": 8,
     "streak": 8,
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-09-22T19:20:53",
+  "updated": "2026-09-22T22:11:16",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
