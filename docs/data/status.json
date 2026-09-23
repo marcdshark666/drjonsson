@@ -16841,7 +16841,8 @@
           "poster": "https://images-api.printify.com/mockup/6ab3dd076879a31bad00b558/43138/94683/the-picnic-cannes-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
           "framed": "https://images-api.printify.com/mockup/6ab3dd17f51ace4829036348/69664/124091/the-picnic-cannes-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
           "canvas": "https://images-api.printify.com/mockup/6ab3ddefeaa7319d8e0dbc30/91644/60165/the-picnic-cannes-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
-          "framed_canvas": "https://images-api.printify.com/mockup/6ab3dec66c9b39f6ea0202e9/111829/107096/the-picnic-cannes-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front"
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab3dec66c9b39f6ea0202e9/111829/107096/the-picnic-cannes-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab405ca57c35e385b0cfa07/92006/62734/the-picnic-cannes-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
         },
         "popup_products": {
           "poster": "6ab3dd076879a31bad00b558",
@@ -16857,13 +16858,15 @@
           "poster": 4,
           "framed": 4,
           "canvas": 4,
-          "framed_canvas": 4
+          "framed_canvas": 4,
+          "metal": 1
         },
         "popup_urls": {
           "poster": "https://drjonsson.printify.me/product/6ab3dd076879a31bad00b558",
           "framed": "https://drjonsson.printify.me/product/6ab3dd17f51ace4829036348",
           "canvas": "https://drjonsson.printify.me/product/6ab3ddefeaa7319d8e0dbc30",
-          "framed_canvas": "https://drjonsson.printify.me/product/6ab3dec66c9b39f6ea0202e9"
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab3dec66c9b39f6ea0202e9",
+          "metal": "https://drjonsson.printify.me/product/6ab405ca57c35e385b0cfa07"
         }
       }
     },
@@ -16892,7 +16895,13 @@
       "prompt": "a young couple in wedding clothes barefoot at the water's edge, shoes in hand and confetti still in her hair, a pink-sand beach in Bermuda with a pastel-yellow colonial house, white shutters and a wooden dinghy, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1239871564,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab405dbc1acbc42270844f0/43138/94683/the-newlyweds-bermuda-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab405ebd7e3951a46056320/69664/124091/the-newlyweds-bermuda-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab405fa31dc421a2c047915/91644/60165/the-newlyweds-bermuda-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab4060a44f162cfc8035fb8/111829/107096/the-newlyweds-bermuda-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab4061cc824636cb007825d/92006/62734/the-newlyweds-bermuda-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ab405dbc1acbc42270844f0",
           "framed": "6ab405ebd7e3951a46056320",
@@ -16902,7 +16911,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab405dbc1acbc42270844f0",
+          "framed": "https://drjonsson.printify.me/product/6ab405ebd7e3951a46056320",
+          "canvas": "https://drjonsson.printify.me/product/6ab405fa31dc421a2c047915",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab4060a44f162cfc8035fb8",
+          "metal": "https://drjonsson.printify.me/product/6ab4061cc824636cb007825d"
+        }
       }
     },
     {
@@ -19112,7 +19135,7 @@
     "errors_last_run": 0,
     "product_types": 5
   },
-  "updated": "2026-09-23T19:02:35",
+  "updated": "2026-09-23T19:20:08",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
