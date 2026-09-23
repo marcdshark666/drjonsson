@@ -16847,11 +16847,12 @@
           "poster": "6ab3dd076879a31bad00b558",
           "framed": "6ab3dd17f51ace4829036348",
           "canvas": "6ab3ddefeaa7319d8e0dbc30",
-          "framed_canvas": "6ab3dec66c9b39f6ea0202e9"
+          "framed_canvas": "6ab3dec66c9b39f6ea0202e9",
+          "metal": "6ab405ca57c35e385b0cfa07"
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "1/4",
+        "popup_count": "5/5",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -16891,7 +16892,17 @@
       "prompt": "a young couple in wedding clothes barefoot at the water's edge, shoes in hand and confetti still in her hair, a pink-sand beach in Bermuda with a pastel-yellow colonial house, white shutters and a wooden dinghy, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1239871564,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab405dbc1acbc42270844f0",
+          "framed": "6ab405ebd7e3951a46056320",
+          "canvas": "6ab405fa31dc421a2c047915",
+          "framed_canvas": "6ab4060a44f162cfc8035fb8",
+          "metal": "6ab4061cc824636cb007825d"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -18999,6 +19010,17 @@
       ],
       "dry_run": false,
       "finished": "2026-09-23T16:18:06"
+    },
+    {
+      "date": "2026-09-23",
+      "started": "2026-09-23T19:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 1861,
+      "etsy": 0,
+      "errors": [],
+      "dry_run": false,
+      "finished": "2026-09-23T19:02:35"
     }
   ],
   "todo": [
@@ -19082,15 +19104,15 @@
   ],
   "stats": {
     "generated": 287,
-    "printify_drafts": 286,
-    "popup_live": 286,
+    "printify_drafts": 287,
+    "popup_live": 287,
     "etsy_live": 8,
     "days": 9,
     "streak": 9,
-    "errors_last_run": 1,
+    "errors_last_run": 0,
     "product_types": 5
   },
-  "updated": "2026-09-23T16:20:26",
+  "updated": "2026-09-23T19:02:35",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
