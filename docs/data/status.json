@@ -21148,6 +21148,17 @@
       "errors": [],
       "dry_run": false,
       "finished": "2026-09-24T19:07:25"
+    },
+    {
+      "date": "2026-09-24",
+      "started": "2026-09-24T22:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 2036,
+      "etsy": 0,
+      "errors": [],
+      "dry_run": false,
+      "finished": "2026-09-24T22:00:13"
     }
   ],
   "todo": [
@@ -21239,7 +21250,7 @@
     "errors_last_run": 0,
     "product_types": 5
   },
-  "updated": "2026-09-24T19:20:19",
+  "updated": "2026-09-24T22:00:13",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
