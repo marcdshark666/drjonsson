@@ -18651,7 +18651,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "4/5",
+        "popup_count": "5/5",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -18699,11 +18699,14 @@
         },
         "popup_products": {
           "poster": "6ab52f812c18895811017532",
-          "framed": "6ab5305745456e428a0271e3"
+          "framed": "6ab5305745456e428a0271e3",
+          "canvas": "6ab5574c42a7ceca220217b8",
+          "framed_canvas": "6ab5575daa622d004e0c4281",
+          "metal": "6ab5576faa622d004e0c428a"
         },
         "popup_product": true,
-        "popup_published": false,
-        "popup_count": "0/2",
+        "popup_published": true,
+        "popup_count": "5/5",
         "variants": {
           "poster": 4,
           "framed": 4
@@ -18739,7 +18742,17 @@
       "prompt": "a small band in white dinner jackets playing beside the pool while guests dance barefoot on the terrace, a pink sandstone palace courtyard in Jaipur with a marble step-pool, fretwork screens and potted palms, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1394094142,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab55780bf9c966db80f4fc1",
+          "framed": "6ab557907934f4a2e60bfa97",
+          "canvas": "6ab557a004103090c60007a9",
+          "framed_canvas": "6ab557af7e477d30820b5d35",
+          "metal": "6ab557c19b931f623c01c914"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -18767,7 +18780,17 @@
       "prompt": "a couple in swimwear playing backgammon on a striped towel beside the pool, a terraced villa garden on Lake Como with cypress trees, a long turquoise pool and the lake and mountains beyond, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1644126295,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab557d75549b6145c07dd2f",
+          "framed": "6ab557e7743372cd0703ae1f",
+          "canvas": "6ab557f7bf9c966db80f4ff7",
+          "framed_canvas": "6ab558075fd43c3d3907360e",
+          "metal": "6ab5581942a7ceca22021833"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -18795,7 +18818,17 @@
       "prompt": "a woman in a broad-brimmed hat and gloves cutting roses into a basket while a butler waits with a tray, a riad courtyard in Marrakech with a green-tiled pool, orange trees, ochre walls and a striped cabana, low golden hour sun raking across the scene, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1881768994,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab5582b5fd43c3d3907361e",
+          "framed": "6ab5583b0502ec6336053c83",
+          "canvas": "6ab5584c2736c275f306e0ce",
+          "framed_canvas": "6ab5585c5fd43c3d39073642",
+          "metal": "6ab5586d010a8c21240bb9bb"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -18823,7 +18856,17 @@
       "prompt": "two women in white with longbows and a straw target set up on the lawn, a lakeside lawn on Lake Geneva with a white wooden pier, a vintage motorboat and the Alps across the water, clear morning light, sky a saturated cerulean, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 929948354,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab5587eaa622d004e0c42f8",
+          "framed": "6ab5588e010a8c21240bb9c4",
+          "canvas": "6ab5589e5fd43c3d39073658",
+          "framed_canvas": "6ab558ad010a8c21240bb9d5",
+          "metal": "6ab558be5fd43c3d39073673"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -21005,6 +21048,17 @@
       ],
       "dry_run": false,
       "finished": "2026-09-24T16:18:26"
+    },
+    {
+      "date": "2026-09-24",
+      "started": "2026-09-24T19:00:03",
+      "count": 35,
+      "generated": 35,
+      "popup": 2036,
+      "etsy": 0,
+      "errors": [],
+      "dry_run": false,
+      "finished": "2026-09-24T19:07:25"
     }
   ],
   "todo": [
@@ -21088,15 +21142,15 @@
   ],
   "stats": {
     "generated": 322,
-    "printify_drafts": 318,
-    "popup_live": 317,
+    "printify_drafts": 322,
+    "popup_live": 322,
     "etsy_live": 8,
     "days": 10,
     "streak": 10,
-    "errors_last_run": 1,
+    "errors_last_run": 0,
     "product_types": 5
   },
-  "updated": "2026-09-24T16:20:20",
+  "updated": "2026-09-24T19:07:25",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
