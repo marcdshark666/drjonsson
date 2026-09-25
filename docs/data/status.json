@@ -20971,7 +20971,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "4/5",
+        "popup_count": "5/5",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -22499,18 +22499,6 @@
   ],
   "runs": [
     {
-      "date": "2026-09-15",
-      "started": "2026-09-15T21:43:33",
-      "count": 5,
-      "generated": 5,
-      "popup": 48,
-      "etsy": 0,
-      "errors": [],
-      "dry_run": false,
-      "note": "Pop-Up live: drjonsson.printify.me",
-      "finished": "2026-09-15T21:52:36"
-    },
-    {
       "date": "2026-09-16",
       "started": "2026-09-16T01:38:20",
       "count": 35,
@@ -23228,6 +23216,17 @@
       ],
       "dry_run": false,
       "finished": "2026-09-25T13:11:08"
+    },
+    {
+      "date": "2026-09-25",
+      "started": "2026-09-25T16:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 2211,
+      "etsy": 0,
+      "errors": [],
+      "dry_run": false,
+      "finished": "2026-09-25T16:00:30"
     }
   ],
   "todo": [
@@ -23316,10 +23315,10 @@
     "etsy_live": 8,
     "days": 11,
     "streak": 11,
-    "errors_last_run": 1,
+    "errors_last_run": 0,
     "product_types": 5
   },
-  "updated": "2026-09-25T13:20:25",
+  "updated": "2026-09-25T16:00:30",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
