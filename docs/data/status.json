@@ -20674,7 +20674,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "3/5",
+        "popup_count": "5/5",
         "mockups": {
           "poster": "https://images-api.printify.com/mockup/6ab62bb498053b45a0060cb5/43138/94683/the-cousins-sydney-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
           "framed": "https://images-api.printify.com/mockup/6ab62bc416e8aad75602a2a4/69664/124091/the-cousins-sydney-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
@@ -20724,11 +20724,15 @@
       "seed": 496849778,
       "printify": {
         "popup_products": {
-          "poster": "6ab62d93d03b726d7607d85d"
+          "poster": "6ab62d93d03b726d7607d85d",
+          "framed": "6ab6546c75348a41b8019dcc",
+          "canvas": "6ab65486766ebb8c81071bf4",
+          "framed_canvas": "6ab6549e082c0ba19b032de3",
+          "metal": "6ab654af082c0ba19b032df0"
         },
         "popup_product": true,
-        "popup_published": false,
-        "popup_count": "0/1",
+        "popup_published": true,
+        "popup_count": "5/5",
         "mockups": {
           "poster": "https://images-api.printify.com/mockup/6ab62d93d03b726d7607d85d/43138/94683/the-hostess-newport-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front"
         },
@@ -20765,7 +20769,17 @@
       "prompt": "a crowd in evening wear at a garden cocktail party with waiters in white jackets carrying silver trays, the pastel harbour of Portofino seen from above, with fishing boats, ochre and rose facades and a wooded headland, bright hazy noon with the horizon washed pale, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 304356360,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab654c1c607a68aab0ad840",
+          "framed": "6ab654d175348a41b8019e5c",
+          "canvas": "6ab654e12e86058c8d056f8c",
+          "framed_canvas": "6ab654f0766ebb8c81071c56",
+          "metal": "6ab6550320d32983c80106af"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -20793,7 +20807,17 @@
       "prompt": "an elderly gentleman in a paisley silk dressing gown reading a newspaper with a white standard poodle at his feet, a pink-sand beach in Bermuda with a pastel-yellow colonial house, white shutters and a wooden dinghy, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 754256403,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab6551420d32983c80106be",
+          "framed": "6ab65524159a0c07530b14fe",
+          "canvas": "6ab65533082c0ba19b032e1b",
+          "framed_canvas": "6ab65543b5d972fbc4057973",
+          "metal": "6ab65554766ebb8c81071c74"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -20821,7 +20845,17 @@
       "prompt": "a couple in silk dressing gowns at a breakfast table with silver domes, orange juice and a stack of newspapers, the tiered pastel houses of Positano seen from a balcony, with bougainvillea, a pebble beach and fishing boats below, bright hazy noon with the horizon washed pale, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 227921957,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab65565990bde80af028c0a",
+          "framed": "6ab65575766ebb8c81071c83",
+          "canvas": "6ab65585159a0c07530b153c",
+          "framed_canvas": "6ab65594159a0c07530b1543",
+          "metal": "6ab655a6990bde80af028c27"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -20849,7 +20883,17 @@
       "prompt": "a couple in sunglasses on a pale-blue Vespa loaded with a straw basket and a bottle of wine, a hotel balcony on the Croisette in Cannes with white balustrades, palm trees and the bay full of yachts, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1206266137,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab655b7766ebb8c81071caa",
+          "framed": "6ab655c6fca67c4317062575",
+          "canvas": "6ab655d6766ebb8c81071cb8",
+          "framed_canvas": "6ab655e6082c0ba19b032e6d",
+          "metal": "6ab655f7fca67c431706258b"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "4/5"
       }
     },
     {
@@ -23079,6 +23123,19 @@
       ],
       "dry_run": false,
       "finished": "2026-09-25T10:18:48"
+    },
+    {
+      "date": "2026-09-25",
+      "started": "2026-09-25T13:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 2210,
+      "etsy": 0,
+      "errors": [
+        "printify popup:            FEL metal: POST /shops/28956931/products/6ab655f7fca67c431706258b/publish.json -> HTTP 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1790334668@54f56ee3-ace6-475b-819c-a131803e28fd\"}\n\nKlart. 1 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-09-25T13:11:08"
     }
   ],
   "todo": [
@@ -23162,15 +23219,15 @@
   ],
   "stats": {
     "generated": 357,
-    "printify_drafts": 353,
-    "popup_live": 352,
+    "printify_drafts": 357,
+    "popup_live": 357,
     "etsy_live": 8,
     "days": 11,
     "streak": 11,
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-09-25T11:20:26",
+  "updated": "2026-09-25T13:11:08",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
