@@ -22500,17 +22500,6 @@
   "runs": [
     {
       "date": "2026-09-16",
-      "started": "2026-09-16T01:38:20",
-      "count": 35,
-      "generated": 35,
-      "popup": 0,
-      "etsy": 0,
-      "errors": [],
-      "dry_run": false,
-      "finished": "2026-09-16T02:58:24"
-    },
-    {
-      "date": "2026-09-16",
       "started": "2026-09-16T02:58:57",
       "count": 35,
       "generated": 35,
@@ -23227,6 +23216,17 @@
       "errors": [],
       "dry_run": false,
       "finished": "2026-09-25T16:00:30"
+    },
+    {
+      "date": "2026-09-25",
+      "started": "2026-09-25T19:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 2211,
+      "etsy": 0,
+      "errors": [],
+      "dry_run": false,
+      "finished": "2026-09-25T19:00:12"
     }
   ],
   "todo": [
@@ -23318,7 +23318,7 @@
     "errors_last_run": 0,
     "product_types": 5
   },
-  "updated": "2026-09-25T16:00:30",
+  "updated": "2026-09-25T19:00:12",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
