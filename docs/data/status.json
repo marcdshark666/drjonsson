@@ -21993,19 +21993,22 @@
           "poster": "https://images-api.printify.com/mockup/6ab61cfd1d6270b9f60ce5de/43138/94683/the-vespa-capri-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
           "framed": "https://images-api.printify.com/mockup/6ab61d11ad7dd0451e00b933/69664/124091/the-vespa-capri-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
           "canvas": "https://images-api.printify.com/mockup/6ab61d2348bf8c02160876d4/91644/60165/the-vespa-capri-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
-          "framed_canvas": "https://images-api.printify.com/mockup/6ab61d37c2af5b48a80c3220/111829/107096/the-vespa-capri-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front"
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab61d37c2af5b48a80c3220/111829/107096/the-vespa-capri-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab61d4bba491c58980757fd/92006/62734/the-vespa-capri-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
         },
         "variants": {
           "poster": 4,
           "framed": 4,
           "canvas": 4,
-          "framed_canvas": 4
+          "framed_canvas": 4,
+          "metal": 1
         },
         "popup_urls": {
           "poster": "https://drjonsson.printify.me/product/6ab61cfd1d6270b9f60ce5de",
           "framed": "https://drjonsson.printify.me/product/6ab61d11ad7dd0451e00b933",
           "canvas": "https://drjonsson.printify.me/product/6ab61d2348bf8c02160876d4",
-          "framed_canvas": "https://drjonsson.printify.me/product/6ab61d37c2af5b48a80c3220"
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab61d37c2af5b48a80c3220",
+          "metal": "https://drjonsson.printify.me/product/6ab61d4bba491c58980757fd"
         }
       }
     },
@@ -22044,7 +22047,27 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab61dc3aab7e92656075b10/43138/94683/tennis-whites-nantucket-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab61dd345d4f2d971032722/69664/124091/tennis-whites-nantucket-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab61de3aab7e92656075b33/91644/60165/tennis-whites-nantucket-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab61df2b580b4f3730349ab/111829/107096/tennis-whites-nantucket-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab61e0345d4f2d97103273c/92006/62734/tennis-whites-nantucket-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab61dc3aab7e92656075b10",
+          "framed": "https://drjonsson.printify.me/product/6ab61dd345d4f2d971032722",
+          "canvas": "https://drjonsson.printify.me/product/6ab61de3aab7e92656075b33",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab61df2b580b4f3730349ab",
+          "metal": "https://drjonsson.printify.me/product/6ab61e0345d4f2d97103273c"
+        }
       }
     },
     {
@@ -22082,7 +22105,27 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab61e16aab7e92656075b53/43138/94683/tennis-whites-jaipur-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab61e25664168691e0fd46f/69664/124091/tennis-whites-jaipur-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab61e351d6270b9f60ce66e/91644/60165/tennis-whites-jaipur-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab61f0bfe0916476a06c61c/111829/107096/tennis-whites-jaipur-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab61fe3ed8c1465ab0d918c/92006/62734/tennis-whites-jaipur-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab61e16aab7e92656075b53",
+          "framed": "https://drjonsson.printify.me/product/6ab61e25664168691e0fd46f",
+          "canvas": "https://drjonsson.printify.me/product/6ab61e351d6270b9f60ce66e",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab61f0bfe0916476a06c61c",
+          "metal": "https://drjonsson.printify.me/product/6ab61fe3ed8c1465ab0d918c"
+        }
       }
     },
     {
@@ -22120,7 +22163,27 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab62a41db3bd4c5fe0c9028/43138/94683/the-catch-nantucket-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab62a618b4ecd133f0d5fba/69664/124091/the-catch-nantucket-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab62a7d646ae161f9081f99/91644/60165/the-catch-nantucket-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab62a9c3d1cce83820b074d/111829/107096/the-catch-nantucket-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab62aad98053b45a0060c67/92006/62734/the-catch-nantucket-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab62a41db3bd4c5fe0c9028",
+          "framed": "https://drjonsson.printify.me/product/6ab62a618b4ecd133f0d5fba",
+          "canvas": "https://drjonsson.printify.me/product/6ab62a7d646ae161f9081f99",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab62a9c3d1cce83820b074d",
+          "metal": "https://drjonsson.printify.me/product/6ab62aad98053b45a0060c67"
+        }
       }
     },
     {
@@ -22158,7 +22221,27 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab62abfdb3bd4c5fe0c907c/43138/94683/the-silver-roadster-portofino-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab62acf5ebea6ec4e004314/69664/124091/the-silver-roadster-portofino-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab62ade2a84742b1b0c571a/91644/60165/the-silver-roadster-portofino-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab62aeec970f04e680c5417/111829/107096/the-silver-roadster-portofino-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab62b00ba5661879307a82e/92006/62734/the-silver-roadster-portofino-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab62abfdb3bd4c5fe0c907c",
+          "framed": "https://drjonsson.printify.me/product/6ab62acf5ebea6ec4e004314",
+          "canvas": "https://drjonsson.printify.me/product/6ab62ade2a84742b1b0c571a",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab62aeec970f04e680c5417",
+          "metal": "https://drjonsson.printify.me/product/6ab62b00ba5661879307a82e"
+        }
       }
     },
     {
@@ -22196,7 +22279,27 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab62b11b3b3f17acf050e82/43138/94683/backgammon-nantucket-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab62b213d1cce83820b0769/69664/124091/backgammon-nantucket-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab62b30db3bd4c5fe0c909b/91644/60165/backgammon-nantucket-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab62b40318b0e24f30d8ef3/111829/107096/backgammon-nantucket-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab62b52c970f04e680c543c/92006/62734/backgammon-nantucket-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab62b11b3b3f17acf050e82",
+          "framed": "https://drjonsson.printify.me/product/6ab62b213d1cce83820b0769",
+          "canvas": "https://drjonsson.printify.me/product/6ab62b30db3bd4c5fe0c909b",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab62b40318b0e24f30d8ef3",
+          "metal": "https://drjonsson.printify.me/product/6ab62b52c970f04e680c543c"
+        }
       }
     },
     {
@@ -22234,7 +22337,27 @@
         "popup_product": true,
         "popup_published": true,
         "popup_count": "5/5",
-        "mockups": {}
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ab62b622a84742b1b0c573e/43138/94683/the-gardener-lake-geneva-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ab62b727459729dd60642c7/69664/124091/the-gardener-lake-geneva-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ab62b814881b0d49c0f4025/91644/60165/the-gardener-lake-geneva-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ab62b917459729dd60642ec/111829/107096/the-gardener-lake-geneva-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ab62ba28498d39310019a9b/92006/62734/the-gardener-lake-geneva-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ab62b622a84742b1b0c573e",
+          "framed": "https://drjonsson.printify.me/product/6ab62b727459729dd60642c7",
+          "canvas": "https://drjonsson.printify.me/product/6ab62b814881b0d49c0f4025",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ab62b917459729dd60642ec",
+          "metal": "https://drjonsson.printify.me/product/6ab62ba28498d39310019a9b"
+        }
       }
     }
   ],
@@ -23047,7 +23170,7 @@
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-09-25T10:21:19",
+  "updated": "2026-09-25T11:20:26",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
