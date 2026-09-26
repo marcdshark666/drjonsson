@@ -22595,7 +22595,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "4/5",
+        "popup_count": "5/5",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -23415,11 +23415,14 @@
       "printify": {
         "popup_products": {
           "poster": "6ab7b7528eb120bc3c0486bc",
-          "framed": "6ab7b8287f40c814d00746fd"
+          "framed": "6ab7b8287f40c814d00746fd",
+          "canvas": "6ab7d015b39b9efb9802bf0c",
+          "framed_canvas": "6ab7d025c36de2d2da0c1f0a",
+          "metal": "6ab7d0380016ce6f69055e7e"
         },
         "popup_product": true,
-        "popup_published": false,
-        "popup_count": "0/2",
+        "popup_published": true,
+        "popup_count": "5/5",
         "mockups": {
           "poster": "https://images-api.printify.com/mockup/6ab7b7528eb120bc3c0486bc/43138/94683/backgammon-marbella-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
           "framed": "https://images-api.printify.com/mockup/6ab7b8287f40c814d00746fd/69664/124091/backgammon-marbella-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front"
@@ -23459,7 +23462,17 @@
       "prompt": "a couple in crisp 1960s tennis whites with wooden racquets, laughing beside a courtside table with lemonade, a yacht deck in the harbour of Monaco with teak decking, brass rails and the pastel apartment blocks of Monte Carlo behind, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1951590924,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab7d04ac36de2d2da0c1f2d",
+          "framed": "6ab7d05dc36de2d2da0c1f3c",
+          "canvas": "6ab7d06df505b94493034c2b",
+          "framed_canvas": "6ab7d07ef339d6786e02f73b",
+          "metal": "6ab7d08f86c210d189014272"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -23487,7 +23500,17 @@
       "prompt": "a woman in a broad-brimmed hat and gloves cutting roses into a basket while a butler waits with a tray, a mid-century modernist house in Palm Springs with a kidney-shaped pool, palm trees and desert mountains behind, clear morning light, sky a saturated cerulean, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 711455744,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab7d0a14db7700edf0235ac",
+          "framed": "6ab7d0b1f339d6786e02f75c",
+          "canvas": "6ab7d0c10016ce6f69055edb",
+          "framed_canvas": "6ab7d0d2c36de2d2da0c1f66",
+          "metal": "6ab7d0e6c36de2d2da0c1f70"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -23515,7 +23538,17 @@
       "prompt": "a picnic on a tartan rug with a wicker hamper, a bottle of rose in a silver bucket and a vintage convertible parked behind, a whitewashed Andalusian villa in Marbella with a blue-tiled pool, orange trees and arched colonnades, clear morning light, sky a saturated cerulean, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 804117770,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab7d0f6c36de2d2da0c1f78",
+          "framed": "6ab7d106f339d6786e02f76c",
+          "canvas": "6ab7d119b39b9efb9802bf7c",
+          "framed_canvas": "6ab7d12f12efd66989011dc0",
+          "metal": "6ab7d141c36de2d2da0c1f96"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -23543,7 +23576,17 @@
       "prompt": "an elderly gentleman in a paisley silk dressing gown reading a newspaper with a white standard poodle at his feet, a modernist apartment terrace above Copacabana in Rio with a mosaic pool, palms and Sugarloaf beyond, clear morning light, sky a saturated cerulean, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1066151278,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab7d152c36de2d2da0c1f9d",
+          "framed": "6ab7d1620016ce6f69055f2e",
+          "canvas": "6ab7d171db3d85977c021310",
+          "framed_canvas": "6ab7d181f505b94493034c8e",
+          "metal": "6ab7d194b39b9efb9802bfaa"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -23571,7 +23614,15 @@
       "prompt": "a picnic on a tartan rug with a wicker hamper, a bottle of rose in a silver bucket and a vintage convertible parked behind, a shingled Hamptons beach house with a striped awning, a clipped privet hedge and dune grass leading down to the Atlantic, warm late-afternoon light with long shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 620870910,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab7d1a5db3d85977c021320",
+          "framed": "6ab7d27db99b4eef650147c2",
+          "canvas": "6ab7d3566f652d314a0712ee"
+        },
+        "popup_product": true,
+        "popup_published": false,
+        "popup_count": "0/3"
       }
     },
     {
@@ -23856,17 +23907,6 @@
     }
   ],
   "runs": [
-    {
-      "date": "2026-09-16",
-      "started": "2026-09-16T07:30:01",
-      "count": 35,
-      "generated": 35,
-      "popup": 302,
-      "etsy": 0,
-      "errors": [],
-      "dry_run": false,
-      "finished": "2026-09-16T08:28:35"
-    },
     {
       "date": "2026-09-16",
       "started": "2026-09-16T10:00:01",
@@ -24600,6 +24640,19 @@
       ],
       "dry_run": false,
       "finished": "2026-09-26T14:22:22"
+    },
+    {
+      "date": "2026-09-26",
+      "started": "2026-09-26T16:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 2296,
+      "etsy": 0,
+      "errors": [
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1790432299@6b9fcbb7-810b-49a2-a38f-a17cafa17a4f\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-09-26T16:18:19"
     }
   ],
   "todo": [
@@ -24683,15 +24736,15 @@
   ],
   "stats": {
     "generated": 392,
-    "printify_drafts": 370,
-    "popup_live": 369,
+    "printify_drafts": 375,
+    "popup_live": 374,
     "etsy_live": 8,
     "days": 12,
     "streak": 12,
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-09-26T15:20:25",
+  "updated": "2026-09-26T16:18:19",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
