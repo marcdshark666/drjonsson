@@ -22495,22 +22495,561 @@
           "metal": "https://drjonsson.printify.me/product/6ab62ba28498d39310019a9b"
         }
       }
+    },
+    {
+      "slug": "20260926-1-lake-geneva-high-board",
+      "date": "2026-09-26",
+      "name": "The High Board, Lake Geneva",
+      "place": "Lake Geneva",
+      "party": "The High Board",
+      "title": "The High Board, Lake Geneva | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "lake geneva print",
+        "lake geneva poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-1-lake-geneva-high-board.jpg",
+      "prompt": "a young woman in a white swimming cap poised on a diving board while friends watch from the water below, a lakeside lawn on Lake Geneva with a white wooden pier, a vintage motorboat and the Alps across the water, harsh midday sun with short shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 1939194505,
+      "printify": {
+        "popup_products": {
+          "poster": "6ab76e8fd4789d8ff20413f2",
+          "framed": "6ab76eb56d546714560e6563",
+          "canvas": "6ab76ed3d1b31c71ec002895",
+          "framed_canvas": "6ab76ee5a8b9a58d9e0eb201",
+          "metal": "6ab76efa9eac8d35650ae115"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
+      }
+    },
+    {
+      "slug": "20260926-2-highlands-the-archers",
+      "date": "2026-09-26",
+      "name": "The Archers, The Highlands",
+      "place": "The Highlands",
+      "party": "The Archers",
+      "title": "The Archers, The Highlands | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "the highlands print",
+        "the highlands poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-2-highlands-the-archers.jpg",
+      "prompt": "two women in white with longbows and a straw target set up on the lawn, the lawn of a Scottish country house with a gravel drive, heather hills, a dark green estate car and a loch beyond, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 706351083,
+      "printify": {}
+    },
+    {
+      "slug": "20260926-3-mustique-cream-suit",
+      "date": "2026-09-26",
+      "name": "The Cream Suit, Mustique",
+      "place": "Mustique",
+      "party": "The Cream Suit",
+      "title": "The Cream Suit, Mustique | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "mustique print",
+        "mustique poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-3-mustique-cream-suit.jpg",
+      "prompt": "a silver-haired man in a cream linen suit and sunglasses leaning on a vintage pale-blue convertible, a white sand beach on Mustique with a thatched pavilion, a wooden sailboat and impossibly clear turquoise water, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 1988815513,
+      "printify": {}
+    },
+    {
+      "slug": "20260926-4-ibiza-picnic",
+      "date": "2026-09-26",
+      "name": "The Picnic, Ibiza",
+      "place": "Ibiza",
+      "party": "The Picnic",
+      "title": "The Picnic, Ibiza | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "ibiza print",
+        "ibiza poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-4-ibiza-picnic.jpg",
+      "prompt": "a picnic on a tartan rug with a wicker hamper, a bottle of rose in a silver bucket and a vintage convertible parked behind, a whitewashed finca terrace on Ibiza with a rough stone wall, a rectangular pool and pine-covered hills falling to the sea, clear morning light, sky a saturated cerulean, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 1295928757,
+      "printify": {}
+    },
+    {
+      "slug": "20260926-5-cannes-bridge",
+      "date": "2026-09-26",
+      "name": "The Bridge Four, Cannes",
+      "place": "Cannes",
+      "party": "The Bridge Four",
+      "title": "The Bridge Four, Cannes | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "cannes print",
+        "cannes poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-5-cannes-bridge.jpg",
+      "prompt": "four women at a card table under a parasol with iced drinks and a silver cigarette box, a hotel balcony on the Croisette in Cannes with white balustrades, palm trees and the bay full of yachts, harsh midday sun with short shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 1373813342,
+      "printify": {}
+    },
+    {
+      "slug": "20260926-6-lake-geneva-chess",
+      "date": "2026-09-26",
+      "name": "Chess on the Terrace, Lake Geneva",
+      "place": "Lake Geneva",
+      "party": "Chess on the Terrace",
+      "title": "Chess on the Terrace, Lake Geneva | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "lake geneva print",
+        "lake geneva poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-6-lake-geneva-chess.jpg",
+      "prompt": "two men in linen shirts playing chess at a marble table under a lemon tree, a lakeside lawn on Lake Geneva with a white wooden pier, a vintage motorboat and the Alps across the water, harsh midday sun with short shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 166694483,
+      "printify": {}
+    },
+    {
+      "slug": "20260926-7-bali-late-breakfast",
+      "date": "2026-09-26",
+      "name": "Breakfast at Eleven, Bali",
+      "place": "Bali",
+      "party": "Breakfast at Eleven",
+      "title": "Breakfast at Eleven, Bali | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "bali print",
+        "bali poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-7-bali-late-breakfast.jpg",
+      "prompt": "a couple in silk dressing gowns at a breakfast table with silver domes, orange juice and a stack of newspapers, a hillside villa on Bali with a black-tiled pool, carved stone lanterns and terraced rice fields in the haze, warm late-afternoon light with long shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 178285839,
+      "printify": {}
+    },
+    {
+      "slug": "20260926-8-monaco-cousins",
+      "date": "2026-09-26",
+      "name": "The Cousins, Monaco",
+      "place": "Monaco",
+      "party": "The Cousins",
+      "title": "The Cousins, Monaco | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "monaco print",
+        "monaco poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-8-monaco-cousins.jpg",
+      "prompt": "three children in matching sailor outfits with a nanny in white holding a toy boat, a yacht deck in the harbour of Monaco with teak decking, brass rails and the pastel apartment blocks of Monte Carlo behind, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 1505574787,
+      "printify": {}
+    },
+    {
+      "slug": "20260926-9-santorini-late-breakfast",
+      "date": "2026-09-26",
+      "name": "Breakfast at Eleven, Santorini",
+      "place": "Santorini",
+      "party": "Breakfast at Eleven",
+      "title": "Breakfast at Eleven, Santorini | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "santorini print",
+        "santorini poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-9-santorini-late-breakfast.jpg",
+      "prompt": "a couple in silk dressing gowns at a breakfast table with silver domes, orange juice and a stack of newspapers, a whitewashed Santorini terrace with a blue-domed church, a small plunge pool and the caldera dropping to the Aegean, harsh midday sun with short shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 790312720,
+      "printify": {}
+    },
+    {
+      "slug": "20260926-10-aspen-bridge",
+      "date": "2026-09-26",
+      "name": "The Bridge Four, Aspen",
+      "place": "Aspen",
+      "party": "The Bridge Four",
+      "title": "The Bridge Four, Aspen | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "aspen print",
+        "aspen poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-10-aspen-bridge.jpg",
+      "prompt": "four women at a card table under a parasol with iced drinks and a silver cigarette box, a log-and-glass lodge in Aspen with a stone chimney, snow-laden aspens and skis stacked by the door, bright hazy noon with the horizon washed pale, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 1988453084,
+      "printify": {
+        "popup_products": {
+          "poster": "6ab76f0cacae087ff90352a3",
+          "framed": "6ab76f1ea2ee9385950424eb",
+          "canvas": "6ab76f2fb0259d39fa0ce4c9",
+          "framed_canvas": "6ab76f40acae087ff90352c8",
+          "metal": "6ab76f55a8b9a58d9e0eb22f"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
+      }
+    },
+    {
+      "slug": "20260926-11-highlands-silk-robe",
+      "date": "2026-09-26",
+      "name": "The Silk Robe, The Highlands",
+      "place": "The Highlands",
+      "party": "The Silk Robe",
+      "title": "The Silk Robe, The Highlands | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "the highlands print",
+        "the highlands poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-11-highlands-silk-robe.jpg",
+      "prompt": "an elderly gentleman in a paisley silk dressing gown reading a newspaper with a white standard poodle at his feet, the lawn of a Scottish country house with a gravel drive, heather hills, a dark green estate car and a loch beyond, clear morning light, sky a saturated cerulean, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 1952561261,
+      "printify": {
+        "popup_products": {
+          "poster": "6ab76f66ccf180ae75010267",
+          "framed": "6ab76f79a8b9a58d9e0eb272",
+          "canvas": "6ab76f89a2ee938595042543",
+          "framed_canvas": "6ab76f99693b4e1fb209a145",
+          "metal": "6ab76faa2caaee2c7b086b43"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
+      }
+    },
+    {
+      "slug": "20260926-12-riviera-garden-the-float",
+      "date": "2026-09-26",
+      "name": "The Float, The Riviera",
+      "place": "The Riviera",
+      "party": "The Float",
+      "title": "The Float, The Riviera | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "the riviera print",
+        "the riviera poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-12-riviera-garden-the-float.jpg",
+      "prompt": "a woman in a red bikini on a striped inflatable float with a cocktail balanced on the rim, a Riviera cypress garden seen from a balcony, with a long sapphire pool, stone balustrades and the Mediterranean beyond, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 501681125,
+      "printify": {
+        "popup_products": {
+          "poster": "6ab76fbbe4c348936609d5b7",
+          "framed": "6ab76fcbe4c348936609d5c7",
+          "canvas": "6ab76fdba2ee938595042586",
+          "framed_canvas": "6ab76fea9685bcfd75084729",
+          "metal": "6ab76ffcfe412ae63b016cd7"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
+      }
+    },
+    {
+      "slug": "20260926-13-santorini-tennis-whites",
+      "date": "2026-09-26",
+      "name": "Tennis Whites, Santorini",
+      "place": "Santorini",
+      "party": "Tennis Whites",
+      "title": "Tennis Whites, Santorini | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "santorini print",
+        "santorini poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-13-santorini-tennis-whites.jpg",
+      "prompt": "a couple in crisp 1960s tennis whites with wooden racquets, laughing beside a courtside table with lemonade, a whitewashed Santorini terrace with a blue-domed church, a small plunge pool and the caldera dropping to the Aegean, clear morning light, sky a saturated cerulean, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 711752559,
+      "printify": {
+        "popup_products": {
+          "poster": "6ab77010a9693db9b702ae58",
+          "framed": "6ab7701fd1e095f2b8099982",
+          "canvas": "6ab7702ea897a1b1c801e17b",
+          "framed_canvas": "6ab7703e693b4e1fb209a1a5",
+          "metal": "6ab770519eac8d35650ae1bd"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
+      }
+    },
+    {
+      "slug": "20260926-14-deauville-late-breakfast",
+      "date": "2026-09-26",
+      "name": "Breakfast at Eleven, Deauville",
+      "place": "Deauville",
+      "party": "Breakfast at Eleven",
+      "title": "Breakfast at Eleven, Deauville | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "deauville print",
+        "deauville poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-14-deauville-late-breakfast.jpg",
+      "prompt": "a couple in silk dressing gowns at a breakfast table with silver domes, orange juice and a stack of newspapers, the boardwalk at Deauville with candy-striped parasols, white bathing cabins and the grey-green Channel, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 2106785174,
+      "printify": {
+        "popup_products": {
+          "poster": "6ab770629eac8d35650ae1bf",
+          "framed": "6ab770728d48a3a6cf060fef",
+          "canvas": "6ab770816d546714560e665e",
+          "framed_canvas": "6ab77091a9693db9b702ae7c",
+          "metal": "6ab770a2fe412ae63b016ceb"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
+      }
+    },
+    {
+      "slug": "20260926-15-cortina-late-breakfast",
+      "date": "2026-09-26",
+      "name": "Breakfast at Eleven, Cortina d'Ampezzo",
+      "place": "Cortina d'Ampezzo",
+      "party": "Breakfast at Eleven",
+      "title": "Breakfast at Eleven, Cortina d'Ampezzo | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "cortina dampezzo pri",
+        "cortina dampezzo pos",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-15-cortina-late-breakfast.jpg",
+      "prompt": "a couple in silk dressing gowns at a breakfast table with silver domes, orange juice and a stack of newspapers, a snowy hotel terrace in Cortina with the pink Dolomites, sunbeds and steaming cups of chocolate, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 1050604707,
+      "printify": {
+        "popup_products": {
+          "poster": "6ab770b3626576e7750024d6",
+          "framed": "6ab770c3626576e7750024db",
+          "canvas": "6ab770d2a2ee9385950425cf",
+          "framed_canvas": "6ab770e265bd06454a0be3f7",
+          "metal": "6ab771bb6d546714560e66ba"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "3/5"
+      }
+    },
+    {
+      "slug": "20260926-16-santorini-cousins",
+      "date": "2026-09-26",
+      "name": "The Cousins, Santorini",
+      "place": "Santorini",
+      "party": "The Cousins",
+      "title": "The Cousins, Santorini | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "santorini print",
+        "santorini poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-16-santorini-cousins.jpg",
+      "prompt": "three children in matching sailor outfits with a nanny in white holding a toy boat, a whitewashed Santorini terrace with a blue-domed church, a small plunge pool and the caldera dropping to the Aegean, warm late-afternoon light with long shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 674271861,
+      "printify": {
+        "popup_products": {
+          "poster": "6ab772932caaee2c7b086c30"
+        },
+        "popup_product": true,
+        "popup_published": false,
+        "popup_count": "0/1"
+      }
+    },
+    {
+      "slug": "20260926-17-lake-tahoe-backgammon",
+      "date": "2026-09-26",
+      "name": "Backgammon, Lake Tahoe",
+      "place": "Lake Tahoe",
+      "party": "Backgammon",
+      "title": "Backgammon, Lake Tahoe | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "lake tahoe print",
+        "lake tahoe poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-17-lake-tahoe-backgammon.jpg",
+      "prompt": "a couple in swimwear playing backgammon on a striped towel beside the pool, a timber lodge dock on Lake Tahoe with a mahogany speedboat, pines and clear cobalt water, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 1235422009,
+      "printify": {}
+    },
+    {
+      "slug": "20260926-18-lake-tahoe-emerald-turban",
+      "date": "2026-09-26",
+      "name": "The Hostess, Lake Tahoe",
+      "place": "Lake Tahoe",
+      "party": "The Hostess",
+      "title": "The Hostess, Lake Tahoe | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "lake tahoe print",
+        "lake tahoe poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20260926-18-lake-tahoe-emerald-turban.jpg",
+      "prompt": "a hostess in an emerald turban and gold jewellery arranging a table of pastries and fruit, a timber lodge dock on Lake Tahoe with a mahogany speedboat, pines and clear cobalt water, harsh midday sun with short shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 1668123374,
+      "printify": {}
     }
   ],
   "runs": [
-    {
-      "date": "2026-09-16",
-      "started": "2026-09-16T03:26:12",
-      "count": 35,
-      "generated": 35,
-      "popup": 100,
-      "etsy": 0,
-      "errors": [
-        "printify popup: FEL: GET /catalog/blueprints/282/print_providers.json -> HTTP 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1789522192@162f1ebe-53a9-4c68-a983-1f0bb2e18d9c\"}"
-      ],
-      "dry_run": false,
-      "finished": "2026-09-16T03:29:52"
-    },
     {
       "date": "2026-09-16",
       "started": "2026-09-16T03:30:08",
@@ -23225,6 +23764,36 @@
       "errors": [],
       "dry_run": false,
       "finished": "2026-09-25T22:00:11"
+    },
+    {
+      "date": "2026-09-26",
+      "started": "2026-09-26T07:30:02",
+      "count": 35,
+      "generated": 18,
+      "popup": 2244,
+      "etsy": 0,
+      "errors": [
+        "20260926-19-jaipur-magenta-gown: OutOfMemoryError: CUDA out of memory. Tried to allocate 270.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 8.95 GiB is free. Of the allocated memory 12.78 GiB is allocated by PyTorch, and 707.94 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20260926-20-marbella-backgammon: OutOfMemoryError: CUDA out of memory. Tried to allocate 48.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 7.86 GiB is free. Of the allocated memory 14.28 GiB is allocated by PyTorch, and 286.81 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20260926-21-monaco-tennis-whites: OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 7.86 GiB is free. Of the allocated memory 14.28 GiB is allocated by PyTorch, and 283.93 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20260926-22-palm-springs-gardener: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20260926-23-marbella-picnic: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20260926-24-rio-silk-robe: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20260926-25-hamptons-picnic: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20260926-26-deauville-backgammon: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20260926-27-lake-tahoe-bridge: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20260926-28-sardinia-high-board: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20260926-29-estoril-roadster: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20260926-30-kenya-vespa: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20260926-31-amalfi-roadster: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20260926-32-saint-tropez-bridge: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20260926-33-capri-the-catch: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20260926-34-portofino-the-painter: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20260926-35-newport-the-catch: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1790407528@1b6c25e2-2c6f-4a28-bc1e-27a23b9dc20c\"}\nSTANNADE: Printify strypte publiceringen (429) - 69 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-09-26T09:25:29"
     }
   ],
   "todo": [
@@ -23307,16 +23876,16 @@
     }
   ],
   "stats": {
-    "generated": 357,
-    "printify_drafts": 357,
-    "popup_live": 357,
+    "generated": 375,
+    "printify_drafts": 365,
+    "popup_live": 364,
     "etsy_live": 8,
-    "days": 11,
-    "streak": 11,
-    "errors_last_run": 0,
+    "days": 12,
+    "streak": 12,
+    "errors_last_run": 18,
     "product_types": 5
   },
-  "updated": "2026-09-25T22:00:11",
+  "updated": "2026-09-26T09:25:29",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
