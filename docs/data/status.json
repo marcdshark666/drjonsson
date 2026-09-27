@@ -24900,7 +24900,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "4/5",
+        "popup_count": "5/5",
         "mockups": {
           "poster": "https://images-api.printify.com/mockup/6ab902ead60430705905f8be/43138/94683/chess-on-the-terrace-the-riviera-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
           "framed": "https://images-api.printify.com/mockup/6ab902fac3c0ac633b07fbda/69664/124091/chess-on-the-terrace-the-riviera-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
@@ -24951,11 +24951,14 @@
       "printify": {
         "popup_products": {
           "poster": "6ab90408c3c0ac633b07fc69",
-          "framed": "6ab904e2ecc5aad6db059ba3"
+          "framed": "6ab904e2ecc5aad6db059ba3",
+          "canvas": "6ab921945ae63ebaed0c3bd3",
+          "framed_canvas": "6ab921a634cfbb09750a1117",
+          "metal": "6ab921b776c4b6e502075c64"
         },
         "popup_product": true,
-        "popup_published": false,
-        "popup_count": "0/2",
+        "popup_published": true,
+        "popup_count": "5/5",
         "mockups": {
           "poster": "https://images-api.printify.com/mockup/6ab90408c3c0ac633b07fc69/43138/94683/water-skis-lake-como-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
           "framed": "https://images-api.printify.com/mockup/6ab904e2ecc5aad6db059ba3/69664/124091/water-skis-lake-como-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front"
@@ -24995,7 +24998,17 @@
       "prompt": "two men in linen shirts playing chess at a marble table under a lemon tree, a pink sandstone palace courtyard in Jaipur with a marble step-pool, fretwork screens and potted palms, low golden hour sun raking across the scene, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1857578747,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab921cbdb8dac34a802cee7",
+          "framed": "6ab921db7fd5714f030ac7b9",
+          "canvas": "6ab921eafafc3d073d0f791e",
+          "framed_canvas": "6ab921fa7fd5714f030ac7c9",
+          "metal": "6ab9220cdb8dac34a802cf14"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -25023,7 +25036,17 @@
       "prompt": "a hostess in an emerald turban and gold jewellery arranging a table of pastries and fruit, a white sand beach on Mustique with a thatched pavilion, a wooden sailboat and impossibly clear turquoise water, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1778503834,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab9221df637cd7bd2064576",
+          "framed": "6ab9222d0bda640b80022fea",
+          "canvas": "6ab9223c313d785416099b52",
+          "framed_canvas": "6ab9224d1043f52aa6080295",
+          "metal": "6ab9225f583b34c7010e3473"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -25051,7 +25074,17 @@
       "prompt": "a couple in sunglasses on a pale-blue Vespa loaded with a straw basket and a bottle of wine, a Riviera cypress garden seen from a balcony, with a long sapphire pool, stone balustrades and the Mediterranean beyond, bright hazy noon with the horizon washed pale, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 715147013,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab92270583b34c7010e3481",
+          "framed": "6ab92280fafc3d073d0f7971",
+          "canvas": "6ab9228f0bda640b8002300a",
+          "framed_canvas": "6ab9229f62bc969076029e3f",
+          "metal": "6ab922b178d6cccc91031113"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -25079,7 +25112,17 @@
       "prompt": "a young woman in a red swimsuit and white cap carrying water skis along the shore, a bathing platform lido on Capri with striped umbrellas, limestone rocks and the Faraglioni in the distance, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 241533185,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab922c276c4b6e502075d13",
+          "framed": "6ab922d178d6cccc9103111f",
+          "canvas": "6ab922e10bfe69de370199cc",
+          "framed_canvas": "6ab922f10bfe69de370199d0",
+          "metal": "6ab9230276c4b6e502075d28"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -25107,7 +25150,15 @@
       "prompt": "an elegant woman in a floor-length sheer magenta gown and a wide white sun hat standing by the pool with two dalmatians, a casino-hotel terrace at Estoril with azulejo tiles, a crescent bay below and pine-covered hills, harsh midday sun with short shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1739560901,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ab923140bfe69de370199dd",
+          "framed": "6ab923eb583b34c7010e351b",
+          "canvas": "6ab924c6313d785416099c4f"
+        },
+        "popup_product": true,
+        "popup_published": false,
+        "popup_count": "0/3"
       }
     },
     {
@@ -25616,17 +25667,6 @@
     }
   ],
   "runs": [
-    {
-      "date": "2026-09-16",
-      "started": "2026-09-16T22:00:01",
-      "count": 35,
-      "generated": 35,
-      "popup": 328,
-      "etsy": 0,
-      "errors": [],
-      "dry_run": false,
-      "finished": "2026-09-16T22:00:15"
-    },
     {
       "date": "2026-09-17",
       "started": "2026-09-17T07:30:02",
@@ -26404,6 +26444,19 @@
       ],
       "dry_run": false,
       "finished": "2026-09-27T14:02:09"
+    },
+    {
+      "date": "2026-09-27",
+      "started": "2026-09-27T16:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 2426,
+      "etsy": 0,
+      "errors": [
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1790518692@c3b1ec4e-dc5d-4354-b042-6b216b9d4521\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-09-27T16:18:13"
     }
   ],
   "todo": [
@@ -26487,15 +26540,15 @@
   ],
   "stats": {
     "generated": 427,
-    "printify_drafts": 396,
-    "popup_live": 395,
+    "printify_drafts": 401,
+    "popup_live": 400,
     "etsy_live": 8,
     "days": 13,
     "streak": 13,
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-09-27T14:20:22",
+  "updated": "2026-09-27T16:18:13",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
