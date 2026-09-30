@@ -28859,7 +28859,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "2/5",
+        "popup_count": "5/5",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -28901,7 +28901,17 @@
       "prompt": "a picnic on a tartan rug with a wicker hamper, a bottle of rose in a silver bucket and a vintage convertible parked behind, a hillside villa on Bali with a black-tiled pool, carved stone lanterns and terraced rice fields in the haze, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 325862932,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6abd6a7c2b3a9c539809070c",
+          "framed": "6abd6a902b3a9c539809071d",
+          "canvas": "6abd6aa9acca2bf1220fb11c",
+          "framed_canvas": "6abd6ac04f14a2baa002a658",
+          "metal": "6abd6ad660805116be09e46e"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -28929,7 +28939,17 @@
       "prompt": "a couple in swimwear playing backgammon on a striped towel beside the pool, a manicured lawn of a Palm Beach estate with a pink stucco mansion, clipped hedges and a croquet set, warm late-afternoon light with long shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 207995690,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6abd6ae855aea4be1707e99b",
+          "framed": "6abd6afd4f14a2baa002a66e",
+          "canvas": "6abd6b13de9e2d33f60906d4",
+          "framed_canvas": "6abd6b2555aea4be1707e9b7",
+          "metal": "6abd6b3dde9e2d33f60906e5"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -28957,7 +28977,17 @@
       "prompt": "a woman at an easel in a straw hat painting the view while a friend in a swimsuit watches over her shoulder, the lawn of a Scottish country house with a gravel drive, heather hills, a dark green estate car and a loch beyond, clear morning light, sky a saturated cerulean, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 2095967499,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6abd6b5817b95f250c015555",
+          "framed": "6abd6b6b4f14a2baa002a69c",
+          "canvas": "6abd6b7b60805116be09e4c2",
+          "framed_canvas": "6abd6b8c74e99da8dd09871e",
+          "metal": "6abd6b9e4f14a2baa002a6a9"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -28985,7 +29015,17 @@
       "prompt": "three children in matching sailor outfits with a nanny in white holding a toy boat, the lawn of a Scottish country house with a gravel drive, heather hills, a dark green estate car and a loch beyond, clear morning light, sky a saturated cerulean, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 742946298,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6abd6bae9c15e7b6070f7a82",
+          "framed": "6abd6bc3e2765e5628023a9d",
+          "canvas": "6abd6bd92b3a9c53980907b3",
+          "framed_canvas": "6abd6befacca2bf1220fb1a3",
+          "metal": "6abd6c1355aea4be1707ea27"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -30521,7 +30561,17 @@
       "prompt": "a party in tweed with two labradors and shooting sticks gathered beside a dark green estate wagon, a safari lodge veranda in Kenya with cane furniture, a brass telescope and golden plains and flat acacias beyond, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1094656084,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6abd6c46acca2bf1220fb1d0",
+          "framed": "6abd6c60de9e2d33f6090755",
+          "canvas": "6abd6c71a90733835f0b8e26",
+          "framed_canvas": "6abd6c81e2765e5628023acd",
+          "metal": "6abd6d5941c25b8fa500c88e"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "3/5"
       }
     },
     {
@@ -30773,7 +30823,13 @@
       "prompt": "three women in pastel silk caftans and oversized sunglasses holding champagne coupes, a riad courtyard in Marrakech with a green-tiled pool, orange trees, ochre walls and a striped cabana, harsh midday sun with short shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1655725225,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6abd6e31943263136f07e4fe"
+        },
+        "popup_product": true,
+        "popup_published": false,
+        "popup_count": "0/1"
       }
     },
     {
@@ -31478,19 +31534,6 @@
     }
   ],
   "runs": [
-    {
-      "date": "2026-09-19",
-      "started": "2026-09-19T07:30:02",
-      "count": 35,
-      "generated": 35,
-      "popup": 1088,
-      "etsy": 0,
-      "errors": [
-        "printify popup: rt Photography Print | Old Money\n           skapad 6aae38c0bf628bf5cc0b5ec8 pris [24.99, 42.99]\n           publicerad\nSTANNADE: max-new 400 nadd - 401 produkter denna gang, resten i nasta korning.\n\nKlart. 1 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
-      ],
-      "dry_run": false,
-      "finished": "2026-09-19T09:25:03"
-    },
     {
       "date": "2026-09-19",
       "started": "2026-09-19T10:00:02",
@@ -32270,6 +32313,19 @@
       ],
       "dry_run": false,
       "finished": "2026-09-30T19:18:54"
+    },
+    {
+      "date": "2026-09-30",
+      "started": "2026-09-30T22:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 2914,
+      "etsy": 0,
+      "errors": [
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1790799622@513dbc47-14ac-465c-8582-6b8b9d12c480\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-09-30T22:20:21"
     }
   ],
   "todo": [
@@ -32353,15 +32409,15 @@
   ],
   "stats": {
     "generated": 532,
-    "printify_drafts": 493,
-    "popup_live": 493,
+    "printify_drafts": 499,
+    "popup_live": 498,
     "etsy_live": 8,
     "days": 16,
     "streak": 16,
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-09-30T19:23:05",
+  "updated": "2026-09-30T22:20:21",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
