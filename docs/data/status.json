@@ -30707,11 +30707,13 @@
         "popup_products": {
           "poster": "6abf68585218f1f693083996",
           "framed": "6abf692f8080267f84061328",
-          "canvas": "6abf6a0533d196d03a0ff3ce"
+          "canvas": "6abf6a0533d196d03a0ff3ce",
+          "framed_canvas": "6ac00f98a776c766c1064a36",
+          "metal": "6ac00fa988a9354a730a4f40"
         },
         "popup_product": true,
-        "popup_published": false,
-        "popup_count": "0/3",
+        "popup_published": true,
+        "popup_count": "5/5",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -31525,7 +31527,17 @@
       "prompt": "a group of glamorous friends in colourful swimsuits and caftans on sun loungers under striped umbrellas, cocktails in hand, a casino-hotel terrace at Estoril with azulejo tiles, a crescent bay below and pine-covered hills, clear morning light, sky a saturated cerulean, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 98891978,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac00fba937631324f0d86e6",
+          "framed": "6ac00fca782880da61076f5f",
+          "canvas": "6ac00fd9df0ab69add030356",
+          "framed_canvas": "6ac00fe8754cfd41d8086c57",
+          "metal": "6ac00ff7e3d51b069504c4a7"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -31553,7 +31565,17 @@
       "prompt": "a party in tweed with two labradors and shooting sticks gathered beside a dark green estate wagon, a whitewashed Andalusian villa in Marbella with a blue-tiled pool, orange trees and arched colonnades, warm late-afternoon light with long shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1790413213,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac010090c3a8b6b22071818",
+          "framed": "6ac01018e7962f87a804e8dc",
+          "canvas": "6ac01027df0ab69add030396",
+          "framed_canvas": "6ac010368feeaed14a0904af",
+          "metal": "6ac01046e7962f87a804e8eb"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -31581,7 +31603,17 @@
       "prompt": "a party in tweed with two labradors and shooting sticks gathered beside a dark green estate wagon, a lakeside lawn on Lake Geneva with a white wooden pier, a vintage motorboat and the Alps across the water, warm late-afternoon light with long shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1765474671,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac010572820d3631f010124",
+          "framed": "6ac010660c3a8b6b22071836",
+          "canvas": "6ac01075a34a29f5df01757a",
+          "framed_canvas": "6ac01085e7962f87a804e90f",
+          "metal": "6ac01095a2a699411206ddba"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -31609,7 +31641,17 @@
       "prompt": "a young couple in wedding clothes barefoot at the water's edge, shoes in hand and confetti still in her hair, a bathing platform lido on Capri with striped umbrellas, limestone rocks and the Faraglioni in the distance, clear morning light, sky a saturated cerulean, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1668016443,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac010a9782880da61076fc8",
+          "framed": "6ac010b8e7962f87a804e936",
+          "canvas": "6ac010c7be6a22a81d059b22",
+          "framed_canvas": "6ac010d7be6a22a81d059b29",
+          "metal": "6ac010e65ab28c93b7046ac3"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -31637,7 +31679,16 @@
       "prompt": "a hostess in an emerald turban and gold jewellery arranging a table of pastries and fruit, a hotel balcony on the Croisette in Cannes with white balustrades, palm trees and the bay full of yachts, warm late-afternoon light with long shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1281155460,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac010f7a776c766c1064b11",
+          "framed": "6ac011072c6b8ebea90326f3",
+          "canvas": "6ac011dfd607d4205f07dc9e",
+          "framed_canvas": "6ac012b69cc39d0cdb0dd025"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "1/4"
       }
     },
     {
@@ -32003,20 +32054,35 @@
       "printify": {
         "mockups": {}
       }
+    },
+    {
+      "slug": "20261002-3-amalfi-bridge",
+      "date": "2026-10-02",
+      "name": "The Bridge Four, Amalfi Coast",
+      "place": "Amalfi Coast",
+      "party": "The Bridge Four",
+      "title": "The Bridge Four, Amalfi Coast | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "amalfi coast print",
+        "amalfi coast poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20261002-3-amalfi-bridge.jpg",
+      "prompt": "four women at a card table under a parasol with iced drinks and a silver cigarette box, a cliffside terrace on the Amalfi coast with lemon trees, white parasols and the deep blue Tyrrhenian sea far below, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 1529045239,
+      "printify": {}
     }
   ],
   "runs": [
-    {
-      "date": "2026-09-19",
-      "started": "2026-09-19T16:00:02",
-      "count": 35,
-      "generated": 35,
-      "popup": 1161,
-      "etsy": 0,
-      "errors": [],
-      "dry_run": false,
-      "finished": "2026-09-19T16:05:15"
-    },
     {
       "date": "2026-09-19",
       "started": "2026-09-19T19:00:02",
@@ -32865,6 +32931,51 @@
       ],
       "dry_run": false,
       "finished": "2026-10-02T10:27:06"
+    },
+    {
+      "date": "2026-10-02",
+      "started": "2026-10-02T22:00:02",
+      "count": 35,
+      "generated": 3,
+      "popup": 2992,
+      "etsy": 0,
+      "errors": [
+        "20261002-4-hamptons-bridge: OutOfMemoryError: CUDA out of memory. Tried to allocate 270.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 8.95 GiB is free. Of the allocated memory 12.78 GiB is allocated by PyTorch, and 707.33 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261002-5-newport-golf: OutOfMemoryError: CUDA out of memory. Tried to allocate 48.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 8.66 GiB is free. Of the allocated memory 13.48 GiB is allocated by PyTorch, and 276.86 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261002-6-acapulco-high-board: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-7-newport-cream-suit: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-8-portofino-water-skis: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-9-bermuda-cream-suit: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-10-bali-gardener: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-11-hamptons-magenta-gown: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-12-palm-springs-afternoon-tea: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-13-estoril-the-catch: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-14-lake-tahoe-newlyweds: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-15-rio-the-painter: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-16-cannes-newlyweds: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-17-lake-como-cousins: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-18-deauville-cream-suit: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-19-newport-cousins: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-20-beverly-hills-high-board: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-21-mustique-the-catch: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-22-lake-geneva-emerald-turban: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-23-capri-bridge: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-24-st-moritz-roadster: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-25-marbella-silk-robe: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-26-saint-tropez-the-trio: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-27-bali-silk-robe: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-28-marbella-tennis-whites: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-29-hamptons-newlyweds: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-30-palm-springs-the-float: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-31-hamptons-silk-robe: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-32-marrakech-croquet: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-33-lake-tahoe-vespa: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-34-bali-caftans: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "20261002-35-palm-springs-chess: RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1790972811@094d6dfb-da42-488e-b8e7-f56516dd0994\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-10-02T22:26:51"
     }
   ],
   "todo": [
@@ -32947,16 +33058,16 @@
     }
   ],
   "stats": {
-    "generated": 534,
-    "printify_drafts": 509,
-    "popup_live": 508,
+    "generated": 535,
+    "printify_drafts": 514,
+    "popup_live": 514,
     "etsy_live": 8,
     "days": 17,
     "streak": 1,
-    "errors_last_run": 34,
+    "errors_last_run": 33,
     "product_types": 5
   },
-  "updated": "2026-10-02T11:20:23",
+  "updated": "2026-10-02T22:26:51",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
