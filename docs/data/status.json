@@ -30924,7 +30924,11 @@
       "seed": 1655725225,
       "printify": {
         "mockups": {
-          "poster": "https://images-api.printify.com/mockup/6abd6e31943263136f07e4fe/43138/94683/three-caftans-marrakech-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front"
+          "poster": "https://images-api.printify.com/mockup/6abd6e31943263136f07e4fe/43138/94683/three-caftans-marrakech-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6abf43e255323b833a045a18/69664/124091/three-caftans-marrakech-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6abf43f12541635f5b005bcb/91644/60165/three-caftans-marrakech-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6abf4400ee396edcee093a33/111829/107096/three-caftans-marrakech-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6abf4411459cb39a060584f2/92006/62734/three-caftans-marrakech-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
         },
         "popup_products": {
           "poster": "6abd6e31943263136f07e4fe",
@@ -30937,10 +30941,18 @@
         "popup_published": true,
         "popup_count": "5/5",
         "variants": {
-          "poster": 4
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
         },
         "popup_urls": {
-          "poster": "https://drjonsson.printify.me/product/6abd6e31943263136f07e4fe"
+          "poster": "https://drjonsson.printify.me/product/6abd6e31943263136f07e4fe",
+          "framed": "https://drjonsson.printify.me/product/6abf43e255323b833a045a18",
+          "canvas": "https://drjonsson.printify.me/product/6abf43f12541635f5b005bcb",
+          "framed_canvas": "https://drjonsson.printify.me/product/6abf4400ee396edcee093a33",
+          "metal": "https://drjonsson.printify.me/product/6abf4411459cb39a060584f2"
         }
       }
     },
@@ -30969,7 +30981,13 @@
       "prompt": "three women in pastel silk caftans and oversized sunglasses holding champagne coupes, a pink-sand beach in Bermuda with a pastel-yellow colonial house, white shutters and a wooden dinghy, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 126422889,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6abf44224ec757cecb036ea9/43138/94683/three-caftans-bermuda-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6abf44317929a7473306a99b/69664/124091/three-caftans-bermuda-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6abf444055323b833a045a5a/91644/60165/three-caftans-bermuda-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6abf445032aac47ad50fb998/111829/107096/three-caftans-bermuda-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6abf445f55323b833a045a63/92006/62734/three-caftans-bermuda-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6abf44224ec757cecb036ea9",
           "framed": "6abf44317929a7473306a99b",
@@ -30979,7 +30997,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6abf44224ec757cecb036ea9",
+          "framed": "https://drjonsson.printify.me/product/6abf44317929a7473306a99b",
+          "canvas": "https://drjonsson.printify.me/product/6abf444055323b833a045a5a",
+          "framed_canvas": "https://drjonsson.printify.me/product/6abf445032aac47ad50fb998",
+          "metal": "https://drjonsson.printify.me/product/6abf445f55323b833a045a63"
+        }
       }
     },
     {
@@ -31007,7 +31039,13 @@
       "prompt": "a young couple in wedding clothes barefoot at the water's edge, shoes in hand and confetti still in her hair, a modernist apartment terrace above Copacabana in Rio with a mosaic pool, palms and Sugarloaf beyond, bright hazy noon with the horizon washed pale, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 581456239,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6abf447013dc1d7bcd03ed08/43138/94683/the-newlyweds-rio-de-janeiro-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6abf447f350d43651a0292dc/69664/124091/the-newlyweds-rio-de-janeiro-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6abf448f7a1f1defbc0b8292/91644/60165/the-newlyweds-rio-de-janeiro-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6abf449e32aac47ad50fb9ae/111829/107096/the-newlyweds-rio-de-janeiro-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6abf44adec1caabbc2087972/92006/62734/the-newlyweds-rio-de-janeiro-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6abf447013dc1d7bcd03ed08",
           "framed": "6abf447f350d43651a0292dc",
@@ -31017,7 +31055,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6abf447013dc1d7bcd03ed08",
+          "framed": "https://drjonsson.printify.me/product/6abf447f350d43651a0292dc",
+          "canvas": "https://drjonsson.printify.me/product/6abf448f7a1f1defbc0b8292",
+          "framed_canvas": "https://drjonsson.printify.me/product/6abf449e32aac47ad50fb9ae",
+          "metal": "https://drjonsson.printify.me/product/6abf44adec1caabbc2087972"
+        }
       }
     },
     {
@@ -31045,7 +31097,13 @@
       "prompt": "three children in matching sailor outfits with a nanny in white holding a toy boat, a rocky cove on the Costa Smeralda in Sardinia with granite boulders, a wooden Riva boat and emerald water, warm late-afternoon light with long shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 2104985541,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6abf44be459cb39a06058533/43138/94683/the-cousins-costa-smeralda-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6abf44cd32aac47ad50fb9b5/69664/124091/the-cousins-costa-smeralda-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6abf44dc32aac47ad50fb9bb/91644/60165/the-cousins-costa-smeralda-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6abf44ec4ec757cecb036ee1/111829/107096/the-cousins-costa-smeralda-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6abf44fc13dc1d7bcd03ed35/92006/62734/the-cousins-costa-smeralda-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6abf44be459cb39a06058533",
           "framed": "6abf44cd32aac47ad50fb9b5",
@@ -31055,7 +31113,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6abf44be459cb39a06058533",
+          "framed": "https://drjonsson.printify.me/product/6abf44cd32aac47ad50fb9b5",
+          "canvas": "https://drjonsson.printify.me/product/6abf44dc32aac47ad50fb9bb",
+          "framed_canvas": "https://drjonsson.printify.me/product/6abf44ec4ec757cecb036ee1",
+          "metal": "https://drjonsson.printify.me/product/6abf44fc13dc1d7bcd03ed35"
+        }
       }
     },
     {
@@ -31083,7 +31155,13 @@
       "prompt": "a couple in silk dressing gowns at a breakfast table with silver domes, orange juice and a stack of newspapers, a modernist apartment terrace above Copacabana in Rio with a mosaic pool, palms and Sugarloaf beyond, harsh midday sun with short shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 2275150,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6abf450e4ec757cecb036ef7/43138/94683/breakfast-at-eleven-rio-de-janeiro-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6abf451e459cb39a06058562/69664/124091/breakfast-at-eleven-rio-de-janeiro-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6abf452d7929a7473306a9e0/91644/60165/breakfast-at-eleven-rio-de-janeiro-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6abf453c7929a7473306a9eb/111829/107096/breakfast-at-eleven-rio-de-janeiro-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6abf454cee396edcee093ab4/92006/62734/breakfast-at-eleven-rio-de-janeiro-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6abf450e4ec757cecb036ef7",
           "framed": "6abf451e459cb39a06058562",
@@ -31093,7 +31171,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "4/5"
+        "popup_count": "4/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6abf450e4ec757cecb036ef7",
+          "framed": "https://drjonsson.printify.me/product/6abf451e459cb39a06058562",
+          "canvas": "https://drjonsson.printify.me/product/6abf452d7929a7473306a9e0",
+          "framed_canvas": "https://drjonsson.printify.me/product/6abf453c7929a7473306a9eb",
+          "metal": "https://drjonsson.printify.me/product/6abf454cee396edcee093ab4"
+        }
       }
     },
     {
@@ -31121,14 +31213,25 @@
       "prompt": "four women at a card table under a parasol with iced drinks and a silver cigarette box, a pink-sand beach in Bermuda with a pastel-yellow colonial house, white shutters and a wooden dinghy, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1109115305,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6abf46257929a7473306aa6f/43138/94683/the-bridge-four-bermuda-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6abf46fc7a1f1defbc0b83a9/69664/124091/the-bridge-four-bermuda-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6abf46257929a7473306aa6f",
           "framed": "6abf46fc7a1f1defbc0b83a9"
         },
         "popup_product": true,
         "popup_published": false,
-        "popup_count": "0/2"
+        "popup_count": "0/2",
+        "variants": {
+          "poster": 4,
+          "framed": 4
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6abf46257929a7473306aa6f",
+          "framed": "https://drjonsson.printify.me/product/6abf46fc7a1f1defbc0b83a9"
+        }
       }
     },
     {
@@ -31715,7 +31818,9 @@
       "thumb": "img/20261002-1-amalfi-cocktail-hour.jpg",
       "prompt": "a crowd in evening wear at a garden cocktail party with waiters in white jackets carrying silver trays, a cliffside terrace on the Amalfi coast with lemon trees, white parasols and the deep blue Tyrrhenian sea far below, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 776799184,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     }
   ],
   "runs": [
@@ -32636,7 +32741,7 @@
     "errors_last_run": 35,
     "product_types": 5
   },
-  "updated": "2026-10-02T07:57:44",
+  "updated": "2026-10-02T08:20:25",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
