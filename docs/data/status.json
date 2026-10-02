@@ -30699,7 +30699,11 @@
       "prompt": "a woman in a red bikini on a striped inflatable float with a cocktail balanced on the rim, a riad courtyard in Marrakech with a green-tiled pool, orange trees, ochre walls and a striped cabana, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1226740707,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6abf68585218f1f693083996/43138/94683/the-float-marrakech-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6abf692f8080267f84061328/69664/124091/the-float-marrakech-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6abf6a0533d196d03a0ff3ce/91644/60165/the-float-marrakech-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6abf68585218f1f693083996",
           "framed": "6abf692f8080267f84061328",
@@ -30707,7 +30711,17 @@
         },
         "popup_product": true,
         "popup_published": false,
-        "popup_count": "0/3"
+        "popup_count": "0/3",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6abf68585218f1f693083996",
+          "framed": "https://drjonsson.printify.me/product/6abf692f8080267f84061328",
+          "canvas": "https://drjonsson.printify.me/product/6abf6a0533d196d03a0ff3ce"
+        }
       }
     },
     {
@@ -31223,7 +31237,10 @@
       "printify": {
         "mockups": {
           "poster": "https://images-api.printify.com/mockup/6abf46257929a7473306aa6f/43138/94683/the-bridge-four-bermuda-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
-          "framed": "https://images-api.printify.com/mockup/6abf46fc7a1f1defbc0b83a9/69664/124091/the-bridge-four-bermuda-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front"
+          "framed": "https://images-api.printify.com/mockup/6abf46fc7a1f1defbc0b83a9/69664/124091/the-bridge-four-bermuda-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6abf66e6f5542b9c2a060bab/91644/60165/the-bridge-four-bermuda-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6abf66facc8d160e4c09bc20/111829/107096/the-bridge-four-bermuda-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6abf670a90191cd12606ced7/92006/62734/the-bridge-four-bermuda-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
         },
         "popup_products": {
           "poster": "6abf46257929a7473306aa6f",
@@ -31237,11 +31254,17 @@
         "popup_count": "5/5",
         "variants": {
           "poster": 4,
-          "framed": 4
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
         },
         "popup_urls": {
           "poster": "https://drjonsson.printify.me/product/6abf46257929a7473306aa6f",
-          "framed": "https://drjonsson.printify.me/product/6abf46fc7a1f1defbc0b83a9"
+          "framed": "https://drjonsson.printify.me/product/6abf46fc7a1f1defbc0b83a9",
+          "canvas": "https://drjonsson.printify.me/product/6abf66e6f5542b9c2a060bab",
+          "framed_canvas": "https://drjonsson.printify.me/product/6abf66facc8d160e4c09bc20",
+          "metal": "https://drjonsson.printify.me/product/6abf670a90191cd12606ced7"
         }
       }
     },
@@ -31270,7 +31293,13 @@
       "prompt": "two men in linen shirts playing chess at a marble table under a lemon tree, a safari lodge veranda in Kenya with cane furniture, a brass telescope and golden plains and flat acacias beyond, low golden hour sun raking across the scene, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 73257627,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6abf671bf5542b9c2a060bc6/43138/94683/chess-on-the-terrace-kenya-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6abf672b33d196d03a0ff271/69664/124091/chess-on-the-terrace-kenya-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6abf673a33d196d03a0ff281/91644/60165/chess-on-the-terrace-kenya-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6abf674c0d67372e5d07c9de/111829/107096/chess-on-the-terrace-kenya-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6abf675c90191cd12606cf12/92006/62734/chess-on-the-terrace-kenya-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6abf671bf5542b9c2a060bc6",
           "framed": "6abf672b33d196d03a0ff271",
@@ -31280,7 +31309,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6abf671bf5542b9c2a060bc6",
+          "framed": "https://drjonsson.printify.me/product/6abf672b33d196d03a0ff271",
+          "canvas": "https://drjonsson.printify.me/product/6abf673a33d196d03a0ff281",
+          "framed_canvas": "https://drjonsson.printify.me/product/6abf674c0d67372e5d07c9de",
+          "metal": "https://drjonsson.printify.me/product/6abf675c90191cd12606cf12"
+        }
       }
     },
     {
@@ -31308,7 +31351,13 @@
       "prompt": "a young woman in a red swimsuit and white cap carrying water skis along the shore, a cliffside terrace on the Amalfi coast with lemon trees, white parasols and the deep blue Tyrrhenian sea far below, clear morning light, sky a saturated cerulean, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 276057199,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6abf676c0d67372e5d07c9f5/43138/94683/water-skis-amalfi-coast-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6abf677cf5542b9c2a060bf8/69664/124091/water-skis-amalfi-coast-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6abf678be9584cde33031b57/91644/60165/water-skis-amalfi-coast-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6abf679ae9584cde33031b5e/111829/107096/water-skis-amalfi-coast-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6abf67aa5774522b6008613e/92006/62734/water-skis-amalfi-coast-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6abf676c0d67372e5d07c9f5",
           "framed": "6abf677cf5542b9c2a060bf8",
@@ -31318,7 +31367,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6abf676c0d67372e5d07c9f5",
+          "framed": "https://drjonsson.printify.me/product/6abf677cf5542b9c2a060bf8",
+          "canvas": "https://drjonsson.printify.me/product/6abf678be9584cde33031b57",
+          "framed_canvas": "https://drjonsson.printify.me/product/6abf679ae9584cde33031b5e",
+          "metal": "https://drjonsson.printify.me/product/6abf67aa5774522b6008613e"
+        }
       }
     },
     {
@@ -31346,7 +31409,13 @@
       "prompt": "a couple in swimwear playing backgammon on a striped towel beside the pool, a mid-century modernist house in Palm Springs with a kidney-shaped pool, palm trees and desert mountains behind, clear morning light, sky a saturated cerulean, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 737794853,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6abf67ba90191cd12606cf36/43138/94683/backgammon-palm-springs-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6abf67ca5218f1f6930838c4/69664/124091/backgammon-palm-springs-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6abf67d98080267f84061278/91644/60165/backgammon-palm-springs-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6abf67e85774522b60086155/111829/107096/backgammon-palm-springs-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6abf67f833d196d03a0ff2e1/92006/62734/backgammon-palm-springs-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6abf67ba90191cd12606cf36",
           "framed": "6abf67ca5218f1f6930838c4",
@@ -31356,7 +31425,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6abf67ba90191cd12606cf36",
+          "framed": "https://drjonsson.printify.me/product/6abf67ca5218f1f6930838c4",
+          "canvas": "https://drjonsson.printify.me/product/6abf67d98080267f84061278",
+          "framed_canvas": "https://drjonsson.printify.me/product/6abf67e85774522b60086155",
+          "metal": "https://drjonsson.printify.me/product/6abf67f833d196d03a0ff2e1"
+        }
       }
     },
     {
@@ -31384,7 +31467,13 @@
       "prompt": "a couple in swimwear playing backgammon on a striped towel beside the pool, the pastel harbour of Portofino seen from above, with fishing boats, ochre and rose facades and a wooded headland, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1838838223,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6abf680a0d67372e5d07ca4d/43138/94683/backgammon-portofino-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6abf681933d196d03a0ff2f5/69664/124091/backgammon-portofino-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6abf682833d196d03a0ff300/91644/60165/backgammon-portofino-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6abf68375218f1f693083978/111829/107096/backgammon-portofino-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6abf6847cc8d160e4c09bcd4/92006/62734/backgammon-portofino-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6abf680a0d67372e5d07ca4d",
           "framed": "6abf681933d196d03a0ff2f5",
@@ -31394,7 +31483,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6abf680a0d67372e5d07ca4d",
+          "framed": "https://drjonsson.printify.me/product/6abf681933d196d03a0ff2f5",
+          "canvas": "https://drjonsson.printify.me/product/6abf682833d196d03a0ff300",
+          "framed_canvas": "https://drjonsson.printify.me/product/6abf68375218f1f693083978",
+          "metal": "https://drjonsson.printify.me/product/6abf6847cc8d160e4c09bcd4"
+        }
       }
     },
     {
@@ -31897,7 +32000,9 @@
       "thumb": "img/20261002-2-highlands-tennis-whites.jpg",
       "prompt": "a couple in crisp 1960s tennis whites with wooden racquets, laughing beside a courtside table with lemonade, the lawn of a Scottish country house with a gravel drive, heather hills, a dark green estate car and a loch beyond, bright hazy noon with the horizon washed pale, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1736760948,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     }
   ],
   "runs": [
@@ -32851,7 +32956,7 @@
     "errors_last_run": 34,
     "product_types": 5
   },
-  "updated": "2026-10-02T10:27:06",
+  "updated": "2026-10-02T11:20:23",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
