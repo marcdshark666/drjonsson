@@ -30991,7 +30991,10 @@
       "printify": {
         "mockups": {
           "poster": "https://images-api.printify.com/mockup/6ac10d30686577e0880511fa/43138/94683/the-morning-ride-jaipur-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
-          "framed": "https://images-api.printify.com/mockup/6ac10e077d2710166504b161/69664/124091/the-morning-ride-jaipur-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front"
+          "framed": "https://images-api.printify.com/mockup/6ac10e077d2710166504b161/69664/124091/the-morning-ride-jaipur-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac134df1533cd72ae0d9cd4/91644/60165/the-morning-ride-jaipur-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac134eff6e3bab0af0b0667/111829/107096/the-morning-ride-jaipur-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac13500a0d7de83620a7312/92006/62734/the-morning-ride-jaipur-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
         },
         "popup_products": {
           "poster": "6ac10d30686577e0880511fa",
@@ -31005,11 +31008,17 @@
         "popup_count": "5/5",
         "variants": {
           "poster": 4,
-          "framed": 4
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
         },
         "popup_urls": {
           "poster": "https://drjonsson.printify.me/product/6ac10d30686577e0880511fa",
-          "framed": "https://drjonsson.printify.me/product/6ac10e077d2710166504b161"
+          "framed": "https://drjonsson.printify.me/product/6ac10e077d2710166504b161",
+          "canvas": "https://drjonsson.printify.me/product/6ac134df1533cd72ae0d9cd4",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac134eff6e3bab0af0b0667",
+          "metal": "https://drjonsson.printify.me/product/6ac13500a0d7de83620a7312"
         }
       }
     },
@@ -31038,7 +31047,13 @@
       "prompt": "two men in linen shirts playing chess at a marble table under a lemon tree, a white sand beach on Mustique with a thatched pavilion, a wooden sailboat and impossibly clear turquoise water, clear morning light, sky a saturated cerulean, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1063086800,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac13511f334ed8395005c33/43138/94683/chess-on-the-terrace-mustique-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac13521fac63b389a060dfb/69664/124091/chess-on-the-terrace-mustique-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac13530e1786724ce0c7753/91644/60165/chess-on-the-terrace-mustique-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac1353f02c471533500a33c/111829/107096/chess-on-the-terrace-mustique-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac1354fd0691bef0f0305ee/92006/62734/chess-on-the-terrace-mustique-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac13511f334ed8395005c33",
           "framed": "6ac13521fac63b389a060dfb",
@@ -31048,7 +31063,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac13511f334ed8395005c33",
+          "framed": "https://drjonsson.printify.me/product/6ac13521fac63b389a060dfb",
+          "canvas": "https://drjonsson.printify.me/product/6ac13530e1786724ce0c7753",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac1353f02c471533500a33c",
+          "metal": "https://drjonsson.printify.me/product/6ac1354fd0691bef0f0305ee"
+        }
       }
     },
     {
@@ -31076,7 +31105,13 @@
       "prompt": "four women at a card table under a parasol with iced drinks and a silver cigarette box, a harbourside lawn in Sydney with a sandstone house, a diving board over deep blue water and ferries crossing behind, bright hazy noon with the horizon washed pale, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1994877542,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac13560d0691bef0f0305f8/43138/94683/the-bridge-four-sydney-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac13570e1786724ce0c7761/69664/124091/the-bridge-four-sydney-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac1357fdd860ab60f0fbe60/91644/60165/the-bridge-four-sydney-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac1358ee1786724ce0c7767/111829/107096/the-bridge-four-sydney-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac1359e327c2960ae0f17fd/92006/62734/the-bridge-four-sydney-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac13560d0691bef0f0305f8",
           "framed": "6ac13570e1786724ce0c7761",
@@ -31086,7 +31121,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac13560d0691bef0f0305f8",
+          "framed": "https://drjonsson.printify.me/product/6ac13570e1786724ce0c7761",
+          "canvas": "https://drjonsson.printify.me/product/6ac1357fdd860ab60f0fbe60",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac1358ee1786724ce0c7767",
+          "metal": "https://drjonsson.printify.me/product/6ac1359e327c2960ae0f17fd"
+        }
       }
     },
     {
@@ -32622,7 +32671,13 @@
       "prompt": "a crowd in evening wear at a garden cocktail party with waiters in white jackets carrying silver trays, a cliffside terrace on the Amalfi coast with lemon trees, white parasols and the deep blue Tyrrhenian sea far below, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 776799184,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac135ae3c10aab3fe03773d/43138/94683/cocktail-hour-amalfi-coast-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac135be327c2960ae0f180b/69664/124091/cocktail-hour-amalfi-coast-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac135cdeb8c7b4f800bc330/91644/60165/cocktail-hour-amalfi-coast-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac135dcace43bfac3073bdd/111829/107096/cocktail-hour-amalfi-coast-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac135ece32d2b29770b1dc2/92006/62734/cocktail-hour-amalfi-coast-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac135ae3c10aab3fe03773d",
           "framed": "6ac135be327c2960ae0f180b",
@@ -32632,7 +32687,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac135ae3c10aab3fe03773d",
+          "framed": "https://drjonsson.printify.me/product/6ac135be327c2960ae0f180b",
+          "canvas": "https://drjonsson.printify.me/product/6ac135cdeb8c7b4f800bc330",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac135dcace43bfac3073bdd",
+          "metal": "https://drjonsson.printify.me/product/6ac135ece32d2b29770b1dc2"
+        }
       }
     },
     {
@@ -32660,7 +32729,13 @@
       "prompt": "a couple in crisp 1960s tennis whites with wooden racquets, laughing beside a courtside table with lemonade, the lawn of a Scottish country house with a gravel drive, heather hills, a dark green estate car and a loch beyond, bright hazy noon with the horizon washed pale, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1736760948,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac135fd48206f9c410a0ea9/43138/94683/tennis-whites-the-highlands-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac1360c4bc06993ba04bb97/69664/124091/tennis-whites-the-highlands-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac1361bfac63b389a060e54/91644/60165/tennis-whites-the-highlands-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac1362ab559aaaf1c063680/111829/107096/tennis-whites-the-highlands-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac1363a3eeec7b7a005a67a/92006/62734/tennis-whites-the-highlands-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac135fd48206f9c410a0ea9",
           "framed": "6ac1360c4bc06993ba04bb97",
@@ -32670,7 +32745,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac135fd48206f9c410a0ea9",
+          "framed": "https://drjonsson.printify.me/product/6ac1360c4bc06993ba04bb97",
+          "canvas": "https://drjonsson.printify.me/product/6ac1361bfac63b389a060e54",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac1362ab559aaaf1c063680",
+          "metal": "https://drjonsson.printify.me/product/6ac1363a3eeec7b7a005a67a"
+        }
       }
     },
     {
@@ -32698,7 +32787,11 @@
       "prompt": "four women at a card table under a parasol with iced drinks and a silver cigarette box, a cliffside terrace on the Amalfi coast with lemon trees, white parasols and the deep blue Tyrrhenian sea far below, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1529045239,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac1364a311a5897f8050aef/43138/94683/the-bridge-four-amalfi-coast-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac13721801142c2c400c7bd/69664/124091/the-bridge-four-amalfi-coast-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac137f8327c2960ae0f18c9/91644/60165/the-bridge-four-amalfi-coast-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac1364a311a5897f8050aef",
           "framed": "6ac13721801142c2c400c7bd",
@@ -32706,7 +32799,17 @@
         },
         "popup_product": true,
         "popup_published": false,
-        "popup_count": "0/3"
+        "popup_count": "0/3",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac1364a311a5897f8050aef",
+          "framed": "https://drjonsson.printify.me/product/6ac13721801142c2c400c7bd",
+          "canvas": "https://drjonsson.printify.me/product/6ac137f8327c2960ae0f18c9"
+        }
       }
     },
     {
@@ -34683,7 +34786,7 @@
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-10-03T19:18:06",
+  "updated": "2026-10-03T19:20:28",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
