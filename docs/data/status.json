@@ -30757,7 +30757,17 @@
       "prompt": "a family in nautical stripes stepping off a polished wooden speedboat with a picnic hamper, the tiered pastel houses of Positano seen from a balcony, with bougainvillea, a pebble beach and fishing boats below, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1348882220,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac0e07c31f8a0ca3e003999",
+          "framed": "6ac0e09266c05a180b0bfb61",
+          "canvas": "6ac0e0a12b71e848d307c0e9",
+          "framed_canvas": "6ac0e0b96598729f01054573",
+          "metal": "6ac0e0ce31f8a0ca3e003a2d"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -32071,7 +32081,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "2/5",
+        "popup_count": "5/5",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -32113,7 +32123,17 @@
       "prompt": "two women in white with longbows and a straw target set up on the lawn, the lawn of a Newport mansion above the cliff walk with a marble balustrade, old oaks and sailing yachts out on the sound, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1470902362,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac0e0e149e51ca7790fd7d0",
+          "framed": "6ac0e0f4993663c4890072a8",
+          "canvas": "6ac0e1098f12444bb907c893",
+          "framed_canvas": "6ac0e121228b110457085969",
+          "metal": "6ac0e135be4793436903780a"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -32141,7 +32161,17 @@
       "prompt": "a hostess in an emerald turban and gold jewellery arranging a table of pastries and fruit, a terraced villa garden on Lake Como with cypress trees, a long turquoise pool and the lake and mountains beyond, clear morning light, sky a saturated cerulean, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 2145041415,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac0e148be47934369037857",
+          "framed": "6ac0e168228b11045708598b",
+          "canvas": "6ac0e17d993663c4890072f2",
+          "framed_canvas": "6ac0e1917edc2ffa6b044f08",
+          "metal": "6ac0e1a06598729f010545dd"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -32169,7 +32199,17 @@
       "prompt": "a hostess in an emerald turban and gold jewellery arranging a table of pastries and fruit, a cliff-top villa in Acapulco with a white infinity pool, bougainvillea and the Pacific bay glittering below, harsh midday sun with short shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1377844157,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac0e1b3228b1104570859bb",
+          "framed": "6ac0e1c6993663c489007317",
+          "canvas": "6ac0e1d6228b1104570859d9",
+          "framed_canvas": "6ac0e1e68f12444bb907c8e5",
+          "metal": "6ac0e1f5d03ef5010e046189"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -32197,7 +32237,17 @@
       "prompt": "a woman in a broad-brimmed hat and gloves cutting roses into a basket while a butler waits with a tray, a safari lodge veranda in Kenya with cane furniture, a brass telescope and golden plains and flat acacias beyond, clear morning light, sky a saturated cerulean, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 405325639,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac0e2061e98aa3da10fbe34",
+          "framed": "6ac0e215228b1104570859ed",
+          "canvas": "6ac0e22465ddafb55e0ea399",
+          "framed_canvas": "6ac0e23831f8a0ca3e003aa4",
+          "metal": "6ac0e31031f8a0ca3e003b07"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "3/5"
       }
     },
     {
@@ -32225,7 +32275,13 @@
       "prompt": "a family at a lace-laid tea table with a tiered cake stand while a butler pours, a lakeside lawn on Lake Geneva with a white wooden pier, a vintage motorboat and the Alps across the water, low golden hour sun raking across the scene, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 695099005,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac0e3e8993663c489007463"
+        },
+        "popup_product": true,
+        "popup_published": false,
+        "popup_count": "0/1"
       }
     },
     {
@@ -33323,17 +33379,6 @@
   ],
   "runs": [
     {
-      "date": "2026-09-19",
-      "started": "2026-09-19T22:00:03",
-      "count": 35,
-      "generated": 35,
-      "popup": 1161,
-      "etsy": 0,
-      "errors": [],
-      "dry_run": false,
-      "finished": "2026-09-19T22:00:14"
-    },
-    {
       "date": "2026-09-20",
       "started": "2026-09-20T10:00:02",
       "count": 35,
@@ -34217,6 +34262,19 @@
       ],
       "dry_run": false,
       "finished": "2026-10-03T10:52:13"
+    },
+    {
+      "date": "2026-10-03",
+      "started": "2026-10-03T13:00:04",
+      "count": 35,
+      "generated": 35,
+      "popup": 3044,
+      "etsy": 0,
+      "errors": [
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1791026365@dc3f1b84-436a-4f17-88b7-85f210246826\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-10-03T13:19:18"
     }
   ],
   "todo": [
@@ -34300,15 +34358,15 @@
   ],
   "stats": {
     "generated": 570,
-    "printify_drafts": 519,
-    "popup_live": 519,
+    "printify_drafts": 525,
+    "popup_live": 524,
     "etsy_live": 8,
     "days": 18,
     "streak": 2,
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-10-03T11:20:22",
+  "updated": "2026-10-03T13:19:18",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
