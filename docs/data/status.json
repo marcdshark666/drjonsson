@@ -33019,7 +33019,13 @@
       "prompt": "an elderly gentleman in a paisley silk dressing gown reading a newspaper with a white standard poodle at his feet, a cliffside terrace on the Amalfi coast with lemon trees, white parasols and the deep blue Tyrrhenian sea far below, clear morning light, sky a saturated cerulean, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 299512603,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac2b1f275898ecc30065f88/43138/94683/the-silk-robe-amalfi-coast-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac2b20245798e8f2b088b2f/69664/124091/the-silk-robe-amalfi-coast-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac2b21143b50eb4090cc65c/91644/60165/the-silk-robe-amalfi-coast-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac2b22026a83a8c6306437d/111829/107096/the-silk-robe-amalfi-coast-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac2b2307cd31378b90aae94/92006/62734/the-silk-robe-amalfi-coast-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac2b1f275898ecc30065f88",
           "framed": "6ac2b20245798e8f2b088b2f",
@@ -33029,7 +33035,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac2b1f275898ecc30065f88",
+          "framed": "https://drjonsson.printify.me/product/6ac2b20245798e8f2b088b2f",
+          "canvas": "https://drjonsson.printify.me/product/6ac2b21143b50eb4090cc65c",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac2b22026a83a8c6306437d",
+          "metal": "https://drjonsson.printify.me/product/6ac2b2307cd31378b90aae94"
+        }
       }
     },
     {
@@ -33057,7 +33077,12 @@
       "prompt": "a silver-haired man in a cream linen suit and sunglasses leaning on a vintage pale-blue convertible, a sun terrace of a chalet in Gstaad with snowy peaks, wooden loungers and fur throws, low golden hour sun raking across the scene, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1044201521,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac2b24145798e8f2b088b46/43138/94683/the-cream-suit-gstaad-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac2b25032e795bf7a0bdc73/69664/124091/the-cream-suit-gstaad-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac2b327e7eeb472c9033fc1/91644/60165/the-cream-suit-gstaad-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac2b3fd869c73d60005dc9b/111829/107096/the-cream-suit-gstaad-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac2b24145798e8f2b088b46",
           "framed": "6ac2b25032e795bf7a0bdc73",
@@ -33066,7 +33091,19 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "1/4"
+        "popup_count": "1/4",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac2b24145798e8f2b088b46",
+          "framed": "https://drjonsson.printify.me/product/6ac2b25032e795bf7a0bdc73",
+          "canvas": "https://drjonsson.printify.me/product/6ac2b327e7eeb472c9033fc1",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac2b3fd869c73d60005dc9b"
+        }
       }
     },
     {
@@ -34485,7 +34522,9 @@
         "mockups": {
           "poster": "https://images-api.printify.com/mockup/6ac287e472d329261f014f1c/43138/94683/magenta-at-noon-nantucket-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
           "framed": "https://images-api.printify.com/mockup/6ac288bba2febbc29006cb88/69664/124091/magenta-at-noon-nantucket-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
-          "canvas": "https://images-api.printify.com/mockup/6ac28990bc73d629f705ffa3/91644/60165/magenta-at-noon-nantucket-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front"
+          "canvas": "https://images-api.printify.com/mockup/6ac28990bc73d629f705ffa3/91644/60165/magenta-at-noon-nantucket-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac2b07d63d5998696099fd9/111829/107096/magenta-at-noon-nantucket-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac2b08e4d967372c101e337/92006/62734/magenta-at-noon-nantucket-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
         },
         "popup_products": {
           "poster": "6ac287e472d329261f014f1c",
@@ -34500,12 +34539,16 @@
         "variants": {
           "poster": 4,
           "framed": 4,
-          "canvas": 4
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
         },
         "popup_urls": {
           "poster": "https://drjonsson.printify.me/product/6ac287e472d329261f014f1c",
           "framed": "https://drjonsson.printify.me/product/6ac288bba2febbc29006cb88",
-          "canvas": "https://drjonsson.printify.me/product/6ac28990bc73d629f705ffa3"
+          "canvas": "https://drjonsson.printify.me/product/6ac28990bc73d629f705ffa3",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac2b07d63d5998696099fd9",
+          "metal": "https://drjonsson.printify.me/product/6ac2b08e4d967372c101e337"
         }
       }
     },
@@ -34534,7 +34577,13 @@
       "prompt": "a young couple in wedding clothes barefoot at the water's edge, shoes in hand and confetti still in her hair, a redwood beach house deck in Malibu with a glass windbreak, surfboards and the Pacific breaking below, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1890352124,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac2b0a47cd31378b90aadf4/43138/94683/the-newlyweds-malibu-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac2b0b47cd31378b90aae01/69664/124091/the-newlyweds-malibu-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac2b0ce133f492ef6046bf3/91644/60165/the-newlyweds-malibu-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac2b0eaba0b98f0eb0513b4/111829/107096/the-newlyweds-malibu-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac2b10343b50eb4090cc5ec/92006/62734/the-newlyweds-malibu-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac2b0a47cd31378b90aadf4",
           "framed": "6ac2b0b47cd31378b90aae01",
@@ -34544,7 +34593,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac2b0a47cd31378b90aadf4",
+          "framed": "https://drjonsson.printify.me/product/6ac2b0b47cd31378b90aae01",
+          "canvas": "https://drjonsson.printify.me/product/6ac2b0ce133f492ef6046bf3",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac2b0eaba0b98f0eb0513b4",
+          "metal": "https://drjonsson.printify.me/product/6ac2b10343b50eb4090cc5ec"
+        }
       }
     },
     {
@@ -34572,7 +34635,13 @@
       "prompt": "a family at a lace-laid tea table with a tiered cake stand while a butler pours, the lawn of a Newport mansion above the cliff walk with a marble balustrade, old oaks and sailing yachts out on the sound, clear morning light, sky a saturated cerulean, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1608732175,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac2b12a869c73d60005db8a/43138/94683/afternoon-tea-newport-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac2b14b4d967372c101e3b9/69664/124091/afternoon-tea-newport-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac2b1644d967372c101e3c3/91644/60165/afternoon-tea-newport-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac2b177cd4d9d605e02169a/111829/107096/afternoon-tea-newport-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac2b193367ebb6aba050bff/92006/62734/afternoon-tea-newport-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac2b12a869c73d60005db8a",
           "framed": "6ac2b14b4d967372c101e3b9",
@@ -34582,7 +34651,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac2b12a869c73d60005db8a",
+          "framed": "https://drjonsson.printify.me/product/6ac2b14b4d967372c101e3b9",
+          "canvas": "https://drjonsson.printify.me/product/6ac2b1644d967372c101e3c3",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac2b177cd4d9d605e02169a",
+          "metal": "https://drjonsson.printify.me/product/6ac2b193367ebb6aba050bff"
+        }
       }
     },
     {
@@ -34610,7 +34693,13 @@
       "prompt": "a woman in a fur stole and evening gloves stepping from a car while a porter carries monogrammed leather luggage, a sun terrace of a chalet in Gstaad with snowy peaks, wooden loungers and fur throws, low golden hour sun raking across the scene, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1406246219,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac2b1a36453d0e6a5021289/43138/94683/the-arrival-gstaad-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac2b1b345798e8f2b088b16/69664/124091/the-arrival-gstaad-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac2b1c27cd31378b90aae6e/91644/60165/the-arrival-gstaad-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac2b1d1506ca5ee4b0d9554/111829/107096/the-arrival-gstaad-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac2b1e143b50eb4090cc650/92006/62734/the-arrival-gstaad-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac2b1a36453d0e6a5021289",
           "framed": "6ac2b1b345798e8f2b088b16",
@@ -34620,7 +34709,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac2b1a36453d0e6a5021289",
+          "framed": "https://drjonsson.printify.me/product/6ac2b1b345798e8f2b088b16",
+          "canvas": "https://drjonsson.printify.me/product/6ac2b1c27cd31378b90aae6e",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac2b1d1506ca5ee4b0d9554",
+          "metal": "https://drjonsson.printify.me/product/6ac2b1e143b50eb4090cc650"
+        }
       }
     },
     {
@@ -36603,7 +36706,7 @@
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-10-04T22:19:31",
+  "updated": "2026-10-04T22:20:21",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
