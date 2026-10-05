@@ -34997,11 +34997,14 @@
         },
         "popup_products": {
           "poster": "6ac3db827cfea7d14b005d18",
-          "framed": "6ac3dc57e6b0fccbca03a5ee"
+          "framed": "6ac3dc57e6b0fccbca03a5ee",
+          "canvas": "6ac402202b0885e4130f4af8",
+          "framed_canvas": "6ac40234691c7da1940991c5",
+          "metal": "6ac402479721b65eba055d3c"
         },
         "popup_product": true,
-        "popup_published": false,
-        "popup_count": "0/2",
+        "popup_published": true,
+        "popup_count": "5/5",
         "variants": {
           "poster": 4,
           "framed": 4
@@ -36265,7 +36268,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "4/5",
+        "popup_count": "5/5",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -36317,11 +36320,12 @@
           "poster": "6ac3d97362f34bc31601d1a2",
           "framed": "6ac3d98462f34bc31601d1ad",
           "canvas": "6ac3d997d17ad1a4af00a7cc",
+          "framed_canvas": "6ac401ea93e80ad6120e2a38",
           "metal": "6ac3daaa5fdcaf9c2c0d9a65"
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "2/5",
+        "popup_count": "5/5",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -36361,7 +36365,17 @@
       "prompt": "a crowd in evening wear at a garden cocktail party with waiters in white jackets carrying silver trays, a shingled Hamptons beach house with a striped awning, a clipped privet hedge and dune grass leading down to the Atlantic, low golden hour sun raking across the scene, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 113750757,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac402599721b65eba055d4f",
+          "framed": "6ac40269e6b0fccbca03b8f6",
+          "canvas": "6ac402799721b65eba055d6f",
+          "framed_canvas": "6ac40288fde63b08040b1417",
+          "metal": "6ac40298af020515a50409cb"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -36389,7 +36403,17 @@
       "prompt": "a woman in a fur stole and evening gloves stepping from a car while a porter carries monogrammed leather luggage, a yacht deck in the harbour of Monaco with teak decking, brass rails and the pastel apartment blocks of Monte Carlo behind, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 694747555,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac402ad6105968b99051cfc",
+          "framed": "6ac402bc6e9d5271360f50ee",
+          "canvas": "6ac402cbaf020515a50409ee",
+          "framed_canvas": "6ac402dbaf020515a50409fb",
+          "metal": "6ac402eb52889ba0ed0fd1da"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -36417,7 +36441,17 @@
       "prompt": "a small band in white dinner jackets playing beside the pool while guests dance barefoot on the terrace, a yacht deck in the harbour of Monaco with teak decking, brass rails and the pastel apartment blocks of Monte Carlo behind, bright hazy noon with the horizon washed pale, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1770591027,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac402fc7f979b701208fcab",
+          "framed": "6ac403116105968b99051d27",
+          "canvas": "6ac4032493e80ad6120e2b01",
+          "framed_canvas": "6ac4033552889ba0ed0fd215",
+          "metal": "6ac4034baf020515a5040a3a"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -36445,7 +36479,17 @@
       "prompt": "a group of glamorous friends in colourful swimsuits and caftans on sun loungers under striped umbrellas, cocktails in hand, a terraced villa garden on Lake Como with cypress trees, a long turquoise pool and the lake and mountains beyond, clear morning light, sky a saturated cerulean, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 2064347510,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac4035d9721b65eba055e07",
+          "framed": "6ac40373af020515a5040a51",
+          "canvas": "6ac4038352889ba0ed0fd244",
+          "framed_canvas": "6ac40398691c7da194099301",
+          "metal": "6ac40476a663fa240c0d6fbb"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "3/5"
       }
     },
     {
@@ -36473,7 +36517,13 @@
       "prompt": "a woman at an easel in a straw hat painting the view while a friend in a swimsuit watches over her shoulder, a terraced villa garden on Lake Como with cypress trees, a long turquoise pool and the lake and mountains beyond, clear morning light, sky a saturated cerulean, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1920402205,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac40556691c7da194099408"
+        },
+        "popup_product": true,
+        "popup_published": false,
+        "popup_count": "0/1"
       }
     },
     {
@@ -37488,19 +37538,6 @@
   "runs": [
     {
       "date": "2026-09-22",
-      "started": "2026-09-22T13:00:02",
-      "count": 35,
-      "generated": 35,
-      "popup": 1607,
-      "etsy": 0,
-      "errors": [
-        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1790075897@ac29a7d6-7e25-4017-bcc8-9fdd69ee3425\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
-      ],
-      "dry_run": false,
-      "finished": "2026-09-22T13:18:17"
-    },
-    {
-      "date": "2026-09-22",
       "started": "2026-09-22T16:00:02",
       "count": 35,
       "generated": 35,
@@ -38399,6 +38436,19 @@
       ],
       "dry_run": false,
       "finished": "2026-10-05T19:23:57"
+    },
+    {
+      "date": "2026-10-05",
+      "started": "2026-10-05T22:00:02",
+      "count": 35,
+      "generated": 35,
+      "popup": 3409,
+      "etsy": 0,
+      "errors": [
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1791231531@26d6c14d-d1d0-44b0-90c2-5d8fcabd0cdd\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-10-05T22:18:52"
     }
   ],
   "todo": [
@@ -38482,15 +38532,15 @@
   ],
   "stats": {
     "generated": 640,
-    "printify_drafts": 593,
-    "popup_live": 592,
+    "printify_drafts": 598,
+    "popup_live": 597,
     "etsy_live": 8,
     "days": 20,
     "streak": 4,
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-10-05T20:20:38",
+  "updated": "2026-10-05T22:18:52",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
