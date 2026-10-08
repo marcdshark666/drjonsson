@@ -37021,7 +37021,17 @@
       "prompt": "three children in matching sailor outfits with a nanny in white holding a toy boat, a mid-century modernist house in Palm Springs with a kidney-shaped pool, palm trees and desert mountains behind, harsh midday sun with short shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 370547020,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac74e0c0a403806e5091c2c",
+          "framed": "6ac74e1c1f9b38e5040085b2",
+          "canvas": "6ac74e2b6a7d126e4e0d674a",
+          "framed_canvas": "6ac74e3c6ba1ebfab30e0475",
+          "metal": "6ac74e4c6a7d126e4e0d676b"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -38277,7 +38287,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "3/5",
+        "popup_count": "5/5",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -38323,11 +38333,15 @@
           "poster": "https://images-api.printify.com/mockup/6ac735ac6c66559752098cd6/43138/94683/the-vespa-saint-tropez-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front"
         },
         "popup_products": {
-          "poster": "6ac735ac6c66559752098cd6"
+          "poster": "6ac735ac6c66559752098cd6",
+          "framed": "6ac74dc7996749400307ce11",
+          "canvas": "6ac74dd7afeaccc909085e9f",
+          "framed_canvas": "6ac74deb13e088068106a7fe",
+          "metal": "6ac74dfbf9e9fd5f5a0badd9"
         },
         "popup_product": true,
-        "popup_published": false,
-        "popup_count": "0/1",
+        "popup_published": true,
+        "popup_count": "5/5",
         "variants": {
           "poster": 4
         },
@@ -38361,7 +38375,17 @@
       "prompt": "a hostess in an emerald turban and gold jewellery arranging a table of pastries and fruit, a Havana courtyard with faded turquoise colonnades, a vintage convertible in the drive and royal palms, low golden hour sun raking across the scene, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1420046256,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac74e5e13e088068106a83b",
+          "framed": "6ac74e6d9cc7817c2a016872",
+          "canvas": "6ac74e7d8d9206f0d900af58",
+          "framed_canvas": "6ac74e8e3eb33bdebe08c7f1",
+          "metal": "6ac74e9d6a7d126e4e0d67bb"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -38389,7 +38413,17 @@
       "prompt": "a young couple in wedding clothes barefoot at the water's edge, shoes in hand and confetti still in her hair, a lakeside lawn on Lake Geneva with a white wooden pier, a vintage motorboat and the Alps across the water, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1529653868,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac74eae8d9206f0d900af7f",
+          "framed": "6ac74ebf2302895c1d0f7e99",
+          "canvas": "6ac74ece8d9206f0d900afa2",
+          "framed_canvas": "6ac74edd6a7d126e4e0d67dc",
+          "metal": "6ac74eed20d14b828e02f7b5"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -38417,7 +38451,17 @@
       "prompt": "four women at a card table under a parasol with iced drinks and a silver cigarette box, a safari lodge veranda in Kenya with cane furniture, a brass telescope and golden plains and flat acacias beyond, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1620385164,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac74efe3eb33bdebe08c823",
+          "framed": "6ac74f0d20d14b828e02f7c2",
+          "canvas": "6ac74f1d2302895c1d0f7eb9",
+          "framed_canvas": "6ac74f2c2302895c1d0f7ec3",
+          "metal": "6ac74f3c20d14b828e02f7de"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "4/5"
       }
     },
     {
@@ -38445,7 +38489,14 @@
       "prompt": "a young woman in a red swimsuit and white cap carrying water skis along the shore, a harbourside lawn in Sydney with a sandstone house, a diving board over deep blue water and ferries crossing behind, bright hazy noon with the horizon washed pale, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 410102289,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac750166ba1ebfab30e0573",
+          "framed": "6ac750f420d14b828e02f8a6"
+        },
+        "popup_product": true,
+        "popup_published": false,
+        "popup_count": "0/2"
       }
     },
     {
@@ -40468,19 +40519,6 @@
   "runs": [
     {
       "date": "2026-09-23",
-      "started": "2026-09-23T10:00:02",
-      "count": 35,
-      "generated": 35,
-      "popup": 1800,
-      "etsy": 0,
-      "errors": [
-        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1790151574@f8933593-216e-4608-842e-0e8d6619044b\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
-      ],
-      "dry_run": false,
-      "finished": "2026-09-23T10:19:34"
-    },
-    {
-      "date": "2026-09-23",
       "started": "2026-09-23T13:00:02",
       "count": 35,
       "generated": 35,
@@ -41380,6 +41418,19 @@
       ],
       "dry_run": false,
       "finished": "2026-10-08T08:21:56"
+    },
+    {
+      "date": "2026-10-08",
+      "started": "2026-10-08T10:00:06",
+      "count": 35,
+      "generated": 35,
+      "popup": 3580,
+      "etsy": 0,
+      "errors": [
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1791447497@a174d8f4-6cef-4da4-8772-b9e4416fa6dc\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-10-08T10:18:17"
     }
   ],
   "todo": [
@@ -41463,15 +41514,15 @@
   ],
   "stats": {
     "generated": 710,
-    "printify_drafts": 627,
-    "popup_live": 626,
+    "printify_drafts": 632,
+    "popup_live": 631,
     "etsy_live": 8,
     "days": 22,
     "streak": 2,
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-10-08T09:20:26",
+  "updated": "2026-10-08T10:18:17",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
