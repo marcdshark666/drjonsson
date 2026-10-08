@@ -37021,7 +37021,13 @@
       "prompt": "three children in matching sailor outfits with a nanny in white holding a toy boat, a mid-century modernist house in Palm Springs with a kidney-shaped pool, palm trees and desert mountains behind, harsh midday sun with short shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 370547020,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac74e0c0a403806e5091c2c/43138/94683/the-cousins-palm-springs-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac74e1c1f9b38e5040085b2/69664/124091/the-cousins-palm-springs-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac74e2b6a7d126e4e0d674a/91644/60165/the-cousins-palm-springs-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac74e3c6ba1ebfab30e0475/111829/107096/the-cousins-palm-springs-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac74e4c6a7d126e4e0d676b/92006/62734/the-cousins-palm-springs-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac74e0c0a403806e5091c2c",
           "framed": "6ac74e1c1f9b38e5040085b2",
@@ -37031,7 +37037,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac74e0c0a403806e5091c2c",
+          "framed": "https://drjonsson.printify.me/product/6ac74e1c1f9b38e5040085b2",
+          "canvas": "https://drjonsson.printify.me/product/6ac74e2b6a7d126e4e0d674a",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac74e3c6ba1ebfab30e0475",
+          "metal": "https://drjonsson.printify.me/product/6ac74e4c6a7d126e4e0d676b"
+        }
       }
     },
     {
@@ -38330,7 +38350,11 @@
       "seed": 205370670,
       "printify": {
         "mockups": {
-          "poster": "https://images-api.printify.com/mockup/6ac735ac6c66559752098cd6/43138/94683/the-vespa-saint-tropez-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front"
+          "poster": "https://images-api.printify.com/mockup/6ac735ac6c66559752098cd6/43138/94683/the-vespa-saint-tropez-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac74dc7996749400307ce11/69664/124091/the-vespa-saint-tropez-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac74dd7afeaccc909085e9f/91644/60165/the-vespa-saint-tropez-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac74deb13e088068106a7fe/111829/107096/the-vespa-saint-tropez-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac74dfbf9e9fd5f5a0badd9/92006/62734/the-vespa-saint-tropez-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
         },
         "popup_products": {
           "poster": "6ac735ac6c66559752098cd6",
@@ -38343,10 +38367,18 @@
         "popup_published": true,
         "popup_count": "5/5",
         "variants": {
-          "poster": 4
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
         },
         "popup_urls": {
-          "poster": "https://drjonsson.printify.me/product/6ac735ac6c66559752098cd6"
+          "poster": "https://drjonsson.printify.me/product/6ac735ac6c66559752098cd6",
+          "framed": "https://drjonsson.printify.me/product/6ac74dc7996749400307ce11",
+          "canvas": "https://drjonsson.printify.me/product/6ac74dd7afeaccc909085e9f",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac74deb13e088068106a7fe",
+          "metal": "https://drjonsson.printify.me/product/6ac74dfbf9e9fd5f5a0badd9"
         }
       }
     },
@@ -38375,7 +38407,13 @@
       "prompt": "a hostess in an emerald turban and gold jewellery arranging a table of pastries and fruit, a Havana courtyard with faded turquoise colonnades, a vintage convertible in the drive and royal palms, low golden hour sun raking across the scene, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1420046256,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac74e5e13e088068106a83b/43138/94683/the-hostess-havana-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac74e6d9cc7817c2a016872/69664/124091/the-hostess-havana-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac74e7d8d9206f0d900af58/91644/60165/the-hostess-havana-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac74e8e3eb33bdebe08c7f1/111829/107096/the-hostess-havana-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac74e9d6a7d126e4e0d67bb/92006/62734/the-hostess-havana-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac74e5e13e088068106a83b",
           "framed": "6ac74e6d9cc7817c2a016872",
@@ -38385,7 +38423,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac74e5e13e088068106a83b",
+          "framed": "https://drjonsson.printify.me/product/6ac74e6d9cc7817c2a016872",
+          "canvas": "https://drjonsson.printify.me/product/6ac74e7d8d9206f0d900af58",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac74e8e3eb33bdebe08c7f1",
+          "metal": "https://drjonsson.printify.me/product/6ac74e9d6a7d126e4e0d67bb"
+        }
       }
     },
     {
@@ -38413,7 +38465,13 @@
       "prompt": "a young couple in wedding clothes barefoot at the water's edge, shoes in hand and confetti still in her hair, a lakeside lawn on Lake Geneva with a white wooden pier, a vintage motorboat and the Alps across the water, bright hazy noon with the horizon washed pale, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1529653868,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac74eae8d9206f0d900af7f/43138/94683/the-newlyweds-lake-geneva-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac74ebf2302895c1d0f7e99/69664/124091/the-newlyweds-lake-geneva-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac74ece8d9206f0d900afa2/91644/60165/the-newlyweds-lake-geneva-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac74edd6a7d126e4e0d67dc/111829/107096/the-newlyweds-lake-geneva-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac74eed20d14b828e02f7b5/92006/62734/the-newlyweds-lake-geneva-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac74eae8d9206f0d900af7f",
           "framed": "6ac74ebf2302895c1d0f7e99",
@@ -38423,7 +38481,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac74eae8d9206f0d900af7f",
+          "framed": "https://drjonsson.printify.me/product/6ac74ebf2302895c1d0f7e99",
+          "canvas": "https://drjonsson.printify.me/product/6ac74ece8d9206f0d900afa2",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac74edd6a7d126e4e0d67dc",
+          "metal": "https://drjonsson.printify.me/product/6ac74eed20d14b828e02f7b5"
+        }
       }
     },
     {
@@ -38451,7 +38523,13 @@
       "prompt": "four women at a card table under a parasol with iced drinks and a silver cigarette box, a safari lodge veranda in Kenya with cane furniture, a brass telescope and golden plains and flat acacias beyond, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1620385164,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac74efe3eb33bdebe08c823/43138/94683/the-bridge-four-kenya-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac74f0d20d14b828e02f7c2/69664/124091/the-bridge-four-kenya-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac74f1d2302895c1d0f7eb9/91644/60165/the-bridge-four-kenya-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac74f2c2302895c1d0f7ec3/111829/107096/the-bridge-four-kenya-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac74f3c20d14b828e02f7de/92006/62734/the-bridge-four-kenya-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac74efe3eb33bdebe08c823",
           "framed": "6ac74f0d20d14b828e02f7c2",
@@ -38461,7 +38539,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "4/5"
+        "popup_count": "4/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac74efe3eb33bdebe08c823",
+          "framed": "https://drjonsson.printify.me/product/6ac74f0d20d14b828e02f7c2",
+          "canvas": "https://drjonsson.printify.me/product/6ac74f1d2302895c1d0f7eb9",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac74f2c2302895c1d0f7ec3",
+          "metal": "https://drjonsson.printify.me/product/6ac74f3c20d14b828e02f7de"
+        }
       }
     },
     {
@@ -38489,14 +38581,25 @@
       "prompt": "a young woman in a red swimsuit and white cap carrying water skis along the shore, a harbourside lawn in Sydney with a sandstone house, a diving board over deep blue water and ferries crossing behind, bright hazy noon with the horizon washed pale, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 410102289,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac750166ba1ebfab30e0573/43138/94683/water-skis-sydney-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac750f420d14b828e02f8a6/69664/124091/water-skis-sydney-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac750166ba1ebfab30e0573",
           "framed": "6ac750f420d14b828e02f8a6"
         },
         "popup_product": true,
         "popup_published": false,
-        "popup_count": "0/2"
+        "popup_count": "0/2",
+        "variants": {
+          "poster": 4,
+          "framed": 4
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac750166ba1ebfab30e0573",
+          "framed": "https://drjonsson.printify.me/product/6ac750f420d14b828e02f8a6"
+        }
       }
     },
     {
@@ -41522,7 +41625,7 @@
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-10-08T10:18:17",
+  "updated": "2026-10-08T10:20:25",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
