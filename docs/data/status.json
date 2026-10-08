@@ -37079,7 +37079,17 @@
       "prompt": "two men in linen shirts playing chess at a marble table under a lemon tree, a cliffside terrace on the Amalfi coast with lemon trees, white parasols and the deep blue Tyrrhenian sea far below, warm late-afternoon light with long shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1208585462,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac778d5f24bd265300dfd89",
+          "framed": "6ac778edf0de7b7ba50e9fa4",
+          "canvas": "6ac779056dbec3d39d08c620",
+          "framed_canvas": "6ac7791e9ff0684d7309aadd",
+          "metal": "6ac779356dbec3d39d08c644"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -37107,7 +37117,17 @@
       "prompt": "a couple in sunglasses on a pale-blue Vespa loaded with a straw basket and a bottle of wine, a riad courtyard in Marrakech with a green-tiled pool, orange trees, ochre walls and a striped cabana, warm late-afternoon light with long shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1085926725,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac7794c6dbec3d39d08c652",
+          "framed": "6ac7796c2595942a44084068",
+          "canvas": "6ac77981b1d8dc3c8407f548",
+          "framed_canvas": "6ac779943c93237f430d3b71",
+          "metal": "6ac779a93c93237f430d3bdb"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -37135,7 +37155,15 @@
       "prompt": "a couple leaning against a silver open-top roadster with driving gloves, folded maps and a picnic basket on the bonnet, a shingled Hamptons beach house with a striped awning, a clipped privet hedge and dune grass leading down to the Atlantic, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 825628632,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac779c4f24bd265300dfe42",
+          "framed": "6ac77a9e1098c884f20da689",
+          "canvas": "6ac77b74ee924d07eb005e2b"
+        },
+        "popup_product": true,
+        "popup_published": false,
+        "popup_count": "0/3"
       }
     },
     {
@@ -38539,7 +38567,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "4/5",
+        "popup_count": "5/5",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -38587,11 +38615,14 @@
         },
         "popup_products": {
           "poster": "6ac750166ba1ebfab30e0573",
-          "framed": "6ac750f420d14b828e02f8a6"
+          "framed": "6ac750f420d14b828e02f8a6",
+          "canvas": "6ac777f59ff0684d7309aa17",
+          "framed_canvas": "6ac77806b1d8dc3c8407f410",
+          "metal": "6ac7781bbd0f775322012ed2"
         },
         "popup_product": true,
-        "popup_published": false,
-        "popup_count": "0/2",
+        "popup_published": true,
+        "popup_count": "5/5",
         "variants": {
           "poster": 4,
           "framed": 4
@@ -38627,7 +38658,17 @@
       "prompt": "four women at a card table under a parasol with iced drinks and a silver cigarette box, a manicured lawn of a Palm Beach estate with a pink stucco mansion, clipped hedges and a croquet set, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1489111850,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac77831e593afb7680b5939",
+          "framed": "6ac77840e593afb7680b5958",
+          "canvas": "6ac778511d5adb6eac007472",
+          "framed_canvas": "6ac778610ddfcf21160a14f3",
+          "metal": "6ac7787115df728a170326ef"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -38655,7 +38696,17 @@
       "prompt": "an elderly gentleman in a paisley silk dressing gown reading a newspaper with a white standard poodle at his feet, a timber lodge dock on Lake Tahoe with a mahogany speedboat, pines and clear cobalt water, harsh midday sun with short shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 513241913,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac778823c93237f430d3acf",
+          "framed": "6ac77894b8a777369209f1f3",
+          "canvas": "6ac778a3c8c07488660ed7b5",
+          "framed_canvas": "6ac778b2b1d8dc3c8407f4d4",
+          "metal": "6ac778c4f24bd265300dfd77"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -40622,19 +40673,6 @@
   "runs": [
     {
       "date": "2026-09-23",
-      "started": "2026-09-23T13:00:02",
-      "count": 35,
-      "generated": 35,
-      "popup": 1826,
-      "etsy": 0,
-      "errors": [
-        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1790162312@3a03f87c-f8ce-451d-a1d3-728658740758\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
-      ],
-      "dry_run": false,
-      "finished": "2026-09-23T13:18:32"
-    },
-    {
-      "date": "2026-09-23",
       "started": "2026-09-23T16:00:02",
       "count": 35,
       "generated": 35,
@@ -41534,6 +41572,19 @@
       ],
       "dry_run": false,
       "finished": "2026-10-08T10:18:17"
+    },
+    {
+      "date": "2026-10-08",
+      "started": "2026-10-08T13:00:04",
+      "count": 35,
+      "generated": 35,
+      "popup": 3606,
+      "etsy": 0,
+      "errors": [
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1791458378@a5f44d59-970d-4fd1-936d-bd4983f4c208\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-10-08T13:19:38"
     }
   ],
   "todo": [
@@ -41617,15 +41668,15 @@
   ],
   "stats": {
     "generated": 710,
-    "printify_drafts": 632,
-    "popup_live": 631,
+    "printify_drafts": 637,
+    "popup_live": 636,
     "etsy_live": 8,
     "days": 22,
     "streak": 2,
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-10-08T10:20:25",
+  "updated": "2026-10-08T13:19:38",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
