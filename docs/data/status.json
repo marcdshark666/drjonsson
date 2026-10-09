@@ -39828,7 +39828,11 @@
       "seed": 1580215271,
       "printify": {
         "mockups": {
-          "poster": "https://images-api.printify.com/mockup/6ac7f99137888b03ad09b47e/43138/94683/the-picnic-jaipur-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front"
+          "poster": "https://images-api.printify.com/mockup/6ac7f99137888b03ad09b47e/43138/94683/the-picnic-jaipur-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac87dd9d151812f03052c5b/69664/124091/the-picnic-jaipur-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac87de84d64e9293101365a/91644/60165/the-picnic-jaipur-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac87df8955ab7a7160b1f11/111829/107096/the-picnic-jaipur-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac87e078515886c120f5a7e/92006/62734/the-picnic-jaipur-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
         },
         "popup_products": {
           "poster": "6ac7f99137888b03ad09b47e",
@@ -39841,10 +39845,18 @@
         "popup_published": true,
         "popup_count": "5/5",
         "variants": {
-          "poster": 4
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
         },
         "popup_urls": {
-          "poster": "https://drjonsson.printify.me/product/6ac7f99137888b03ad09b47e"
+          "poster": "https://drjonsson.printify.me/product/6ac7f99137888b03ad09b47e",
+          "framed": "https://drjonsson.printify.me/product/6ac87dd9d151812f03052c5b",
+          "canvas": "https://drjonsson.printify.me/product/6ac87de84d64e9293101365a",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac87df8955ab7a7160b1f11",
+          "metal": "https://drjonsson.printify.me/product/6ac87e078515886c120f5a7e"
         }
       }
     },
@@ -39873,7 +39885,13 @@
       "prompt": "a young woman in a white swimming cap poised on a diving board while friends watch from the water below, the boardwalk at Deauville with candy-striped parasols, white bathing cabins and the grey-green Channel, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1786899324,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac87e184a1cdf2ad60e749f/43138/94683/the-high-board-deauville-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac87e278515886c120f5a8d/69664/124091/the-high-board-deauville-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac87e36955ab7a7160b1f36/91644/60165/the-high-board-deauville-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac87e454a1cdf2ad60e74ed/111829/107096/the-high-board-deauville-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac87e559f3e89dde70e0d3d/92006/62734/the-high-board-deauville-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac87e184a1cdf2ad60e749f",
           "framed": "6ac87e278515886c120f5a8d",
@@ -39883,7 +39901,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac87e184a1cdf2ad60e749f",
+          "framed": "https://drjonsson.printify.me/product/6ac87e278515886c120f5a8d",
+          "canvas": "https://drjonsson.printify.me/product/6ac87e36955ab7a7160b1f36",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac87e454a1cdf2ad60e74ed",
+          "metal": "https://drjonsson.printify.me/product/6ac87e559f3e89dde70e0d3d"
+        }
       }
     },
     {
@@ -39911,7 +39943,13 @@
       "prompt": "three children in matching sailor outfits with a nanny in white holding a toy boat, a manicured lawn of a Palm Beach estate with a pink stucco mansion, clipped hedges and a croquet set, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1018934572,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac87e664d64e929310136cc/43138/94683/the-cousins-palm-beach-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac87e758e175fd3cb0dee81/69664/124091/the-cousins-palm-beach-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac87e849f3e89dde70e0d66/91644/60165/the-cousins-palm-beach-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac87e93955ab7a7160b1fbc/111829/107096/the-cousins-palm-beach-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac87ea28e175fd3cb0deeb8/92006/62734/the-cousins-palm-beach-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac87e664d64e929310136cc",
           "framed": "6ac87e758e175fd3cb0dee81",
@@ -39921,7 +39959,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac87e664d64e929310136cc",
+          "framed": "https://drjonsson.printify.me/product/6ac87e758e175fd3cb0dee81",
+          "canvas": "https://drjonsson.printify.me/product/6ac87e849f3e89dde70e0d66",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac87e93955ab7a7160b1fbc",
+          "metal": "https://drjonsson.printify.me/product/6ac87ea28e175fd3cb0deeb8"
+        }
       }
     },
     {
@@ -39949,7 +40001,13 @@
       "prompt": "a couple leaning against a silver open-top roadster with driving gloves, folded maps and a picnic basket on the bonnet, a bathing platform lido on Capri with striped umbrellas, limestone rocks and the Faraglioni in the distance, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 102501635,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac87eb3d151812f03052d04/43138/94683/the-silver-roadster-capri-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac87ec14a1cdf2ad60e7557/69664/124091/the-silver-roadster-capri-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac87ed2d151812f03052d0a/91644/60165/the-silver-roadster-capri-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac87ee14a1cdf2ad60e7563/111829/107096/the-silver-roadster-capri-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac87ef14a1cdf2ad60e7571/92006/62734/the-silver-roadster-capri-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac87eb3d151812f03052d04",
           "framed": "6ac87ec14a1cdf2ad60e7557",
@@ -39959,7 +40017,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac87eb3d151812f03052d04",
+          "framed": "https://drjonsson.printify.me/product/6ac87ec14a1cdf2ad60e7557",
+          "canvas": "https://drjonsson.printify.me/product/6ac87ed2d151812f03052d0a",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac87ee14a1cdf2ad60e7563",
+          "metal": "https://drjonsson.printify.me/product/6ac87ef14a1cdf2ad60e7571"
+        }
       }
     },
     {
@@ -39987,7 +40059,13 @@
       "prompt": "a couple in swimwear playing backgammon on a striped towel beside the pool, the lawn of a Scottish country house with a gravel drive, heather hills, a dark green estate car and a loch beyond, harsh midday sun with short shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1005752370,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac87f02f7d76f14440f7ee7/43138/94683/backgammon-the-highlands-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac87f11f7d76f14440f7ef3/69664/124091/backgammon-the-highlands-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6ac87f20955ab7a7160b201f/91644/60165/backgammon-the-highlands-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6ac87f30d151812f03052d31/111829/107096/backgammon-the-highlands-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6ac87f3f4d64e92931013771/92006/62734/backgammon-the-highlands-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac87f02f7d76f14440f7ee7",
           "framed": "6ac87f11f7d76f14440f7ef3",
@@ -39997,7 +40075,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "4/5"
+        "popup_count": "4/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac87f02f7d76f14440f7ee7",
+          "framed": "https://drjonsson.printify.me/product/6ac87f11f7d76f14440f7ef3",
+          "canvas": "https://drjonsson.printify.me/product/6ac87f20955ab7a7160b201f",
+          "framed_canvas": "https://drjonsson.printify.me/product/6ac87f30d151812f03052d31",
+          "metal": "https://drjonsson.printify.me/product/6ac87f3f4d64e92931013771"
+        }
       }
     },
     {
@@ -40025,14 +40117,25 @@
       "prompt": "a hostess in an emerald turban and gold jewellery arranging a table of pastries and fruit, a redwood beach house deck in Malibu with a glass windbreak, surfboards and the Pacific breaking below, clear morning light, sky a saturated cerulean, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 528082304,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6ac880184d64e9293101381e/43138/94683/the-hostess-malibu-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6ac880ed9f3e89dde70e0f58/69664/124091/the-hostess-malibu-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6ac880184d64e9293101381e",
           "framed": "6ac880ed9f3e89dde70e0f58"
         },
         "popup_product": true,
         "popup_published": false,
-        "popup_count": "0/2"
+        "popup_count": "0/2",
+        "variants": {
+          "poster": 4,
+          "framed": 4
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6ac880184d64e9293101381e",
+          "framed": "https://drjonsson.printify.me/product/6ac880ed9f3e89dde70e0f58"
+        }
       }
     },
     {
@@ -41319,7 +41422,9 @@
       "thumb": "img/20261009-1-deauville-newlyweds.jpg",
       "prompt": "a young couple in wedding clothes barefoot at the water's edge, shoes in hand and confetti still in her hair, the boardwalk at Deauville with candy-striped parasols, white bathing cabins and the grey-green Channel, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 117803822,
-      "printify": {}
+      "printify": {
+        "mockups": {}
+      }
     }
   ],
   "runs": [
@@ -42366,7 +42471,7 @@
     "errors_last_run": 35,
     "product_types": 5
   },
-  "updated": "2026-10-09T07:55:14",
+  "updated": "2026-10-09T08:20:24",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
