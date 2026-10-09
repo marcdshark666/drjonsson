@@ -39009,7 +39009,7 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "3/5",
+        "popup_count": "5/5",
         "variants": {
           "poster": 4,
           "framed": 4,
@@ -39831,11 +39831,15 @@
           "poster": "https://images-api.printify.com/mockup/6ac7f99137888b03ad09b47e/43138/94683/the-picnic-jaipur-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front"
         },
         "popup_products": {
-          "poster": "6ac7f99137888b03ad09b47e"
+          "poster": "6ac7f99137888b03ad09b47e",
+          "framed": "6ac87dd9d151812f03052c5b",
+          "canvas": "6ac87de84d64e9293101365a",
+          "framed_canvas": "6ac87df8955ab7a7160b1f11",
+          "metal": "6ac87e078515886c120f5a7e"
         },
         "popup_product": true,
-        "popup_published": false,
-        "popup_count": "0/1",
+        "popup_published": true,
+        "popup_count": "5/5",
         "variants": {
           "poster": 4
         },
@@ -39869,7 +39873,17 @@
       "prompt": "a young woman in a white swimming cap poised on a diving board while friends watch from the water below, the boardwalk at Deauville with candy-striped parasols, white bathing cabins and the grey-green Channel, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1786899324,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac87e184a1cdf2ad60e749f",
+          "framed": "6ac87e278515886c120f5a8d",
+          "canvas": "6ac87e36955ab7a7160b1f36",
+          "framed_canvas": "6ac87e454a1cdf2ad60e74ed",
+          "metal": "6ac87e559f3e89dde70e0d3d"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -39897,7 +39911,17 @@
       "prompt": "three children in matching sailor outfits with a nanny in white holding a toy boat, a manicured lawn of a Palm Beach estate with a pink stucco mansion, clipped hedges and a croquet set, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1018934572,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac87e664d64e929310136cc",
+          "framed": "6ac87e758e175fd3cb0dee81",
+          "canvas": "6ac87e849f3e89dde70e0d66",
+          "framed_canvas": "6ac87e93955ab7a7160b1fbc",
+          "metal": "6ac87ea28e175fd3cb0deeb8"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -39925,7 +39949,17 @@
       "prompt": "a couple leaning against a silver open-top roadster with driving gloves, folded maps and a picnic basket on the bonnet, a bathing platform lido on Capri with striped umbrellas, limestone rocks and the Faraglioni in the distance, low golden hour sun raking across the scene, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 102501635,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac87eb3d151812f03052d04",
+          "framed": "6ac87ec14a1cdf2ad60e7557",
+          "canvas": "6ac87ed2d151812f03052d0a",
+          "framed_canvas": "6ac87ee14a1cdf2ad60e7563",
+          "metal": "6ac87ef14a1cdf2ad60e7571"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "5/5"
       }
     },
     {
@@ -39953,7 +39987,17 @@
       "prompt": "a couple in swimwear playing backgammon on a striped towel beside the pool, the lawn of a Scottish country house with a gravel drive, heather hills, a dark green estate car and a loch beyond, harsh midday sun with short shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1005752370,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac87f02f7d76f14440f7ee7",
+          "framed": "6ac87f11f7d76f14440f7ef3",
+          "canvas": "6ac87f20955ab7a7160b201f",
+          "framed_canvas": "6ac87f30d151812f03052d31",
+          "metal": "6ac87f3f4d64e92931013771"
+        },
+        "popup_product": true,
+        "popup_published": true,
+        "popup_count": "4/5"
       }
     },
     {
@@ -39981,7 +40025,14 @@
       "prompt": "a hostess in an emerald turban and gold jewellery arranging a table of pastries and fruit, a redwood beach house deck in Malibu with a glass windbreak, surfboards and the Pacific breaking below, clear morning light, sky a saturated cerulean, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 528082304,
       "printify": {
-        "mockups": {}
+        "mockups": {},
+        "popup_products": {
+          "poster": "6ac880184d64e9293101381e",
+          "framed": "6ac880ed9f3e89dde70e0f58"
+        },
+        "popup_product": true,
+        "popup_published": false,
+        "popup_count": "0/2"
       }
     },
     {
@@ -41243,22 +41294,35 @@
       "printify": {
         "mockups": {}
       }
+    },
+    {
+      "slug": "20261009-1-deauville-newlyweds",
+      "date": "2026-10-09",
+      "name": "The Newlyweds, Deauville",
+      "place": "Deauville",
+      "party": "The Newlyweds",
+      "title": "The Newlyweds, Deauville | DrJonsson Fine Art Photography Print | Old Money Aesthetic Wall Art | Luxury Lifestyle Poster",
+      "tags": [
+        "deauville print",
+        "deauville poster",
+        "vintage riviera",
+        "old money decor",
+        "luxury wall art",
+        "fine art photography",
+        "rich aesthetic",
+        "wall art print",
+        "photography print",
+        "matte poster",
+        "drjonsson print",
+        "living room art"
+      ],
+      "thumb": "img/20261009-1-deauville-newlyweds.jpg",
+      "prompt": "a young couple in wedding clothes barefoot at the water's edge, shoes in hand and confetti still in her hair, the boardwalk at Deauville with candy-striped parasols, white bathing cabins and the grey-green Channel, harsh midday sun with short shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
+      "seed": 117803822,
+      "printify": {}
     }
   ],
   "runs": [
-    {
-      "date": "2026-09-24",
-      "started": "2026-09-24T07:30:02",
-      "count": 35,
-      "generated": 35,
-      "popup": 1932,
-      "etsy": 0,
-      "errors": [
-        "printify popup: 29: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1790233681@c3732318-db01-4027-b81b-cbe0346e4bf6\"}\nSTANNADE: Printify strypte publiceringen (429) - 145 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
-      ],
-      "dry_run": false,
-      "finished": "2026-09-24T09:08:01"
-    },
     {
       "date": "2026-09-24",
       "started": "2026-09-24T10:00:02",
@@ -42164,6 +42228,53 @@
       ],
       "dry_run": false,
       "finished": "2026-10-08T22:17:42"
+    },
+    {
+      "date": "2026-10-09",
+      "started": "2026-10-09T07:30:03",
+      "count": 35,
+      "generated": 1,
+      "popup": 3710,
+      "etsy": 0,
+      "errors": [
+        "20261009-2-riviera-garden-high-board: OutOfMemoryError: CUDA out of memory. Tried to allocate 76.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.67 GiB is allocated by PyTorch, and 327.13 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-3-rio-magenta-gown: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-4-amalfi-tennis-whites: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-5-bermuda-backgammon: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-6-sardinia-roadster: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-7-palm-springs-cocktail-hour: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-8-lake-como-horse-riding: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-9-acapulco-cousins: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-10-positano-backgammon: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-11-sydney-chess: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-12-estoril-the-painter: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-13-estoril-cousins: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-14-palm-beach-polo: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-15-malibu-high-board: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-16-malibu-the-trio: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-17-palm-beach-the-painter: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-18-jaipur-vespa: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-19-hamptons-afternoon-tea: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-20-newport-gardener: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-21-capri-cream-suit: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-22-estoril-vespa: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-23-nantucket-the-painter: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-24-deauville-vespa: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-25-monaco-vespa: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-26-lake-geneva-the-arrival: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-27-positano-cream-suit: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-28-monaco-bridge: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-29-beverly-hills-shooting-party: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-30-highlands-magenta-gown: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-31-nantucket-picnic: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-32-palm-springs-croquet: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-33-beverly-hills-emerald-turban: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-34-hamptons-sunbathers: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "20261009-35-estoril-caftans: OutOfMemoryError: CUDA out of memory. Tried to allocate 742.00 MiB. GPU 0 has a total capacity of 23.99 GiB of which 11.42 GiB is free. Of the allocated memory 10.66 GiB is allocated by PyTorch, and 334.61 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+        "printify popup: 429: {\"error\":\"Too Many Attempts.\",\"request_id\":\"1791525314@bc39ee45-9922-4ade-a0a8-bc4e66e02638\"}\nSTANNADE: Printify strypte publiceringen (429) - 52 produkter denna gang, resten i nasta korning.\n\nKlart. 3 fel. Status i E:\\CHAT-RTX\\CLAUDECODE GENERAL BRAIN\\APP ideas\\aaron-prints\\pipeline\\state.json"
+      ],
+      "dry_run": false,
+      "finished": "2026-10-09T07:55:14"
     }
   ],
   "todo": [
@@ -42246,16 +42357,16 @@
     }
   ],
   "stats": {
-    "generated": 710,
-    "printify_drafts": 653,
-    "popup_live": 652,
+    "generated": 711,
+    "printify_drafts": 658,
+    "popup_live": 657,
     "etsy_live": 8,
-    "days": 22,
-    "streak": 2,
-    "errors_last_run": 1,
+    "days": 23,
+    "streak": 3,
+    "errors_last_run": 35,
     "product_types": 5
   },
-  "updated": "2026-10-08T22:20:23",
+  "updated": "2026-10-09T07:55:14",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
