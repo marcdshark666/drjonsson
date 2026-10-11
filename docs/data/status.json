@@ -39054,7 +39054,9 @@
         "mockups": {
           "poster": "https://images-api.printify.com/mockup/6acb9e262f145cfe3f02f9a4/43138/94683/the-morning-ride-marbella-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
           "framed": "https://images-api.printify.com/mockup/6acb9efda6db6cba830ad3ec/69664/124091/the-morning-ride-marbella-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
-          "canvas": "https://images-api.printify.com/mockup/6acb9fd3a6db6cba830ad4aa/91644/60165/the-morning-ride-marbella-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front"
+          "canvas": "https://images-api.printify.com/mockup/6acb9fd3a6db6cba830ad4aa/91644/60165/the-morning-ride-marbella-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6acbc0c418604c240802b956/111829/107096/the-morning-ride-marbella-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6acbc0d4b55938329c0c027b/92006/62734/the-morning-ride-marbella-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
         },
         "popup_products": {
           "poster": "6acb9e262f145cfe3f02f9a4",
@@ -39069,12 +39071,16 @@
         "variants": {
           "poster": 4,
           "framed": 4,
-          "canvas": 4
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
         },
         "popup_urls": {
           "poster": "https://drjonsson.printify.me/product/6acb9e262f145cfe3f02f9a4",
           "framed": "https://drjonsson.printify.me/product/6acb9efda6db6cba830ad3ec",
-          "canvas": "https://drjonsson.printify.me/product/6acb9fd3a6db6cba830ad4aa"
+          "canvas": "https://drjonsson.printify.me/product/6acb9fd3a6db6cba830ad4aa",
+          "framed_canvas": "https://drjonsson.printify.me/product/6acbc0c418604c240802b956",
+          "metal": "https://drjonsson.printify.me/product/6acbc0d4b55938329c0c027b"
         }
       }
     },
@@ -40431,7 +40437,13 @@
       "prompt": "a crowd in evening wear at a garden cocktail party with waiters in white jackets carrying silver trays, a cliff-top villa in Acapulco with a white infinity pool, bougainvillea and the Pacific bay glittering below, warm late-afternoon light with long shadows, photographed at eye level with a slightly wide lens. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1307660780,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6acbc0e518604c240802b989/43138/94683/cocktail-hour-acapulco-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6acbc0f4fee8ae0ffc0a7fe3/69664/124091/cocktail-hour-acapulco-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6acbc1045a6821eb40039a33/91644/60165/cocktail-hour-acapulco-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6acbc113a988681cbd077498/111829/107096/cocktail-hour-acapulco-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6acbc122a988681cbd0774b3/92006/62734/cocktail-hour-acapulco-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6acbc0e518604c240802b989",
           "framed": "6acbc0f4fee8ae0ffc0a7fe3",
@@ -40441,7 +40453,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6acbc0e518604c240802b989",
+          "framed": "https://drjonsson.printify.me/product/6acbc0f4fee8ae0ffc0a7fe3",
+          "canvas": "https://drjonsson.printify.me/product/6acbc1045a6821eb40039a33",
+          "framed_canvas": "https://drjonsson.printify.me/product/6acbc113a988681cbd077498",
+          "metal": "https://drjonsson.printify.me/product/6acbc122a988681cbd0774b3"
+        }
       }
     },
     {
@@ -40469,7 +40495,13 @@
       "prompt": "a picnic on a tartan rug with a wicker hamper, a bottle of rose in a silver bucket and a vintage convertible parked behind, a mid-century modernist house in Palm Springs with a kidney-shaped pool, palm trees and desert mountains behind, bright hazy noon with the horizon washed pale, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 273785376,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6acbc1355a6821eb40039a6d/43138/94683/the-picnic-palm-springs-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6acbc144a988681cbd0774f6/69664/124091/the-picnic-palm-springs-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6acbc154b55938329c0c0352/91644/60165/the-picnic-palm-springs-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6acbc163afd0ae1b7e0ecdf2/111829/107096/the-picnic-palm-springs-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6acbc172c84b7e15a902b431/92006/62734/the-picnic-palm-springs-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6acbc1355a6821eb40039a6d",
           "framed": "6acbc144a988681cbd0774f6",
@@ -40479,7 +40511,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6acbc1355a6821eb40039a6d",
+          "framed": "https://drjonsson.printify.me/product/6acbc144a988681cbd0774f6",
+          "canvas": "https://drjonsson.printify.me/product/6acbc154b55938329c0c0352",
+          "framed_canvas": "https://drjonsson.printify.me/product/6acbc163afd0ae1b7e0ecdf2",
+          "metal": "https://drjonsson.printify.me/product/6acbc172c84b7e15a902b431"
+        }
       }
     },
     {
@@ -40507,7 +40553,13 @@
       "prompt": "a small band in white dinner jackets playing beside the pool while guests dance barefoot on the terrace, a Havana courtyard with faded turquoise colonnades, a vintage convertible in the drive and royal palms, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1465949835,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6acbc183b55938329c0c038a/43138/94683/the-trio-havana-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6acbc192b55938329c0c03ae/69664/124091/the-trio-havana-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6acbc1a1d0209a6d2502b5c8/91644/60165/the-trio-havana-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6acbc1b0ae96b8f97803279d/111829/107096/the-trio-havana-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6acbc1c0ae96b8f9780327bd/92006/62734/the-trio-havana-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6acbc183b55938329c0c038a",
           "framed": "6acbc192b55938329c0c03ae",
@@ -40517,7 +40569,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6acbc183b55938329c0c038a",
+          "framed": "https://drjonsson.printify.me/product/6acbc192b55938329c0c03ae",
+          "canvas": "https://drjonsson.printify.me/product/6acbc1a1d0209a6d2502b5c8",
+          "framed_canvas": "https://drjonsson.printify.me/product/6acbc1b0ae96b8f97803279d",
+          "metal": "https://drjonsson.printify.me/product/6acbc1c0ae96b8f9780327bd"
+        }
       }
     },
     {
@@ -40545,7 +40611,13 @@
       "prompt": "a woman in a fur stole and evening gloves stepping from a car while a porter carries monogrammed leather luggage, a manicured lawn of a Palm Beach estate with a pink stucco mansion, clipped hedges and a croquet set, warm late-afternoon light with long shadows, photographed from a high vantage point looking down. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 54434976,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6acbc1d2ae96b8f9780327e7/43138/94683/the-arrival-palm-beach-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6acbc1e1c84b7e15a902b4bc/69664/124091/the-arrival-palm-beach-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6acbc1f0ae96b8f97803280f/91644/60165/the-arrival-palm-beach-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6acbc200c84b7e15a902b4d6/111829/107096/the-arrival-palm-beach-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "metal": "https://images-api.printify.com/mockup/6acbc20fafd0ae1b7e0ece8c/92006/62734/the-arrival-palm-beach-drjonsson-metal-print-old-money-aesthetic-wall-art-luxury-aluminium-print.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6acbc1d2ae96b8f9780327e7",
           "framed": "6acbc1e1c84b7e15a902b4bc",
@@ -40555,7 +40627,21 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "5/5"
+        "popup_count": "5/5",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4,
+          "metal": 1
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6acbc1d2ae96b8f9780327e7",
+          "framed": "https://drjonsson.printify.me/product/6acbc1e1c84b7e15a902b4bc",
+          "canvas": "https://drjonsson.printify.me/product/6acbc1f0ae96b8f97803280f",
+          "framed_canvas": "https://drjonsson.printify.me/product/6acbc200c84b7e15a902b4d6",
+          "metal": "https://drjonsson.printify.me/product/6acbc20fafd0ae1b7e0ece8c"
+        }
       }
     },
     {
@@ -40583,7 +40669,12 @@
       "prompt": "a couple in swimwear playing backgammon on a striped towel beside the pool, a Riviera cypress garden seen from a balcony, with a long sapphire pool, stone balustrades and the Mediterranean beyond, warm late-afternoon light with long shadows, photographed from a low terrace step, the sky filling the upper third. 1960s Kodachrome colour photograph in the style of Slim Aarons, society and leisure editorial photography, medium format film, saturated blues and greens, crisp detail, elegant staged composition, tall vertical framing, no text",
       "seed": 1559069879,
       "printify": {
-        "mockups": {},
+        "mockups": {
+          "poster": "https://images-api.printify.com/mockup/6acbc220ae96b8f97803284b/43138/94683/backgammon-the-riviera-drjonsson-fine-art-photography-print-old-money-aesthetic-wall-art-luxury-lifestyle-poster.jpg?camera_label=front",
+          "framed": "https://images-api.printify.com/mockup/6acbc22fe953e8344904ca73/69664/124091/backgammon-the-riviera-drjonsson-framed-fine-art-print-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front",
+          "canvas": "https://images-api.printify.com/mockup/6acbc306fee8ae0ffc0a81cf/91644/60165/backgammon-the-riviera-drjonsson-canvas-print-old-money-aesthetic-wall-art-luxury-lifestyle-canvas.jpg?camera_label=front",
+          "framed_canvas": "https://images-api.printify.com/mockup/6acbc3dca988681cbd077722/111829/107096/backgammon-the-riviera-drjonsson-framed-canvas-old-money-aesthetic-wall-art-ready-to-hang.jpg?camera_label=front"
+        },
         "popup_products": {
           "poster": "6acbc220ae96b8f97803284b",
           "framed": "6acbc22fe953e8344904ca73",
@@ -40592,7 +40683,19 @@
         },
         "popup_product": true,
         "popup_published": true,
-        "popup_count": "1/4"
+        "popup_count": "1/4",
+        "variants": {
+          "poster": 4,
+          "framed": 4,
+          "canvas": 4,
+          "framed_canvas": 4
+        },
+        "popup_urls": {
+          "poster": "https://drjonsson.printify.me/product/6acbc220ae96b8f97803284b",
+          "framed": "https://drjonsson.printify.me/product/6acbc22fe953e8344904ca73",
+          "canvas": "https://drjonsson.printify.me/product/6acbc306fee8ae0ffc0a81cf",
+          "framed_canvas": "https://drjonsson.printify.me/product/6acbc3dca988681cbd077722"
+        }
       }
     },
     {
@@ -43656,7 +43759,7 @@
     "errors_last_run": 1,
     "product_types": 5
   },
-  "updated": "2026-10-11T19:17:38",
+  "updated": "2026-10-11T19:20:21",
   "store_mail": {
     "checked": "2026-09-18T06:30:00Z",
     "status": "bekraftat",
