@@ -1,0 +1,128 @@
+{
+ "title": "DrJonsson 3D Prints - printade objekt och filer",
+ "updated": "2026-10-17",
+ "printer": "Elegoo Centauri Carbon 2",
+ "sort": "favorit_rank (1 = överst), sedan senast printad",
+ "note": "Egna designer och modeller vars licens tillåter delning.",
+ "objects": [
+  {
+   "id": "randig-testkub-10mm",
+   "name": "Randig testkub 10 mm (vit/svart)",
+   "printed": [
+    "2026-10-17"
+   ],
+   "prints": 1,
+   "material": "PLA, två färger",
+   "category": "Testprints",
+   "origin": "Egen design",
+   "designer": "DrJonsson 3D Prints",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "sourceUrl": null,
+   "downloadable": true,
+   "image": "obj/randig-testkub-10mm/preview.png",
+   "files": [
+    {
+     "type": "STL",
+     "path": "obj/randig-testkub-10mm/randig-testkub-10mm.stl",
+     "bytes": 3084,
+     "mime": "model/stl",
+     "nomad": true
+    },
+    {
+     "type": "GLB",
+     "path": "obj/randig-testkub-10mm/randig-testkub-10mm.glb",
+     "bytes": 2956,
+     "mime": "model/gltf-binary",
+     "nomad": true
+    },
+    {
+     "type": "OBJ",
+     "path": "obj/randig-testkub-10mm/randig-testkub-10mm.obj",
+     "bytes": 1774,
+     "mime": "model/obj",
+     "nomad": true
+    },
+    {
+     "type": "3MF",
+     "path": "obj/randig-testkub-10mm/randig-testkub-10mm.3mf",
+     "bytes": 1348,
+     "mime": "model/3mf",
+     "nomad": false
+    },
+    {
+     "type": "ZIP (allt)",
+     "path": "obj/randig-testkub-10mm/randig-testkub-10mm.zip",
+     "bytes": 3850,
+     "mime": "application/zip",
+     "nomad": false
+    }
+   ],
+   "description": "Kalibreringskub med fem 2 mm-ränder för att testa rena färgbyten (prime tower) på Centauri Carbon 2.",
+   "dims_mm": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "favorit_rank": null,
+   "sourceExact": null,
+   "originalUrl": null
+  },
+  {
+   "id": "kitchen-paper-towel-holder",
+   "name": "Kitchen paper towel holder (ribbad, kropp + lock)",
+   "printed": [
+    "2026-10-09"
+   ],
+   "prints": 2,
+   "material": "PLA",
+   "category": "Hem och kontor",
+   "origin": "MakerWorld",
+   "designer": "user_2157387388",
+   "license": "CC BY-NC-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://makerworld.com/en/search/models?keyword=Kitchen+paper+towel+holder",
+   "sourceExact": false,
+   "originalUrl": null,
+   "favorit_rank": null,
+   "downloadable": true,
+   "image": "obj/kitchen-paper-towel-holder/preview.png",
+   "files": [
+    {
+     "type": "STL",
+     "path": "obj/kitchen-paper-towel-holder/kitchen-paper-towel-holder.stl",
+     "bytes": 4928284,
+     "mime": "model/stl",
+     "nomad": true
+    },
+    {
+     "type": "GLB",
+     "path": "obj/kitchen-paper-towel-holder/kitchen-paper-towel-holder.glb",
+     "bytes": 1775676,
+     "mime": "model/gltf-binary",
+     "nomad": true
+    },
+    {
+     "type": "OBJ",
+     "path": "obj/kitchen-paper-towel-holder/kitchen-paper-towel-holder.obj",
+     "bytes": 3818143,
+     "mime": "model/obj",
+     "nomad": true
+    },
+    {
+     "type": "ZIP (allt)",
+     "path": "obj/kitchen-paper-towel-holder/kitchen-paper-towel-holder.zip",
+     "bytes": 3911616,
+     "mime": "application/zip",
+     "nomad": false
+    }
+   ],
+   "description": "Ej kommersiell användning. Dela vidare under samma licens.",
+   "dims_mm": [
+    285.0,
+    140.0,
+    240.0
+   ]
+  }
+ ]
+}

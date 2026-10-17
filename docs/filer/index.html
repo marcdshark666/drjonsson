@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Filer · DrJonsson 3D Prints</title>
+<meta name="description" content="Allt som printats på DrJonssons Elegoo Centauri Carbon 2, med nedladdningsbara 3D-filer för egna designer och länkar till källan för övriga.">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<style>
+:root{--bg:#faf8f4;--card:#fff;--ink:#1d1d1f;--mute:#6b6b70;--line:#e7e2d9;--acc:#e8702a;--acc-ink:#fff;--soft:#f2ede4;--ok:#2f7d4f}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#121214;--card:#1b1b1f;--ink:#f1efea;--mute:#a1a1a8;--line:#2b2b31;--soft:#202025;--ok:#5fbf86}}
+:root[data-theme=dark]{--bg:#121214;--card:#1b1b1f;--ink:#f1efea;--mute:#a1a1a8;--line:#2b2b31;--soft:#202025;--ok:#5fbf86}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:hidden}
+.w{max-width:1040px;margin:0 auto;padding:0 16px}
+header{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .w{display:flex;align-items:center;gap:12px;height:56px}
+.logo{font-weight:800;letter-spacing:-.02em;text-decoration:none;color:var(--ink);white-space:nowrap}.logo b{color:var(--acc)}
+nav{margin-left:auto;display:flex;gap:16px;font-size:.92rem}nav a{color:var(--mute);text-decoration:none}nav a:hover,nav a[aria-current]{color:var(--ink)}
+nav a[aria-current]{font-weight:700}
+@media(max-width:600px){nav a.hide-s{display:none}}
+#tg{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;width:36px;height:36px;cursor:pointer;font-size:1rem;flex:none}
+h1{font-size:clamp(1.8rem,5vw,2.6rem);line-height:1.1;margin:32px 0 8px;letter-spacing:-.03em}
+.lead{color:var(--mute);margin:0 0 18px;max-width:42em}
+.help{padding:14px 18px;border-left:4px solid var(--acc);background:var(--soft);border-radius:8px;font-size:.93rem;color:var(--mute);margin:0 0 20px}
+.help b{color:var(--ink)}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 18px}
+.bar input{flex:1 1 220px;min-width:0;font:inherit;padding:12px 16px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:inherit;font-size:.9rem;padding:10px 16px;min-height:44px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.count{color:var(--mute);font-size:.9rem;margin:0 0 12px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(min(100%,270px),1fr));margin-bottom:48px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
+.card img{width:100%;aspect-ratio:1;object-fit:contain;background:var(--soft);display:block}
+.card .b{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.card h2{font-size:1.05rem;margin:0;line-height:1.3;overflow-wrap:anywhere}
+.meta{font-size:.85rem;color:var(--mute);margin:0;overflow-wrap:anywhere}
+.tag{display:inline-block;font-size:.75rem;padding:2px 10px;border-radius:999px;background:var(--soft);color:var(--mute);margin-right:4px}
+.tag.ok{color:var(--ok);font-weight:700}
+.lic{font-size:.8rem;color:var(--mute);border-top:1px solid var(--line);padding-top:8px;margin-top:auto;overflow-wrap:anywhere}
+.lic a{color:var(--mute)}
+.dls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:6px}
+.dl{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:56px;padding:8px;border-radius:14px;background:var(--acc);color:var(--acc-ink);text-decoration:none;font-weight:700;text-align:center;line-height:1.2}
+.dl small{font-weight:400;font-size:.75rem;opacity:.9}
+.dl.alt{background:var(--soft);color:var(--ink);border:1px solid var(--line)}
+.dl.wide{grid-column:1/-1}
+.dl:hover{filter:brightness(1.07)}
+.rk{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.8rem;color:var(--mute);margin-top:6px}.rk .chip{min-height:40px;padding:6px 12px}
+.empty,.err{color:var(--mute);padding:24px 0}
+footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--mute);font-size:.88rem}
+footer a{color:var(--mute)}
+</style>
+</head>
+<body>
+<header><div class="w">
+<a class="logo" href="../">DrJonsson <b>3D</b> Prints</a>
+<nav><a class="hide-s" href="../#produkter">Produkter</a><a href="./" aria-current="page">Filer</a><a class="hide-s" href="https://www.etsy.com/shop/DrJonssonDesign" style="color:var(--acc);font-weight:700">Etsy</a></nav>
+<button id="tg" aria-label="Byt tema" title="Ljust/mörkt">◐</button>
+</div></header>
+
+<main class="w">
+<h1>Filer</h1>
+<p class="lead">Allt som printats på vår Elegoo Centauri Carbon 2. Egna designer och modeller vars licens tillåter delning kan laddas ned här, med upphovsperson, licens och länk till källan.</p>
+<p class="help"><b>På iPad eller iPhone:</b> tryck på en filknapp och välj <b>Ladda ned</b>. Filen hamnar i appen Filer under Hämtade filer. Öppna den där, tryck <b>Dela › Öppna i Nomad</b> (eller importera i Nomad via Filer). Nomad läser STL, OBJ och GLB, inte 3MF. Välj <b>GLB</b> om du vill ha färgerna med.</p>
+
+<p class="help" id="privnote" hidden><b>Privat sida.</b> Här finns alla printade objekt med originalfiler. Länka inte vidare: flera licenser tillåter inte delning. Ändra favoritordningen med ▲/▼.</p>
+<div class="bar">
+<input id="q" type="search" placeholder="Sök namn, upphov, material…" aria-label="Sök bland objekten" autocomplete="off">
+<div class="chips" role="group" aria-label="Filter">
+<button class="chip" data-f="alla" aria-pressed="true">Alla</button>
+<button class="chip" data-f="filer" aria-pressed="false">Med filer</button>
+<button class="chip" data-f="kalla" aria-pressed="false">Länk till källa</button>
+</div>
+</div>
+<p class="count" id="count" aria-live="polite"></p>
+<div class="grid" id="grid"></div>
+</main>
+
+<footer><div class="w">
+<span>© 2026 DrJonsson 3D Prints · Data: <a href="files.json">files.json</a> · <a href="../">Till startsidan</a></span>
+</div></footer>
+
+<script>
+(function(){
+  "use strict";
+  var tg=document.getElementById("tg");
+  tg.onclick=function(){var r=document.documentElement,d=r.dataset.theme||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light"),n=d==="dark"?"light":"dark";r.dataset.theme=n;try{localStorage.setItem("theme",n)}catch(e){}};
+
+  var grid=document.getElementById("grid"),q=document.getElementById("q"),count=document.getElementById("count");
+  var objects=[],filter="alla";
+
+  function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+  function safeUrl(u){return /^(https:\/\/|obj\/)/.test(u||"")?u:"#"}
+  function size(b){return b<1024?b+" B":b<1048576?(b/1024).toFixed(1)+" kB":(b/1048576).toFixed(1)+" MB"}
+  function fmtDate(d){try{return new Date(d+"T12:00:00").toLocaleDateString("sv-SE",{day:"numeric",month:"short",year:"numeric"})}catch(e){return d}}
+
+  function card(o){
+    var dates=o.printed.map(fmtDate).join(", ");
+    var h='<article class="card"><img loading="lazy" decoding="async" src="'+esc(safeUrl(o.image))+'" alt="'+esc(o.name)+'" width="480" height="480">';
+    h+='<div class="b"><h2>'+esc(o.name)+'</h2>';
+    h+='<p class="meta">Printad '+esc(dates)+(o.prints>1?" ("+o.prints+" gånger)":"")+' · '+esc(o.material)+'</p>';
+    h+='<p class="meta"><span class="tag'+(o.downloadable?" ok":"")+'">'+(o.downloadable?"Filer här":"Länk till källa")+'</span><span class="tag">'+esc(o.category)+'</span></p>';
+    if(o.description)h+='<p class="meta">'+esc(o.description)+'</p>';
+    if(o.downloadable){
+      h+='<div class="dls">';
+      o.files.forEach(function(f){
+        var main=/^(STL|GLB)$/.test(f.type),wide=/^ZIP/.test(f.type);
+        var fn=f.path.split("/").pop();
+        h+='<a class="dl'+(main?"":" alt")+(wide?" wide":"")+'" href="'+esc(safeUrl(f.path))+'" download="'+esc(fn)+'" type="'+esc(f.mime)+'">'+esc(f.type)+'<small>'+size(f.bytes)+(f.nomad?" · Nomad":"")+'</small></a>';
+      });
+      h+='</div>';
+    }else if(o.sourceUrl){
+      h+='<div class="dls"><a class="dl wide" href="'+esc(safeUrl(o.sourceUrl))+'" target="_blank" rel="noopener noreferrer">Ladda ned från källan<small>'+esc(o.origin)+'</small></a></div>';
+    }
+    var src=o.sourceUrl?' · <a href="'+esc(safeUrl(o.sourceUrl))+'" target="_blank" rel="noopener noreferrer">'+(o.sourceExact===false?"Sök på ":"Källa: ")+esc(o.origin)+'</a>':' · Källa: '+esc(o.origin);
+    if(o.originalUrl)src+=' · <a href="'+esc(safeUrl(o.originalUrl))+'" target="_blank" rel="noopener noreferrer">Originalmodell</a>';
+    h+='<p class="lic">Upphov: '+esc(o.designer)+' · Licens: '+(o.licenseUrl?'<a href="'+esc(safeUrl(o.licenseUrl))+'" target="_blank" rel="noopener noreferrer">'+esc(o.license)+'</a>':esc(o.license))+src+'</p>';
+    if(PRIVAT){
+      var r=rankOf(o.id);
+      h+='<div class="rk"><span>'+(r?"Favorit nr "+r:"Ingen favorit")+'</span><button class="chip" data-up="'+esc(o.id)+'">▲ Upp</button>'+(r?'<button class="chip" data-down="'+esc(o.id)+'">▼ Ner</button><button class="chip" data-del="'+esc(o.id)+'">✕</button>':'')+'</div>';
+    }
+    return h+'</div></article>';
+  }
+
+  // Rangordning: favoriter (favorit_rank 1 = överst), sedan senast printad. På den privata sidan kan ordningen ändras.
+  var PRIVAT=/\.ts\.net$|^(127\.0\.0\.1|localhost)$/.test(location.hostname);
+  var order=null; // privat: lista med id i favoritordning
+  function rankOf(id){if(order){var i=order.indexOf(id);return i>=0?i+1:null}var o=objects.find(function(x){return x.id===id});return o&&o.favorit_rank||null}
+  function sortObjects(){
+    objects.sort(function(a,b){var ra=rankOf(a.id),rb=rankOf(b.id);if(ra&&rb)return ra-rb;if(ra)return -1;if(rb)return 1;var da=a.printed[a.printed.length-1],db=b.printed[b.printed.length-1];return da<db?1:da>db?-1:0});
+  }
+  async function saveOrder(){
+    try{var r=await fetch("api/rank",{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({order:order})});if(!r.ok)throw new Error("HTTP "+r.status)}
+    catch(e){alert("Kunde inte spara ordningen: "+e.message)}
+  }
+  grid.addEventListener("click",function(ev){
+    var b=ev.target.closest("button");if(!b||!PRIVAT||!order)return;
+    var id=b.dataset.up||b.dataset.down||b.dataset.del;if(!id)return;
+    var i=order.indexOf(id);
+    if(b.dataset.up){if(i<0)order.push(id);else if(i>0){order.splice(i,1);order.splice(i-1,0,id)}}
+    else if(b.dataset.down){if(i>=0&&i<order.length-1){order.splice(i,1);order.splice(i+1,0,id)}}
+    else if(i>=0)order.splice(i,1);
+    sortObjects();render();saveOrder();
+  });
+
+  function render(){
+    var s=q.value.trim().toLowerCase();
+    var list=objects.filter(function(o){
+      if(filter==="filer"&&!o.downloadable)return false;
+      if(filter==="kalla"&&o.downloadable)return false;
+      if(!s)return true;
+      return [o.name,o.designer,o.material,o.category,o.license,o.origin,o.description].join(" ").toLowerCase().indexOf(s)>=0;
+    });
+    grid.innerHTML=list.length?list.map(card).join(""):'<p class="empty">Inga objekt matchar.</p>';
+    var nf=objects.filter(function(o){return o.downloadable}).length;
+    count.textContent=list.length+" av "+objects.length+" printade objekt · "+nf+" med filer här";
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll(".chip"),function(b){
+    b.addEventListener("click",function(){
+      filter=b.dataset.f;
+      Array.prototype.forEach.call(document.querySelectorAll(".chip"),function(x){x.setAttribute("aria-pressed",String(x===b))});
+      render();
+    });
+  });
+  q.addEventListener("input",render);
+
+  async function load(){
+    try{
+      var r=await fetch("files.json",{cache:"no-cache"});
+      if(!r.ok)throw new Error("HTTP "+r.status);
+      var d=await r.json();
+      objects=Array.isArray(d.objects)?d.objects:[];
+      if(PRIVAT){
+        try{var rr=await fetch("api/rank",{cache:"no-store"});if(rr.ok){var rk=await rr.json();order=Array.isArray(rk.order)?rk.order:[]}}catch(e){order=null}
+        if(order)document.getElementById("privnote").hidden=false;
+      }
+      sortObjects();
+      render();
+    }catch(e){
+      grid.innerHTML='<p class="err">Kunde inte läsa fillistan ('+esc(e.message)+'). Ladda om sidan.</p>';
+    }
+  }
+  load();
+})();
+</script>
+</body>
+</html>

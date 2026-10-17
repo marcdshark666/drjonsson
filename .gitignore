@@ -13,3 +13,8 @@ state/store-mail.json
 state/etsy-vakt.json
 state/etsy-vakt.tmp
 state/etsy-borttagning-*.json
+
+# Filer-fliken 2026-10-17: lokala bygg/backuper och halsofiler far aldrig in i det publika repot
+state/filer-*/
+*.bak-filer*
+backup-docs-*.zip
